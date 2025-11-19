@@ -47,7 +47,7 @@ Complete guide for setting up and running iDrive 6 on Windows with QNX Momentics
 
 2. **Install QNX Momentics**
    - Run installer
-   - Install to default location (usually `C:\qnx710` or `C:\Program Files\QNX Software Systems`)
+   - Install to your location (e.g., `E:\qnx800` or default `C:\qnx710`)
    - Complete installation
 
 3. **Set up QNX Environment**
@@ -55,18 +55,25 @@ Complete guide for setting up and running iDrive 6 on Windows with QNX Momentics
    - Navigate to QNX installation directory
    - Run environment setup:
      ```powershell
-     cd C:\qnx710
+     cd E:\qnx800
      .\qnxsdp-env.bat
      ```
    - Or add to PATH:
      ```powershell
-     $env:PATH += ";C:\qnx710\host\win64\x86_64\usr\bin"
+     $env:PATH += ";E:\qnx800\host\win64\x86_64\usr\bin"
      ```
+   - **Note**: Adjust path if QNX is installed elsewhere
 
 4. **Verify QNX Installation**
    ```powershell
+   # Set environment first
+   cd E:\qnx800
+   .\qnxsdp-env.bat
+   
+   # Verify tools
    qnx-ifsload --version
-   arm-unknown-nto-qnx7.1.0-objdump --version
+   arm-unknown-nto-qnx8.0.0-objdump --version
+   # Note: Version may be qnx7.1.0 or qnx8.0.0 depending on installation
    ```
 
 ## Step 3: Analyze and Patch Kernel
@@ -74,15 +81,27 @@ Complete guide for setting up and running iDrive 6 on Windows with QNX Momentics
 ### Extract IFS Image
 
 ```powershell
+# Set QNX environment first
+cd E:\qnx800
+.\qnxsdp-env.bat
+
+# Navigate to project
 cd C:\Users\YourName\Documents\iDrive-6-local-run
+
+# Extract IFS image
 qnx-ifsload -v nbtevo-system-dump\sda2\boot1.ifs.patched
 ```
 
 ### Disassemble Kernel
 
 ```powershell
+# Set QNX environment first
+cd E:\qnx800
+.\qnxsdp-env.bat
+
 # Disassemble the patched kernel
-arm-unknown-nto-qnx7.1.0-objdump -d nbtevo-system-dump\sda2\boot1.ifs.patched > kernel-disassembly.txt
+# Note: Adjust tool name based on your QNX version (qnx7.1.0 or qnx8.0.0)
+arm-unknown-nto-qnx8.0.0-objdump -d nbtevo-system-dump\sda2\boot1.ifs.patched > kernel-disassembly.txt
 
 # Or use QNX IDE's built-in disassembler
 ```
@@ -117,6 +136,11 @@ arm-unknown-nto-qnx7.1.0-objdump -d nbtevo-system-dump\sda2\boot1.ifs.patched > 
 
 3. **Rebuild IFS Image**
    ```powershell
+   # Set QNX environment first
+   cd E:\qnx800
+   .\qnxsdp-env.bat
+   
+   # Rebuild IFS
    qnx-ifs -v -o boot1.ifs.fully-patched [patched files]
    ```
 
@@ -185,9 +209,14 @@ git lfs pull
 
 ### QNX Tools Not Found
 
-Add to PATH:
+Add to PATH (adjust path to your QNX installation):
 ```powershell
-$env:PATH += ";C:\qnx710\host\win64\x86_64\usr\bin"
+# For E:\qnx800
+$env:PATH += ";E:\qnx800\host\win64\x86_64\usr\bin"
+
+# Or run environment script
+cd E:\qnx800
+.\qnxsdp-env.bat
 ```
 
 ### QEMU Not Found
