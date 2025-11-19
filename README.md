@@ -1,107 +1,195 @@
-# BMW iDrive 6 Local Run
+# 🚗 BMW iDrive 6 QNX System Emulation
 
-Run BMW iDrive 6 (NBT EVO ID6) system locally using QEMU emulation.
+**Complete emulation and patching tools for BMW iDrive 6 QNX system**
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Windows)
 
-### Prerequisites
+### Super Easy - One File Solution
 
-- **QEMU** (ARM emulation)
-  ```bash
-  # macOS
-  brew install qemu
-  
-  # Linux
-  sudo apt-get install qemu-system-arm
-  ```
+1. **Go to `windows-tools/` folder**
+2. **Open `IDRIVE6-EASY.bat`** in Notepad
+3. **Update ONE line** (line 12): `set QNX_PATH=E:\qnx800` → your QNX path
+4. **Double-click `IDRIVE6-EASY.bat`**
+5. **Done!** It patches and runs automatically
 
-- **QNX Momentics IDE** (for full kernel patching)
-  - Download from: https://www.qnx.com/developers/
-  - License included in repository
+**That's it!** Everything is in one file.
 
-### Basic Setup
+📁 **See:** `windows-tools/README-EASY.md` for details
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/MakaveliRoberto/iDrive-6-local-run.git
-   cd iDrive-6-local-run
-   ```
+---
 
-2. **Run the web interface** (static files)
-   ```bash
-   ./run-idrive-local.sh
-   ```
-   Access at: http://localhost:8080
-
-3. **Run full QNX emulation** (requires patched kernel)
-   ```bash
-   ./run-patched-kernel.sh
-   ```
-   Access at: http://localhost:8103
-
-## 📁 Project Structure
+## 📁 Repository Structure
 
 ```
-.
-├── nbtevo-system-dump/          # Full iDrive 6 system dump
-│   ├── sda0/                    # Main application partition
-│   ├── sda2/                    # Boot partition
-│   │   ├── boot1.ifs            # Original QNX kernel
-│   │   ├── boot1.ifs.backup     # Backup of original
-│   │   └── boot1.ifs.patched    # Patched kernel (CPUID checks bypassed)
-│   └── ...
-├── emulation/                    # QEMU emulation files
-├── patch-kernel-*.py            # Kernel patching scripts
-├── run-*.sh                     # Run scripts
-└── README.md                    # This file
+iDrive-6-local-run/
+├── README.md                          ← You are here
+├── windows-tools/                     ← Windows tools (START HERE!)
+│   ├── IDRIVE6-EASY.bat              ← ⭐ MAIN FILE - Use this!
+│   ├── README-EASY.md                ← Quick guide
+│   └── ...                           ← Other tools
+├── nbtevo-system-dump/               ← System dump (15 GB)
+│   └── sda2/
+│       ├── boot1.ifs.patched         ← Patched kernel
+│       └── boot1.ifs.backup          ← Original backup
+├── emulation/                        ← QEMU files
+├── patch-kernel-aggressive.py        ← Python patching script
+└── ...                               ← Documentation
 ```
 
-## 🔧 Kernel Patching
+---
 
-The kernel has been patched to bypass CPUID hardware checks. See `PATCHING_STATUS.md` for details.
+## 🪟 For Windows Users
 
-### Current Status
+**Go to:** `windows-tools/` folder
 
-✅ **Patched**: 10 CPUID validation checks  
-❌ **Still blocking**: FPGA, GPIO, device register checks
+**Main file:** `IDRIVE6-EASY.bat` - Everything in one file!
 
-### Using QNX IDE
+**Guides:**
+- `README-EASY.md` - Super simple guide
+- `README.md` - Complete overview
+- `MANUAL_KERNEL_PATCHING_WINDOWS.md` - Detailed manual
 
-For full kernel patching, use QNX Momentics IDE. See `QNX_IDE_SETUP.md` for detailed instructions.
+---
 
-## 🎯 Features
+## 🍎 For Mac Users
 
-- ✅ Full iDrive 6 system dump
-- ✅ QNX kernel emulation
-- ✅ Hardware check bypasses
-- ✅ Web interface serving
-- ✅ QEMU ARM emulation
-- ✅ Filesystem access via virtio-9p
+**Current Status:**
+- ✅ Kernel patching complete (10 CPUID checks bypassed)
+- ✅ System runs in QEMU
+- ⚠️ Stuck on hardware wait loops (needs QNX IDE for deeper patching)
 
-## 📖 Documentation
+**Files:**
+- `nbtevo-system-dump/sda2/boot1.ifs.patched` - Patched kernel
+- `patch-kernel-aggressive.py` - Aggressive patching script
+- `run-patched-kernel.sh` - Run with QEMU
 
-- `README.md` - This file
-- `PATCHING_STATUS.md` - Kernel patching status
-- `QNX_IDE_SETUP.md` - QNX IDE setup guide
-- `EMULATION_GUIDE.md` - Detailed emulation guide
-- `UNDERSTANDING_IDRIVE.md` - System architecture
+**See:** `DIAGNOSTIC_REPORT.md` for current status
 
-## 🐛 Known Issues
+---
 
-- Kernel gets stuck waiting for hardware (FPGA, GPIO)
-- Requires QNX IDE for full hardware check bypass
-- Some QNX-specific features require hardware emulation
+## 📋 Requirements
 
-## 📝 License
+### Windows:
+- ✅ QNX Momentics IDE (update path in script)
+- ✅ QEMU (for testing)
+- ✅ Python 3 (optional, for patching)
+- ✅ Kernel files (~1.5 MB each, not pointer files)
 
-This project is for educational and research purposes only.
+### Mac:
+- ✅ QEMU
+- ✅ Python 3
+- ✅ Kernel files
 
-## 🙏 Credits
+---
 
-- System dump: https://git.davidpetric.com/thepetric/nbtevo-system-dump.git
-- QNX Neutrino RTOS by BlackBerry QNX
+## 🔧 What This Does
 
-## 🔗 Links
+1. **Patches QNX kernel** to bypass hardware checks
+   - CPUID validation checks
+   - Hardware wait loops
+   - Device register checks
 
-- GitHub: https://github.com/MakaveliRoberto/iDrive-6-local-run
-- QNX: https://www.qnx.com/
+2. **Runs in QEMU** emulator
+   - ARM Cortex-A15 emulation
+   - Network forwarding (SSH: 8022, HTTP: 8103)
+   - Serial console output
+
+3. **Makes iDrive 6 boot** without real hardware
+
+---
+
+## 📚 Documentation
+
+### Windows:
+- **`windows-tools/README-EASY.md`** - Quick start guide
+- **`windows-tools/MANUAL_KERNEL_PATCHING_WINDOWS.md`** - Complete manual
+- **`windows-tools/QUICK_PATCH_REFERENCE.md`** - Quick reference
+
+### General:
+- **`DIAGNOSTIC_REPORT.md`** - System diagnostic report
+- **`SESSION_SUMMARY.md`** - Complete session summary
+- **`WINDOWS_QNX_SETUP.md`** - QNX setup guide
+
+---
+
+## 🎯 Current Status
+
+### ✅ What Works:
+- Kernel executes (high CPU usage)
+- CPUID checks bypassed (10 patches)
+- System runs stably
+- Network ports listening
+
+### ⚠️ What Needs Work:
+- System stuck on hardware wait loops
+- No serial output (stuck before console init)
+- Services not starting (waiting for hardware)
+
+### 🔧 Solution:
+- Use QNX Momentics IDE to analyze and patch remaining hardware checks
+- Or use aggressive patching script (`patch-kernel-aggressive.py`)
+
+---
+
+## 🚀 Getting Started
+
+### Windows (Recommended):
+```powershell
+# 1. Clone repository
+git clone https://github.com/MakaveliRoberto/iDrive-6-local-run.git
+cd iDrive-6-local-run
+
+# 2. Get LFS files (if needed)
+git lfs pull
+
+# 3. Go to tools folder
+cd windows-tools
+
+# 4. Open IDRIVE6-EASY.bat, update QNX path, double-click!
+```
+
+### Mac:
+```bash
+# 1. Clone repository
+git clone https://github.com/MakaveliRoberto/iDrive-6-local-run.git
+cd iDrive-6-local-run
+
+# 2. Run patching
+python3 patch-kernel-aggressive.py
+
+# 3. Run QEMU
+./run-patched-kernel.sh
+```
+
+---
+
+## 📝 License & Credits
+
+- **System:** BMW iDrive 6 QNX Neutrino RTOS
+- **Emulation:** QEMU
+- **Patching:** Custom scripts
+
+**Note:** This is for educational/research purposes. Ensure you have proper authorization to work with this system.
+
+---
+
+## 🆘 Need Help?
+
+1. **Windows:** Check `windows-tools/README-EASY.md`
+2. **Mac:** Check `DIAGNOSTIC_REPORT.md`
+3. **General:** Check `SESSION_SUMMARY.md`
+
+---
+
+## 📦 Files Overview
+
+| File | Purpose |
+|------|---------|
+| `windows-tools/IDRIVE6-EASY.bat` | ⭐ Main Windows tool (one file, everything inside) |
+| `patch-kernel-aggressive.py` | Aggressive kernel patching script |
+| `nbtevo-system-dump/sda2/boot1.ifs.patched` | Patched kernel (ready to use) |
+| `DIAGNOSTIC_REPORT.md` | System diagnostic report |
+
+---
+
+**🎉 Ready to go?** → Go to `windows-tools/` and run `IDRIVE6-EASY.bat`!
