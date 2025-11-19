@@ -1,0 +1,91 @@
+body {
+	font-family: "Helvetica";
+	margin-left: 1cm
+}
+
+h1 {
+	text-align: center
+}
+
+h2 {
+}
+
+h3 {
+}
+
+hr.clear {
+	height: 0;
+	border: 0;
+	width: 100%;
+	clear: both;
+}
+
+.float_left {
+	float: left;
+}
+
+table.status_table {
+	border: 1px solid black;
+	border-collapse: collapse; 
+	border-bottom: 0;
+	margin-right: 25px;
+}
+
+table.status_table td {
+	border: 1px solid black;
+	text-align: center;
+	padding: 2px;
+}
+
+table.status_table th {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+
+#div_pim_codings {
+}
+
+#tbl_pim_codings {
+	width: 400px;
+}
+
+#div_connected_devices {
+}
+
+#tbl_connected_devices {
+}
+
+#div_errors  {
+}
+
+#tbl_errors {
+}
+
+#tbl_errors td {
+	text-align: left;
+	padding: 5px;
+}
+
+
+.connected_device_synchronization_information {
+	clear:both;
+	padding-top: 10px;
+}
+
+.synchronization {
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.synchronization h5 {
+	margin: 0;
+}
+
+.synchronization p{
+	margin: 2px;
+}
+
+.synchronization .sync_status {
+	margin-top: 5px;
+}

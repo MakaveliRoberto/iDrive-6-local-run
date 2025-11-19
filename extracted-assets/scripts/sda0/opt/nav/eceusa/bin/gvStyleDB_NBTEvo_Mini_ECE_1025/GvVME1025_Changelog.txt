@@ -1,0 +1,228 @@
+#ifndef _MV_CHANGELOG_
+#define _MV_CHANGELOG_
+
+#define DB_VER_CONTENT_MAJ      1
+#define DB_VER_CONTENT_MIN     82
+#define DB_VER_STRUCTURE_MAJ    9
+#define DB_VER_STRUCTURE_MIN   23
+
+/***********************************************************************
+<C_8_82_S_9_23> IMaliuga           14/05/2015
+
+Brief:
+ - Change HighGuiding Transformation Styles in CID/HUD/COMBI (Elvis 1629840)
+ - update the values {X,Y,width,height} of Arrowв's BB (L6CH) to {46, 46,84, 34} (elvis 1582216).
+ 
+------------------------------------------------------------------------
+<C_8_81_S_9_23>  AKoshikar            27/02/2015
+
+Brief:
+ - Change bounding boxes in HUD/COMBI HG styles (elvis 1582216).
+ - Add 2.5D transformation styles for HG.
+
+------------------------------------------------------------------------
+
+<C_8_80_S_9_23>  OShurina             05/02/2015
+
+Brief:
+ - Deactivate "Eat-up" flag for passed route (COMBI/HUD) (Elvis 1565726)
+
+------------------------------------------------------------------------
+
+<C_8_79_S_9_23>  OShurina             28/01/2015
+
+Brief:
+ - Define route arrow bounding box in HG(CID, COMBI/HUD)
+ - Activate "Eat-up" flag for passed route (Elvis 1542344)
+
+------------------------------------------------------------------------
+
+<C_8_78_S_9_23>  OShurina             17/12/2014
+
+Brief:
+ - update information of bundles in gvStyleDB_NBTEvo_Mini_ECE_1025.manifest
+
+------------------------------------------------------------------------
+
+<C_1_77_S_9_23>  OShurina   5/12/2014
+
+Brief:
+ - Add new parameters in HG (only within StyleDB Editor).
+
+------------------------------------------------------------------------
+
+<C_1_76_S_9_23>  AKoshikar   14/10/2014
+
+Brief:
+ - Update mapping table for JV templates (elvis 1442605, 1485468).
+
+------------------------------------------------------------------------
+
+<C_1_75_S_9_23>  OShurina    09/10/2014
+
+Brief:
+ - update implementation of Compass and HG (HUD\COMBI) according BMW styles
+ 
+------------------------------------------------------------------------
+
+<C_1_74_S_9_23>  AKoshikar   31/07/2014
+
+Brief:
+ - Change zoom animation end to 50m and arrow's length after MP to 15 (elvis 1419600).
+
+------------------------------------------------------------------------
+
+<C_1_73_S_9_23>  OShurina    17/07/2014
+
+Brief:
+- update implementation of Lane Recomendation within StyleDB Editor (CID, HUD\COMBI)
+  
+------------------------------------------------------------------------
+
+<C_1_72_S_9_23>  OShurina    27/06/2014
+
+Brief:
+ - Sync DevDef&PU_1114:
+   update BJV templates;
+   change turnto street rules(only US is used );
+   change type of element in turnto (street name1 -> towards name1);
+   change HUD/COMBI views: rendercontainers for JV and turnto(NBT implementation)
+ 
+------------------------------------------------------------------------
+
+<C_1_71_S_9_23>  OShurina    07/06/2014
+
+Brief:
+ - separate day and night styles (change links to corresponding day/night styles BMW styledb)for COMBI/HUD
+ *Elvis 1402195
+ *e-mail: Martini-Bieschke, Christof,  2014.06.04 
+------------------------------------------------------------------------
+
+<C_1_70_S_9_23>  OShurina    29/05/2014
+
+Brief:
+ - update xps files (add new jv template styles)
+ 
+------------------------------------------------------------------------ 
+
+<C_1_69_S_9_23>  SYakovenko    26/05/2014
+
+Brief:
+ - Bug fixing for StyleDB Editor generation.
+ 
+------------------------------------------------------------------------
+<C_1_68_S_9_23>  DTerletskiy    24/05/2014
+
+Brief:
+ - Changing Current/TurnTo Street Rules. In "Country ISO Code" = "Default" USA rules are used.
+   *Elvis 1393486
+   *e-mail: Meyer, Thomas <Thomas.Meyer@de.neusoft.com>, 2014.05.23
+ 
+------------------------------------------------------------------------
+
+<C_1_67_S_9_23>  OShurina    23/05/2014
+
+Brief:
+ - Fix StyleDB Editor incompatibility after StyleDB Editor release 3.12:
+    remove curve table
+    set zoom animation for IZ 20m (Elvis 1389080)
+ - Remove GS and RIC35UP styles from GV ID4++.
+ - Update xps files.
+
+------------------------------------------------------------------------
+
+<C_1_66_S_9_23>  OShurina     21/05/2014
+
+Brief:
+ - Change position for divider (time).
+ 
+ ------------------------------------------------------------------------
+
+<C_1_65_S_9_23>  OShurina     20/05/2014
+
+Brief:
+ - Change GJV.
+
+ ------------------------------------------------------------------------
+
+<C_1_64_S_9_23>  AKoshikar     15/05/2014
+
+Brief:
+ - Change GJV and new bitmaps for BJV.
+
+------------------------------------------------------------------------
+
+<C_1_63_S_9_23>  OShurina   23/04/2014
+
+Brief:
+ - Change position for divider in CID MINI
+ 
+------------------------------------------------------------------------
+
+<C_1_62_S_9_23>  OShurina   22/04/2014
+
+Brief:
+ - Change width for SD/SN BigSign in 301 view
+ 
+------------------------------------------------------------------------
+
+<C_1_61_S_9_23>  AKoshikar  22/04/2014
+
+Brief:
+ Update xps files:
+ - Update roadsign sizes.
+ - Update StreetRule's country codes.
+ - Move laneRecommendation from AddOn.xps to the Guiding*Standard.xps
+ - Remove unused LR bitmaps.
+ - Update RIC35UP styles.
+
+------------------------------------------------------------------------
+
+<C_1_60_S_9_23>  AKoshikar  15/04/2014
+
+Brief:
+ - Move Direction imagesets from xps to iconimport. 
+ - Change IconCollectionID.
+
+------------------------------------------------------------------------
+
+<C_1_59_S_9_23>  OShurina   11/04/2014
+
+Brief:
+ - Remove unused defines
+ 
+------------------------------------------------------------------------
+
+<C_1_58_S_9_23>  OShurina   07/04/2014
+
+Brief:
+ - Change position for divider in CID MINI
+ - Rename files with defines for HUD/COMBI
+ - Delete unused defines
+ 
+------------------------------------------------------------------------
+
+<C_1_57_S_9_23>  AKoshikar  04/04/2014
+
+Brief:
+ - Optimize font settings.
+ 
+------------------------------------------------------------------------
+
+<C_1_56_S_9_23>  AKoshikar   01/04/2014
+
+Brief:
+ - Change HG Fading Mask bitmap (id 320604).
+ 
+------------------------------------------------------------------------
+
+<C_1_55_S_9_23>  OShurina   28/03/2014
+
+Brief:
+ - Create New styledb gvStyleDB_NBTEvo_Mini_ECE_1025
+ 
+------------------------------------------------------------------------
+
+***********************************************************************/
+
+#endif

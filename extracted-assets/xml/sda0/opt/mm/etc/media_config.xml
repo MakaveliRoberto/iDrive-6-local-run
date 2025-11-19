@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <mediaprestarter>
+      <pps>
+         <binary>/bin/pps</binary>
+         <mountpath>/pps</mountpath>
+         <MTP>
+            <ppspath>/pps/services/multimedia/mtp/</ppspath>
+         </MTP>
+      </pps>
+   </mediaprestarter>
+   <audiocommon></audiocommon>
+   <auxiliaryinput>
+      <CarPlay>
+         <Enabled>true</Enabled>
+      </CarPlay>
+      <CarPlay_PLAY>
+         <carplay_cmdPlay>hu:play</carplay_cmdPlay>
+      </CarPlay_PLAY>
+      <iAP2>
+         <Enabled>false</Enabled>
+      </iAP2>
+   </auxiliaryinput>
+   <zonearbiter></zonearbiter>
+   <covermanager></covermanager>
+   <mmecommon></mmecommon>
+   <miracastmanager>
+      <AudioFormats>LPCM 00000003 00\, AAC 00000005 00</AudioFormats>
+      <VideoFormats>00 00 01 01 00000023 00000000 00000000 00 0000 0000 00 none none</VideoFormats>
+      <ParallelConnections>
+         <NumberOfDevices>1</NumberOfDevices>
+      </ParallelConnections>
+      <RTSP>
+         <Ports>64326, 64327</Ports>
+      </RTSP>      
+      <HDCP>
+         <Ports>9871, 9874</Ports>
+      </HDCP>
+      <RTP>
+         <Ports>9870, 9873</Ports>
+      </RTP>
+      <UIBC>
+         <Enabled>false</Enabled>
+         <Ports>9872, 9875</Ports>
+      </UIBC>
+   </miracastmanager>
+   <auxinversioninfo>
+      <entertainment>
+         <version>6.1</version>
+      </entertainment>
+   </auxinversioninfo>   
+</config>

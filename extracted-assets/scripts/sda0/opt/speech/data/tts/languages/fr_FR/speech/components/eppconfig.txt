@@ -1,0 +1,307 @@
+!********************************************************************
+! E-Mail Preprocessor Configuration (fr-FR)
+
+!====================================================================
+! Configuration data used during the region detection phase.
+
+:DETECT
+    !----------------------------------------------------------------
+    ! Header fields
+
+    :HEADER
+        ! The values of the From:, To:, Date:, and Subject: fields
+        ! are parsed because they are used for final formatting of
+        ! the introduction text. These fields also often appear as
+        ! part of the original message appended to a new message -
+        ! and some clients even use localized field names.
+        :FROM "From:" .
+        :TO "To:" .
+        :DATE "Date:", "Sent:" .
+        :SUBJECT "Subject:" .
+
+        ! These are some other common (MIME) header fields.
+        ! This list needs only to be extended if header detection
+        ! should fail.
+        :OTHERS
+            "Received:", "Cc:", "Bcc:", "Sender:", "Reply-To:",
+            "MIME-Version:", "Content-Type:"
+        .
+    .
+
+    !----------------------------------------------------------------
+    ! Quotations from previous messages
+
+    :QUOTES
+        ! All these strings may introduce a quoted line.
+        :PREFIXES ">", "|", ": " .
+
+        ! To properly detect quoted lines, the preprocessor tries
+        ! to fix broken quotes caused by some e-mail clients. Set
+        ! this value to 0 to disable this feature.
+        :FIX 1
+    .
+
+    !----------------------------------------------------------------
+    ! Original message separator lines
+     
+    :ORIGMSG
+        ! Delimiters for full quotes (bad style but commonly used)
+        ! look something like that:
+        !     <line> <keyword> <line>
+        ! e.g.
+        !     --- Original Message ---
+        !       
+        ! You can configure minimal line length, legal "line" chars
+        ! and keywords.
+        !
+        ! NOTE: keywords are not case sensitive.
+
+        :MINLINELEN 2
+        :LINECHARS "-*#"
+        :KEYWORDS
+            "Original Message",
+            "Reply Separator",
+            "Original-Nachricht",
+            "Ursprüngliche Nachricht",
+            "Originalnachricht"
+        .   
+    .
+
+    !----------------------------------------------------------------
+    ! Itemized lists
+     
+    :LISTS
+        ! Lists are detected by looking for bullet characters.
+        :BULLETS
+            "- ", "* ", "o ",
+            "[] ", ":: ",
+            "-- ", "** ", "-> ",
+            "1. ","1) ",    ! '1' stands for any digit
+            "a. ", "a) "    ! 'a' stands for any letter
+        .
+    .
+
+    !----------------------------------------------------------------
+    ! Headlines
+
+    :HL
+        ! Lines ending in one of these characters are not
+        ! considered to be headlines.
+        :WRONGEND "#&,./:;<>\^|~"
+    .
+
+    !----------------------------------------------------------------
+    ! Emphasis
+
+    :EMPHASIS
+        ! It is common style to denote intonation in e-mail by
+        ! enclosing words in asterisks or other characters. You
+        ! can define a list of such emphasis character sequences.
+        ! Note that because the starting and ending sequence may
+        ! be different, you have to specify *pairs* of strings.
+        :INDICATORS
+            "*", "*",
+            "_", "_",
+            "/", "/",
+            "-", "-",
+            ">", "<",
+            "!", "!"
+        .
+
+        ! These punctuation marks are not allowed inside
+        ! emphasized text.
+        :PUNCT ".!?,;:"
+    .
+
+    !----------------------------------------------------------------
+    ! The simple (prefix based) URL detection is only implemented
+    ! to avoid confusion with pcode.
+
+    :URLS
+        ! The simple prefix based URL detection is currently only
+        ! implemented to avoid confusion with pcode.
+        :PREFIXES
+            "http://", "https://", "ftp://", "file://",
+            "telnet://", "gopher://", "wais://",
+            "nntp://", "prospero://"
+        .
+    .
+    
+    :SIGNATURE
+        ! Salutation line based signature detection.
+        ! List of saluations, these will be used to detect end of message
+        ! and start of potential signature.
+        :SALUTATIONS
+            ! English
+            "best regards","yours faithfully","yours sincerely","sincerely yours","sincerely","yours truly","love","thanks","take care","yours","cheers","best","regards","bye","speak soon","have a nice day","my best to you","all the best","kind regards","warm regards","thanks in advance","thank you","thank you in advance","many thanks","hope this helps","be well","ciao","lots of love","best wishes","thanks so much","thanks a million","thank you for your help","much appreciated","waiting to hear your reply","respectfully","at your service","enthusiastically","you're the best","talk soon",
+            ! German
+            "danke und gruß","danke/grüße","Mit freundlichen Grüßen","MfG","Beste Grüße","Liebe Grüße","LG","Grüße","Tschüss","Ciao","Es grüßt Sie","Auf wiedersehen","Bis bald","Gruß","Bis dann","Adieu","Alle Gute","Alle Liebe","Auf bald","Auf ein baldiges Wiedersehen","Beste Grüße","Bis dahin","Bis denne","Es grüßt herzlich","Es grüßt sie herzlich","Freundliche Grüße","Ganz liebe Grüße","Ganz viele Grüße","Gruß und Kuß","Herzliche Grüße","Hochachtungsvoll","In Verbundenheit","Küsse","Mach es besser","Mach es gut","Mit besten Empfehlungen","Mit besten Grüßen","Mit bester Empfehlung","Mit ganz freundlichen Grüßen","Mit schönen Grüßen","Mit verbindlichen Grüßen","Noch eine gute Woche","Noch einen schönen Tag","Sei lieb gegrüßt","Sei umarmt","Viele Grüße","Viele Küsse",
+            ! Dutch
+            "Met vriendelijke groet","Mvg","Met hartelijke groeten","Vriendelijke groeten","Vriendelijke groet","Vriendelijke gr.","Tot ziens","Tot gauw","adieë","adieu","Adjië","ajiu","aju","bye","bye bye","byebye","ciao","dag","daag","dagdag","de mazzel","mazzel","doeg","Tot snel","greetings","het ga je goed","hoihoi","Veel liefs","Liefs","Groetjes","Groet","Gr.","Groeten","Hoogachtend","Doei","Doei doei","Het beste","Spreek je","Bedankt","houdoe","in liefde","je liefste","later","laters","laterz","vaarwel","see you","see ya","Met vriendelijke groeten","met de meeste hoogachting","met een vriendelijke groet","met liefde",
+            ! French
+            "Cordialement","Amicalement","Mes salutations sincéres","sincèrement","Respectueuesement","Un grand Merci","Merci en Avance","Merci bien d'avance","Merci à l'avance","Merci beaucoup","Merci mille fois","Merci bien","Bisous","Je t'embrasse","Je vous embrasse","Grosses bises","Amitiés","Amour","Meilleures salutations","Bien à vous","Bonne journée","Bonne soirée","Bonne fin de semaine","Bon Weekend","Je te remercie","À la prochaine","À la prochaine fois","Au prochain rendez-vous","À bientôt","Au revoir","Ciao","Ciao à tutti","Adios","See you","Prenez bien soin de vous","Prend soin de toi","Prend bien soin de toi","Mes sincères salutations","Cordiales salutations","Passe une bonne journée","À plus","À plus tard","Bises","Gros bisous","Salut","Bien sincèrement","Sincèrement vôtre","Bien cordialement","Cordialement vôtre","Salutations","Sincères salutations","Salutations distinguées","Salutations respectueuses","Mes meilleures salutations","Avec mes salutations","A te lire","Bien amicalement à vous","Affectueuses pensées","Bonne réception","Considération distinguée","Avec mes remerciements","Bon travail","Au plaisir de collaborer","Au plaisir de vous revoir","Bonne continuation","Au plaisir de collaborer avec vous","D’avance, merci","Je vous remercie de votre collaboration","Avec mes pensées les meilleures","Du fond du cœur","De façon bienveillante, chaleureuse","En vous remerciant d'avance","Excellente journée","Bisous A plus","Sentiments dévoués","Sentiments distingués","Tout à vous",
+            ! Italian
+            "Saluti","Cordiali saluti","Distinti saluti","Tanti saluti","Cari saluti","Sinceri saluti","I miei migliori saluti","Cordialità","Ciao","Ci sentiamo","A presto","Alla prossima","Un abbraccio","Un bacio","Baci e abbracci","Con affetto","Buona giornata","Buona serata","Stammi bene","Arrivederci","Con l'occasione porgo cordiali saluti","Cortesi Saluti","Migliori saluti","Un saluto","Un saluto affettuoso","La saluto","Ti saluto","Baci","Ci sentiamo","Alla prossima settimana","Con tanto affetto","Con stima","Buonanotte","Arrivederla","A risentirci","Addio","Ci sentiamo presto","Ci sentiamo domani","A domani","A dopodomani","Tuo","Tua",
+            ! Brazilian Portuguese
+            "Saudações","saudades","Oi","Olá","Bom dia","Boa tarde","Boa noite","seu","sua","com meus melhores cumprimentos","seu amor","sua amada","Lembranças","Obrigado","Obrigada","Melhores saudações","Divirta-se","Se cuida","Cuide-se","Até breve","Até amanhã","Tenha um bom final de semana","Tenha um bom dia","Tchau","adeus","Até mais","Até logo","Um abraço","Um beijo","Com carinho ","Abraços e beijos","Atenciosamente","cordialmente",
+            ! European Portuguese
+            "Sinceramente","Muitas felicidades","Os meus melhores cumprimentos","Sentimos","Até breve","Na próxima","Até já","Até depois","Até outra vez","Com os melhores cumprimentos","Atenciosamente","Caso necessite de maiores informações, não hesite em me contactar","Agradeço-lhe a atenção","Caso necessite de qualquer assistência por favor entre em contato","Se pudermos ser úteis de qualquer outra forma, informe-nos por favor","Caso necessite de qualquer outra informação, não hesite em me contactar","Obrigado por sua ajuda com esta questão","Obrigadoa por sua ajuda com esta questão","Espero ter notícias suas em breve",
+            ! Russian
+            "С уважением","Благодарю","С благодарностью","Ваш","Ваша","Ваши","Искренне Ваш","Искренне Ваша","Искренне Ваши","Заранее благодарю","До скорого","С наилучшими пожеланиями","Пока","Спасибо","Премного благодарен","Премного благодарна","Премного благодарны","До свиданья","Целую","До свидания","Твой друг","Всего доброго","Жду ответа","Хочу увидеться","Искренне","До встречи","Жди в гости","Приезжай скорее","Будь счастлив","Всего хорошего","Всего наилучшего","Надеюсь на дальнейшее сотрудничество","Спасибо, что уделили внимание","С почтением","Удачи","с любовью","Надеюсь на скорый ответ","Прошу сообщить мне, как можно скорее","Твоя","Твой","Пока...целую","Буду признательна за быстрый ответ","Буду признателен за быстрый ответ","Ожидаю Вашего согласия","Ожидаю Вашего одобрения","Ожидаю Вашего подтверждения", 
+            ! Spanish
+            "Cordiales saludos","Saluda cordialmente","Un cordial y sicero saludo","Sinceros saludos","Atentamente","Saludos","Un saludo","Muchos saludos","Cariñosamente","Con cariño","Hasta la vista","Hasta pronto","Hasta mañana","Hasta luego","Hasta la próxima","Hasta siempre","Hasta la semana que viene","Un abrazo","Besos","Cuídate","Nos vemos","Te deseo lo mejor","Le deseo lo mejor","Mis mejores","Adiós","ciao","Saludos cordiales","Cordialmente","Sinceramente","Le saluda atentamente","Con los mejores deseos","Reciba mi más cordial saludo","Dándole las gracias por anticipado","Esperando su contestación, le saluda","A la espera de recibir sus noticias, le saluda","Sin otro particular, le despide atentamente","Hasta nunca","Hasta el fin de semana que viene","Te veo luego","Escríbeme pronto","Seguimos en contacto","Espero noticias tuyas","A la espera de su respuesta","A la espera de tu respuesta","Le desea lo mejor","Te desea lo mejor","Un saludo desde",
+            ! Swedish
+            "Bästa hälsningar","Skickat från min iPhone","Hälsningar","Tack på förhand","Hälsningar","Många varma hälsningar","Ha det bra","Med vänliga hälsningar","Vänliga hälsningar","Vi hörs","Vi ses","tack","mvh","kramar","Puss och kram","Ses","hörs","Vi ses snart","Lycka till","Varma hälsningar","Bästa hälsningar","Jag önskar dig en trevlig dag","Med vänlig hälsning","Mvh","MVH","VH","Vänlig hälsning","Hjärtliga hälsningar","Många hälsningar","Hejdå","Hej så länge","Allt gott","Farväl","Adjö","Puss","Puss puss","Pussar","Kram","Kram kram","Många kramar","Pussar och kramar","Höres","Höres och synes","Vi syns och hörs","Hörs och ses","Din tillgivne","Er förtrogna","Ödmjukast","Högaktingsfullt","I förtroende","Trevlig helg","Hilsen","Xoxo","Take care","Cheers",
+            ! Turkish
+            "Saygılar","Sevgiler","Selamlar","Saygılarımla","Saygılarımızla","Teşekkürler","Teşekkür ederim","Selam","İyi çalışmalar","İyi günler","Sevgi ve saygılarımla","Görüşmek üzere","Hoşçakalın","Hoşçakal",
+            ! Cantonese
+            "此致 敬禮","敬祝 安好","順侯 大安","恭賀 大吉","順候 近好","即詢 近佳","祝 安康","恭賀","敬上","謹上","謹稟","拜言","拜启","謹启","敬叩","拜上","敬启",
+            ! Arabic
+            "و السلام","،","الله معك","مع السلامة","جزاك الله خيراً","إلى اللقاء","تحياتي","مع أطيب التحيات","في أماني الله","السلام عليكم ورحمة الله تعالى وبركاته","موفق بإدن الله","وتفضلوا بقبول فائق الاحترام والتقدير","وفقكم الله ودمتم لنا","الشكر والتحية","ابنك المطيع","والله يحفظكم والسلام عليكم ورحمة الله وبركاته","تهانينا القلبية","أدامكم الله ووفقكم الله لما فيه الخير","ولكم تحياتي","جزيل الشكر والاحترام","ولكم كل الشكر والتقدير","وافر الاحترام والتقدير","وتقبلوا مني أسمى أيات الحب الوفاء","ومع السلامة","خالص دعواتي","شاكرين لكم حسن تعاونكم معنا","بارك الله فيك","الله يرعاكم","صديقك المخلص","تمنياتي لكم","أبقاكم االله سالمين","إلى القاء","أعاده الله عليكم وانتم في أحسن حال","لكم أطيب تحياتي","خالص تحياتي","شاكرا لكم تعاونكم الكريم","واقبلوا مني فائق الاحترام والتقدير","واقبلوا مني فائق الاحترام","وتفضلوا بقبول فائق الاحترام","ولكم مني فائق الاحترام والتقدير","وفقكم الله","دمتم لنا","وفقك الله","والله يحفظكم","والسلام عليكم ورحمة الله وبركاته","تهانينا","وأدامكم الله","وفقكم الله لما فيه الخير","سلاماتي الحارة","سلام","خالص التحية","خالص احترامي","خالص الإحترام","مع الشكر","مع جزيل الشكر","شاكرين لكم حسن تعاونكم","بارك الله فيكم","مع رعاية الله","وافر الاحترام","وافر الشكر","وافر الاحترام والتقدير","صديقك","صديقك العزيز","شاكر لكم حسن تعاونكم","تحياتي وأشواقي","منتظرا الرد",
+            ! Korean
+            "감사합니다","수고하세요","좋은 하루 보내세요","즐거운 하루 보내세요","행복한 하루 보내세요","행복하세요","항상 건강하세요","그럼 잘 부탁드립니다","안녕","안녕히 계세요","그럼 이만","이만 줄이겠습니다","이상","이상입니다","끝","바이","드림","올림","배상","항상 좋은 일만 있기를 기원합니다","내내 건강하시기 바랍니다","늘 승리하시기를 두 손 모아 기도드립니다","행운이 함께 하길 빕니다","검토 및 조언 부탁드립니다","협력을 부탁드립니다","조속한 회신 부탁드립니다","제가 도움이 될 일이 있으면 연락 부탁드립니다","항상 많은 도움을 주셔서 진심으로 감사드립니다","잘 부탁드립니다","연락 드리겠습니다","건승하십시오","주말 잘 보내시기 바랍니다","건강하게 휴가 보내시길 바랍니다","황사가 온다고 하는데 건강 조심하십시오","환절기인데, 감기 조심하십시오","힘찬 한 주의 시작 되십시오","나른한 오후에도 수고하세요","한 달의 시작인데, 힘찬 시작되시기를 기원합니다","바쁜 월말이지만, 마음은 여유있게 보내십시오",
+            ! Japanese
+            "今後とも、どうぞ宜しくお願い致します。","ご連絡お待ちしております。","それでは失礼いたします。","取り急ぎご連絡申し上げます。","お詫び申し上げます。","ご検討のほど、よろしくお願い申し上げます。","ご不明な点がありましたら、お問い合わせください。","皆様によろしくお伝えください。","じゃあね。","またね。","また会おうね。","お返事待ってます。","楽しみにしてるね。","さよなら。","ばいばい。","元気でね。","体に気をつけてね。","それではよろしくね。","みんなによろしくね","敬具","拝具","敬白","かしこ","謹言","謹白","早々","草々","不一","不尽","不備","婦人","お願い申し上げます。","宜しくお願い致します。","さようなら。","おやすみ。","おやすみなさい。","それじゃあね。","それではまた。","また会う日まで。","また明日。","また来週。","また会いましょう。","また遊ぼうね。","バイバイ。","ばいば～い。","バイバ～イ。","何卒宜しくお願い致します。","今後とも宜しくお願いいたします。","皆様に宜しくお伝えください。","みんなに宜しくね。","末筆ながらご家族様へくれぐれも宜しくお伝え願います。","この旨、皆様にもご伝言ください。","家内からもよろしく申しております。","お返事をお待ちしております。","ご返答をお待ちし申しております。","折り返しご一報賜りたくお願い申し上げます。","恐縮ではございますが、ご返事賜りたくお待ちしております。","ご多用の折、誠に恐れ入りますが、ご都合をお聞かせ願えれば幸いです。","折り返しご一報ください。","取り急ぎ、用件のみ。","取り急ぎ、御礼まで。","取り急ぎお礼申し上げます。","乱筆乱文お詫び申し上げます。","乱文乱筆のほどご容赦願います。","よろしくお伝えください。","健康にはくれぐれもご留意ください。","くれぐれも体調を崩されませぬようご自愛ください。","貴社の更なるご発展をお祈り申し上げます。","時節柄、どうぞご自愛ください。","体調を崩されませぬようご留意ください。","今後ともご指導ご鞭撻のほど、宜しくお願いいたします。","今後とも変わらぬお付き合いのほど宜しくお願いいたします。","何卒お力添えをいただきますようお願い申し上げます。","今後ともご愛顧のほど宜しくお願い申し上げます。"
+        .
+    .
+    
+    :REFINE
+    	:P02 0.75
+    .
+    
+.
+
+!====================================================================
+! Configuration data used during the rendering phase.
+
+:RENDER
+    !----------------------------------------------------------------
+    ! OS dependent new line character sequence:
+    ! CR (carriage return) for Macintosh, LF (linefeed) for UNIX,
+    ! and CR/LF for MS-DOS and Windows. 
+    :NL "\r\n"
+
+    !----------------------------------------------------------------
+    ! Sentence terminators; if items or headlines do not end with
+    ! one of these characters, a period will be inserted.
+    :SENTEND ".!?"
+
+    !----------------------------------------------------------------
+    ! Header fields
+    ! The rendering of the message header is determined by the
+    ! subject line prefix (e.g. RE:, FW:, etc): If the subject
+    ! line starts with a known prefix, the corresponding format
+    ! is used. If the prefix is unknown or if no prefix is found
+    ! at all, a default format is used.
+
+    :HEADER
+        ! List of known subject line prefixes.
+        :PREFIXES
+            "re:", "aw:", "antw:", "sv:", "r:", "rif:", "res:", "odp:",
+            "fw:", "fwd:", "wg:", "weiterl", "vs:", "tr:", "i:", "vb:", "rv:", "enc:", "pd:",
+            "urgent:", "wichtig:",
+            "req:", "anfrage:",
+            "fyi:",
+            "__empnosubj__",
+            "__empsms__"
+        .
+
+        ! Header rendering format strings. The first format is the
+        ! default format. %1 is substituted by the originator of the
+        ! message, %2 and %3 are substituted by the date and time
+        ! resp. the message was sent, and %4 is substituted by the
+        ! subject line (without any prefixes).
+        !
+        ! prompt concepts for texts below are as follows:
+        ! EPP_HEADER_DEFAULT_READOUT_From_All_Info_PROMPT
+	! EPP_HEADER_REPLY_READOUT_From_All_Info_PROMPT
+	! EPP_HEADER_FORWARD_READOUT_From_All_Info_PROMPT
+	! EPP_HEADER_URGENT_READOUT_From_All_Info_PROMPT
+	! EPP_HEADER_REQUEST_READOUT_From_All_Info_PROMPT
+	! EPP_HEADER_FYI_READOUT_From_All_Info_PROMPT
+	! EPP_HEADER_DEFAULT_READOUT_From_Only_Date_Time_PROMPT
+	! EPP_SMS_HEADER_DEFAULT_READOUT_From_Only_Date_Time_PROMPT				
+        :FORMATS
+            "\lang=frf\ Un e-mail de \lang=unknown\ %1, \lang=frf\ reçu le \tn=date\ %2 \tn=normal\ à \tn=TTS-TIME\ %3 , \tn=normal\ concernant \tn=EMAIL\ \lang=unknown\ %4 .",
+            "\lang=frf\ Une réponse de \lang=unknown\ %1, \lang=frf\ reçue le \tn=date\ %2 \tn=normal\ à \tn=TTS-TIME\ %3 , \tn=normal\ concernant \tn=EMAIL\ \lang=unknown\ %4 .",
+            "\lang=frf\ Un e-mail transféré par \lang=unknown\ %1, \lang=frf\ reçu le \tn=date\ %2 \tn=normal\ à \tn=TTS-TIME\ %3 , \tn=normal\ concernant \tn=EMAIL\ \lang=unknown\ %4 .",
+            "\lang=frf\ Un e-mail urgent de \lang=unknown\ %1, \lang=frf\ reçu le \tn=date\ %2 \tn=normal\ à \tn=TTS-TIME\ %3 , \tn=normal\ concernant \tn=EMAIL\ \lang=unknown\ %4 .",
+            "\lang=frf\ Une demande de \lang=unknown\ %1, \lang=frf\ reçue le \tn=date\ %2 \tn=normal\ à \tn=TTS-TIME\ %3 , \tn=normal\ concernant \tn=EMAIL\ \lang=unknown\ %4 .",
+            "\lang=frf\ Un e-mail de \lang=unknown\ %1, \lang=frf\ reçu le \tn=date\ %2 \tn=normal\ à \tn=TTS-TIME\ %3 , \tn=normal\ concernant \tn=EMAIL\ \lang=unknown\ %4 .",
+            "\lang=frf\ Un e-mail de \lang=unknown\ %1, \lang=frf\ reçu le \tn=date\ %2 \tn=normal\ à \tn=TTS-TIME\ %3 , \tn=normal\ sans objet.\tn=EMAIL\ \lang=unknown\ ",
+            "\lang=frf\ Un S M S de \tn=TTS-PHONE\ \lang=unknown\ %1, \tn=normal\ \lang=frf\ reçu le \tn=date\ %2 \tn=normal\ à  \tn=TTS-TIME\ %3 .\tn=TXTMSG\ \lang=unknown\ "
+        .
+
+        ! Map to get format index from prefix index.
+        :MAP
+            1, 1, 1, 1, 1, 1, 1, 1,
+            2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+            3, 3,
+            4, 4,
+            5,
+            6,
+            7
+        .
+    .
+
+    !----------------------------------------------------------------
+    ! Artwork and pcode regions are completely substituted by a
+    ! single message.
+
+    ! Extra periods added to insert pauses.
+    ! Prompt concepts:
+    ! EPP_BODY_ARTWORK_PLACEHOLDER_READOUT_PROMPT
+    ! EPP_BODY_PCODE_PLACEHOLDER_READOUT_PROMPT
+    :ARTWORK " \eos=1\ \pause=200\ Le texte suivant ne peut pas être lu. \eos=1\ \pause=200\ "
+    :PCODE " \eos=1\ \pause=200\ Le texte suivant ne peut pas être lu. \eos=1\ \pause=200\ "
+
+    !----------------------------------------------------------------
+    ! Quotations from previous messages.
+
+    :QUOTES
+        ! Speed, pitch, and volume modification for each
+        ! quoting level.
+        :SPVMOD 1.00, 1.00, 1.00 .
+
+        ! Text inserted before the quote. %1 will be replaced by
+        ! the current quoting level.
+        ! prompts concept:
+        ! EPP_BODY_QUOTE_BEGIN_READOUT_PROMPT
+        :PREAMBLE "\eos=1\ \pause=200\ Citation: niveau %1 . \eos=1\ \pause=200\ "
+
+        ! Text inserted after the quote.
+        ! EPILOGUE1 is used when returning to the actual message.
+        ! EPILOGUE2 is used when returning to a lower level quote
+        ! (%1 will be replaced by the new quoting level).
+        ! prompt concepts
+        ! EPP_BODY_QUOTE_END_READOUT_PROMPT
+        ! EPP_BODY_QUOTE_RETURN_READOUT_PROMPT
+        :EPILOGUE1 "\eos=1\ \pause=200\ Retour au message. \eos=1\ \pause=200\ "
+        :EPILOGUE2 "\eos=1\ \pause=200\ Retour à la citation de niveau %1 . \eos=1\ \pause=200\ "
+    .
+
+    !----------------------------------------------------------------
+    ! Original messages (appended full quotes)
+
+    :ORIGMSG
+        ! Text inserted before the original message. %1 will be
+        ! replaced by the current quoting level.
+        ! prompt concept:
+        ! EPP_BODY_ORIGMSG_BEGIN_READOUT_PROMPT
+        :PREAMBLE "\eos=1\ \pause=200\ Message précédent: niveau %1 . \eos=1\ \pause=200\ "
+
+        ! Header rendering format string. %1 is substituted by
+        ! the originator of the original message.
+        ! prompt concept
+        ! EPP_BODY_ORIGMSG_INTRO_READOUT_PROMPT
+        :FORMAT "\eos=1\ \pause=200\ %1 a écrit: \pause=400\ "
+    .
+
+    !----------------------------------------------------------------
+    ! Emphasis
+
+    :EMPHASIS
+        ! Speed, pitch, and volume modification.
+        :SPVMOD 1.00, 1.00, 1.00 .
+    .
+.

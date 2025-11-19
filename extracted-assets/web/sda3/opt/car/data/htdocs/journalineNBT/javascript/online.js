@@ -1,0 +1,3 @@
+function isOnline(){
+	return true;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinkManifest>
+  <LinkSection>
+    <SwData version="istep">
+      <LinkData root="/fs/sda0/repository/istep">
+        <dir uid="0" name="info" mod="775" gid="0">
+          <file uid="0" name="manifest_speechLanguagesPartUSA.xml" swe="speechLanguagesPartUSA" command="link" mod="664" gid="0" />
+          <file uid="0" name="manifest_speechLanguagesPartUSA.xml.sign" swe="speechLanguagesPartUSA" command="link" mod="664" gid="0" />
+        </dir>
+        <dir uid="0" name="opt" mod="775" gid="0">
+          <dir uid="0" name="speech" mod="775" gid="0">
+            <dir uid="0" name="data" mod="775" gid="0">
+              <dir uid="0" name="tts" mod="775" gid="0">
+                <dir uid="0" name="languages" mod="775" gid="0">
+                  <dir uid="0" name="en_US" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="4776b79b" name="apdb_cs_ava-ml_NAVI_f22.dat" swe="speechLanguagesPartUSA" md5="5ccda480e3b1c25c66038b62538cad069157d05a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="37f5d028" name="apdb_cs_ava-ml_SDS_f22.dat" swe="speechLanguagesPartUSA" md5="007f3ca9d407da5bc1ff7e7d5a9f00e3a84ef85f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2ee0872f" name="apdb_rp_ava-ml_NAVI.dat" swe="speechLanguagesPartUSA" md5="3e70494b2f1299fa1842df0cd3f7fca4050cae1b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="98032bf9" name="apdb_rp_ava-ml_SDS.dat" swe="speechLanguagesPartUSA" md5="1bed7f41d96c1255510ad04131bb0e398e346220" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e5cd5b4a" name="enu_ava-ml_embedded-pro_1-0-1.dat" swe="speechLanguagesPartUSA" md5="7994a9f2f4dad8601b9f80a9c1bb4939e75f3b86" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="02565e21" name="eppconfig.txt" swe="speechLanguagesPartUSA" md5="d94a572e42773555e214733cf9bc1d14f2d5dcd1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="aefd333e" name="UserDict_ENU_Ava-ML.dcb" swe="speechLanguagesPartUSA" md5="b4139c5be3c96ba60b028cfe2639d1608d72c5ce" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8fb9cf63" name="UserRules_ENU_Ava-ML_NAVI-PP.rst" swe="speechLanguagesPartUSA" md5="a017c90ea358dd2b47f46bf3f9eefc206f8bfc9d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="463b5605" name="UserRules_ENU_Ava-ML_SDS-PP.rst" swe="speechLanguagesPartUSA" md5="a7fda94f9db9a963a509f876c3165ba7a84660a1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1309406f" name="UserRules_ENU_CALENDAR-PP.rst" swe="speechLanguagesPartUSA" md5="631bac4503fdacdc5fa7fc17b2ef7d716084384c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bba833ea" name="UserRules_ENU_COUNTRYINFO-PP.rst" swe="speechLanguagesPartUSA" md5="87e6f41975dbee225461dfafdf72ffa84552b144" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1a1f81c8" name="UserRules_ENU_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartUSA" md5="bf0b81ca87c774f47bf3129ae0fc697fe283fe1c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f1bab941" name="UserRules_ENU_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartUSA" md5="5bba8406f692b6f7d0c1ff2edac50a5f85bc7eb7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="110a875c" name="UserRules_ENU_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartUSA" md5="355063b2da44ce80e5e93a0f8b51b388fb7fcb0f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b4f9f8fd" name="UserRules_ENU_NEWS-PP.rst" swe="speechLanguagesPartUSA" md5="a400c6d207e878cf5f4498f5b01128175db86bdb" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2bb5b648" name="UserRules_ENU_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartUSA" md5="46811e8a97b70a7fa64d4316889c18f3c27d3150" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2f3f1ebf" name="UserRules_ENU_SPORT-PP.rst" swe="speechLanguagesPartUSA" md5="a8b247e8e9544eb73bdf11a8c9a005a4589ba783" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e8ea3de4" name="UserRules_ENU_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartUSA" md5="be95bb75c982a0f6e6e4eeabbcfc3a2cc67edf3c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e73ce1bc" name="UserRules_ENU_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartUSA" md5="ad52e53670a7ca1fdd1f50e0f933e6a1b6d7a964" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b84b5fe1" name="UserRules_ENU_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartUSA" md5="77b0bdef4f7d826140c8fd515ffdb664c7990068" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f8acb749" name="UserRules_ENU_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartUSA" md5="febb0e80b40881865161dc5f712b097cdd5200ac" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="836ca358" name="UserRules_ENU_TTS-DURATION-PP.rst" swe="speechLanguagesPartUSA" md5="18b89b2e6ee28b594d8c041500afce405d6cebc0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a3cf4c39" name="UserRules_ENU_TTS-EMAIL-PP.rst" swe="speechLanguagesPartUSA" md5="1a55fc8ed358e460ce8b5f6fbc460633ab6da3e0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ee3f8c36" name="UserRules_ENU_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartUSA" md5="d5036d4c426fd0b4b822fd7230c9b205104ecf07" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8f8ce5ac" name="UserRules_ENU_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartUSA" md5="76320cabc89f14c36bd75b25a2ddcfa3d569bb00" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f305fe98" name="UserRules_ENU_TTS-PHONE-PP.rst" swe="speechLanguagesPartUSA" md5="72f60aec3884248428f09873ca4c4af18f3a0337" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="37087d03" name="UserRules_ENU_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartUSA" md5="38aa1ed75961a90d0bc79f6fc9351e0f6dbe5132" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ef769cad" name="UserRules_ENU_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartUSA" md5="21518c7aa7443f37c2dc58ac51f762c2ff274a02" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="fa217122" name="UserRules_ENU_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartUSA" md5="3da136013ce3c7a2715f1db3999a734631c2c199" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b55a42b0" name="UserRules_ENU_TTS-SPELLING-PP.rst" swe="speechLanguagesPartUSA" md5="31696552cbe0bfcd36cafee5f05ca369bbcc30b6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6453bdbe" name="UserRules_ENU_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartUSA" md5="37a4767c8745a1d66e290f1e3715be660e9df8ad" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cc203abd" name="UserRules_ENU_TTS-TIME-PP.rst" swe="speechLanguagesPartUSA" md5="2465302660a17e3badf54634413b08b86607a4b6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b6dd7c92" name="UserRules_ENU_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartUSA" md5="0563e02ccfe4167da60b9b4be5f74186ae78ce8b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8b04cab4" name="UserRules_ENU_TWEET-PP.rst" swe="speechLanguagesPartUSA" md5="015e78c4c9d8d5e1c9c9a7f59f2e0d27735f930a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1b553147" name="UserRules_ENU_WIKILOCAL-PP.rst" swe="speechLanguagesPartUSA" md5="3b6b20b711333f5538595900d6324ff602dce6a4" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="5037f0b1" name="ve_pipeline_enu_ava-ml_22_embedded-pro_1-0-1.hdr" swe="speechLanguagesPartUSA" md5="f9fb1381b428668893f177824548b30028b42202" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </LinkData>
+    </SwData>
+  </LinkSection>
+</LinkManifest>

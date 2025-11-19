@@ -1,0 +1,47 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+README.md
+
+# Scripts (we'll copy what we need)
+*.sh
+
+# Exclude large system dump directories we don't need for web interface
+nbtevo-system-dump/boot
+nbtevo-system-dump/ram5
+nbtevo-system-dump/sda0
+nbtevo-system-dump/sda1
+nbtevo-system-dump/sda2
+nbtevo-system-dump/sda3
+nbtevo-system-dump/sda31
+nbtevo-system-dump/sda32/bin
+nbtevo-system-dump/sda32/etc
+nbtevo-system-dump/sda32/info
+nbtevo-system-dump/sda32/lib
+nbtevo-system-dump/sda32/opt/car/bin
+nbtevo-system-dump/sda32/opt/car/etc
+nbtevo-system-dump/sda32/opt/car/lib
+nbtevo-system-dump/sda32/opt/core
+nbtevo-system-dump/sda32/opt/conn
+nbtevo-system-dump/sda32/opt/hmi
+nbtevo-system-dump/sda32/opt/mm
+nbtevo-system-dump/sda32/opt/nav
+nbtevo-system-dump/sda32/opt/share
+nbtevo-system-dump/sda32/opt/speech
+nbtevo-system-dump/sda32/opt/sys
+nbtevo-system-dump/sda32/opt/tuner
+nbtevo-system-dump/sda32/usr
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Bundle exportedSymbolName="A4ABundle" implementedInterface="A4ABundle" path="hmia4a">
+  <Plugin exportedSymbolName="CA4AAudioService" implementedInterface="IA4AAudioService" version="1.0.0.0" autostartDelay="0"/>
+  <Plugin exportedSymbolName="CA4ADeviceInfoService" implementedInterface="IA4ADeviceInfoService" version="1.0.0.0" autostartDelay="0"/>
+</Bundle>

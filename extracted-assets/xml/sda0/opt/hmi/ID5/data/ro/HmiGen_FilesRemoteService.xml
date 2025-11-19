@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+enum EFileBrowserRemoteAppIds
+	{
+		LISTMODEL_FILES = 1,
+		ACTION_EXECUTE,
+		COMP_hmiState_STATE1,
+		COMP_LIST_FILELIST
+	};
+-->
+<pluginApps>
+  <pluginApp text="File Browser">
+    <actions>
+      <raAction>
+        <id>2</id>
+      </raAction>
+    </actions>
+    <models>
+      <raListModel>
+        <id>1</id>
+      </raListModel>
+    </models>
+    <hmiStates>
+      <hmiState text="File Browser">
+        <id>3</id>
+        <components>
+          <list text="Root">
+            <id>4</id>
+            <model>1</model>
+            <action>2</action>
+          </list>
+        </components>
+      </hmiState>
+    </hmiStates>
+  </pluginApp>
+</pluginApps>
+

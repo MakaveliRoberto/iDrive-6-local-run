@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hmiStateTree>
+	<state id="DLG_SEC_Scheibenheizung"						parent=""/>
+
+	<state id="DLG_SEC_Kommunikation"						parent=""/>
+		<state id="DLG_SEC_Sprechanlage"					parent="DLG_SEC_Kommunikation"/>
+		<state id="DLG_SEC_Durchsagen"						parent="DLG_SEC_Kommunikation"/>
+		<state id="DLG_SEC_Funkanlage"						parent="DLG_SEC_Kommunikation"/>
+		<state id="DLG_SEC_Digitalfunk"						parent="DLG_SEC_Kommunikation"/>
+
+	<state id="DLG_SEC_Sondersignalanlage"					parent=""/>
+		<state id="DLG_SEC_Anhaltesignalgeber"				parent="DLG_SEC_Sondersignalanlage"/>
+		<state id="DLG_SEC_Lichtsignalbalken"				parent="DLG_SEC_Sondersignalanlage"/>
+
+	<state id="DLG_SEC_Tonfolgeanlage"						parent=""/>
+		<state id="DLG_SEC_Kennleuchten"					parent="DLG_SEC_Tonfolgeanlage"/>
+		<state id="DLG_SEC_Tonfolge"						parent="DLG_SEC_Tonfolgeanlage"/>
+
+	<state id="DLG_SEC_Zentralverriegelung"					parent=""/>
+
+	<state id="DLG_SEC_Einstellungen"						parent=""/>
+		<state id="DLG_SEC_Alarmton"						parent="DLG_SEC_Einstellungen"/>
+		<state id="DLG_SEC_Werkstatt"						parent="DLG_SEC_Einstellungen"/>
+		<state id="DLG_SEC_SystemInfo"						parent="DLG_SEC_Einstellungen"/>
+
+	<state id="DLG_SEC_Feuerloeschanlage"					parent=""/>
+	<state id="DLG_SEC_Atemluftanlage"						parent=""/>
+	<state id="DLG_SEC_InfoText"							parent=""/>
+</hmiStateTree>

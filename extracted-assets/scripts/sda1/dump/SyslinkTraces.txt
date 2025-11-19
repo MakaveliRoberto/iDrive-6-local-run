@@ -1,0 +1,449 @@
+[0][      0.000] Watchdog enabled: TimerBase = 0xa803e000 SMP-Core = 0 Freq = 19200000
+[0][      0.000] Watchdog enabled: TimerBase = 0xa8088000 SMP-Core = 1 Freq = 19200000
+[0][      0.000] Watchdog_restore registered as a resume callback
+[0][      0.000] 17 IpcMemory entries at 0x3000
+[0][      0.000] [ERR=0] src/ducati_mmsw_main.c:[252]:ducatiSysClock = 425472000
+[0][      0.000] [ERR=1] src/mmsw_platform.c:[117]:init_ivahd_clks - Register CM_IVAHD_IVAHD_CLKCTRL = 50001
+[0][      0.000] [MNU=2] src/mmsw_platform.c:[355]:
+[0][      0.000] 
+[0][      0.000]  ***DUCATI VERSION INFO*** 
+[0][      0.000] Compile DATE Mar 30 2017 TIME 09:13:12 
+[0][      0.000] GIT ducati_mmlegacy 
+[0][      0.000] 	BRANCH: TAG:fatal: Not a git repository (or any of the parent directories): .git 
+[0][      0.001] 	COMMIT-ID:fatal: Not a git repository (or any of the parent directories): .git
+[0][      0.001] CODEC-VER BEGIN: 
+[0][      0.001] 	
+[0][      0.001] 	
+[0][      0.001] 	
+[0][      0.001] 	
+[0][      0.001] 
+[0][      0.001] 	
+[0][      0.001] 	
+[0][      0.001] CODEC-VER END: 
+[0][      0.001] GIT OMAPHWA_Algorithm:: 
+[0][      0.001] GIT OMAPHWA_Drivers::   
+[0][      0.001] ***DUCATI VERSION INFO*** 
+[0][      0.001] 
+[0][      0.001] 
+[0][      0.001] [MNU=3] src/mmsw_platform.c:[357]:Processor family detected: OMAP5432_ES2_0 
+[0][      0.001] [MNU=4] src/mmsw_platform.c:[361]:Runtime check: SMP mode enabled
+[0][      0.001] 
+[1][      0.003] src/dce.c:983:	dce_init	debug: started dCE connection service on port: 101
+[1][      0.003] 
+[0][      0.004] [t=0x001bcc13] ti.ipc.rpmsg.MessageQCopy: MessageQCopy_send: no object for endpoint: 53
+[1][      0.004] registering dCE_conn service on 101 with HOST
+[1][      0.006] src/dce.c:1024:	dce_init	debug: started dCE on port: 102
+[1][      0.006] 
+[1][      0.006] registering dCE service on 102 with HOST
+[0][      0.006] src/dce.c:1030:	dce_init	debug: dCE running
+[0][      0.238] src/dce.c:907:	dce_cleanup	debug: cleanup:DCE_CONN_REQ addr=6a, c=@801d52a8
+[0][      0.240] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=Engine_open index=0x82416218
+[0][      0.240] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2145390593
+[0][      0.240] RcmClient_Desc_SYM_IDX rval:0
+[0][      0.240] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][      0.240] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=Engine_close index=0x82416218
+[0][      0.240] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2144342018
+[0][      0.240] RcmClient_Desc_SYM_IDX rval:0
+[0][      0.241] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][      0.241] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=VIDDEC3_create index=0x82416218
+[0][      0.241] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2143293443
+[0][      0.241] RcmClient_Desc_SYM_IDX rval:0
+[0][      0.241] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][      0.241] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=VIDDEC3_control index=0x82416218
+[0][      0.241] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2142244868
+[0][      0.241] RcmClient_Desc_SYM_IDX rval:0
+[0][      0.241] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][      0.242] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=VIDDEC3_process index=0x82416218
+[0][      0.242] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2141196293
+[0][      0.242] RcmClient_Desc_SYM_IDX rval:0
+[0][      0.242] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][      0.247] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=VIDDEC3_delete index=0x82416218
+[0][      0.247] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2140147718
+[0][      0.247] RcmClient_Desc_SYM_IDX rval:0
+[0][      0.247] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][      0.247] src/dce.c:456:	rpc_Engine_open	debug: >> name=ivahd_vidsvr
+[0][      0.247] src/dce.c:460:	rpc_Engine_open	debug: << engine=82416778, ec=0
+[0][      0.248] src/dce.c:524:	rpc_VIDDEC3_create	debug: >> engine=82416778, name=ivahd_h264dec, params=@9000600c, addr=6a
+[0][      0.248] src/dce.c:525:	rpc_VIDDEC3_create	debug: >> max_height 480 max_width 1280 frame_rate 25000
+[0][      0.248] src/dce.c:531:	rpc_VIDDEC3_create	debug: nFrameSizeinMBs 2000 nFrameRate 25
+[0][      0.248] src/dce.c:543:	rpc_VIDDEC3_create	debug: Requested nMHZ 65
+[0][      0.248] src/dce.c:549:	rpc_VIDDEC3_create	debug: found mem client: @801d259c refs=1
+[0][      0.249] registering rpmsg-resmgr service on 103 with HOST
+[0][      0.249] [MNU=5] rm_plugin_res/src/rm_pluginpower_resource.c:[1835]:[PMAN]: Forcing CM_WKUP to SW_WAKEUP 0x0
+[0][      0.249] src/dce.c:206:	get_DceRMHandle	debug: DCE RM client handle = 0x801d25a4
+[0][      0.249] 
+[0][      0.249] [MNU=6] rm_plugin_res/src/rm_pluginpower_resource.c:[721]:Requesting IVAHD resource
+[0][      0.250] [MNU=7] rm_plugin_res/src/rm_pluginpower_resource.c:[730]:Request IPC ResMgr IVAHD
+[0][      0.252] [MNU=8] rm_plugin_res/src/rm_pluginpower_resource.c:[1452]:[IVAHD]: Requesting latency constraints 10
+[0][      0.252] [MNU=9] rm_plugin_res/src/rm_pluginpower_resource.c:[1463]:[IVAHD]: Succesfull request of latency constraints 10
+[0][      0.252] [MNU=10] rm_plugin_res/src/rm_pluginpower_resource.c:[2422]:Loading IVAHD bootcode...
+[0][      0.252] [MNU=11] rm_plugin_res/src/rm_pluginpower_resource.c:[2447]:Completed loading IVAHD bootcode...
+[0][      0.253] [MNU=12] rm_plugin_res/src/rm_pluginpower_resource.c:[746]:Request IPC ResMgr SL2IF
+[0][      0.253] [MNU=13] rm_plugin_res/src/rm_pluginpower_resource.c:[751]:Request IPC ResMgr IVASEQ0
+[0][      0.253] [MNU=14] rm_plugin_res/src/rm_pluginpower_resource.c:[756]:Request IPC ResMgr IVASEQ1
+[0][      0.254] [MNU=15] rm_plugin_res/src/rm_pluginres_ivahd.c:[187]:User requested IVAHD Mhz:65
+[0][      0.254] [MNU=16] rm_plugin_res/src/rm_pluginres_ivahd.c:[191]:Request:: Setting IVAHD Mhz:65
+[0][      0.254] [MNU=17] rm_plugin_res/src/rm_pluginpower_resource.c:[1428]:[IVAHD]: Requesting Mhz constraints:: Hz:65000000
+[0][      0.254] [MNU=18] rm_plugin_res/src/rm_pluginpower_resource.c:[1432]:[IVAHD]: Succesfull request of Mhz constraints
+[0][      0.254] [MNU=19] rm_plugin_res/src/rm_pluginres_ivahd.c:[196]:User requested IVAHD Latency:10
+[0][      0.255] [MNU=20] rm_plugin_res/src/rm_pluginres_ivahd.c:[200]:Request:: Setting IVAHD Latency:10
+[0][      0.255] [MNU=21] rm_plugin_res/src/rm_pluginpower_resource.c:[1452]:[IVAHD]: Requesting latency constraints 10
+[0][      0.255] [MNU=22] rm_plugin_res/src/rm_pluginpower_resource.c:[1463]:[IVAHD]: Succesfull request of latency constraints 10
+[0][      0.255] [MNU=23] rm_plugin_res/src/rm_pluginres_ivahd.c:[205]:User requested L3BUS BW:0
+[0][      0.255] [MNU=24] rm_plugin_res/src/rm_pluginres_ivahd.c:[209]:Request:: Setting L3BUS BW:0
+[0][      0.256] [MNU=25] rm_plugin_res/src/rm_pluginpower_resource.c:[1479]:[IVAHD]: Succesfull request of BW Constraints
+[0][      0.256] src/dce.c:243:	get_DceResHandle	debug: DCE IVAHD Resource Handle = 0x801d25cc nMHZ 65
+[0][      0.256] 
+[0][      0.257] src/dce.c:608:	rpc_VIDDEC3_create	debug: << codec=82416d18
+[0][      0.257] src/dce.c:390:	dce_register_codec	debug: found mem client: @801d259c refs=1
+[0][      0.257] src/dce.c:395:	dce_register_codec	debug: registering codec: addr=6a codec=@82416d18
+[0][      0.258] src/dce.c:663:	rpc_VIDDEC3_control	debug: >> codec=@82416d18, id=1, dynParams=@9000400c, status=@9000500c, addr=6a
+[0][      0.258] [MNU=26] rm_plugin_res/src/rm_pluginres_ivahd.c:[728]:[IVAHD]: Init IVA_clock_check
+[0][      0.258] src/dce.c:704:	rpc_VIDDEC3_control	debug: << ret=0
+[0][      0.265] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      0.266] [ERR=27] src/IRESMAN_APIs.c:[157]:HDVICP_Reset: debugCounter = 1 CM_IVAHD_IVAHD_CLKCTRL= 0x40001 whileloopCount = 1, maxloopCounter = 0
+[0][      0.271] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.307] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      0.311] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.349] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      0.353] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.391] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      0.395] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.433] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      0.437] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.475] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      0.479] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.517] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      0.521] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.559] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      0.563] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.601] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      0.605] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.643] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      0.647] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.685] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      0.689] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.727] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      0.731] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.769] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      0.773] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.811] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      0.815] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.853] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      0.857] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.895] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      0.899] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.937] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      0.941] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      0.979] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      0.983] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.021] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.025] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.063] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.067] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.105] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.109] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.147] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.151] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.189] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.193] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.231] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.235] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.273] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.277] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.315] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.319] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.357] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.361] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.399] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.403] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.441] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.445] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.483] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.487] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.525] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.529] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.567] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.571] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.609] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.613] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.651] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.655] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.693] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.697] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.735] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.739] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.777] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.781] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.819] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.823] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.861] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.865] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.903] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.907] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.945] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      1.949] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      1.987] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      1.991] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.029] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.033] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.071] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.075] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.113] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.117] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.155] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.159] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.197] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.201] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.239] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.243] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.281] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.285] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.323] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.327] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.365] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.369] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.407] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.411] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.456] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.460] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.496] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.500] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.538] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.542] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.580] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.584] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.622] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.626] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.664] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.668] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.708] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.711] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.765] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.769] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.803] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.807] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.864] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.867] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.897] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.901] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.963] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      2.967] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      2.992] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      2.996] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.033] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.037] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.075] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.079] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.125] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.129] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.165] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.169] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.208] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.211] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.250] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.254] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.294] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.298] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.338] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.341] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.378] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.382] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.422] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.426] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.465] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.469] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.506] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.510] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.550] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.554] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.591] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.595] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.633] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.637] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.675] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.679] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.717] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.721] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.759] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.763] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.802] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.805] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.843] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.847] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.886] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.890] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.928] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      3.932] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      3.969] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      3.973] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.011] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.015] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.053] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.057] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.095] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.099] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.137] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.141] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.179] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.183] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.221] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.225] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.263] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.267] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.305] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.309] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.347] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.351] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.389] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.393] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.431] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.435] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.473] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.477] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.515] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.519] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.557] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.561] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.599] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.603] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.641] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.645] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.684] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.688] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.725] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.729] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.768] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.771] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.810] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.814] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.857] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.861] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.903] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      4.906] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.944] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      4.948] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      4.998] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      5.002] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.032] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      5.036] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.073] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      5.077] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.114] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      5.118] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.157] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      5.161] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.198] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      5.202] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.247] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      5.251] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.299] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      5.303] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.335] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      5.339] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.378] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      5.382] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.423] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      5.427] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.481] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      5.485] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.557] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60000580 outBufs->uv @68002580
+[0][      5.560] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][      5.633] src/dce.c:746:	rpc_VIDDEC3_process	debug: >>codec=@82416d18 inBufs @ff50600c outBufs->y @60002000 outBufs->uv @68003000
+[0][      5.637] src/dce.c:793:	rpc_VIDDEC3_process	debug: << ret=0 extendedError=00000000
+[0][     12.135] src/dce.c:421:	dce_unregister_codec	debug: found mem client: @801d259c refs=1
+[0][     12.135] src/dce.c:426:	dce_unregister_codec	debug: unregistered addr=6a codec=@82416d18
+[0][     12.135] src/dce.c:839:	rpc_VIDDEC3_delete	debug: >> codec=82416d18, addr=6a
+[0][     12.136] [MNU=28] rm_plugin_res/src/rm_pluginres_ivahd.c:[728]:[IVAHD]: Init IVA_clock_check
+[0][     12.136] [MNU=29] rm_plugin_res/src/rm_pluginres_ivahd.c:[268]:User releasing IVAHD Mhz:65
+[0][     12.136] [MNU=30] rm_plugin_res/src/rm_pluginres_ivahd.c:[271]:Release:: Setting IVAHD Mhz:0
+[0][     12.136] [MNU=31] rm_plugin_res/src/rm_pluginpower_resource.c:[1428]:[IVAHD]: Requesting Mhz constraints:: Hz:0
+[0][     12.137] [MNU=32] rm_plugin_res/src/rm_pluginpower_resource.c:[1432]:[IVAHD]: Succesfull request of Mhz constraints
+[0][     12.137] [MNU=33] rm_plugin_res/src/rm_pluginpower_resource.c:[1452]:[IVAHD]: Requesting latency constraints 10
+[0][     12.137] [MNU=34] rm_plugin_res/src/rm_pluginpower_resource.c:[1463]:[IVAHD]: Succesfull request of latency constraints 10
+[0][     12.137] [MNU=35] rm_plugin_res/src/rm_pluginres_ivahd.c:[282]:User releasing L3BUS BW:0 MB/s
+[0][     12.138] [MNU=36] rm_plugin_res/src/rm_pluginres_ivahd.c:[285]:Release:: Setting L3BUS BW:0 MB/s
+[0][     12.138] [MNU=37] rm_plugin_res/src/rm_pluginpower_resource.c:[1479]:[IVAHD]: Succesfull request of BW Constraints
+[0][     12.138] [MNU=38] rm_plugin_res/src/rm_pluginres_ivahd.c:[292]:Release:: Freeing IVAHD Mhz:0 before resource disable
+[0][     12.138] [MNU=39] rm_plugin_res/src/rm_pluginpower_resource.c:[1651]:[IVAHD]: Succesfull release of Mhz constraints 0 [HZ]
+[0][     12.138] [MNU=40] rm_plugin_res/src/rm_pluginpower_resource.c:[1664]:[IVAHD]: Succesfull release of latency constraints
+[0][     12.139] [MNU=41] rm_plugin_res/src/rm_pluginres_ivahd.c:[301]:Release:: Freeing L3BUS BW:0 MB/s before resource disable
+[0][     12.139] [MNU=42] rm_plugin_res/src/rm_pluginpower_resource.c:[1677]:[IVAHD]: Succesfull release of latency constraints
+[0][     12.139] [MNU=43] rm_plugin_res/src/rm_pluginpower_resource.c:[1137]:Releasing IVAHD resource
+[0][     12.139] [MNU=44] rm_plugin_res/src/rm_pluginpower_resource.c:[1142]:Release IPC ResMgr IVASEQ1
+[0][     12.139] [MNU=45] rm_plugin_res/src/rm_pluginpower_resource.c:[1145]:Release IPC ResMgr IVASEQ0
+[0][     12.139] [MNU=46] rm_plugin_res/src/rm_pluginpower_resource.c:[1148]:Release IPC ResMgr SL2IF
+[0][     12.140] [MNU=47] rm_plugin_res/src/rm_pluginpower_resource.c:[1151]:Release IPC ResMgr IVAHD
+[0][     12.140] un-registering rpmsg-resmgr service on 103 with HOST
+[0][     12.140] [MNU=48] rm_plugin_res/src/rm_pluginpower_resource.c:[1840]:[PMAN]: Restoring back CM_WKUP 0x0
+[0][     12.140] src/dce.c:862:	rpc_VIDDEC3_delete	debug: <<
+[0][     12.144] src/dce.c:357:	dce_unregister_engine	debug: found mem client: @801d259c refs=1
+[0][     12.144] src/dce.c:362:	dce_unregister_engine	debug: unregistered engine: addr=6a engine=@82416778
+[0][     12.144] src/dce.c:489:	rpc_Engine_close	debug: >> engine=82416778
+[0][     12.144] src/dce.c:491:	rpc_Engine_close	debug: << Engine_close
+[0][     12.145] src/dce.c:916:	dce_cleanup	debug: cleanup:DCE_DISCON_REQ addr=6a, c=@00000000
+[0][     19.908] src/dce.c:907:	dce_cleanup	debug: cleanup:DCE_CONN_REQ addr=6a, c=@00000000
+[0][     19.909] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=Engine_open index=0x82416218
+[0][     19.909] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2145390593
+[0][     19.910] RcmClient_Desc_SYM_IDX rval:0
+[0][     19.910] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][     19.910] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=Engine_close index=0x82416218
+[0][     19.910] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2144342018
+[0][     19.910] RcmClient_Desc_SYM_IDX rval:0
+[0][     19.910] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][     19.910] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=VIDDEC3_create index=0x82416218
+[0][     19.910] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2143293443
+[0][     19.910] RcmClient_Desc_SYM_IDX rval:0
+[0][     19.911] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][     19.911] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=VIDDEC3_control index=0x82416218
+[0][     19.911] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2142244868
+[0][     19.911] RcmClient_Desc_SYM_IDX rval:0
+[0][     19.911] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][     19.911] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=VIDDEC3_process index=0x82416218
+[0][     19.911] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2141196293
+[0][     19.911] RcmClient_Desc_SYM_IDX rval:0
+[0][     19.911] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][     19.912] >>>RcmServer_getSymIdx_P (obj=0x82406038 name=VIDDEC3_delete index=0x82416218
+[0][     19.912] <<<RcmServer_getSymIdx_P status 0 fxnIdx 2140147718
+[0][     19.912] RcmClient_Desc_SYM_IDX rval:0
+[0][     19.912] RcmClient_Desc_SYM_IDX MessageQCopy_send status:0
+[0][     19.912] src/dce.c:456:	rpc_Engine_open	debug: >> name=ivahd_vidsvr
+[0][     19.912] src/dce.c:460:	rpc_Engine_open	debug: << engine=82416778, ec=0
+[0][     19.914] src/dce.c:524:	rpc_VIDDEC3_create	debug: >> engine=82416778, name=ivahd_h264dec, params=@9000000c, addr=6a
+[0][     19.914] src/dce.c:525:	rpc_VIDDEC3_create	debug: >> max_height 480 max_width 1280 frame_rate 60000
+[0][     19.914] src/dce.c:531:	rpc_VIDDEC3_create	debug: nFrameSizeinMBs 4800 nFrameRate 60
+[0][     19.914] src/dce.c:543:	rpc_VIDDEC3_create	debug: Requested nMHZ 156
+[0][     19.914] src/dce.c:549:	rpc_VIDDEC3_create	debug: found mem client: @801d259c refs=1
+[0][     19.914] registering rpmsg-resmgr service on 103 with HOST
+[0][     19.915] [MNU=49] rm_plugin_res/src/rm_pluginpower_resource.c:[1835]:[PMAN]: Forcing CM_WKUP to SW_WAKEUP 0x0
+[0][     19.915] src/dce.c:206:	get_DceRMHandle	debug: DCE RM client handle = 0x801d25a4
+[0][     19.915] 
+[0][     19.915] [MNU=50] rm_plugin_res/src/rm_pluginpower_resource.c:[721]:Requesting IVAHD resource
+[0][     19.915] [MNU=51] rm_plugin_res/src/rm_pluginpower_resource.c:[730]:Request IPC ResMgr IVAHD
+[0][     19.917] [MNU=52] rm_plugin_res/src/rm_pluginpower_resource.c:[1452]:[IVAHD]: Requesting latency constraints 10
+[0][     19.917] [MNU=53] rm_plugin_res/src/rm_pluginpower_resource.c:[1463]:[IVAHD]: Succesfull request of latency constraints 10
+[0][     19.917] [MNU=54] rm_plugin_res/src/rm_pluginpower_resource.c:[2422]:Loading IVAHD bootcode...
+[0][     19.918] [MNU=55] rm_plugin_res/src/rm_pluginpower_resource.c:[2447]:Completed loading IVAHD bootcode...
+[0][     19.918] [MNU=56] rm_plugin_res/src/rm_pluginpower_resource.c:[746]:Request IPC ResMgr SL2IF
+[0][     19.918] [MNU=57] rm_plugin_res/src/rm_pluginpower_resource.c:[751]:Request IPC ResMgr IVASEQ0
+[0][     19.918] [MNU=58] rm_plugin_res/src/rm_pluginpower_resource.c:[756]:Request IPC ResMgr IVASEQ1
+[0][     19.919] [MNU=59] rm_plugin_res/src/rm_pluginres_ivahd.c:[187]:User requested IVAHD Mhz:156
+[0][     19.919] [MNU=60] rm_plugin_res/src/rm_pluginres_ivahd.c:[191]:Request:: Setting IVAHD Mhz:156
+[0][     19.919] [MNU=61] rm_plugin_res/src/rm_pluginpower_resource.c:[1428]:[IVAHD]: Requesting Mhz constraints:: Hz:156000000
+[0][     19.919] [MNU=62] rm_plugin_res/src/rm_pluginpower_resource.c:[1432]:[IVAHD]: Succesfull request of Mhz constraints
+[0][     19.920] [MNU=63] rm_plugin_res/src/rm_pluginres_ivahd.c:[196]:User requested IVAHD Latency:10
+[0][     19.920] [MNU=64] rm_plugin_res/src/rm_pluginres_ivahd.c:[200]:Request:: Setting IVAHD Latency:10
+[0][     19.920] [MNU=65] rm_plugin_res/src/rm_pluginpower_resource.c:[1452]:[IVAHD]: Requesting latency constraints 10
+[0][     19.920] [MNU=66] rm_plugin_res/src/rm_pluginpower_resource.c:[1463]:[IVAHD]: Succesfull request of latency constraints 10
+[0][     19.920] [MNU=67] rm_plugin_res/src/rm_pluginres_ivahd.c:[205]:User requested L3BUS BW:0
+[0][     19.921] [MNU=68] rm_plugin_res/src/rm_pluginres_ivahd.c:[209]:Request:: Setting L3BUS BW:0
+[0][     19.921] [MNU=69] rm_plugin_res/src/rm_pluginpower_resource.c:[1479]:[IVAHD]: Succesfull request of BW Constraints
+[0][     19.921] src/dce.c:243:	get_DceResHandle	debug: DCE IVAHD Resource Handle = 0x801d25cc nMHZ 156
+[0][     19.921] 
+[0][     19.922] [MNU=70] rm_plugin_res/src/rm_pluginres_ivahd.c:[728]:[IVAHD]: Init IVA_clock_check
+[0][     19.922] src/dce.c:608:	rpc_VIDDEC3_create	debug: << codec=82416d18
+[0][     19.923] src/dce.c:390:	dce_register_codec	debug: found mem client: @801d259c refs=1
+[0][     19.923] src/dce.c:395:	dce_register_codec	debug: registering codec: addr=6a codec=@82416d18
+[0][     19.923] src/dce.c:663:	rpc_VIDDEC3_control	debug: >> codec=@82416d18, id=1, dynParams=@9000100c, status=@9000200c, addr=6a
+[0][     19.923] [MNU=71] rm_plugin_res/src/rm_pluginres_ivahd.c:[728]:[IVAHD]: Init IVA_clock_check
+[0][     19.924] src/dce.c:704:	rpc_VIDDEC3_control	debug: << ret=0

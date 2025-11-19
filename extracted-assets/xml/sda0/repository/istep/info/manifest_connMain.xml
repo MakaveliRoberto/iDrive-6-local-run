@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinkManifest>
+  <LinkSection>
+    <SwData version="istep">
+      <LinkData root="/fs/sda0/repository/istep">
+        <dir uid="0" name="info" mod="775" gid="0">
+          <file uid="0" name="manifest_connMain.xml" swe="connMain" command="link" mod="664" gid="0" />
+          <file uid="0" name="manifest_connMain.xml.sign" swe="connMain" command="link" mod="664" gid="0" />
+        </dir>
+        <dir uid="0" name="opt" mod="775" gid="0">
+          <dir uid="9" name="conn" mod="775" gid="9">
+            <file uid="9" crc="f399e5af" name="Connectivity.cfg" swe="connMain" md5="f664bfc2542671a8142f702dc9d4ab981bcdc606" gid="9" mod="664" command="link" />
+            <dir uid="9" name="bin" mod="775" gid="9">
+              <file uid="9" crc="93987b1b" name="BrowserRenderer-NBTEVOEXT" swe="connMain" md5="b621917976ce33fc8b9d9f2a7de2b865c14ef854" gid="9" mod="775" command="link" />
+              <file uid="9" crc="dcdd2d2e" name="BrowserRenderer-NBTEVOEXT_Bin.sh" swe="connMain" md5="35823e279efa29b08c4ee310490a85a66ea15010" gid="9" mod="775" command="link" />
+              <file uid="9" crc="1aa08d35" name="BrowserRenderer-NBTEVOEXT_Main.sh" swe="connMain" md5="468b950c78c36b9289c5c6182506dab6e0db782e" gid="9" mod="775" command="link" />
+              <file uid="9" crc="922f14e7" name="Connectivity" swe="connMain" md5="2ac57165103dfcc47b54685bbcfbf1723fb16399" gid="9" mod="775" command="link" />
+              <file uid="9" crc="f399e5af" name="Connectivity.cfg" swe="connMain" md5="f664bfc2542671a8142f702dc9d4ab981bcdc606" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2b33ede2" name="Connectivity_efence.cfg" swe="connMain" md5="a6c87973be8ad6d2afc7e42faf40cce10e7cd4ad" gid="9" mod="664" command="link" />
+              <file uid="9" crc="09e14097" name="ConnStarter" swe="connMain" md5="9289100e629ca925d5d702f41b1cea8b78f3e746" gid="9" mod="775" command="link" />
+              <file uid="8" crc="2aba0ab3" name="DevCtrlBrowser" swe="connMain" md5="aef96de2e6cd7cebadd27731a31cb54cebcab6f2" gid="8" mod="6775" command="link" />
+              <file uid="8" crc="cbe331e4" name="DevCtrlBrowser_Bin.sh" swe="connMain" md5="b03bb87d116893ce3bea355ce4356d3683b32853" gid="8" mod="6775" command="link" />
+              <file uid="8" crc="245431a0" name="DevCtrlBrowser_Main.sh" swe="connMain" md5="06662e3fab7652e160435da0d62ce702414a2827" gid="8" mod="6775" command="link" />
+              <file uid="9" crc="9e15bee0" name="DnsMasq" swe="connMain" md5="7f3b4aab0945d2717290ee73f24c3f1898dcd2f0" gid="9" mod="775" command="link" />
+              <file uid="9" crc="47f213ee" name="f.bin" swe="connMain" md5="1e7371f307ffaf9eee81f761f7a8d4b21ce8f064" gid="9" mod="664" command="link" />
+              <file uid="9" crc="eec49e82" name="IPCEServer" swe="connMain" md5="3979d74f42d2884620460602710fb2a9dd04a1fb" gid="9" mod="775" command="link" />
+              <file uid="9" crc="8e00f3b5" name="lighttpd" swe="connMain" md5="908cf45bf75c83ed868e6a41ed02bb3b5772baa5" gid="9" mod="775" command="link" />
+              <file uid="9" crc="0bbb0409" name="lighttpd-nbt-cfg.sh" swe="connMain" md5="7969aac7d43fb4caf5ea98bfb2345f03c2257025" gid="9" mod="775" command="link" />
+              <file uid="9" crc="36851b7d" name="mwu_dev.conf" swe="connMain" md5="9f7ad9503a6efeadc9a70d9b8ff79a56b5c60385" gid="9" mod="664" command="link" />
+              <file uid="9" crc="f8e901b1" name="mwud" swe="connMain" md5="78b75fc7ac716c79abf444f41f222de19b66672a" gid="9" mod="775" command="link" />
+              <file uid="9" crc="c81deb5e" name="OfficeViewerMain" swe="connMain" md5="4f2b924b4de6325c7201b454d80a9cc0a57c06bb" gid="9" mod="775" command="link" />
+              <file uid="9" crc="c9786fad" name="Online" swe="connMain" md5="9ea56a0e48de520e67a7bd5fc0a68487adf0c1cd" gid="9" mod="775" command="link" />
+              <file uid="9" crc="2f8b8633" name="scp" swe="connMain" md5="ab244c6db475de4420aa8a80fe35b0c19783dd62" gid="9" mod="775" command="link" />
+              <file uid="9" crc="0ea9462a" name="sendcall" swe="connMain" md5="278f17aa8e2e261af783744099348665eacbc351" gid="9" mod="775" command="link" />
+              <file uid="9" crc="d3e37a42" name="start_webserver.sh" swe="connMain" md5="4543bf7f1dddce86865009dbcc796f4d6dd9e555" gid="9" mod="775" command="link" />
+              <file uid="9" crc="3a8b6ba2" name="v.bin" swe="connMain" md5="3bc4688a207a98a69a6c18debc43c3222ce3b257" gid="9" mod="664" command="link" />
+              <file uid="9" crc="a4b1a26f" name="wifidir_app" swe="connMain" md5="4a8c6186c866215a6e80ee5c368a11cde2bd1fb3" gid="9" mod="775" command="link" />
+              <file uid="9" crc="98295bd8" name="wifidir_init.conf" swe="connMain" md5="6f3811271088b2ac7e894152c4d4fa619af8f99e" gid="9" mod="664" command="link" />
+              <file uid="9" crc="c110abc6" name="wifidirect_defaults.conf" swe="connMain" md5="f83c7330dcececfc7ffd764970010158ea0745a5" gid="9" mod="664" command="link" />
+              <file uid="9" crc="e3b38541" name="wifidisplay.conf" swe="connMain" md5="b5324212311a5373f287cf3e1fb5a3f1678ea61e" gid="9" mod="664" command="link" />
+              <file uid="9" crc="c78cfad4" name="WlanDSICommander" swe="connMain" md5="f4d574ed8180bcba5a2f327d4715264796fb738b" gid="9" mod="775" command="link" />
+              <file uid="9" crc="c60663f2" name="wpa_supplicant" swe="connMain" md5="dec694111d3a710b36d3ee5b33b5ad95877fe5bc" gid="9" mod="775" command="link" />
+              <file uid="9" crc="defd5317" name="wps_init.conf" swe="connMain" md5="67f526709387c03b6d1ed278ca4e44cc580b6efd" gid="9" mod="664" command="link" />
+              <dir uid="9" name="carplay" mod="775" gid="9">
+                <file uid="9" crc="12c75967" name="acpd" swe="connMain" md5="3be14d6204b7c44277e3d60f69a88d1efdc75fa0" gid="9" mod="775" command="link" />
+                <file uid="9" crc="d1ee5774" name="iAP2ProtocolMgmt" swe="connMain" md5="474edca82c8b92a70d37556257fbf1ab7800e5c9" gid="9" mod="775" command="link" />
+                <file uid="9" crc="f78ab795" name="mdnsd" swe="connMain" md5="59f214cd4a8c7038da271af4dbbe5ee7b735aa94" gid="9" mod="775" command="link" />
+                <file uid="9" crc="aaa7c4f7" name="mm-ipod" swe="connMain" md5="6380ed16e6def56c265bfbc3e9394956454eb4ce" gid="9" mod="775" command="link" />
+                <file uid="9" crc="5d9d3805" name="mm-renderer" swe="connMain" md5="3657471c2d43453dc2dcc104813b4f4c40fb3a7b" gid="9" mod="775" command="link" />
+              </dir>
+            </dir>
+            <dir uid="9" name="data" mod="775" gid="9">
+              <file uid="9" crc="d19f4ecb" name="audiosourcemap.csv" swe="connMain" md5="f825579fbd15b5b1c7574987c5a79f5236acb582" gid="9" mod="664" command="link" />
+              <file uid="9" crc="eaae93b7" name="client.conf" swe="connMain" md5="9457e1e1b7eda12ae793995083894df8ae2e837d" gid="9" mod="664" command="link" />
+              <file uid="9" crc="0604370b" name="ConfigGen_Options.ini" swe="connMain" md5="beb33a9d2623a63b18efec5031459b994aefe9ba" gid="9" mod="664" command="link" />
+              <file uid="9" crc="687a1862" name="connectivityThreadNames.dat" swe="connMain" md5="8a786224790aee3287a40979fdd29a99021df7cd" gid="9" mod="664" command="link" />
+              <file uid="9" crc="6d4acd8e" name="DaylightSavingTime.dbf" swe="connMain" md5="db0e9cc0aa231c9b68d93d5bbdd8d010f8848b3f" gid="9" mod="664" command="link" />
+              <file uid="9" crc="93172499" name="default_bon.css" swe="connMain" md5="c90ceb10422e0207e217fca71731c23c8f8af9cc" gid="9" mod="664" command="link" />
+              <file uid="9" crc="93172499" name="default_bon_bmw_i.css" swe="connMain" md5="c90ceb10422e0207e217fca71731c23c8f8af9cc" gid="9" mod="664" command="link" />
+              <file uid="9" crc="da5b4d52" name="default_bonoe.css" swe="connMain" md5="df61d019a13833be93de40ec0678cb07d8ad7523" gid="9" mod="664" command="link" />
+              <file uid="9" crc="604e33fb" name="default_bonoe_bmw_i.css" swe="connMain" md5="e8dddbbe9a601698b33f1552b669eb39cec3858e" gid="9" mod="664" command="link" />
+              <file uid="9" crc="6139748a" name="hostapd.conf" swe="connMain" md5="c404f5787992d783c69c8511bef3ef38fd2c4f75" gid="9" mod="664" command="link" />
+              <file uid="9" crc="01b50ea1" name="hosts" swe="connMain" md5="64b10f0c8015a371fc281892b56edd50516f9a56" gid="9" mod="664" command="link" />
+              <file uid="9" crc="517b260d" name="img.conf" swe="connMain" md5="bd239a97b61d2fa621e7b87e509eebcf43314cbf" gid="9" mod="664" command="link" />
+              <file uid="9" crc="754e6d0c" name="label.txt" swe="connMain" md5="dfe88fce8302329c9fb7513695a472574adbfc5c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="85327b82" name="natpThreadNames.dat" swe="connMain" md5="0923ef6241b32db3b9f8d1aae230de8f822c2d64" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2f6f5f45" name="persistTraceBrowserRenderer-NBTEVOEXT_Bin.bin" swe="connMain" md5="9cebb00cce854f03ec7412205f50d9622b3d30f5" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2f6f5f45" name="persistTraceBrowserRenderer-NBTEVOEXT_Main.bin" swe="connMain" md5="9cebb00cce854f03ec7412205f50d9622b3d30f5" gid="9" mod="664" command="link" />
+              <file uid="9" crc="ddd5a447" name="persistTraceConnectivity.bin" swe="connMain" md5="55df1e8a55d311ad22f3b4fb784938dfda59b002" gid="9" mod="664" command="link" />
+              <file uid="9" crc="277630d3" name="persistTraceConnStarter.bin" swe="connMain" md5="ca7e92faba53d6b8a05169afdcf73c570a4a62d6" gid="9" mod="664" command="link" />
+              <file uid="9" crc="4df18f03" name="persistTraceDevCtrlBrowser.bin" swe="connMain" md5="7ce24eb07d1d9fdd80a3bcff6cef821388de3eee" gid="9" mod="664" command="link" />
+              <file uid="9" crc="81f08362" name="persistTraceOnline.bin" swe="connMain" md5="d110d12095b276c5a99661e9b7062bad83ffd0e1" gid="9" mod="664" command="link" />
+              <file uid="9" crc="d87fc553" name="PIM.rnf" swe="connMain" md5="a6159d03733103fd1b074f5f0ddda49940d3da21" gid="9" mod="664" command="link" />
+              <file uid="9" crc="b7d5b5bf" name="pim_settings.yml" swe="connMain" md5="9b66e6fce5d381c5073aa10a568554fb795c5095" gid="9" mod="664" command="link" />
+              <file uid="9" crc="a547ee1c" name="pim_status.css" swe="connMain" md5="5e738bf49c6893dad35e9528a21843367a1199af" gid="9" mod="664" command="link" />
+              <file uid="9" crc="ef5c69d5" name="pim_status_template.html" swe="connMain" md5="ada100e3d0e384d7bbf759ea6fb89a65bf12bd59" gid="9" mod="664" command="link" />
+              <file uid="9" crc="742f3096" name="SCP.rnf" swe="connMain" md5="4fdc8757c512608b9d1e1bab0ad257d0b9844b62" gid="9" mod="664" command="link" />
+              <file uid="9" crc="5a4a79c4" name="scpThreadNames.dat" swe="connMain" md5="297e5b00a1efbc59092f2cc60f3c7caafa3244ff" gid="9" mod="664" command="link" />
+              <file uid="9" crc="26983806" name="speechThreadNames.dat" swe="connMain" md5="ab458c55f49fe9d3495adfa4ff5d168eb8c1dffa" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8f563e4f" name="TestAttachment.doc" swe="connMain" md5="a02a285fa9958d049bde4e66228764e025af2eb3" gid="9" mod="664" command="link" />
+              <file uid="9" crc="bad0d8c4" name="visualcontextmap.csv" swe="connMain" md5="77c79e855b9e964eb2636d58bf08b6e042bd81fc" gid="9" mod="664" command="link" />
+              <dir uid="9" name="browser" mod="775" gid="9">
+                <file uid="9" crc="7fba13d5" name="bg_widget.png" swe="connMain" md5="996d647f18ea14cf43a90743799bc38ab6b34db2" gid="9" mod="664" command="link" />
+                <file uid="9" crc="623ae61b" name="BINstartPage.html" swe="connMain" md5="fa82f88e3a5992aa1719cd51228b201fbac2f090" gid="9" mod="664" command="link" />
+                <file uid="9" crc="f608d433" name="binUnavailableHomePage.html" swe="connMain" md5="302a3fb89fa621cdfecd1ed435f41edb677911c6" gid="9" mod="664" command="link" />
+                <file uid="9" crc="176a200e" name="bonUnavailableHomePage.html" swe="connMain" md5="2f50417a91079680e451351e0e7abe06aaf07e2d" gid="9" mod="664" command="link" />
+                <file uid="9" crc="2c815ea2" name="browserBinOfflinePage.html" swe="connMain" md5="69c1dee55ec975d1ab15915e76d579b7cecaf77d" gid="9" mod="664" command="link" />
+                <file uid="9" crc="a718fb9c" name="excel_master_slide.html" swe="connMain" md5="d7db81a23fe6b3af4477e6898b902be3313d7db0" gid="9" mod="664" command="link" />
+                <file uid="9" crc="e2297e04" name="NBTDebug.htm" swe="connMain" md5="0b826bbd72a4a49e9c95bba403e4fb6d271c834a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="cdb93537" name="powerpoint_master_slide.html" swe="connMain" md5="d737d8a89ac3f3d88694183cf717bf323a2cc6c2" gid="9" mod="664" command="link" />
+                <file uid="9" crc="f608d433" name="unavailableHomePage.html" swe="connMain" md5="302a3fb89fa621cdfecd1ed435f41edb677911c6" gid="9" mod="664" command="link" />
+                <file uid="9" crc="61252873" name="widget.html" swe="connMain" md5="9d443f1c95c5cf14a5f09d13c7483593965434d7" gid="9" mod="664" command="link" />
+                <dir uid="9" name="resources" mod="775" gid="9">
+                  <dir uid="9" name="images" mod="775" gid="9">
+                    <file uid="9" crc="88519f10" name="mediaplayerPause.png" swe="connMain" md5="826de468ae5d4afdd084f01160ddb3d8667f6fc1" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="fac98677" name="mediaplayerPlay.png" swe="connMain" md5="b2a5579ff58efc85a77200cca46d2e3b394ffc24" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="dddfd50b" name="mediaplayerPlayDisabled.png" swe="connMain" md5="6b7544fe06d38502b8da8016f0ef6ed85ca42834" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="b3f6900e" name="mediaplayerSliderThumb.png" swe="connMain" md5="80a3fbcbce424c33a850ce253de6be84c1d5e327" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="0a147d82" name="mediaplayerSoundDisabled.png" swe="connMain" md5="9e44ba910d12d16e1ca0e0b4eaf7b5c534a163cb" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="f3cd4fa5" name="mediaplayerSoundLevel0.png" swe="connMain" md5="c2c96570f3b9759a3444497b54804855812f5f11" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="92257c1d" name="mediaplayerSoundLevel1.png" swe="connMain" md5="458625483cf49eb258084d5130db1e6250e784a2" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="b396e5c5" name="mediaplayerSoundLevel2.png" swe="connMain" md5="022a9e84f1e963d559d3a53e4b844f53354e720c" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="b1507f01" name="mediaplayerSoundLevel3.png" swe="connMain" md5="db014ee21d21dca9a03ffd8de4bcb95a2a679af4" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="0dfefe34" name="mediaplayerVolumeSliderThumb.png" swe="connMain" md5="0986f0e7f988c1556842f224de41e592f32afee9" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="71dabf42" name="missingImage.png" swe="connMain" md5="c553f104cd6177093c7a7cabb2406c0dee319f40" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="78f0f033" name="nullPlugin.png" swe="connMain" md5="74b5aec6373cbf6b71ddd62ce7b41275467ee104" gid="9" mod="664" command="link" />
+                    <dir uid="9" name="ScrollbarTheme" mod="775" gid="9">
+                      <file uid="9" crc="d15b4d10" name="bg.png" swe="connMain" md5="a0aad19f8da03c6e0d54cc58970460a12807eb26" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="a55f7b14" name="bgh.png" swe="connMain" md5="41bc9a24f957bf63b2a3d4e50ab295ffca0c690e" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="bdc0c599" name="down.png" swe="connMain" md5="6aa2a4d4167eb143cfdb6bf9a45f9f8c77d85f7e" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="dcd3d2c8" name="left.png" swe="connMain" md5="a029b0479088d4fe5adb7049ee33d381db7d59c8" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="480bea8d" name="right.png" swe="connMain" md5="0ce214a3f2e09c069e3c7734cb514655c5ba53a2" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="bb939836" name="thumbH.png" swe="connMain" md5="5890a73ed199587b41afbf83a17a88fbd8c8cce1" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="998f9d59" name="thumbHL.png" swe="connMain" md5="f024b202445a2e555134e408edd060163c44e94d" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="d6b73c88" name="thumbHR.png" swe="connMain" md5="0ea2c30e4bf5730ce8b4e3bf0b2a1fd7b7fd259d" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="aff47cbe" name="thumbV.png" swe="connMain" md5="82a6b8f3494aed52f55cc9a32742dd4f8818c642" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="514d8778" name="thumbVD.png" swe="connMain" md5="12a16459a9c32d2d652cfbd68b8674ac8b42e6f9" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="8b8fc066" name="thumbVU.png" swe="connMain" md5="76136360037e839ad99ab0ffb4c97fcc32307bfe" gid="9" mod="664" command="link" />
+                      <file uid="9" crc="82a1a396" name="up.png" swe="connMain" md5="542034984770e93cdfa73c5b0eafe162af87aae6" gid="9" mod="664" command="link" />
+                    </dir>
+                  </dir>
+                </dir>
+              </dir>
+              <dir uid="9" name="carplay" mod="775" gid="9">
+                <file uid="9" crc="582df41a" name="carplay.ini" swe="connMain" md5="6c83c67b6bf2d994bdd643cd1d48f5722a8cc2d2" gid="9" mod="664" command="link" />
+                <file uid="9" crc="0a16f266" name="iap2.cfg" swe="connMain" md5="1d5503dce20325e3cebdc70dfe2530beff20dc93" gid="9" mod="664" command="link" />
+                <file uid="9" crc="11571c6e" name="iap2_Wifi.cfg" swe="connMain" md5="b242081425dd49b1565ff638afc52170bca5bc0e" gid="9" mod="664" command="link" />
+                <file uid="9" crc="29af3bcd" name="macaddr.txt" swe="connMain" md5="c60d71d03b325a75642f0d21774fe598c4689dfd" gid="9" mod="664" command="link" />
+                <file uid="9" crc="83db0b26" name="OEM_BMW.png" swe="connMain" md5="642067dd19aff6321240100ad1e57537b3853f7a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="83db0b26" name="OEM_BMWi.png" swe="connMain" md5="642067dd19aff6321240100ad1e57537b3853f7a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7d5d5c98" name="OEM_MINI.png" swe="connMain" md5="e0916e2c3a49c529d974124e398da7b2a8f4f5b1" gid="9" mod="664" command="link" />
+                <file uid="9" crc="e41c8811" name="protocolsIap2.cfg" swe="connMain" md5="3c874df29db5daa56a16c1d01543f958c018aa85" gid="9" mod="664" command="link" />
+              </dir>
+              <dir uid="9" name="fonts" mod="775" gid="9">
+                <file uid="9" crc="46ebcb13" name="fonts.conf" swe="connMain" md5="929ec0010a3445a2b91ed4bd4f4f50850db730ab" gid="9" mod="664" command="link" />
+                <file uid="9" crc="e3991bd3" name="fonts.dtd" swe="connMain" md5="1185c028f0e2dd1e11ca298bd552efda36eeed4e" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8d02fa8f" name="libwmf-fontmap.xml" swe="connMain" md5="59c0d0e5c34c4f45a8582e5d4ad5b1944b2069ed" gid="9" mod="664" command="link" />
+                <file uid="9" crc="ebf90bd7" name="xpdfrc" swe="connMain" md5="41c1aca2c50228eb2dcbb6f77770c895692e241a" gid="9" mod="664" command="link" />
+                <dir uid="9" name="conf.avail" mod="775" gid="9">
+                  <file uid="9" crc="d532fc30" name="10-autohint.conf" swe="connMain" md5="d4e225bb85d19c636ccb60f240c387253202f088" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="ca721696" name="10-no-sub-pixel.conf" swe="connMain" md5="1806a66cff17ac531e5c246ed51c8a3f951282aa" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="f2caa195" name="10-sub-pixel-bgr.conf" swe="connMain" md5="565c92fcc9ba3153945c89e3a9e0260dca53412c" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="2eec4418" name="10-sub-pixel-rgb.conf" swe="connMain" md5="d2a821d27197214b3c021f9c03bdab1dffe8a9cc" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="37874842" name="10-sub-pixel-vbgr.conf" swe="connMain" md5="69307a42c687b2596714ff1cb1bd0d1cfdfa299e" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="eba1adcf" name="10-sub-pixel-vrgb.conf" swe="connMain" md5="af3acdaeda6a0aa8de3c6d2f55dcb4b50d6c2c4a" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="1cf19295" name="10-unhinted.conf" swe="connMain" md5="0ebe08d65c37d18fc585db23516e52a4a1ebc0b8" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="535312c9" name="20-fix-globaladvance.conf" swe="connMain" md5="6abf7a770a5a46e0e4a463e03b6477a2aedd2df9" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="88647472" name="20-unhint-small-vera.conf" swe="connMain" md5="bcd30ed6edee417929d3ec6522398d846b8bc2c6" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="33eb08e9" name="25-unhint-nonlatin.conf" swe="connMain" md5="ea8774c0ca13e71e1a15d3170df3e87bdb81b73a" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="43b8bfcf" name="30-metric-aliases.conf" swe="connMain" md5="b7eea86af19f40813f2f3cf79e2b6114c9df2b73" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="a23dc74a" name="30-urw-aliases.conf" swe="connMain" md5="ef629bd6c445a5f5db6e0cdb2be70fe6c6474823" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="a82e9e02" name="40-nonlatin.conf" swe="connMain" md5="f3756899919c7ea98a76af95596ca16b14233f45" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="6b2bab52" name="45-latin.conf" swe="connMain" md5="8465e967154c01949a65b1eeec75ac270350db44" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="f7c1ccc4" name="49-sansserif.conf" swe="connMain" md5="fe066f8153c5e679ef711500bb213f691fe4b373" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="ed2cd5f3" name="50-user.conf" swe="connMain" md5="7aa3168193c1dc00113e4f0c58848fd2c5eb3997" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="9f72ca0d" name="51-local.conf" swe="connMain" md5="f0530a14ca3ecc1db9072b6aead895442b1c05c3" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="5104ede3" name="60-latin.conf" swe="connMain" md5="bd1718d95e3fab6431e60631d87532c2f88eb955" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="a9b62bf0" name="65-fonts-persian.conf" swe="connMain" md5="7142641e4fd7dc286b59e51a2d699a371110e7b2" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="6ca9a2ef" name="65-khmer.conf" swe="connMain" md5="5f7fefb9beb7c720ff77e721359f90e1f8b0ee9e" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="be65374d" name="65-nonlatin.conf" swe="connMain" md5="d126588fadb5894bcac37ddafe3d42f86fd6745d" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="b2bca4fb" name="69-unifont.conf" swe="connMain" md5="d2071f2dc0c21218ac884f745e37f4b7c8ff2c31" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="216b0505" name="70-no-bitmaps.conf" swe="connMain" md5="ded7c98613e70f22ecfe1f6b465236603bad3336" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="d3ee8e3d" name="70-yes-bitmaps.conf" swe="connMain" md5="1ad509a1ba1a87a94aa0e9533deb30354c9afe49" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="fbd39728" name="80-delicious.conf" swe="connMain" md5="5631603a0a21342be6cab979fde3d93c9633af8c" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="9a043d71" name="90-synthetic.conf" swe="connMain" md5="a69acb829d394395574b7674b2dfa53d5eb5494c" gid="9" mod="664" command="link" />
+                </dir>
+                <dir uid="9" name="conf.d" mod="775" gid="9">
+                  <file uid="9" crc="ed6213da" name="10-autohint.conf" swe="connMain" md5="1fb41e32e612faa0a671894ec37652c216efe5fb" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="ac5db90c" name="60-generic-families.conf" swe="connMain" md5="1167e9e3750306b2db1dd412e1b487b44d896105" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="8753efd8" name="90-synthetic.conf" swe="connMain" md5="4c35a50247655f9c921a71e9bd97c1f654ca0221" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="bb72ff5c" name="README" swe="connMain" md5="c906a5eee818a47fd2837d21c59f9b42a53554a7" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="3f8ab455" name="README-HARMAN" swe="connMain" md5="ebb8e6e297b70941a8c288a179187838a5d88cab" gid="9" mod="664" command="link" />
+                </dir>
+                <dir uid="9" name="font_repository" mod="775" gid="9">
+                  <file uid="9" crc="44e1df76" name="Arial.ttf" swe="connMain" md5="2c5cb7cfa19eea5d90c375dc0f9f8e502ea97f0c" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="04e2d435" name="Frutiger.ttf" swe="connMain" md5="dc9b6f4c9caf85c7c469e0e1ea4fcd8e810393ad" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="7fd5091a" name="Garuda.ttf" swe="connMain" md5="4966bca8cce9adca03b5c3ab0aa1b287702623f9" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="778dd864" name="LinLibertine_Rah.ttf" swe="connMain" md5="128d9a1465696f283dd07754c792f00dad03511f" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="e1a11e5c" name="Lohit-Devanagari.ttf" swe="connMain" md5="c1f78e034cf5d7e098b382ce077a6fb51743da2a" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="288bffbe" name="mplus-1m-regular.ttf" swe="connMain" md5="9acff56cf72777c88fd07ff8b333e74590ba477a" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="929ff4a1" name="tt0003m_.ttf" swe="connMain" md5="63f156a01e169145600d8c8582612a800327cb6f" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="48b38a3d" name="tt0004m_.ttf" swe="connMain" md5="1d83106e454efcdbfa2228af33b9a8fe6c552678" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="e28f187f" name="tt0005m_.ttf" swe="connMain" md5="81d5a68a2e093d4350a724959b29be5bf81a4bd6" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="417caa44" name="tt0006m_.ttf" swe="connMain" md5="68d4f2067ca196c441e5cba6f936bac7d9d56481" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="86f80be5" name="tt0011m_.ttf" swe="connMain" md5="36b736cbb14a1c75471885dbf685c4990a687a48" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="89bf846c" name="tt0012m_.ttf" swe="connMain" md5="371e15571b5fc2616e3dd5e4e1b652512fbe0c71" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="77554f7a" name="tt0013m_.ttf" swe="connMain" md5="591561d07be8b95b8b7dfe06f62d2d3b834a4697" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="44161a63" name="tt0014m_.ttf" swe="connMain" md5="d49002dd33609d59806db8e017a089237562ad04" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="f34a76f2" name="tt0419m_.ttf" swe="connMain" md5="08fe9ad17ac75f91135bdf5fd4ceb6ab08d12e45" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="dbe4137c" name="tt0582m_.ttf" swe="connMain" md5="c69f9ef22dc8cd95fa809fdfe6f493655a62a29f" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="2e8a783b" name="tt0583m_.ttf" swe="connMain" md5="400b749227d3624a7e9a103441cd4d8ef1ee51af" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="92bfa28e" name="tt0611m_.ttf" swe="connMain" md5="ec32f84f924108eca15e2b45fc085955de5ccf59" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="e26d14ab" name="tt2001m_.ttf" swe="connMain" md5="cbd210d1e307085519188e0e6dda1b1919bff3a1" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="3c382e24" name="tt2002m_.ttf" swe="connMain" md5="4bef70d4e8278cba495fe64bde198503a57a44f0" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="9348b2c6" name="tt2003m_.ttf" swe="connMain" md5="2ae39e803c68e950894d755b06dc71d70b0881fd" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="3a43600d" name="tt2004m_.ttf" swe="connMain" md5="1cd4d73d0dbf63220c6f5a16087b222d089cce9e" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="64497ec4" name="tt2009m_.ttf" swe="connMain" md5="c558ca6d4902d5367f6befa6fd0b2a050b16fa2e" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="5ae0ab6b" name="tt2011m_.ttf" swe="connMain" md5="779f10feb3d5b691fc7f49c76ccb23edf493d13b" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="4919c21c" name="tt3012z_.ttf" swe="connMain" md5="18cf3799c79960bc4758ab9609c58eed27d22946" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="1bab4a9d" name="web.ttf" swe="connMain" md5="182e0fc84f0bbadc4ab86e5e16787f63fb5c3a71" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="519ff019" name="wqy-microhei.ttc" swe="connMain" md5="42467ef798a8f7bd8192a869ac7e05e17132c5c6" gid="9" mod="664" command="link" />
+                </dir>
+              </dir>
+              <dir uid="9" name="JPN" mod="775" gid="9">
+                <file uid="9" crc="60aaf1bf" name="PIM.rnf" swe="connMain" md5="021f6f44da20a1f5145416306495218fde367ba7" gid="9" mod="664" command="link" />
+                <file uid="9" crc="742f3096" name="SCP.rnf" swe="connMain" md5="4fdc8757c512608b9d1e1bab0ad257d0b9844b62" gid="9" mod="664" command="link" />
+              </dir>
+            </dir>
+            <dir uid="9" name="etc" mod="775" gid="9">
+              <file uid="9" crc="f140bba4" name="BMWAppKitDevelopment.p12" swe="connMain" md5="5656e28df09a060dd8234a6237f928a57465b413" gid="9" mod="664" command="link" />
+              <file uid="9" crc="fefbf254" name="BMWAppKitDevelopment.p7b" swe="connMain" md5="ca4ef34c427a5a54a2bdc74d47e55409a95861d3" gid="9" mod="664" command="link" />
+              <file uid="9" crc="eaae93b7" name="client.conf" swe="connMain" md5="9457e1e1b7eda12ae793995083894df8ae2e837d" gid="9" mod="664" command="link" />
+              <file uid="9" crc="b95cbc32" name="dnsmasq.conf" swe="connMain" md5="b46d1a9747adae640cf6a888c10ffdd3fc613d98" gid="9" mod="664" command="link" />
+              <file uid="9" crc="c531e0e5" name="ELcycle" swe="connMain" md5="e1822db470e60d090affd0956d743cb0e7cdf113" gid="9" mod="664" command="link" />
+              <file uid="9" crc="01b50ea1" name="hosts" swe="connMain" md5="64b10f0c8015a371fc281892b56edd50516f9a56" gid="9" mod="664" command="link" />
+              <file uid="9" crc="87fd1946" name="ipce.cfg" swe="connMain" md5="aa2632ab5a7fd2fa8d6ef778a7614dfb504b8ccd" gid="9" mod="664" command="link" />
+              <file uid="9" crc="cfc9fe09" name="ipce_no_logging.cfg" swe="connMain" md5="80781a13933df4ec36677fac6ec3799e7a695ab5" gid="9" mod="664" command="link" />
+              <file uid="9" crc="67a3bd7a" name="lighttpd-logging.cfg" swe="connMain" md5="7f876d704665aa593713ecc5d94c864d8ec6c0c7" gid="9" mod="664" command="link" />
+              <file uid="9" crc="21b3c34f" name="lighttpd-nbt-cfg-full.cfg" swe="connMain" md5="48be354730ab334b08aaf76e86302e4c39d5ea53" gid="9" mod="664" command="link" />
+              <file uid="9" crc="99332343" name="lighttpd-nbt.conf" swe="connMain" md5="b126f993b97ea2de99a6a19234ca5cdace4431b2" gid="9" mod="664" command="link" />
+              <file uid="9" crc="4e63fcfe" name="provcode.tab" swe="connMain" md5="8ab70b4c129e208d4e75aa40179c6d207cdb2bc4" gid="9" mod="664" command="link" />
+              <file uid="9" crc="694b7d5b" name="resolv.conf" swe="connMain" md5="3a9fe233d9dae65a0b4086a0d3f3690ce49fb59b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="29e44307" name="sd8787_uapsta.bin" swe="connMain" md5="88401de5c379dfc7b91e4ee31230d88529a761ae" gid="9" mod="664" command="link" />
+              <dir uid="9" name="carplay" mod="775" gid="9">
+                <file uid="9" crc="54cea007" name="mm-playlist.conf" swe="connMain" md5="ab3baff3b92aa5a477d3cf72e3a413ad6db1a29e" gid="9" mod="664" command="link" />
+                <file uid="9" crc="0ab9a87e" name="mm-renderer.conf" swe="connMain" md5="edd9cad176c509da99d57db25c8c5c97d13cbbff" gid="9" mod="664" command="link" />
+              </dir>
+              <dir uid="9" name="cursors" mod="775" gid="9">
+                <file uid="9" crc="4c67da62" name="arrow.tga" swe="connMain" md5="c7d29e4d32cd44bed0cde656e159bdac722045d8" gid="9" mod="664" command="link" />
+                <file uid="9" crc="78fe2b5e" name="arrow_wa.tga" swe="connMain" md5="82d7c7dfc5218f43e311b17e36b48773155175e8" gid="9" mod="664" command="link" />
+                <file uid="9" crc="c2f75180" name="cursor.tga" swe="connMain" md5="e15ee4cf323300be4a19d1ec794618617d0f7d91" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9248fa89" name="hand.tga" swe="connMain" md5="53c556195e650718bbe4978228631e77f30961c2" gid="9" mod="664" command="link" />
+                <file uid="9" crc="fdb9a3df" name="hourglass.tga" swe="connMain" md5="4e803f7686843badb24c3443847c100c7d5d70d2" gid="9" mod="664" command="link" />
+              </dir>
+              <dir uid="9" name="dhcp" mod="775" gid="9">
+                <file uid="9" crc="9f33f3c4" name="dhcp-up" swe="connMain" md5="bc4e5b12e626f13cdc89ea2dce8d2161ca727c39" gid="9" mod="775" command="link" />
+              </dir>
+              <dir uid="9" name="ppp" mod="775" gid="9">
+                <file uid="9" crc="3493529b" name="chap-secrets" swe="connMain" md5="f17a4991d8530df945e0cc2dd5f70f8a6c5e2839" gid="9" mod="664" command="link" />
+                <file uid="9" crc="04fb9d1d" name="ip-down" swe="connMain" md5="bd971bec88149956458a10fc9c5ecb3eb99dd452" gid="9" mod="775" command="link" />
+                <file uid="9" crc="7292efc7" name="ip-up" swe="connMain" md5="9d0f213cb971b81cc19bd391dd94b7e7940dc062" gid="9" mod="775" command="link" />
+                <file uid="9" crc="833bf48d" name="options" swe="connMain" md5="fb68306b5f78e5213a614661838abb3737fdab21" gid="9" mod="664" command="link" />
+              </dir>
+            </dir>
+            <dir uid="9" name="gstreamer" mod="775" gid="9">
+              <file uid="9" crc="49d09471" name="libgstapp.so" swe="connMain" md5="1a0691b74fb201143696b7f7480362f0ec823abc" gid="9" mod="664" command="link" />
+              <file uid="9" crc="a09a3b56" name="libgstaudioconvert.so" swe="connMain" md5="51559b199ebe289d0b5282334f9a0a1f008f03e7" gid="9" mod="664" command="link" />
+              <file uid="9" crc="1f38fd20" name="libgstaudiorate.so" swe="connMain" md5="531dc1b7c7abcbd8665f674503b861ec5d0a451b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="b2f8c9f8" name="libgstaudioresample.so" swe="connMain" md5="b007affa1bf8f7b9dd4bd11e18037d733e099009" gid="9" mod="664" command="link" />
+              <file uid="9" crc="d6a91ee0" name="libgstautodetect.so" swe="connMain" md5="5b6c18a130242638bc290d29022861b89288dbbf" gid="9" mod="664" command="link" />
+              <file uid="9" crc="361b6b29" name="libgstcoreelements.so" swe="connMain" md5="9a5f59f562e9b7714b1e331d499b4b9e6a6d373b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="09ca74a5" name="libgstcoreindexers.so" swe="connMain" md5="39d8d656434fa51470f9c1cbc3ca3f30e6321923" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8b555b9b" name="libgstdecodebin.so" swe="connMain" md5="2ba8c45708fd639bd4e2ac56612937a15c8612a2" gid="9" mod="664" command="link" />
+              <file uid="9" crc="9e1a8bdb" name="libgstdecodebin2.so" swe="connMain" md5="ba716e3ab332b1eccb856ac4b3eaec40764c2f07" gid="9" mod="664" command="link" />
+              <file uid="9" crc="1ef8252c" name="libgstffmpegcolorspace.so" swe="connMain" md5="2ffd0f33dccb7bad13a53e047613c1a977dbfa1b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="4fb1b644" name="libgstflump3dec.so" swe="connMain" md5="814d92af9d3a91eed44d9fcfa72f641d8fca23c1" gid="9" mod="664" command="link" />
+              <file uid="9" crc="4c3a1ed4" name="libgstid3demux.so" swe="connMain" md5="87ecadfeefd48f968c4f26fe6fcb467082920ba5" gid="9" mod="664" command="link" />
+              <file uid="9" crc="95e768cc" name="libgstmatroska.so" swe="connMain" md5="c0c9b1e53ba13120b6984ba24cdd7a91d150ccb1" gid="9" mod="664" command="link" />
+              <file uid="9" crc="66206a13" name="libgstogg.so" swe="connMain" md5="61362201e77d6f12cadd1550009c33ddc09d3d84" gid="9" mod="664" command="link" />
+              <file uid="9" crc="550392c5" name="libgstplaybin.so" swe="connMain" md5="cb8db19e6dd6a0543453ecf29bc38613a5685518" gid="9" mod="664" command="link" />
+              <file uid="9" crc="e64d65b8" name="libgstqnxaudio.so" swe="connMain" md5="de0971211f519ab0e5c0a5e31f89e5738045dfc3" gid="9" mod="664" command="link" />
+              <file uid="9" crc="35ff0504" name="libgsttag_sampler.so" swe="connMain" md5="6486960599eb0f23cc54babdd9198246df651b53" gid="9" mod="664" command="link" />
+              <file uid="9" crc="021f40f0" name="libgsttypefindfunctions.so" swe="connMain" md5="616623f7ab54abb96d4c51d03c9bdf4fef4b2053" gid="9" mod="664" command="link" />
+              <file uid="9" crc="56cef91a" name="libgstvolume.so" swe="connMain" md5="d8fa2eb5dad1cbd498122ac9d5a3970f56180ea2" gid="9" mod="664" command="link" />
+              <file uid="9" crc="72e7989f" name="libgstvorbis.so" swe="connMain" md5="93dd3dedac9550b997f0bb3885cb1427ee0d1c7f" gid="9" mod="664" command="link" />
+              <file uid="9" crc="a4c8df0e" name="libgstvp8.so" swe="connMain" md5="5f497ac67b4d9dc15fb2ccb2fe89e9002dd44f49" gid="9" mod="664" command="link" />
+            </dir>
+            <dir uid="9" name="html" mod="775" gid="9">
+              <file uid="9" crc="00000000" name="status-417.html" swe="connMain" md5="da39a3ee5e6b4b0d3255bfef95601890afd80709" gid="9" mod="664" command="link" />
+            </dir>
+            <dir uid="9" name="lib" mod="775" gid="9">
+              <file uid="9" crc="2754e0f3" name="devnp-mv8787-omap5.so" swe="connMain" md5="30d11bf7b49284e47cee075fb4316683fa0be83d" gid="9" mod="664" command="link" />
+              <file uid="9" crc="69b11a1a" name="devnp-pan.so" swe="connMain" md5="d8bee4c99d24b0adab2e5fd204f2a8acc87707bc" gid="9" mod="664" command="link" />
+              <file uid="9" crc="9f08f326" name="libaliveservice.so" swe="connMain" md5="875d3e00326c3ceed7c21f8009e7975f25101a11" gid="9" mod="664" command="link" />
+              <file uid="9" crc="eae638c5" name="libbssservice.so" swe="connMain" md5="a198cf8e3c20f6f9c0cd473664625ab16557b0e0" gid="9" mod="664" command="link" />
+              <file uid="9" crc="84627cb1" name="libbtmediafsservice.so" swe="connMain" md5="190fd10d3bde28699edbd6251a3ddf74f6213447" gid="9" mod="664" command="link" />
+              <file uid="9" crc="ed1e5383" name="libCCelEvent.so" swe="connMain" md5="fa1938dc71728042892b812220bb1864293ef8b2" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8328063f" name="libcollation.so" swe="connMain" md5="8114d623fdd35a9a48c8ae44c4b759a982ecf0aa" gid="9" mod="664" command="link" />
+              <file uid="9" crc="684d29f9" name="libconfigservice.so" swe="connMain" md5="6aa9c65c0f1585d494e31d06b821105435f91110" gid="9" mod="664" command="link" />
+              <file uid="9" crc="61e2ba9d" name="libconnmngrservice.so" swe="connMain" md5="9b279fff10db2053457fe6c7c48ef693215c2dd6" gid="9" mod="664" command="link" />
+              <file uid="9" crc="33c80572" name="libconnmngrstub.so" swe="connMain" md5="0f3b8397a703b0c1585949b52bedaba574accfcf" gid="9" mod="664" command="link" />
+              <file uid="9" crc="e23748e3" name="libcurl.so.5" swe="connMain" md5="f29c3b5e4f2a829053cf056e51c247008b32d023" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2ae54e48" name="libdatatransfer.so" swe="connMain" md5="f3bbca3a28a5be01e25485eab5cff9253be7865f" gid="9" mod="664" command="link" />
+              <file uid="9" crc="ed7ceaf7" name="libdbusservice.so" swe="connMain" md5="7323e9efa266ca30965862dc4a6c10fd931a2227" gid="9" mod="664" command="link" />
+              <file uid="9" crc="3d7c3ed4" name="libdevh-bt-hid.so" swe="connMain" md5="78bac8864b0a34f13af5f1f39603c4534759e98a" gid="9" mod="664" command="link" />
+              <file uid="9" crc="52d2c8bc" name="libdmlservice.so" swe="connMain" md5="392a94fb4f3c1f20329ddc81004c7674ccf3d88f" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2f99df71" name="libdmsconfig_addr.so" swe="connMain" md5="1928f51f9e10944823306e8a2a84003aa627f4f4" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8e2b706a" name="libdmsconfig_mobileoffice.so" swe="connMain" md5="53000ae44f654af8f7113df25ae4054c63dd143f" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2d7f358f" name="libdsiservice.so" swe="connMain" md5="e63e71f2ed83d240f7bd8e1ea9a95e28a1c0d675" gid="9" mod="664" command="link" />
+              <file uid="9" crc="ceb4303f" name="libencoderdecodercollection.so" swe="connMain" md5="00be02770d5ebeac95ae07bd5be3bd3baf6c46e9" gid="9" mod="664" command="link" />
+              <file uid="9" crc="b061bf42" name="libewsc.so" swe="connMain" md5="53e76109010de9b3486b7a36702d457a503e3a38" gid="9" mod="664" command="link" />
+              <file uid="9" crc="80bbae3d" name="libexportservice.so" swe="connMain" md5="931fe4250e789e0d98aa196c3559750af03014e0" gid="9" mod="664" command="link" />
+              <file uid="9" crc="152999e6" name="libgcf_core.so" swe="connMain" md5="a557936c63857a48556cbb394eaf411bc05a93e2" gid="9" mod="664" command="link" />
+              <file uid="9" crc="5e4cc026" name="libgraphics_qnximg.so" swe="connMain" md5="7dece2c9ce834788cbf7a016112cb15b22386e24" gid="9" mod="664" command="link" />
+              <file uid="9" crc="55d29f04" name="libhcitransport.so" swe="connMain" md5="696ea57b68e9446a62a9053c1deeba25e9c2066b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="58ff0731" name="libHCPClient.so" swe="connMain" md5="31e3f6f408f68c51634d4ddf90016f183553a78f" gid="9" mod="664" command="link" />
+              <file uid="9" crc="acf657d2" name="libHCPFileAttacher.so" swe="connMain" md5="2dab1d158d9803e1ccada397b8775cf4d041c2c4" gid="9" mod="664" command="link" />
+              <file uid="9" crc="b86fc69d" name="libhostagent.so" swe="connMain" md5="2d2cb4feb8a3c9bc44533e7d93397e606e3be887" gid="9" mod="664" command="link" />
+              <file uid="9" crc="7407518b" name="libintegrityservice.so" swe="connMain" md5="fb8b87abca0130d02f4ccdbc8c718fd6d520ec22" gid="9" mod="664" command="link" />
+              <file uid="9" crc="35c57e2f" name="libjsoncpp.so.1" swe="connMain" md5="78e2b8262f38927c7fedd5afa62fd6bbc43f4441" gid="9" mod="664" command="link" />
+              <file uid="9" crc="635484b4" name="libmbsm.so" swe="connMain" md5="86ddc55054ca88c844fc7452821c9edbfbbdbda5" gid="9" mod="664" command="link" />
+              <file uid="9" crc="614307f6" name="libmediafslib.so" swe="connMain" md5="46cc94ebccc7ccf4ff827f4682f7084735ee6d59" gid="9" mod="664" command="link" />
+              <file uid="9" crc="5b97c11c" name="libmediaservice.so" swe="connMain" md5="1255a5bd5de285d7254f4a860862f678ad6f6e04" gid="9" mod="664" command="link" />
+              <file uid="9" crc="1de3382d" name="libmiracastservice.so" swe="connMain" md5="0b6fa74f7d7c11e9305611abd722f30ffd5654e6" gid="9" mod="664" command="link" />
+              <file uid="9" crc="bf83da50" name="libmonitorservice.so" swe="connMain" md5="b2a48bfce400c71c59a75c393de68682bcd2ea09" gid="9" mod="664" command="link" />
+              <file uid="9" crc="da8ae289" name="libnetaccessservice.so" swe="connMain" md5="8bfc3ca9741a8501f13ce078f0184976f6df0480" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8fb01c28" name="libnetworkingservice.so" swe="connMain" md5="4580cadae81de993e8ec50b70d5e8230f45a1b24" gid="9" mod="664" command="link" />
+              <file uid="9" crc="0d77bd15" name="libnfc_libllcp.so" swe="connMain" md5="d35ab818229739b07141e11e87dc5e304d8e7e23" gid="9" mod="664" command="link" />
+              <file uid="9" crc="740a4f00" name="libnfc_libnfc.so" swe="connMain" md5="aa53627455e961a496c4d39820b2a8cc89abe6a4" gid="9" mod="664" command="link" />
+              <file uid="9" crc="d23c02fd" name="libOwnMallocEfence.so" swe="connMain" md5="f76444613c73ade2e432a5f9640b5dbaacfe5c51" gid="9" mod="664" command="link" />
+              <file uid="9" crc="246c270e" name="libpal_audio.so" swe="connMain" md5="ba1880bf6e0f31493a7517cb07984a7418664f33" gid="9" mod="664" command="link" />
+              <file uid="9" crc="1c35a40a" name="libpal_bt.so" swe="connMain" md5="19a7fdd5a7072e28bcc3e76c7b760c12f844a5c8" gid="9" mod="664" command="link" />
+              <file uid="9" crc="79f51c05" name="libpal_core.so" swe="connMain" md5="d635e57eb9b06018fc8066e3e15c1ed1228ecd6a" gid="9" mod="664" command="link" />
+              <file uid="9" crc="cb5f46ea" name="libpal_fw.so" swe="connMain" md5="3d7e8818312ba2761f24adf20215aa709f832cd5" gid="9" mod="664" command="link" />
+              <file uid="9" crc="bde479ac" name="libpal_nad_ctrl.so" swe="connMain" md5="5a0c09fb69672b1af1383ab3502a6bd39d6b31db" gid="9" mod="664" command="link" />
+              <file uid="9" crc="d59588f1" name="libparsercreator.so" swe="connMain" md5="fb0b9698783382d2d21a1543ad79a920eac34c9c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="88c4b32e" name="libparsercreatorcollection.so" swe="connMain" md5="ac5ceaa2a89fbde9728fa71bf6c3fd6f42d48e3c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="65d391a2" name="libpcre.so.3" swe="connMain" md5="cc0e7d1a2eeefe418484580989c11cf5a07e3fe7" gid="9" mod="664" command="link" />
+              <file uid="9" crc="24679312" name="libphoneservice.so" swe="connMain" md5="3a72f4189d5d02f3037c1e31eb9b189c3f77f1c3" gid="9" mod="664" command="link" />
+              <file uid="9" crc="1633b77a" name="libpimservice.so" swe="connMain" md5="b0a3666bc74b179430d8cd3585d2c4d7d69c2025" gid="9" mod="664" command="link" />
+              <file uid="9" crc="01b269e5" name="libpimservice_shared.so" swe="connMain" md5="60d452b898cc455aad19eae31388cdedb12b46af" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8633a41b" name="librmssservice.so" swe="connMain" md5="6f8951e48895c84a8bb05154ecb0ce0d2ea19685" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8c0592bc" name="libsac.so" swe="connMain" md5="6e0bfcb8e3a2690a2d2be15fb6cbf42aa708c371" gid="9" mod="664" command="link" />
+              <file uid="9" crc="149b4bfe" name="libsasservice.so" swe="connMain" md5="c1887bdf703d1f15f3b3695b8573a2def45f588c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="e6f6ca67" name="libscp_reg.so" swe="connMain" md5="8b2fdbaa2c4259c4496356828a888288aa507c62" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8c168f20" name="libscp_reg_full_access.so" swe="connMain" md5="a6692dcdceaa4f84d58d2844d151ea7208e1bd25" gid="9" mod="664" command="link" />
+              <file uid="9" crc="9bf93ad5" name="libsimservice.so" swe="connMain" md5="73e850fb09942ea49e9a03ba86eef7b0f8b37cdd" gid="9" mod="664" command="link" />
+              <file uid="9" crc="6ec05a00" name="libstarrec_traceout_plaintext.so" swe="connMain" md5="74fcd874ff4aad1251139e17f7a858ef29294f5b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="9dcac1cb" name="libthirdparty_libcurl.so" swe="connMain" md5="08ef454196e49fd6315c03af6742aab23207e742" gid="9" mod="664" command="link" />
+              <file uid="9" crc="e8ff6ef6" name="libtools_common.so" swe="connMain" md5="d9dcd2b84be89a1c2b5fcd1b1a0bbdee4696c14b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="15b2c7a6" name="libttydevservice.so" swe="connMain" md5="8dfab0a57499cfdc3f95092773dc28f5c57fbed2" gid="9" mod="664" command="link" />
+              <file uid="9" crc="4ef5304d" name="libunidb_qdb.so" swe="connMain" md5="9989c0805386da6714bb2e6e8efde7c018bcff12" gid="9" mod="664" command="link" />
+              <file uid="9" crc="b118e83e" name="libunidb_sqlite3.so" swe="connMain" md5="bcc7b68e4dc750b4795e523a8acf9061f0f98784" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2a813d5c" name="libupnpplayerservice.so" swe="connMain" md5="4b3a562cead6d9909417cdf7dda1444d08eaaa99" gid="9" mod="664" command="link" />
+              <file uid="9" crc="89cf4f2c" name="libupnpserverservice.so" swe="connMain" md5="1952b2b275e21a77ef66843e4d4fefc1b7c98543" gid="9" mod="664" command="link" />
+              <file uid="9" crc="52160895" name="libupnpservice.so" swe="connMain" md5="86c0f901f056a0db53a7e23bc94c09038bf2c7f6" gid="9" mod="664" command="link" />
+              <file uid="9" crc="cdd1166c" name="libusbservice.so" swe="connMain" md5="906a38814f174a1518e81f797f0d37c2530da812" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2aa63347" name="libvoipservice.so" swe="connMain" md5="b571691c5bd96a2572b194b0544f07fde2b11312" gid="9" mod="664" command="link" />
+              <file uid="9" crc="d0a03c1c" name="libwicome_config.so" swe="connMain" md5="b1b6e086e8f295448a3e19660aba6d725667effc" gid="9" mod="664" command="link" />
+              <file uid="9" crc="92f2fbc8" name="mod_access.so" swe="connMain" md5="b90fbf8ae670dfc50104f98d0135d815a536c38b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="bdac1561" name="mod_accesslog.so" swe="connMain" md5="025e1f70dc773b90f892f3e64fc693f57b5290bb" gid="9" mod="664" command="link" />
+              <file uid="9" crc="7e8bafda" name="mod_alias.so" swe="connMain" md5="14823ab9e9040445c3e4788a124a8113d789a2d7" gid="9" mod="664" command="link" />
+              <file uid="9" crc="817bc2f6" name="mod_auth.so" swe="connMain" md5="6e7e6eb89bc2cf0470127c689ef8d2603770b360" gid="9" mod="664" command="link" />
+              <file uid="9" crc="df96c278" name="mod_cgi.so" swe="connMain" md5="7f3f8eaf6ce2af7f166860c66c3f69017d63c66d" gid="9" mod="664" command="link" />
+              <file uid="9" crc="12016b5c" name="mod_cml.so" swe="connMain" md5="cf5378fdb8c8fab4bfd89025b00964c32576599c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8b82cb8d" name="mod_compress.so" swe="connMain" md5="4efeeaee8ea1b8dcc21a4c83ea7a2aa494d27550" gid="9" mod="664" command="link" />
+              <file uid="9" crc="a77f16fc" name="mod_dirlisting.so" swe="connMain" md5="7c9b11f85289ff2ee24c1940ea6b8e4559c8833c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="43845caa" name="mod_evasive.so" swe="connMain" md5="926eaba4d720926f3d23b2b7c1d0de288719957b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="bf66fa7d" name="mod_evhost.so" swe="connMain" md5="39e0871a3f124c7f9d111039c8b8bef7e9fb845c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="75647fe6" name="mod_expire.so" swe="connMain" md5="1289bc20b7ddb03aab56e27ce3c9860b578b707e" gid="9" mod="664" command="link" />
+              <file uid="9" crc="b74ecff0" name="mod_extforward.so" swe="connMain" md5="c4a2bba6b7e4dfea87b1aac6c1e243b4760771c1" gid="9" mod="664" command="link" />
+              <file uid="9" crc="78b58982" name="mod_fastcgi.so" swe="connMain" md5="a2fd2b244c2d6da2e30331dda7a7a7a9a0556398" gid="9" mod="664" command="link" />
+              <file uid="9" crc="7c2e15e7" name="mod_flv_streaming.so" swe="connMain" md5="0c47e981b9ad9379ba48f72f307f48e770ca8c30" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2fd8c797" name="mod_indexfile.so" swe="connMain" md5="47266f580a24c1335479002ab371f242a32a8ccb" gid="9" mod="664" command="link" />
+              <file uid="9" crc="329a225d" name="mod_magnet.so" swe="connMain" md5="cd8fdd925d5ed797080f41c832b6fae3eb51d1a0" gid="9" mod="664" command="link" />
+              <file uid="9" crc="930d7a3b" name="mod_mysql_vhost.so" swe="connMain" md5="32322565a51486c330db0de6a694a4a93bf76119" gid="9" mod="664" command="link" />
+              <file uid="9" crc="514d8445" name="mod_proxy.so" swe="connMain" md5="2a5816081edc3960daf645f8ab360a7f9abbff6c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="24215135" name="mod_redirect.so" swe="connMain" md5="1463660fd448cee67c416d3324fa2f08c540328b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="cbddb814" name="mod_rewrite.so" swe="connMain" md5="086932012740594c8f4df73396fa8e181ec82be6" gid="9" mod="664" command="link" />
+              <file uid="9" crc="9e90c3dd" name="mod_rrdtool.so" swe="connMain" md5="573e0093d4e582ae88bec552f94f700e93722ac6" gid="9" mod="664" command="link" />
+              <file uid="9" crc="78d96cee" name="mod_scgi.so" swe="connMain" md5="0e2a36ce11378e8c63017e0c0667a5e55befed3b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="21c25a0d" name="mod_secdownload.so" swe="connMain" md5="138adb0c40bbe6c85b10ff8bf50afaaa13f89c66" gid="9" mod="664" command="link" />
+              <file uid="9" crc="77fc4d42" name="mod_setenv.so" swe="connMain" md5="53082a3a045cf80a06bdda28d4c598d2c2658118" gid="9" mod="664" command="link" />
+              <file uid="9" crc="7418bcb2" name="mod_simple_vhost.so" swe="connMain" md5="89b66d26d8083081826f27afd6d2f2b0252ae7c4" gid="9" mod="664" command="link" />
+              <file uid="9" crc="2a9c43a7" name="mod_ssi.so" swe="connMain" md5="c69371080702270f11bd36a8bb8c070799f3cb1b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="91df0de3" name="mod_staticfile.so" swe="connMain" md5="6326de3da9b7a840b3046c315a003698c3e17fc9" gid="9" mod="664" command="link" />
+              <file uid="9" crc="3aaaaf23" name="mod_status.so" swe="connMain" md5="15e96cc8eb38bf05e98fdb513d493d07d808bb3c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="ccd9792a" name="mod_trigger_b4_dl.so" swe="connMain" md5="bae65069b81c90b2699ab06ac994fc2085478052" gid="9" mod="664" command="link" />
+              <file uid="9" crc="458b33b1" name="mod_userdir.so" swe="connMain" md5="1d8566217a2a0807b04b49192ee893a80510118c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="a8ae9887" name="mod_usertrack.so" swe="connMain" md5="0cf205d7457ed28b6df51ad65d606b12e6a78b6c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="5b0ff71c" name="mod_webdav.so" swe="connMain" md5="6b09c86a7da0e2bc55eaec06b996a7d94ef2782f" gid="9" mod="664" command="link" />
+              <dir uid="9" name="browser" mod="775" gid="9">
+                <file uid="9" crc="16c0cd4c" name="libbz2.so.1.0.4" swe="connMain" md5="94df18781463de01f7f5b6a2f96ed6bec571248a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="513c1d0e" name="libcairo.so.11002" swe="connMain" md5="273527c71c830c437df09c39a36331e84c1d20a8" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8ee306e5" name="libcharset.so.1" swe="connMain" md5="ddfd6d1b2bd50cb478b9d9a47c5fa150fd1ade00" gid="9" mod="664" command="link" />
+                <file uid="9" crc="6e9952b2" name="libcurl.so.8" swe="connMain" md5="be54dd7a4c78fe428812da94261dc38087ee85fa" gid="9" mod="664" command="link" />
+                <file uid="9" crc="96d60d55" name="libemf.so" swe="connMain" md5="c5465fb54f7bacdd175840cc7d1ee388bf3f78d1" gid="9" mod="664" command="link" />
+                <file uid="9" crc="77a586d8" name="libemf_converter.so" swe="connMain" md5="e4d8eea7f9554ec8aea3ab2ced2b96f159198fef" gid="9" mod="664" command="link" />
+                <file uid="9" crc="bef4a158" name="libexslt.so.8" swe="connMain" md5="aa24071889eccc0680eabd489b2fa92932e0baf3" gid="9" mod="664" command="link" />
+                <file uid="9" crc="b03c84f7" name="libfontconfig.so.5" swe="connMain" md5="9fab71de3128eeb0bcd7d1fe521d78afc7d67c63" gid="9" mod="664" command="link" />
+                <file uid="9" crc="a51d5510" name="libfreetype.so.13" swe="connMain" md5="fb70bf4b9ad5ab88c508b424efc64482c48b2de4" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8d0a0135" name="libgd.so" swe="connMain" md5="cfd1d767d57e4263bab1c457ec28078018ab560d" gid="9" mod="664" command="link" />
+                <file uid="9" crc="0221b65a" name="libgdchart_11_5.so" swe="connMain" md5="2f8c7aa95f3ef1f4a574977ec8ce2b56acfd0cbc" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8f36ad90" name="libgettextlib-0.18.1.so" swe="connMain" md5="c739dfab9dfa37627c987c307e58bfb1377b7d2b" gid="9" mod="664" command="link" />
+                <file uid="9" crc="974c35dd" name="libgettextpo.so.5" swe="connMain" md5="11b361c0dfb2aca72fb8317f21d4e93a35ab9a69" gid="9" mod="664" command="link" />
+                <file uid="9" crc="ffc4bd24" name="libgettextsrc-0.18.1.so" swe="connMain" md5="45da5522658b20f1a9c22e5351435ac5a4933f34" gid="9" mod="664" command="link" />
+                <file uid="9" crc="d80fe82d" name="libgio-2.0.so.3200" swe="connMain" md5="1ff9f80903055ae431390d46d0c73a2730d791d5" gid="9" mod="664" command="link" />
+                <file uid="9" crc="cdf95248" name="libglib-2.0.so.3200" swe="connMain" md5="8daa5b2cf6563e577c9dbb162c5ed7512516fdf2" gid="9" mod="664" command="link" />
+                <file uid="9" crc="2c035146" name="libgmodule-2.0.so.3200" swe="connMain" md5="daca859bd8c5053dcb1245da5d95837facfa4dcc" gid="9" mod="664" command="link" />
+                <file uid="9" crc="f4da526e" name="libgobject-2.0.so.3200" swe="connMain" md5="41389313dee3d71f06e4fde3791da2469dd0b410" gid="9" mod="664" command="link" />
+                <file uid="9" crc="b5199d06" name="libgstapp-0.10.so.25" swe="connMain" md5="f6a66a6f9227db101851dd809f08c20cca2d936e" gid="9" mod="664" command="link" />
+                <file uid="9" crc="d87a29a3" name="libgstaudio-0.10.so.25" swe="connMain" md5="9b34ca9d60c250800a29e0818e24c5e58a4fe05f" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7c13e31d" name="libgstbase-0.10.so.30" swe="connMain" md5="25a941ce162b828d1c0a3141ed6bef018f62b489" gid="9" mod="664" command="link" />
+                <file uid="9" crc="1c165697" name="libgstbasevideo-0.10.so.0" swe="connMain" md5="3b3bca7269dda0ccb21802450826d6061de58985" gid="9" mod="664" command="link" />
+                <file uid="9" crc="0953cdfa" name="libgstcontroller-0.10.so.30" swe="connMain" md5="9092cfbf5352c167e8ff4bbb3e86e3111bf72df7" gid="9" mod="664" command="link" />
+                <file uid="9" crc="3704dd63" name="libgstinterfaces-0.10.so.25" swe="connMain" md5="23221cec4505dabce7a6f7e5fefdcfcd7c6b6e91" gid="9" mod="664" command="link" />
+                <file uid="9" crc="964ec8a7" name="libgstpbutils-0.10.so.25" swe="connMain" md5="56564f3a9b712cea8df135f1e9c18a1c764e7da5" gid="9" mod="664" command="link" />
+                <file uid="9" crc="39f2865a" name="libgstreamer-0.10.so.30" swe="connMain" md5="5b50acbeae07ea76ead2a017d8a898798cdb6ac7" gid="9" mod="664" command="link" />
+                <file uid="9" crc="c09be096" name="libgstriff-0.10.so.25" swe="connMain" md5="0e8580e25155c66251a718fe3723295a98d80753" gid="9" mod="664" command="link" />
+                <file uid="9" crc="54761c68" name="libgstrtp-0.10.so.25" swe="connMain" md5="df6da02e17dab86c2c02634ff0846fdaf3807b0a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="0997fe95" name="libgsttag-0.10.so.25" swe="connMain" md5="a2f77513fae88d22849209fe1e81fecc31c3eb84" gid="9" mod="664" command="link" />
+                <file uid="9" crc="4dc66403" name="libgstvideo-0.10.so.25" swe="connMain" md5="86f15978ca9e976aa5dc66a3441a664f7f8f1889" gid="9" mod="664" command="link" />
+                <file uid="9" crc="349d7e94" name="libgthread-2.0.so.3200" swe="connMain" md5="66eb12338f9c03e210ead70d8e2a73034c1a77f0" gid="9" mod="664" command="link" />
+                <file uid="9" crc="0230603d" name="libiconv.so.7" swe="connMain" md5="f5b52e9c696aa26591d12db36d1cd72e90442055" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8775861a" name="libintl.so.9" swe="connMain" md5="9202a95d9bda0529d2b18f046bbc2357c1cc9272" gid="9" mod="664" command="link" />
+                <file uid="9" crc="d54348d8" name="libjpeg.so.11" swe="connMain" md5="610b4e4821d7e34fa9a63996798a410259d84a52" gid="9" mod="664" command="link" />
+                <file uid="9" crc="09d29ccf" name="libOfficeViewer.so" swe="connMain" md5="1113d781d4d1cdac81dbca8ee5412959871177b1" gid="9" mod="664" command="link" />
+                <file uid="9" crc="331fe623" name="libpango-1.0.so.2903" swe="connMain" md5="fd79df073cf02a13c5e4b4ee7e677b1b84a1c71f" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7007ee20" name="libpangocairo-1.0.so.2903" swe="connMain" md5="b9e4220ebc0f4b72e03fe0211d90354f6bc2bf0a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="2706d4ef" name="libpangoft2-1.0.so.2903" swe="connMain" md5="51264672558bd6eedea43a7edd360c82783e497f" gid="9" mod="664" command="link" />
+                <file uid="9" crc="5322794c" name="libpng15.so.15" swe="connMain" md5="de0d4f191d0828431765ddc0c803e56850e83cdb" gid="9" mod="664" command="link" />
+                <file uid="9" crc="37f68e97" name="libwebkit-hbas-NBTEVOEXT.so" swe="connMain" md5="e48aa722fdca30d480438ae67a04a539c214a4df" gid="9" mod="664" command="link" />
+                <file uid="9" crc="612c966c" name="libwmf.so" swe="connMain" md5="86c60d2d5438da4d1e6c72ddf3644e6193381b55" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9309bcf2" name="libxml2.so.10" swe="connMain" md5="edff13fd7c9eedbc77579d2a0fed5552678fe6dc" gid="9" mod="664" command="link" />
+                <file uid="9" crc="70051a23" name="libxslt.so.2" swe="connMain" md5="853a7be2249bf02a86618901b848e0d47f7b7630" gid="9" mod="664" command="link" />
+                <file uid="9" crc="fe439da6" name="libzzip.so" swe="connMain" md5="2dc65f3ba0d3d4669d5cd33ad2ec5dc8c1d2e724" gid="9" mod="664" command="link" />
+                <dir uid="9" name="plugins" mod="775" gid="9">
+                  <dir uid="9" name="bin" mod="775" gid="9">
+                    <file uid="9" crc="188e9b49" name="libOfficeViewerPlugin.so" swe="connMain" md5="153c886a1382dac376c2c552192a523b4614f6da" gid="9" mod="664" command="link" />
+                    <file uid="9" crc="d7493b89" name="libPDFPlugin.so" swe="connMain" md5="361161871e2dcb86fb06eefcfe46b95593b17b64" gid="9" mod="664" command="link" />
+                  </dir>
+                  <dir uid="9" name="bon_wid" mod="775" gid="9">
+                    <file uid="9" crc="3287141c" name="libBrowserPlugins.so" swe="connMain" md5="7c77810426b0734985d2d5a10dfa86a74554ec05" gid="9" mod="664" command="link" />
+                  </dir>
+                </dir>
+              </dir>
+              <dir uid="9" name="carplay" mod="775" gid="9">
+                <file uid="9" crc="6b781640" name="iofs-pfs.so" swe="connMain" md5="dc12c20fb04d890bc853d2db88ca0dff77b745c9" gid="9" mod="664" command="link" />
+                <file uid="9" crc="63f62384" name="ipod-acp-har-i2c-iap2.so" swe="connMain" md5="774b98e012ad63d4ddcc7eaae442bcc7f70d8b31" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9af7dc6a" name="ipod-acp-i2c.so" swe="connMain" md5="8c8c3e0e2d1922a5dd92c9fa824a3bf1bc3bfa36" gid="9" mod="664" command="link" />
+                <file uid="9" crc="0ac9be52" name="ipod-drvr-iap2.so" swe="connMain" md5="64a1f841ad00d5adeda6ff4388a119a5f2db3b7b" gid="9" mod="664" command="link" />
+                <file uid="9" crc="437fd670" name="ipod-transport-bt.so" swe="connMain" md5="c25edfc762e08b22329288ac39c10c221c1aafc6" gid="9" mod="664" command="link" />
+                <file uid="9" crc="37202c7a" name="ipod-transport-usbdevice.so" swe="connMain" md5="04db6721979cf3243ec9bd4c94aaa1a1ebe7b2b8" gid="9" mod="664" command="link" />
+                <file uid="9" crc="c18891a6" name="ipod-transport-usbhost.so" swe="connMain" md5="51ffc12dbba52ddb9000030c6ecbf50f02927eca" gid="9" mod="664" command="link" />
+                <file uid="9" crc="994bff98" name="libalac.so" swe="connMain" md5="7d5763e23a123d4a337999609d4736de480e25a6" gid="9" mod="664" command="link" />
+                <file uid="9" crc="994bff98" name="libalac.so.1" swe="connMain" md5="7d5763e23a123d4a337999609d4736de480e25a6" gid="9" mod="664" command="link" />
+                <file uid="9" crc="4883f530" name="libaoi.so" swe="connMain" md5="929ff93436a4e4e1f2b259f681d876c3c57e38ea" gid="9" mod="664" command="link" />
+                <file uid="9" crc="4883f530" name="libaoi.so.1" swe="connMain" md5="929ff93436a4e4e1f2b259f681d876c3c57e38ea" gid="9" mod="664" command="link" />
+                <file uid="9" crc="ea9ef0bc" name="libaudio_manager.so.1" swe="connMain" md5="ff422f5e2728d8477dba84818aefa7aa443cfd07" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7b1331b4" name="libdbnotify.so" swe="connMain" md5="35ee57c238159fa9ff6752316e75e5fd8fff9f94" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7b1331b4" name="libdbnotify.so.1" swe="connMain" md5="35ee57c238159fa9ff6752316e75e5fd8fff9f94" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9cf39d23" name="libexif.so" swe="connMain" md5="4c93568ba5cf6958543c2128598ab527c4fb0e87" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9cf39d23" name="libexif.so.1" swe="connMain" md5="4c93568ba5cf6958543c2128598ab527c4fb0e87" gid="9" mod="664" command="link" />
+                <file uid="9" crc="1cd2e7ee" name="libflac.so" swe="connMain" md5="08a40f0e06f55374ed9a6cd7bf10f0f898c34f8c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="1cd2e7ee" name="libflac.so.1" swe="connMain" md5="08a40f0e06f55374ed9a6cd7bf10f0f898c34f8c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7217a372" name="libiap2client.so" swe="connMain" md5="c7db8b540280cf33d9335f0c34d38c4660274c3d" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7217a372" name="libiap2client.so.1" swe="connMain" md5="c7db8b540280cf33d9335f0c34d38c4660274c3d" gid="9" mod="664" command="link" />
+                <file uid="9" crc="63f62384" name="libipod-acp-har-i2c-iap2.so" swe="connMain" md5="774b98e012ad63d4ddcc7eaae442bcc7f70d8b31" gid="9" mod="664" command="link" />
+                <file uid="9" crc="dd6b879a" name="libiptcdata.so" swe="connMain" md5="d1c30106433e3d429445870e42d8cdd4c67a0f00" gid="9" mod="664" command="link" />
+                <file uid="9" crc="dd6b879a" name="libiptcdata.so.1" swe="connMain" md5="d1c30106433e3d429445870e42d8cdd4c67a0f00" gid="9" mod="664" command="link" />
+                <file uid="9" crc="518322f1" name="liblogging.so" swe="connMain" md5="c95f1fa4a23681028b2df072de13a0ac9f49a84c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="518322f1" name="liblogging.so.1" swe="connMain" md5="c95f1fa4a23681028b2df072de13a0ac9f49a84c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="aa8d0aae" name="libmd.so" swe="connMain" md5="7e4958877b0e27b17e64e96006885322a6f77cac" gid="9" mod="664" command="link" />
+                <file uid="9" crc="aa8d0aae" name="libmd.so.1" swe="connMain" md5="7e4958877b0e27b17e64e96006885322a6f77cac" gid="9" mod="664" command="link" />
+                <file uid="9" crc="5d413676" name="libmmcharconv.so" swe="connMain" md5="031753b1c8c54a2221ae84232b6e41dca5dfaa4c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="5d413676" name="libmmcharconv.so.1" swe="connMain" md5="031753b1c8c54a2221ae84232b6e41dca5dfaa4c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="52f10fea" name="libmmcopy.so" swe="connMain" md5="9ca7c76b0ac9b42b00de9b0f6338e6421d01b1db" gid="9" mod="664" command="link" />
+                <file uid="9" crc="52f10fea" name="libmmcopy.so.1" swe="connMain" md5="9ca7c76b0ac9b42b00de9b0f6338e6421d01b1db" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8711af6c" name="libmmedia.so" swe="connMain" md5="31baf02c14c38a43d1daf66b5dd5a7f09075b214" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8711af6c" name="libmmedia.so.1" swe="connMain" md5="31baf02c14c38a43d1daf66b5dd5a7f09075b214" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7e71165e" name="libmmfilter.so" swe="connMain" md5="04c1dde48e7f6abff7e53ac66355c4d2635611b8" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7e71165e" name="libmmfilter.so.1" swe="connMain" md5="04c1dde48e7f6abff7e53ac66355c4d2635611b8" gid="9" mod="664" command="link" />
+                <file uid="9" crc="66f2a031" name="libmmipodtrresmgr.so" swe="connMain" md5="1ffe088348c9e9ca9da9684866e55d1780658a94" gid="9" mod="664" command="link" />
+                <file uid="9" crc="66f2a031" name="libmmipodtrresmgr.so.1" swe="connMain" md5="1ffe088348c9e9ca9da9684866e55d1780658a94" gid="9" mod="664" command="link" />
+                <file uid="9" crc="531fe509" name="libmmplaylist.a" swe="connMain" md5="b8aac69dd59d42cab7a2749233d8ae173b39ac1a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="5b366c3f" name="libmmplaylist.so" swe="connMain" md5="37310fe9a1b94d0a4e876ae10a250d843a632e47" gid="9" mod="664" command="link" />
+                <file uid="9" crc="5b366c3f" name="libmmplaylist.so.1" swe="connMain" md5="37310fe9a1b94d0a4e876ae10a250d843a632e47" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8fac7bf0" name="libmmplaylistS.a" swe="connMain" md5="dd9dd3a96cb61ad7b39ada5b56271d3f25731447" gid="9" mod="664" command="link" />
+                <file uid="9" crc="2ebbc887" name="libmmresarb.so" swe="connMain" md5="6fc7693d75ef095a3e544fd7e84a7df12b65162c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="2ebbc887" name="libmmresarb.so.1" swe="connMain" md5="6fc7693d75ef095a3e544fd7e84a7df12b65162c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="910721ee" name="libmmrndclient.a" swe="connMain" md5="1fdc838e0e1352f7ce4142d1a995c71f3386a5cc" gid="9" mod="664" command="link" />
+                <file uid="9" crc="677b460f" name="libmmrndclient.so" swe="connMain" md5="0c319a7705084e363ca540f7454124ba308e9b6a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="677b460f" name="libmmrndclient.so.1" swe="connMain" md5="0c319a7705084e363ca540f7454124ba308e9b6a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="09e4adcd" name="libmmrndclientS.a" swe="connMain" md5="37bea6f149c979d770d80259edca67574f4234a9" gid="9" mod="664" command="link" />
+                <file uid="9" crc="41d332ad" name="libmmrndcore.so" swe="connMain" md5="81630f76b243c1e1d14b1cadc87185777ee7b8a8" gid="9" mod="664" command="link" />
+                <file uid="9" crc="41d332ad" name="libmmrndcore.so.1" swe="connMain" md5="81630f76b243c1e1d14b1cadc87185777ee7b8a8" gid="9" mod="664" command="link" />
+                <file uid="9" crc="49ef36f2" name="libmmro-mmf.so" swe="connMain" md5="807afbb01e2e15ad845ed136d8774aed2f0879ec" gid="9" mod="664" command="link" />
+                <file uid="9" crc="49ef36f2" name="libmmro-mmf.so.1" swe="connMain" md5="807afbb01e2e15ad845ed136d8774aed2f0879ec" gid="9" mod="664" command="link" />
+                <file uid="9" crc="da39c15b" name="libmmsyncclient.a" swe="connMain" md5="3daf063be8d41d5985d2bda9d931a4e3288471a7" gid="9" mod="664" command="link" />
+                <file uid="9" crc="753705f9" name="libmmsyncclient.so" swe="connMain" md5="71272c3ec64c27b347f671ff0eabd6b937a0ddd0" gid="9" mod="664" command="link" />
+                <file uid="9" crc="753705f9" name="libmmsyncclient.so.1" swe="connMain" md5="71272c3ec64c27b347f671ff0eabd6b937a0ddd0" gid="9" mod="664" command="link" />
+                <file uid="9" crc="41fd10a5" name="libmmsyncclientS.a" swe="connMain" md5="17d5a72c7f70f74eb3f9321b4a5935b85b4f128e" gid="9" mod="664" command="link" />
+                <file uid="9" crc="f2a8b765" name="libogg.so" swe="connMain" md5="6f584fef650946112634b85f0bf0c799b919db1e" gid="9" mod="664" command="link" />
+                <file uid="9" crc="f2a8b765" name="libogg.so.1" swe="connMain" md5="6f584fef650946112634b85f0bf0c799b919db1e" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8ca37919" name="libOpenMAXAL.so.1" swe="connMain" md5="468cf82a6e20d7c826e80c430d0005db0053b232" gid="9" mod="664" command="link" />
+                <file uid="9" crc="02885d60" name="libppscache.so" swe="connMain" md5="f1d1b26e94f5726734ecb43061b77bdb50b3ee15" gid="9" mod="664" command="link" />
+                <file uid="9" crc="02885d60" name="libppscache.so.1" swe="connMain" md5="f1d1b26e94f5726734ecb43061b77bdb50b3ee15" gid="9" mod="664" command="link" />
+                <file uid="9" crc="e146b8fb" name="libqaacd.so" swe="connMain" md5="28f9f95ee5acdccbbb798dd591e9e6b82f589e6a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="e146b8fb" name="libqaacd.so.1" swe="connMain" md5="28f9f95ee5acdccbbb798dd591e9e6b82f589e6a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="4c6fe667" name="libqdb_notify.so" swe="connMain" md5="d0962a13364df86414eb28eb552995b149315d06" gid="9" mod="664" command="link" />
+                <file uid="9" crc="bfebf8a8" name="libqdb_notify.so.1" swe="connMain" md5="613b23066ede3c306f570c040c15c76d5fac18d2" gid="9" mod="664" command="link" />
+                <file uid="9" crc="1e7003dc" name="librdaaudio.so" swe="connMain" md5="ec087be2fbfe387bcc6ed01ee15f44b8d8df6d7b" gid="9" mod="664" command="link" />
+                <file uid="9" crc="1e7003dc" name="librdaaudio.so.2" swe="connMain" md5="ec087be2fbfe387bcc6ed01ee15f44b8d8df6d7b" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9b4db279" name="libresarb.so" swe="connMain" md5="8a3a75d4b149d0fc9a3e80b79a9b154dcaf2aa06" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9b4db279" name="libresarb.so.1" swe="connMain" md5="8a3a75d4b149d0fc9a3e80b79a9b154dcaf2aa06" gid="9" mod="664" command="link" />
+                <file uid="9" crc="a0a0191f" name="librimrtp.so" swe="connMain" md5="dbc2d80ae2d1230362fe4f5170584b8a68228682" gid="9" mod="664" command="link" />
+                <file uid="9" crc="a0a0191f" name="librimrtp.so.1" swe="connMain" md5="dbc2d80ae2d1230362fe4f5170584b8a68228682" gid="9" mod="664" command="link" />
+                <file uid="9" crc="b45f9fed" name="librimrtsp.so" swe="connMain" md5="24d4682f431f050c5a32b406d9947a777d053f04" gid="9" mod="664" command="link" />
+                <file uid="9" crc="b45f9fed" name="librimrtsp.so.1" swe="connMain" md5="24d4682f431f050c5a32b406d9947a777d053f04" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9b33519c" name="libstrm.so" swe="connMain" md5="4a14c3bb8187e260513c6e44c7acd1552bccdceb" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9b33519c" name="libstrm.so.1" swe="connMain" md5="4a14c3bb8187e260513c6e44c7acd1552bccdceb" gid="9" mod="664" command="link" />
+                <file uid="9" crc="5540282a" name="libtrkmgrclient.a" swe="connMain" md5="1e5d8415d5a6f171de2aaaf70e5385fb4a77612d" gid="9" mod="664" command="link" />
+                <file uid="9" crc="f72cf939" name="libtrkmgrclient.so" swe="connMain" md5="975e88becd3900a145b2a4b965fafd2fd8ea1da1" gid="9" mod="664" command="link" />
+                <file uid="9" crc="f72cf939" name="libtrkmgrclient.so.1" swe="connMain" md5="975e88becd3900a145b2a4b965fafd2fd8ea1da1" gid="9" mod="664" command="link" />
+                <file uid="9" crc="0906c3db" name="libtrkmgrclientS.a" swe="connMain" md5="20bb84d38a1a8d299b426fb07f9bddddb0c73bed" gid="9" mod="664" command="link" />
+                <file uid="9" crc="59ac4c2a" name="libvorbis.so" swe="connMain" md5="8a431f64e3160ea92b4326db20d1cca44dbdbe4a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="59ac4c2a" name="libvorbis.so.1" swe="connMain" md5="8a431f64e3160ea92b4326db20d1cca44dbdbe4a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="b6535ad1" name="libwmpinfo.so" swe="connMain" md5="d8a15dc44c16fb7067d5d51d9302c65873e9144a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="b6535ad1" name="libwmpinfo.so.1" swe="connMain" md5="d8a15dc44c16fb7067d5d51d9302c65873e9144a" gid="9" mod="664" command="link" />
+                <file uid="9" crc="1a30e2f0" name="mm-cli-md.so" swe="connMain" md5="29b2f2d36d9693b662df9db685dc513d2c2795d8" gid="9" mod="664" command="link" />
+                <file uid="9" crc="b994291b" name="mm-cli-mmplaylist.so" swe="connMain" md5="17fea86c946f9a8fd7d3a9ec4b9e31fa36ba1f49" gid="9" mod="664" command="link" />
+                <file uid="9" crc="ca6176bf" name="mm-mdp-cdda.so" swe="connMain" md5="a43bab77cfecfe29d264ffbc433b4c53f787a89c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9e167847" name="mm-mdp-extart.so" swe="connMain" md5="042cb1f5444b33c422a9064288df1573be13a468" gid="9" mod="664" command="link" />
+                <file uid="9" crc="401a2d4e" name="mm-mdp-mediafs.so" swe="connMain" md5="98a789e49d6341d9e185ea8c0dec494146210b72" gid="9" mod="664" command="link" />
+                <file uid="9" crc="51411ba1" name="mm-mdp-mmf.so" swe="connMain" md5="f3649c1bc3fb1a224401c2d5b89316a0b9458c81" gid="9" mod="664" command="link" />
+                <file uid="9" crc="81f50234" name="mm-plp-asx.so" swe="connMain" md5="52bfc73ccdc0bd4ea183cc35d8b3e2ff21523076" gid="9" mod="664" command="link" />
+                <file uid="9" crc="5b637876" name="mm-plp-b4s.so" swe="connMain" md5="1c487e7336f08d473a298e33e8955d16afc70710" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8b1fddce" name="mm-plp-filelist.so" swe="connMain" md5="acfeb4cb7ac0bc64e8db9edb3b9d00915644fcaa" gid="9" mod="664" command="link" />
+                <file uid="9" crc="70fd3ebd" name="mm-plp-itunes.so" swe="connMain" md5="c7df778dda013529b81c925f4915e85e0fda0248" gid="9" mod="664" command="link" />
+                <file uid="9" crc="9e62f22d" name="mm-plp-m3u.so" swe="connMain" md5="00aaff74b2e7bae90ce0d6380404d78a5c6ba266" gid="9" mod="664" command="link" />
+                <file uid="9" crc="ddbbe9d3" name="mm-plp-mediafsdir.so" swe="connMain" md5="5a7f5bc3c2ff58f120c2c28a79b6d982711bba3c" gid="9" mod="664" command="link" />
+                <file uid="9" crc="25f6ee47" name="mm-plp-pls.so" swe="connMain" md5="11597b2a170b42b148f23ed13e3536cf2967e3b5" gid="9" mod="664" command="link" />
+                <file uid="9" crc="eabccb48" name="mm-plp-qdb.so" swe="connMain" md5="46a2d4809146073ab6c00034093bcd6e5a3d238f" gid="9" mod="664" command="link" />
+                <file uid="9" crc="2a95a565" name="mm-plp-rmp.so" swe="connMain" md5="fa12fd265f3bc730a355ba126cb4ddf3f464ab89" gid="9" mod="664" command="link" />
+                <file uid="9" crc="007c60e3" name="mm-plp-wpl.so" swe="connMain" md5="dcdf8f525d38dade9bb95c6ad5bb0c98ce1b1cbd" gid="9" mod="664" command="link" />
+                <file uid="9" crc="8c04761f" name="mm-plp-xspf.so" swe="connMain" md5="47b0e8ffeccfb6452ac63a91e911f93d369b18b6" gid="9" mod="664" command="link" />
+                <file uid="9" crc="183c4274" name="mmr-mmf-routing.so" swe="connMain" md5="c85d4ccbd9857bc2fa737f9208917aff9c41e083" gid="9" mod="664" command="link" />
+                <file uid="9" crc="7fce598c" name="mmr-playlist-engine.so" swe="connMain" md5="1c2d5eecb6fdb2f78ab2a5045d5f11076d1faf49" gid="9" mod="664" command="link" />
+                <file uid="9" crc="3477f928" name="mmr-track-engine.so" swe="connMain" md5="7b777a49226d4ff3712e2f6e0c76a575e0be0a29" gid="9" mod="664" command="link" />
+                <file uid="9" crc="80cbf400" name="mmrenderer_cli.so" swe="connMain" md5="66a5ef6be84f1d8d9ae788eef225b95ac945003e" gid="9" mod="664" command="link" />
+                <file uid="9" crc="da90c798" name="mss-ipodiap2.so" swe="connMain" md5="6e7e55c0105a024cafa0292a138222d8fc736c57" gid="9" mod="664" command="link" />
+                <dir uid="9" name="devctrl" mod="775" gid="9">
+                  <file uid="9" crc="24a436ad" name="libconn_carplay.so" swe="connMain" md5="eb7dda37b793fb926de6f6273d7b0cae819f657b" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="a45c2905" name="libconn_carplay_audio_a2i.so" swe="connMain" md5="4460be9d6b9dfa7fe0f103b14a4babfd5fd170ce" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="1edb6cb4" name="libconn_carplay_audiocodec_openmax.so" swe="connMain" md5="1aef134c81a24b9c813ae8790a940fc21902a720" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="e0866fe0" name="libconn_carplay_auth_haracp.so" swe="connMain" md5="ef35daa4a727db91f23fd7ad1f17eb3c6b80ccc7" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="0145d3d0" name="libconn_carplay_video_mmr.so" swe="connMain" md5="bc2f790d4db5698d7fd06bb1bc49935933d6b3e5" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="70941bc8" name="libconn_carplaydevctrl.so" swe="connMain" md5="aed84de4192a0f933a2f386fa2632bd4fe653b2f" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="722db2fe" name="libconn_iap2_wifi_qnx.so" swe="connMain" md5="f9afe95e957a324860c8105e0a536537bb071c45" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="c21fa865" name="libconn_iap2devctrl.so" swe="connMain" md5="f0df63df1a0ec65b596e99bc887cb350e2417710" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="126aa8dc" name="libconn_iap2lib.so" swe="connMain" md5="66e606dc3fd4cf4dc3846a743586ec20644ff942" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="15cde616" name="libconn_iAP2ProtocolMgmt.so" swe="connMain" md5="0d2f7766888acc31f7a2f5ea6f571d1af2c34060" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="bcddf4f7" name="libconn_PrimesUtils.so" swe="connMain" md5="232279d790f250e8e121773d160956c373e28838" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="3654bd89" name="libdns_sd.so" swe="connMain" md5="3948e876d63afb682cfd28a6aca0ba66866cd514" gid="9" mod="664" command="link" />
+                </dir>
+                <dir uid="9" name="mm" mod="775" gid="9">
+                  <file uid="9" crc="dfe13eb3" name="audio_streamer.so" swe="connMain" md5="7db395b43d2b1a98bc8df3797f2d3f1ea71a31a1" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="35c811ce" name="audio_writer.so" swe="connMain" md5="b4c829468cdab89998216cf82eaaa1c5a570cb12" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="23a2138e" name="fildes_streamer.so" swe="connMain" md5="06bf3784576d1aa2eb36953ab51c187a77eaf458" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="ca626732" name="ivahd_video_decoder-omap5430-dce3.so" swe="connMain" md5="fef565245388328fdf5c0c59b0b4205de33d0b0e" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="e29fc1b7" name="mdev_streamer.so" swe="connMain" md5="f077506829c97ac930f1874c9c372348d474e9b4" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="1c9e106d" name="oc_fdkaac_decoder.so" swe="connMain" md5="39db7c773658c62285982f80c61f1f9075762b1e" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="bf5461f7" name="oc_fdkaac_encoder.so" swe="connMain" md5="6525e14d2b40b438c54dc1cd2fed11389bf8f209" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="00ea1a80" name="qnx_raac_decoder.so" swe="connMain" md5="4ec9c48619017698053a9041da52bc4913e2cbfb" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="2ac6907e" name="queue_filter.so" swe="connMain" md5="4b6a2d49321c6704aa18976bac270f3608c76cd6" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="1d00451d" name="rawfile_writer.so" swe="connMain" md5="0f7589892cf931c33d079163db83d044280e6ed2" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="0c3bf9f9" name="rtpts_streamer.so" swe="connMain" md5="05635388d3ccba313a4b5f9ca042f6b8c618445d" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="fe262cc6" name="screen_writer.so" swe="connMain" md5="5746596753a84623ed2bf6ff2fcd6290ce71a340" gid="9" mod="664" command="link" />
+                  <file uid="9" crc="a2489318" name="stream_reader.so" swe="connMain" md5="94e50f78dfad58ee33d637e58c2bcc001aaea318" gid="9" mod="664" command="link" />
+                </dir>
+              </dir>
+            </dir>
+            <dir uid="9" name="xml" mod="775" gid="9">
+              <file uid="9" crc="ef784993" name="b2v_bon_cert.xml" swe="connMain" md5="f239e3dd097f40b0bc9f6f8da44474c0f46443fd" gid="9" mod="664" command="link" />
+              <file uid="9" crc="a5864638" name="bin_cert.xml" swe="connMain" md5="a73f75a0e4e4cc150653c2ea673e18afb776287b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="4081a27f" name="das_000.xml" swe="connMain" md5="6d1879d8d9c8db2f9340cd7fcf349cb4c5144b21" gid="9" mod="664" command="link" />
+              <file uid="9" crc="97adc0b7" name="das_001.xml" swe="connMain" md5="8e772fb49cbc39bf80754dc15689c6905bbb066b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="3a355ac4" name="das_002.xml" swe="connMain" md5="07b4484c1ec8feefcd7fb300ede2bb2bb2861f3c" gid="9" mod="664" command="link" />
+              <file uid="9" crc="b639d4e3" name="das_005.xml" swe="connMain" md5="c6042a9577e3fee8dabbc9eec5e2ec290f6256ee" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8d89bd0b" name="das_006.xml" swe="connMain" md5="d6c8d40e6a5771cd7ce1bb3b211484cce4abc466" gid="9" mod="664" command="link" />
+              <file uid="9" crc="baba2b98" name="dpas_001.xml" swe="connMain" md5="a917e747cdf47e7006a451f6de21b17ec88098c8" gid="9" mod="664" command="link" />
+              <file uid="9" crc="3478a087" name="dpas_002.xml" swe="connMain" md5="ff4b412b18e351e9da86620c787c715d3b83272b" gid="9" mod="664" command="link" />
+              <file uid="9" crc="be397bb9" name="dpas_003.xml" swe="connMain" md5="9394af7b9c6c1dee5b5c6e3fe66e80116c7119e4" gid="9" mod="664" command="link" />
+              <file uid="9" crc="651f470f" name="dpas_004.xml" swe="connMain" md5="b1837c55153f1910d7626fb8005c2b0ee9536349" gid="9" mod="664" command="link" />
+              <file uid="9" crc="af281087" name="dpas_005.xml" swe="connMain" md5="4a5db944c200da92629879ed8de16aff650dfa5e" gid="9" mod="664" command="link" />
+              <file uid="9" crc="8bfafa67" name="dpas_006.xml" swe="connMain" md5="cc7572957ddcce3f8fe7806418261bb84cbb87a0" gid="9" mod="664" command="link" />
+              <file uid="9" crc="f9ac7118" name="dpas_007.xml" swe="connMain" md5="edc7d1212bf6d9f238d5da361d683f2454005970" gid="9" mod="664" command="link" />
+              <file uid="9" crc="9576ee7a" name="dpas_008.xml" swe="connMain" md5="779a1256535a5bf8367556772e81f08ea936f28f" gid="9" mod="664" command="link" />
+              <file uid="9" crc="1437d162" name="dpas_009.xml" swe="connMain" md5="85d8bdeea98a0d56f58cc5c9120aa6715d035dc4" gid="9" mod="664" command="link" />
+            </dir>
+          </dir>
+        </dir>
+      </LinkData>
+    </SwData>
+  </LinkSection>
+</LinkManifest>

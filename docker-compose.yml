@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  idrive-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: idrive6-local
+    ports:
+      - "8080:8080"
+    volumes:
+      # Mount the htdocs directory for easy updates without rebuilding
+      - ./nbtevo-system-dump/sda32/opt/car/data/htdocs:/app/htdocs:ro
+    restart: unless-stopped
+    labels:
+      - "com.bmw.idrive.version=6"
+      - "com.bmw.idrive.description=BMW NBT EVO ID6 Web Interface"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+

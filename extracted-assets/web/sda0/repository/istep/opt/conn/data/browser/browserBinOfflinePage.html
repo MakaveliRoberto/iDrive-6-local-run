@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Internet</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+<style type="text/css">
+
+body{
+	background: #000;
+	color: #FFFFFF;
+}
+
+* {
+	font-family: 'BMWTA_RG', 'BMWTA', 'BMWTA-Regular', 'BMWTypeAutomotive',
+		'BMWTypeRegular', sans-serif;
+	font-size: 32px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	
+}
+
+.panel.visible,.detailPanel.visible {
+	display: block;
+}
+
+#PanelHolder {
+	padding: 0;
+	margin: 0;
+}
+
+.panel,.detailPanel,.itemDetailContent {
+	display: none;
+}
+
+.panel.visible,.detailPanel.visible {
+	display: block;
+}
+
+.header {
+	line-height: 60px;
+	height: 60px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	background-image:
+		url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA38AAAAvCAYAAABT0XPlAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0MUVERjRFOTAyREMxMUUxQTA0OEQxQzhBM0U2RTQ3RiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0MUVERjRFQTAyREMxMUUxQTA0OEQxQzhBM0U2RTQ3RiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQxRURGNEU3MDJEQzExRTFBMDQ4RDFDOEEzRTZFNDdGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQxRURGNEU4MDJEQzExRTFBMDQ4RDFDOEEzRTZFNDdGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VZ7IKgAAIZhJREFUeNrsnemO5UaOhU+oPAPM+7/s/EnFjAEnoI7iWahMd9suEig4fa+ullAoxI/r2nvjLyLLfL6Pvzv73eaz6///3cc2z8/W4/j7j+92cd7VOVbnrPb3Kffjt9U+1f7Y9+zv/bhmdh1qf5//vV/eF3aP8PJ+d363zVxJz3kF++hcRzX/3LNS3dOv3ou392FkZGRkZGRkZOQvJutvAn9bKNXq+2WU2+qzE+w+ISxRwLdR/heBwssAg4K/6voXgY517E9BqTuXJ6RW57TIb+8DcECgcTXG080NBXfnOW/y3Qm4qwGNbH8VrC2zfQpxnesCmf8gv3Xg/tYoMzIyMjIyMjIy8g+FPwVTHQ+Mkoso3yd8Oc+H+q4Cg10AZQJjm8DgPpT4U8lnHsLnZ3cBXA6OlhifJaBQeWkroKrAIrn/y4DMd4BIdY/S+bfgPdapNzu5B+56Ei+4m/MQ4Np9disP/A4MHQOaIyMjIyMjIyN/I/hb8N4shIpqBXIdzxeMcq9AbB3ABgFlm5wryLnuxzaXgCeQa2Fho9U5o7jG37/7EBBz/lZ5mtj92wKAnyGxN5k/1bbV+aRQyM77MrCcXK+DPBe623m2OpCabgMBYWpOKu/pRa75u0Jnu+Gs3wGa1XwdGRkZGRkZGfll4W8ZZVUpk4kHbocK/yWUUBQwsVB72VJxCvISIPUV2QWQudDOSjneBH7ZPm4CjusAqRVC+PO36r4omN1N+GJjcyr4aagv2/Yq7vv+whh1vH4QgOpCqjuGm3RsYEBQhafeAuyuANRBjtUFzWp+vNnnyMjIyMjIyMjfEv6cp+8tOO5DqQNRHqtcMwVAKpzQwVunYMYzJHOFyvgCLwSizh3oheep630CGAL4Yr/fxRi4+74J0C0yTgykqkI2l5ij59+3gLcKNFWBGBCYS+COweRNwLYyCOzGs9fxdO7A0IPAaJNAaOpZ7YBcx6PJPnOe7bdr4Vd+NzIyMjIyMjLw96cA33coKA7ElLeAebwqj4ordpKc15lf5/bJCpCwsau+U2CThphWkN4NXauO8XleJyy6/WzwXEYGox0gSJT53QCLCtBPoF3B2CmjQQWtLvQ4NaKcxofn/p8A7TyUDjRvsyYkOYnd9aRTOOg7IGuZOcX2+2dUnZ3w05GRkZGRkZF/C/xdyAqowChHFZQkMPOZJ3eDh5k6gHGePBWuBrGNA59q22Q/nSqdriDLCch3CCdJNVR1bpuA3ULtrb3h21vsYi4oULmC84S5NpUbqKCgAs8q31AVEurkDLrQzdOQsQSsszYo7J4hAPNOsaGqcEwSlvoG7N7+dr949oHMy8jWjCqH+Q0UjpdxZGRkZGRk4E8qSN3CFS4Xxx0PB6hcXzh3pYg6eEn7/p2AkoCbg+RTKa3CIpNCFxBQAXH+nUIvT6C4m6DVvQdAnndVtflQY6nC+hbZnwPfE0ZvcO9Z2p4jaQfi9qk8yt3nQ1WkRTBPT8hz0L7Rq2abGn6+AlEplL7JqUyL5nS8jJPLODIyMjIyMvBXhpp9pegDA6Sq+uNZeKQLDa4PIIJ9s7DSG3V7hjRUDoGSqhRjdq375ffJMRK4dNVKWShcMleq47GQ0ye4JgV9toG5E2KfYZgLOgfPwdNVGAmUx40ZHRQgKsBVnkn2jG4DjdX/p9V6gaxgkYowqKrEqiI+rA1FN7zyEvP7DUS6Ma1+d4u1O+0BWd2LG5PLODIyMjIy8o+HP+B9RcpKwapA0lm+r284V5YHWCmWCr4SEF2Fwp1a4FXhjY4HbkPnPiolLPGmqXxFlbuIYFyZIn/uz937r0z+bWDoK/t7SgWvKvx2B8/Dhs6ZZfs9QVfdlwoIVE4ie76vF3NQFfnpGHd2Y18OrFEAY9q6JikQ021DguD3QD/3VRlwXMjp5DKOjIyMjIz8heGvqq7YgZhTwVAQVPUDW+YYST5TZf13SiICyEs8eEA/TDQJb4Q5l7QARjUOrIgOgnFWgMOqngL9fnIQCnDlrUsLbrAiKSBzFeE5VuD+Fk5Tz7cqipRA41WMBQj8gWzLenPe0NU2VajxDub7V4vNJMDKjB+XAUsHfEA/TDWJIuhAYQpr7pl1rTmWWY/GMzgyMjIyMvIfgD8Fc0De3NwpaJdQwJiCrhSTC1mIZNJ3THmwKgXUKZ8sf0m1ROhWFO2Cg8uj6/SbU9Cz4cM6VSVJV2hFQZD6TdVeooJHV21zCVByLQCS8L6Od6gKzezAYBq22oVXN3+3AMdqLO7inrGKtkvAKXsunTcwaYnBYCn1xOEwbpzrXAq/wNdAWT1baZ/JtAdjtW52170JLx0ZGRkZGfhriAMoBV3Oc3MJ0FOev7dtGtJiM0oRfONJcwUykjHdwXHO3ysr/VMxvoL9pQ3jUyV4G5B2irE6BzVGVT6pU/LZMRjMLPSU1Ld5mMrrdIfPyg6MPRWQq3ukoFqFVSZAqtpVdK7xJsaEdaxNFSzf4LmjN3QBpqrq7B2uI8yApMZKGQyYMUaFYKtQ1q+02YAxFEKshYlHtPpuvIsjIyMjIwN/QjF1ir3zooG8fFfjuK7Be+qV6OTrdYrMdMKxlOKvikWoEDIGtB1PXVoNMlHOzvydTqERp9i7VgBdD+ZG3rNStY3oQn06tzoetyQn8U1xFYTGlOp8T3ACfLVRd+2d0Nk3HktWRKiTN1mBOIt2uMGrGjv4SQxCaK5FqoBTp8dkagzrrKcdmHTP9uQXjoyMjIz80vCXerqqgg1K0T6/uxrn0QE6CMXSQVJHgTi/u5Dl5yWl7RHCCsjYMwXKeW5SBbpj9b9R53kyr18CIKqNQGJ4UJ6YjicrBerVOI4bd6Wcf3d4JgMiZ2xhYc3uN87bzfLHINaajiEmXR9vMje3WAef43KuJS5vEsW1nwaVxFCSFF2qfncXoMrGmxmPqlBoB11v7o+ruqyq1+Ll8+nmx8jIyMjIyF8a/ljbAvdSvIzCfgLARQCKgZKzHDtvlQtXS4A1UQRcWwkWqufCpboeozOs8hJgxBTM1KuTgM8bOEnGrwJzBRAuxNRVXWQK/g7mS5I/lZzLuS3LJURgtOkYHBhIX0Sx3wa2YQDc5RJvYnxJIZC1vqjmXNJP76vAvZsAVh1X5Qp3PevJugpjiFGFf1Kj1m3W7rfFk9xzxcJmL3NO0ydxZGRkZORvAX8MQJTSdQUv4YWfG1gn0JTk9VQv725FOaVQdPruVYCVAgpTglXhiW5IagWESY4VA8Iz/wfwOYMOPrrX9FSMLwOmqaeRhdolY3qJsXLhjYnhIcmjRaAopzmarF+eK0SUXGu3OiWbr0lTd7cmOGNMCk1JW4rWuv0CGjZ0dVs1f25wD+E+1nFnOEu+Zy1PAO3pTqolq7ncmfddgxYEaFdQOTIyMjIy8h+Dv9SzxaDPVfFMwi2XeBEzJUL1H0uLWQCZZ2xDN6Z3Cv82kJ162hRMrlBZVwp3omBX16is3R0YSFpjJAofDDh3isvsQKljyr7ztm6h5C8BpSzv9fReKCONO64D1XS+srnUAaik3QoLjwSyysUdQ4obp/MZuYXBqgOJ3YJM33Fv7uLZYYaoqzDOsHeHMkJtsc6wsFEWdpmE43eNKEBetZT9/n5xLiMjIyMjI6/g7/mSvAJoqSDJKeCrAXpKMWXnpRQpFxq6QgXkzXkhhIikl5dTit4USXlbNKFbTMWF+sEAHYySnoKKK95y4etFcFj7AITGgU5OYwrlXcVWzcUb2tuC0CCkci2B93l5G76lwHccO4FwZyxKnqPkfFgVUpfn6wx6Xag/cxldD8hdvHvOSrXJ+aj3QNX64zzfKicxbcHSmZtvDGfJGj2QODIyMjLSgr/VUBTPfAb2Qv+UH/DhmNcLyHKwtwUEJtVAL6OIr+Y5w2x/i+tg26n79KaZfKJIqPwvBp5dpclVdGVA0lGWgJ/zclZTqUqU9O48SPpnMvBACCHuGXB5d2/7t1WhoyjWkxt5aGCatwkDWZ0KoWmrEjf3GTQzD/AFHq6cQn+Va53mh34017fO3NvIK9Mm4b0XfOuY9LzcXOuA3ptt98s14irGdmRkZGRk4K982SaKhQKUFezbeeXY3+pFrbyWS8AjxD7TIgeJN5A1ir/D/XYUpLcNjxNYSgs97ADckt875XkbRS5pwK4UqS54vVWMXbXGxPK/kfU76zQAT9cG1ublK1DVgeduPmLXSJEaIVwuMSsK9MYbn7ROcMahG7pwURfquvNfVQdOKqBuYbA7x+R+OQdOqKr6O3bX29TYmq6vzmA2ADgyMjLyC8OfAhGnjChl6LS6LvIb14phi9/tcD9MYbiE8pH2ClRNkp2iyb6rqsK9yaN6fv/7Pj8aCjuQ5T8l+9tm/4lyqJQcN76utQYMjAOZ5+b8jTMuqJwn9Tyk4bAu5NeFXHb7DH5V4e32LEwqhab/PcEH4KGUt1j7OkaYZNw6lXtVrrMz4CXhoDd8KLQrxlKt5zey3pMw0K0Kc1X7qyqm7sa4uIqgKzSspffIjUvy7K0QBKc1xcjIyMgvAn+q79oSLwkIUHOQ5l7WqwGmS+wXYp8uDNSdO3txOsWwCs25BTgqz5ZTqJNCJ8lvYJQYFvbGlDSEUOOAsFK4gNoD5mABYi6kIa5AFlLslP3UA7SMwp/si/XLc3O0q4gmRo3OfeqK61+XKPgI5ou6T6d3V0Flevxq/wwSk3BBl6vI1qZufm9ybd2w6rQNRXXsT8h1z7e7x+6ZTIqCvQWwNzmB3eq/IyMjIyP/APhLw7SSUEkFXcso0MtA12oCHgyUVsft9AVkOXhJ7zX3cj73XYUZpS951e8sbfFwhl91lBSXA7bhwxDvYJ6+ycdxoLQFrFewmbbjAHRO5wVfGAcBNNzwRWkSr5GCSjWf0qbfbDzY/HAVOze+r6BM4jV7fnaJZ71THCeBYvYMJp7hbrsOGODpwJn6/jmGp1c2NUgpA+ZbqPmAj0xJPH1JG5IdrJ3ufqQh9Cx3+uyreCHvHzoyMjIy8heFv+Slwoq7OIBC8RummMBA3SLKlQLKBCRZL77EQ3gZZWcZRYzljFSKtqtUBwNBLnSIhRYmBgEGD86aneQaKnAAfEELBR3fkY9WjeNZdj4B/UQhfqNoozFfEAAbwmNXuYtK0U3G2imcytvcWePSVg8qTPYroOEg1eUFVsWzdmPOpdVn0xzRt4CwzdrpCqOgAX3KaKDWut///RDztdrvD/xrnmIamgz8HC5+N8HWeag746VyYqd34cjIyMjfCP6Sfn5AL1xSeR2SipzV8aoiGRd4AQ2Ae1KUR8+dt4JLpxRdqHO/zlDc5/cf4KGeaSELpaSpSoyJB2qjzhlJFKNKmTmt0HegLDoocCFXqSLqPFbKKNDJeTxDstWxupCTVKE888ruYP9XoeA6pV6BioMi5VlPvN4whpcknC8xlKh5l3jHVbXfNwYMF16bpAB0Wo4k9yQZg7QvaVoYKwEbt644uVEXnalA9jaGnl28z5wxbxFwTtes6plw69p4BkdGRkb+ovCXKC0V9JygVBUvcbDFiqs4sFTA5nL2VBjoEsr0FSg96edbnKPzNDGAUUVR2PncyLwvlULFAJQp4y7XBMGxKshMoA0GIFMvCMxYnvfzRtbLzyn1SW9H1xfsCpTKtOhL2rqA5Une8F6CTnPzBMpU+wQHMRC/UZ4RFhqqQGkZJTuZ50mvz6RVgosYYD1KVZsQmPHvFg/qVKlNwFS1oFhiTXH53cm6jgLa3sx7hPdgm7U2STEAshYvXzWEjYyMjIx8M/xV8OFyRhbqEEiQ7za4V82Bn8opTKDPnSvIubEeZK56IuBbUlQerqs4XicUMynw0lEiN+ry784Dt8PzOT+7wfMyHTAmCrpra5B6Ou7CMLALsOnmVHWKZQC5h8tdY1X1kBXuqe6xAkMFGje+Jw8vNZh8ht0lynWnx2FSzTQBGTSfZzSuQ51T4iFTRiM296r2C6rqZwp+b9c5BdZpMaBOP8Dz+tL1sKpKWs3HM/c4zaMF2X9atMitKcoYyoxUU2V0ZGRk5N8If0lFw+qlexlorMIjledQgRwDNBwwd26nPJPOA6i2BYFbVwE17Ze2AkX3fGm+ScbfAjAhFJkOfG0DtAtZA2Km4N+oe+O58DoFS2nPOdVkPtkfe+acMnUHhoAq5y4xIChAR6AYpsWGqpDSXczND/h2GGkInvOuOdB7q6CmeZpbGBUYGCgFPAkNTrw7Lmdzvxz7NyHI1bOWGsEq4GHHZu0jAB0ODPOMd4xYz3N55hciAKrn++hunNcqfuNgN6lgyu5td80dGRkZGfkC/KV9m1TencrFYwt/Wg30qfxUELcMHFYeRLW/FALTlhVqvJK8G4CHXT3z/9TLOFXynHLqFNAKCs9Qw0r5vIWRQYVSqbykRNncxJiQ9ENTyroC/+oYSaihg1R27KQgiAN+Vlyjqka6DayoMMY0HI0ZPe4GOLzxbrh73q28+1ackagD8qw6q8oLe3OOnbF1wKj+rp4VN/aJR97BXqcIkSuIBWT9SXfjPtzC6JPkVbqIBFV8C8hDs2GMFwOBIyMjI38C/C2iFAPaywYCXqoap4NIFMdLQU9tl+xDHdvBMIPB0yt4EwW821srbdzu2hekzbJRwNzndXwYxf6Gzg+sLPFpJdMTFp77/ThARfWzSz07Ln+qKtQCA/iuuE3lDUpyf9z9PBVc1YMOhXFBGXI+jFKY9CLsFshJC1cA7z1IleGBAYL6PAF8NJ6Bal519p14ppUHPvEOgYx9CjauVU43lLjb8zTZZ3U/zvctM6B0qwuD7NcZYE4PXwdqlQc4bUXTgf8JCR0ZGRn5JvhjL9CLLMIq3+35Qrig2yZUL5AE4kDOofLorXAf6txO5f0qzv0iL7ckbBRC4VnIi28A3lPIPksUHtZfDUY5ctbb3VDab/AwRhY2mhYsOYHtNgpP0jvrDMNlChBrnO6UpLNAzNNTepkxSD2lCQRUbVeSno0JTLt7sAKllrX0SCDPeTTObVmV4jQXUIUfrhdr/A5AsfMcp88WBMCnfS6V4WKHRqKukSAp2AJkvUFR3P/VGEeV95sWnsLLObPNcZUhwYX2dwEwgcqRkZGRkSb8LbJoVwpBAn8M6hQEVfB3gecWruPzEzYv/Fzg5Qz9TLx9CkQrr9+Ct0ozUKtA4SpASxUqAHyBEqZMnedTeaBUbp6q9OdAdRvYTEAPBkCYUgyhSFY5lKkXhY0tq4J5C9BQimpa8VQVemEhoEnoZBJKzGBeVfTt5piy81Pg4eYk4L22zFiQQFM1BiyPrwrNxBdBqFNpMzHgJP0HE48gwnmM4Pedlhhv8gYZ2N3mPiY5s0lBozf5us6ocBp1mDHHQbDK7+162L8TcEdGRkZ+afirwj5VVUoVggmyzQlvLP9vE8hb8EVcTshj2zPAvMT5smtw46MqpyqLbrfpNZDnwzivXRWCeTcUQUB7klxo6i2uWSlfJ7SyXMOLgCaQ5e0pxfJUcFQ+bdL2Is3lghlTmLmmAIS1iqiUwueYJMVZHCyodiGLHIdVjTwh9w6PDegeguoc0vueVI50RVtYPqkzDJzbupzI9Lnv9J1Uhp5OGHBaNArBc+VCmpNqxqkRxMGherZV5V3nKX1jLLgbRiU2R+8m8Hfu28jIyMhIAH/MY3eCkAKYJIzz9MqpzyFg7em1e8IeDOxdBOqqY1/Q3slFQFflLbKWFeeL9UcBFR3Qe4b+QSj3SilRzd1VT6gKxljOWqVssmu6zcv/K0qjy1VJlEBA9+pzln4ISK0gTVWePOFd5Rym5erRHMfzvn1VYU+arKvzBXT4IzNSnOsf83Dd4rnsNDmv8oLVcwFkRZkSYHTwjGDud4BH5feu4P5157SqxnsaclQodAogKjqgE0p5GqxWCM2J4dBdi+r/yr575n6DGIuUwaA6X5fr9wbGR0ZGRn5p+Kt6ygG+/14FRUyxTcM8ncduE4iroBEPkFrIPIAg0HqhzmHcBRhX+U8M0ipPygk7T0+F8tJWUOXaHFwE0KqX8yeY3kaJuAOF6g4Vc6VgsTYPKi8QAqKTYzHF/ywq42DXhW8xbwwex/kBnfvECjfdAdQ62KvuWwUtDsKBLH8yUeSU4r7gc9+2eB4uAZ/V/lSe4fkspVC1DNx1end2czKZN/oMF2b9QT/gox5czt1GHgrtQNyFLVZrbVpZFOgXJkrDixMPamJ4SKMEEGyXPHuJUZH1dmV9DBN4HRkZGRkh8KeKkLCm6Gd4pgJDBno44M0Vb7kCkLvI30v8u8j5bPg+gcv8P4QSXr3UKqVGlcZXAKPy5e7i/1XhjNu8ZFU+yAd43gtC+KoUjV2AbJJriAYIuJySSplM+jrCQNpdgEd1/xhwAXnOlRoHplieLTiu45xAgBfo9zZMFGQVZgrUFWCBzHONAnCTFimq4mQ63994v5jnTq0pSW7ZeZ9cj0mXY5q0S2C5qGlOHMuXVCG5nX6P7DhXaERSa0JlUHMVcQEd8unOITEisPXcrT9u7XXVrh38qQiC8QSOjIyMHPB3mUXyIkpLBYNJjhvLGTzDOtV3Dv7Y9miA5LOZ7nnuLDexevlWnkH24lXKQ6JMqiIlytPjckBcSwiVp1dtmzRqrv6rQMj18buFApqAc8fivIzCVuWfAT97g908cQqkCs9SwIUA0NJmztWx7iasV3PfKcEKwk+jBJD3jwOZby6/SYGvgwH1XZXXp7ynSX7rm+I9ypDznM+nwcv1ZkzyFoG+x8zlylXwdcGHmrtt3Hiq3oRJY/Y0DFh5P9naBQFuF3mmVN5yEgKeeCQTmJ6Q0JGRkZED/lhOgCvyohqlo9jXAveWVd62s5LnhZ/DPi8Ce+z7dexPgSFQ5w1WUHy++KtKpSc4Vi0xYF6eiZKYKIHsRVx5SaqXPWsCXVnvFbio4isqV8QpUAryVNGSHUDGNkB/hoC+LUe/DTi48LWkguipYDvP5f2Y+7fYX+JVStpzuHwxt33SOP6puKb9zVyotKqm2gEwBnxJ6J4z4izxzF7CKOPy1RT8LAKtyTUC/UiBFKJVhMSFug9eJ8/OPcMAz0VUXvtlALZTkCWBpjfGQxCYViGkaRGe7vN6hcA/MjIy8o+GvwrIAB2m6Yq6sAIs6rMT1s59f+Y4/ShA79zebbMKkDuBULWEWMjCYKtxVNX1GDBWSkLSLF41kVe9qJSSVDUPvuGreUJAWgp0EOB5ow5XdcoQO/YnwIEoZ0kriQ3daPk7mpafgPsDP4dgOvhyoJgCFwtZUzmYu1g7bjNPKwUu9XCmhUKYon/OBZZfq/rBpT0dO+GGQL9Mvio2dAcQrlqEALonaMdL2SmaUs05t7YA74rWKEMNC71VFVU7ANKtbJp4sN34dKFsQ+eEojCQfBTrtzOOpuH5bmzGKzgyMvJLwR9rZK6A0EEO0C/qAtR5e1Wo5vkdg7xFwPIMd/1RXPt5Xi7cU43LRt2/0FV4dDmALper2hegS9Ynni+ntDIF7YYOr3LVOJWiCaJsnft+ejaSPJpESUg8IKeSVCnPnwrQWQAoVbwYdNzQYZBOUV7FOFbeWQY7ONaXD9RFUVyLkiXAw3kbOq0zkt6AKq9KFbpQyucJLjd5FtLCNhs8n1dVc0yBU4FzYjgA6pzi1ON/w/cTTcJFlSco8RKl62bSp5UVR1K52TBGPtWT8EYeeaK2dTm87PzcWKfw78BtNY2TIyMjI/9Y+PsB3oQ6aevAILEq4FLB3wlTCtSuAuquA+BWAYiXAUKAh3f+ePx9mXF4Km0/jFJVWVxVCOibKoiJZfR53CR/DuAhma6ROorzUa0jHGDe+Neql6qiH1MSFUQsophXoaxn1c9UmUrysd72/juhchfnmnhhKsA7tz/zsjr93RQkMaWShROfuUcJ/CwyNsDPHuDv9Iycz2ASZgkCZJ8VYG9kPQFV3h2DQFY1uAK5pFCKajUCZC0nlOKvmpQnz1BS7KZaZ5URAOK+owmX6nw7oeZJoSg17qydxhKgl6z5quqqWhPVnFjN98zIyMjIPxb+zkXvIoBTeaHOhdcVQqlCMxX0MdB7fvcDPY8gCy09vz/Pb4XXdo4NawmhFB/A542wF22qoLJqlU4B/YBuL7AL8PjAv4aTQSj+rvcfU4IBnf/HQsMcICugVAqTyiW64IvCPI9ZQafLXUl6wS2jiCXl2hEoWalHQsGHUqLV9d/QxThc+f4b/b59rHDTjVyJZ15OVwTJAaiCUDbWqtgSkIVjVrC0zH1Mogy2MATcYo2oWnK4HFM3F9TcPKvkOqPHQtZ7T81B1zpnhedcrV0qr9etQQju8xLbud6LSTioWu/xhd+PjIyM/C3g7/QOXGRBTHr8qdy+E7A2snDNHwUcXg0I/PH4LQsrrQrPfB77mWt4XkfV6N21fLgEsKiw0QoUbnEspayoIgwbvMG4etkn5c23UBhZsRkUSkcVArgDZSkJY3MQchpKPsALqCwBa4kSVinep0L6prz76dVj0JEUiKiOed7LM9T5Ru1VdcpeAucMspiHjxX8cUqr866cbTmSaq4Ar1LLYIYVJEnWhEQxrxTyWyjq6rfJ8whyP2Hgs6p6eoOHJycNx1VkQtqfL/mMGSCqljtJP0AX5pwYP4AsFzYxjqRrbXVv1fOd5mQC/dzTgb+RkZF/LPz9zwEtFVxdf8DPj8ffv/3x7/e//+vx77//+Pcbau/b9YC0qwC2q9jmehz7egDdue1vBwT+Rs7/Oq7l+f3n//9WfLf+uMbrse/nf387jvHb4/v/evz/89z+bHHNkd/uM90PswKvQPFa5qWdKmHshV8ZLHYAy0yJcyFvG7mn5QlnblxdddMKpJSHDEaxu8X5uFAw4Od8tiovlI3zDV2xVoX3MoPAR2CgANkn+559xzzkShG9zX1MiiihAO4t9qFAZRcKOBtjVrzlFvN4C2PGJser7k3l0VMQd947V3TKVTc+W4s4AxibCzd4+wmQ7ZRnVlUaVZEcMIYDdu+q9fEOxk+NqVqnutexg/27tXvDe6V389o62yX58yDP2goMbiqyZ4XPF8ycYesz0EstgZnjgM+lZ5FIC3V6A8x7KcnRhrm21OCeGuS7BsC3xqw0okgZDbuh2t2q0KlTIDXYM90z+fx/oSNBlP7KDHg//X3hfen5NmjCh5FWA7IMYLiwFQUhbOAYpLhcHCDLkfiPgL5RtnagJJ3X7XItkm3ZHHG5pefLy91TtvgllSDZWKrvEnBkRYE6lfyq6+/k2bF77aoudteKbgGNzlxx27DnmOWtdQwpaMwV54kF6pYq7qWyGvdlgUcTMGPImxeuKogFsS6oqAeE74T0GXU95wAfEonwRZwaxtQ7qVLYWW/d3RiHRBECfKuJbeax63WbGiDwcn5ssfaydXmJsUyNJ51n072v3HO9g3mH5hrGdLLVOM9l9CtXXCt5lzl4Vb9NU2zUHNwvxuCr75pkXN9C0TbzX+lQX1lzqnnn2h6h+W5V4/xV/S69119xoLhzdcff/yfAAHXQeRG3N4WqAAAAAElFTkSuQmCC);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-left: 18px;
+	-webkit-box-shadow: 0 3px 5px #000;
+}
+
+.header .title {
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 800px;
+}
+
+.header>.icon {
+	margin: 5px 0 0 -5px;
+	float: left;
+}
+
+.content {
+	padding: 0 0 0 22px;
+	-webkit-transition: -webkit-transform .2s ease;
+	-moz-transition: -moz-transform .2s ease;
+}
+
+ul.content li {
+	display: block;
+	padding: 8px 46px 8px 0px;
+	margin-right: 6px;
+	line-height: 44px;
+}
+
+.icon{
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wCAg84H+gqGywAAAHLSURBVGje7VjRkYMgEGVTgSVQgiVYgteBHcTrwA5MKvA6SDrwOtAOvA68DvY+Qmb2GETWQYUZ3pfZAMOT3cdbhUhISEhISAgYiNjhC13MJAr8jyJWIpNGZIqRRI1m1DGRyBBxJptvyPOMiFlsBY6I+FCxB4l1MZDItVSSKi61eB46kZ6mlPYfTbE+ZBIlVSi9FlTtUCUrQy1wuslqYVxlIxsCEee0saXf2SSkJrcF48af34IQAhGjtKp0G1R8oGlkkuiQ/NSsbba23eqcU1zDxQOXljzfAeCXMfe+sM7hp1HZDKEttRaMZRWCnyp8p+ZRRFpft7Qmx+2RJKTJT2ljnC28y3p7FTt1rzcA+DGMMRW9MW3U/NvC+sfLreGm77Vibvauua3ta+UwvnG1I2sq6C211Ebe+TsCwJfPl6TWG9VPyfFhFwaJTAhxJaHPnQ6drnt1lWPOibSkWJ8A8L0HC7Xuk4hDu2eBS046ci071017aV9XCOiqNalYw3wBvQ8Smzo6XIGvjnNr+1oy5g4WHoOPbwC7tK9nfJXZ6qfyk4jkLj4MbO2rEKIkvmk8sRHNNen/4BBBESgAADgX4hgoj1D3lZCQkJAQMf4AxAc8FfAJAVYAAAAASUVORK5CYII=');width:50px;height:50px;
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+<div id="Main">
+<div id="PanelHolder">
+
+<div id="GenericPanelError" class="panel visible nohistory">
+<div class="header">
+<div class="icon"></div>
+<div class="title" id="title"></div>
+<div class="clear"></div>
+</div>
+<div class="contentContainer">
+<ul class="content">
+<li class="text" id="message"></li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+
+
+var titles = new Array();
+var msgs = new Array();
+var language = "";
+
+titles['de_DE'] = "Keine Verbindung";
+  msgs['de_DE'] = "Keine Verbindung über das Mobilfunknetz möglich. Bitte zu einem späteren Zeitpunkt oder anderem Ort erneut versuchen.";
+titles['en_GB'] = "No connection";
+  msgs['en_GB'] = "Unable to connect via the mobile phone network. Please try later or change location.";
+titles['en_US'] = "No connection";
+  msgs['en_US'] = "Unable to establish connection via the cell phone network. Please try again later or from a different location.";
+titles['es_ES'] = "Sin conexión";
+  msgs['es_ES'] = "Ninguna conexión posiblea través de la red de telefonía móvil de su teléfono. Inténtelo de nuevo más tarde o en otro lugar.";
+titles['it_IT'] = "Connessione imposs.";
+  msgs['it_IT'] = "Connessione tramite rete di telefonia mobile impossibile. Riprovare più tardi o in un altro luogo.";
+titles['fr_FR'] = "Connexion imposs.";
+  msgs['fr_FR'] = "Connexion via le réseau de téléphonie mobile impossible. Veuillez réessayer plus tard ou dans un autre endroit.";
+titles['nl_BE'] = "Geen verbinding";
+  msgs['nl_BE'] = "Er is geen verbinding mogelijk via het mobiele netwerk. Later of op een andere locatie opnieuw proberen.";
+titles['nl_NL'] = "Geen verbinding";
+  msgs['nl_NL'] = "Er is geen verbinding mogelijk via het mobiele netwerk. Later of op een andere locatie opnieuw proberen.";
+titles['ar_AE'] = "يتعذر الإتصال";
+  msgs['ar_AE'] = "الاتصال عن طريق شبكة اتصالات الهواتف النقالة غير ممكن. يرجى إعادة المحاولة في وقت لاحق أو من مكان آخر.";
+titles['zh_TW'] = "無法建立連線";
+  msgs['zh_TW'] = "無法籍由移行動通訊網路 建立連線。請稍後或換 一個地點再試。";
+titles['zh_CN'] = "无法连接";
+  msgs['zh_CN'] = "无法通过移动通信 网络建立连接。 请稍后或换一个 地点再试。";
+titles['ko_KR'] = "연결할 수 없습니다.";
+  msgs['ko_KR'] = "이동통신망을 이용한 연결이 불가능합니다. 나중에 또는 다른 장소에서 다시 시도하십시오.";
+titles['ja_JP'] = "接続できません";
+  msgs['ja_JP'] = "携帯電話ネットワークから 接続できません。後ほど、 あるいは別の場所に移動 してもう一度試みて下さい。";
+titles['ru_RU'] = "Нет соединения";
+  msgs['ru_RU'] = "Соединение через мобильную сеть невозможно. Повторите попытку позже или в другом месте.";
+titles['fr_CA'] = "Connexion imposs.";
+  msgs['fr_CA'] = "Connexion via le réseau de téléphonie mobile impossible. Veuillez réessayer plus tard ou dans un autre endroit.";
+titles['es_US'] = "Sin conexión";
+  msgs['es_US'] = "Ninguna conexión posiblea través de la red de telefonía móvil de su teléfono. Inténtelo de nuevo más tarde o en otro lugar.";
+titles['pt_PT'] = "Ligação impossível";
+  msgs['pt_PT'] = "Não é possível estabelecer a ligação através da rede de comunicação móvel. Por favor, tente novamente mais tarde ou noutro local.";
+titles['pl_PL'] = "Połączenie przez sieć komórkową niemożliwe. Spróbuj ponownie później lub zmień miejsce.";
+  msgs['pl_PL'] = "Połączenie niemożl.";
+titles['el_GR'] = "Σύνδεση αδύνατη";
+  msgs['el_GR'] = "Δεν είναι δυνατή προσωρινά η σύνδεση μέσω του δικτύου κινητής τηλεφωνίας. Προσπαθήστε ξανά αργότερα ή από άλλη τοποθεσία.";
+titles['tr_TR'] = "Bağlantı yok";
+  msgs['tr_TR'] = "Cep telefonu şebekesi üzerinden bağlantı kurulamıyor. Lütfen daha sonra veya başka yerde tekrar deneyin.";
+titles['hu_HU'] = "Nincs kapcsolat";
+  msgs['hu_HU'] = "A mobiltelefonhálózaton keresztül jelenleg nincs lehetőség Internet kapcsolatra. Kérem, próbálja meg később vagy egy másik helyen újra.";
+titles['sv_SE'] = "Anslutning ej möjlig";
+  msgs['sv_SE'] = "Ingen uppkoppling möjlig via mobilnätet. Försök igen senare eller på annan ort.";
+titles['pt_BR'] = "Ligação impossível";
+  msgs['pt_BR'] = "Não é possível estabelecer a ligação através da rede de comunicação móvel. Por favor, tente novamente mais tarde ou noutro local.";
+titles['zh_HK_trad'] = "无法连接";
+  msgs['zh_HK_trad'] = "无法通过移动通信网络建立连接。 请稍后或换一个地点再试。";
+titles['zh_HK_simpl'] = "无法连接";
+  msgs['zh_HK_simpl'] = "无法通过移动通信网络建立连接。 请稍后或换一个地点再试。";
+  
+  
+function getTranslation(arr,lang)
+{
+	var text;
+	
+	if( lang != undefined ){
+		text = arr[lang];
+		if( text != undefined && text != "" )
+			return text;
+		lang = lang.substring(0,2);
+		for (var isocode in arr){
+			if( lang == isocode.substring(0,2) )
+				return arr[isocode];
+		}
+	}
+		
+	return arr['en_US']; // fallback to english if no translation is found	
+
+}
+
+function setTexts(){
+	language = navigator.language;
+	
+	language = language.replace(/-/g, "_");
+	
+	var title = getTranslation(titles,language);
+	document.getElementById('title').innerHTML = title;
+	document.title=title;
+	document.getElementById('message').innerHTML = getTranslation(msgs,language);
+	
+	
+	
+}
+
+function checkLanguage()
+{
+	if(language != navigator.language){
+		setTexts();
+	}
+}
+
+document.addEventListener("DOMContentLoaded", setTexts, false);
+
+setInterval(checkLanguage, 5000);
+
+
+
+
+</script>
+
+
+</body>
+</html>

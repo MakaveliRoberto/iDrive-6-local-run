@@ -1,0 +1,281 @@
+/// Source: http://de.wikipedia.org/wiki/L%C3%A4ndervorwahlliste_sortiert_nach_Nummern
+/// +<country prefix> COLON flags COLON <reserverveforsid> COLON <comment>
+/// <country prefix> may contain spaces 
+/// flags bit 0 means NANP formatting (1..7) reserved
++1:1::USA und deren Gebiete / Kanada
++1 242:1::Bahamas
++1 246:1::Barbados
++1 264:1::Anguilla
++1 268:1::Antigua und Barbuda
++1 284:1::Britische Jungferninseln
++1 340:1::Amerikanische Jungferninseln
++1 345:1::Kaimaninseln
++1 441:1::Bermuda
++1 473:1::Grenada
++1 649:1::Turks- und Caicosinseln
++1 664:1::Montserrat
++1 670:1::Nördliche Marianen
++1 671:1::Guam
++1 684:1::Amerikanisch-Samoa
++1 721:1::Sint Maarten (früher +599)
++1 758:1::St. Lucia
++1 767:1::Dominica
++1 784:1::St. Vincent und die Grenadinen
++1 787:1::Puerto Rico (s. +1 939)
++1 808:1::Midwayinseln
++1 809:1::Dominikanische Republik (s. +1 829)
++1 829:1::Dominikanische Republik (s. +1 809)
++1 868:1::Trinidad und Tobago
++1 869:1::St. Kitts und Nevis
++1 876:1::Jamaika
++1 939:1::Puerto Rico (s. +1 787)
++20:0::Ägypten
++211:0::Südsudan
++212:0::Marokko
++213:0::Algerien
++216:0::Tunesien
++218:0::Libyen
++220:0::Gambia
++221:0::Senegal
++222:0::Mauretanien
++223:0::Mali
++224:0::Guinea
++225:0::Côte d'Ivoire (Elfenbeinküste)
++226:0::Burkina Faso (Obervolta)
++227:0::Niger
++228:0::Togo
++229:0::Benin
++230:0::Mauritius
++231:0::Liberia
++232:0::Sierra Leone
++233:0::Ghana
++234:0::Nigeria
++235:0::Tschad
++236:0::Zentralafrikanische Republik
++237:0::Kamerun
++238:0::Kap Verde
++239:0::São Tomé und Príncipe
++240:0::Äquatorialguinea
++241:0::Gabun
++242:0::Republik Kongo (Brazzaville)
++243:0::Demokratische Republik Kongo (Kinshasa, früheres Zaire)
++244:0::Angola
++245:0::Guinea-Bissau
++246:0::Chagos-Archipel (Diego-Garcia)
++247:0::Ascension
++248:0::Seychellen
++249:0::Sudan und vorübergehend auch Südsudan
++250:0::Ruanda
++251:0::Äthiopien
++252:0::Somalia
++253:0::Dschibuti
++254:0::Kenia
++255:0::Tansania
++256:0::Uganda
++257:0::Burundi
++258:0::Mosambik
++260:0::Sambia
++261:0::Madagaskar
++262:0::Französische Gebiete im Indischen Ozean, unter anderem Réunion und Mayotte
++263:0::Simbabwe
++264:0::Namibia
++265:0::Malawi
++266:0::Lesotho
++267:0::Botswana
++268:0::Swasiland
++269:0::Komoren
++27:0::Südafrika
++290:0::St. Helena und Tristan da Cunha
++291:0::Eritrea
++297:0::Aruba
++298:0::Färöer
++299:0::Grönland
++30:0::Griechenland
++31:0::Niederlande
++32:0::Belgien
++33:0::Frankreich (ohne Überseegebiete)
++34:0::Spanien
++350:0::Gibraltar
++351:0::Portugal
++352:0::Luxemburg
++353:0::Irland
++354:0::Island
++355:0::Albanien
++356:0::Malta
++357:0::Zypern
++358:0::Finnland
++359:0::Bulgarien
++36:0::Ungarn
++370:0::Litauen
++371:0::Lettland
++372:0::Estland
++373:0::Moldawien
++374:0::Armenien
++375:0::Weißrussland
++376:0::Andorra
++377:0::Monaco (auch vom Kosovo verwendet für ein Mobilfunknetz; gilt vorübergehend bis zur erwarteten Zuteilung einer eigenen offiziellen Ländervorwahl)
++378:0::San Marino
++379:0::Vatikanstadt (noch nicht verwendet, derzeit über Italien zu erreichen)
++380:0::Ukraine
++381:0::Serbien und Kosovo
++382:0::Montenegro
++385:0::Kroatien
++386:0::Slowenien (auch vom Kosovo verwendet für ein Mobilfunknetz; gilt vorübergehend bis zur erwarteten Zuteilung einer eigenen offiziellen Ländervorwahl)
++387:0::Bosnien und Herzegowina
++388:0::von mehreren Ländern gemeinsam benutzer Nummernraum (noch reserviert, keine gültigen Zuteilungen bekannt)
++389:0::Mazedonien
++39:0::Italien
++3906:0::Vatikanstadt (+379 reserviert, Zeitpunkt der Umstellung noch nicht bekannt gegeben)
++40:0::Rumänien
++41:0::Schweiz
++420:0::Tschechien
++421:0::Slowakei
++423:0::Liechtenstein
++43:0::Österreich
++44:0::Vereinigtes Königreich (auch Isle of Man und Kanalinseln)
++45:0::Dänemark (ohne Färöer, +298, und Grönland, +299, s. Zone 2)
++46:0::Schweden
++47:0::Norwegen
++48:0::Polen
++49:0::Deutschland
++500:0::Falklandinseln
++501:0::Belize
++502:0::Guatemala
++503:0::El Salvador
++504:0::Honduras
++505:0::Nicaragua
++506:0::Costa Rica
++507:0::Panama
++508:0::Saint-Pierre und Miquelon
++509:0::Haiti
++51:0::Peru
++52:0::Mexiko
++53:0::Kuba
++54:0::Argentinien
++55:0::Brasilien
++56:0::Chile
++57:0::Kolumbien
++58:0::Venezuela
++590:0::Guadeloupe
++591:0::Bolivien
++592:0::Guyana
++593:0::Ecuador
++594:0::Französisch-Guayana
++595:0::Paraguay
++596:0::Martinique
++597:0::Suriname
++598:0::Uruguay
++599:0::Bonaire, Curaçao, Saba und Sint Eustatius (früher Teile der Niederländischen Antillen)
++60:0::Malaysia
++61:0::Australien (inkl. Kokosinseln und Weihnachtsinsel)
++62:0::Indonesien
++63:0::Philippinen
++64:0::Neuseeland
++65:0::Singapur
++66:0::Thailand
++670:0::Osttimor
++672:0::Australische Außengebiete: Antarktis, Norfolkinsel
++673:0::Brunei
++674:0::Nauru
++675:0::Papua-Neuguinea
++676:0::Tonga
++677:0::Salomonen
++678:0::Vanuatu
++679:0::Fidschi
++680:0::Palau (Belau)
++681:0::Wallis und Futuna
++682:0::Cookinseln
++683:0::Niue
++685:0::Samoa
++686:0::Kiribati, Gilbertinseln
++687:0::Neukaledonien
++688:0::Tuvalu, Elliceinseln
++689:0::Französisch-Polynesien
++690:0::Tokelau
++691:0::Mikronesien
++692:0::Marshallinseln
++7840:0::Abchasien (Ortsvorwahl)
++7940:0::Abchasien (Mobilfunk)
++76:0::Kasachstan (Mobilfunk)
++77:0::Kasachstan (Ortsvorwahl)
++75:0::Russland (Mobilfunk)
++730:0::Russland (Ortsvorwahl)
++734:0::Russland (Ortsvorwahl)
++735:0::Russland (Ortsvorwahl)
++738:0::Russland (Ortsvorwahl)
++739:0::Russland (Ortsvorwahl)
++740:0::Russland (Ortsvorwahl)
++741:0::Russland (Ortsvorwahl)
++742:0::Russland (Ortsvorwahl)
++747:0::Russland (Ortsvorwahl)
++748:0::Russland (Ortsvorwahl)
++749:0::Russland (Ortsvorwahl)
++781:0::Russland (Ortsvorwahl)
++782:0::Russland (Ortsvorwahl)
++783:0::Russland (Ortsvorwahl)
++784:0::Russland (Ortsvorwahl)
++785:0::Russland (Ortsvorwahl)
++786:0::Russland (Ortsvorwahl)
++787:0::Russland (Ortsvorwahl)
++79:Russland (Mobilfunk)
++79971:0::Südossetien (Vorwahl; parallel funktioniert die georgische Vorwahl)
++79976:0::Südossetien (Vorwahl; parallel funktioniert die georgische Vorwahl)
++799744:0::Südossetien (Vorwahl; parallel funktioniert die georgische Vorwahl)
++7995344:0::Südossetien (Vorwahl; parallel funktioniert die georgische Vorwahl)
++800:0::Internationale Free-Phone-Dienste
++808:0::Internationale Shared-Cost-Dienste
++81:0::Japan
++82:0::Korea, Republik (Südkorea)
++84:0::Vietnam
++850:0::Korea, Demokratische Volksrepublik (Nordkorea)
++852:0::Hongkong
++853:0::Macao
++855:0::Kambodscha
++856:0::Laos
++86:0::Volksrepublik China
++870:0::Inmarsat Single Number Access (SNAC)
++875:0::reserviert für maritime Mobiltelefonie
++876:0::reserviert für maritime Mobiltelefonie
++877:0::reserviert für maritime Mobiltelefonie
++878:0::Persönliche Rufnummern (Universal Personal Telecommunication (UPT) services)
++878 10:0::VISIONng ENUM
++880:0::Bangladesch
++881:0::Globales mobiles Satellitensystem
++882:0::Internationale Netzwerke
++883:0::Internationale Netzwerke (iNum)
++886:0::Republik China (Taiwan)
++888:0::OCHA, für Telecommunications for Disaster Relief (TDR)
++90:0::Türkei, Türkische Republik Nordzypern
++91:0::Indien
++92:0::Pakistan
++93:0::Afghanistan
++94:0::Sri Lanka
++95:0::Myanmar
++960:0::Malediven
++961:0::Libanon
++962:0::Jordanien
++963:0::Syrien
++964:0::Irak
++965:0::Kuwait
++966:0::Saudi-Arabien
++967:0::Jemen
++968:0::Oman
++970:0::Palästinensische Autonomiegebiete
++971:0::Vereinigte Arabische Emirate
++972:0::Israel
++973:0::Bahrain
++974:0::Katar
++975:0::Bhutan
++976:0::Mongolei
++977:0::Nepal
++979:0::Internationale Premium-Rate-Dienste
++98:0::Iran
++991:0::International Telecommunications Public Correspondence Service Trials (ITPCS)
++992:0::Tadschikistan
++993:0::Turkmenistan
++994:0::Aserbaidschan
++995:0::Georgien (ohne Abchasien)
++996:0::Kirgisistan
++998:0::Usbekistan
++259:0::Sansibar – niemals verwendet, siehe +255 Tansania
++684:0::Amerikanisch-Samoa – jetzt +1 684 (Nordamerikanischer Nummerierungsplan)

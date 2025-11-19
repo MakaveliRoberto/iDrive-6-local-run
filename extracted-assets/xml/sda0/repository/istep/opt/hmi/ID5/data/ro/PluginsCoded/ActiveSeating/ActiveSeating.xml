@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pluginApps>
+  <pluginApp applicationType="Custom" applicationWeight="200" entryButtonFocusID="7217" insertAfterFocusID="0" insertStateID="1789" text="Active Seating">
+    <comment/>
+    <!-- State: ST_MyV_SeatComfort_RearSeat -->
+    <!-- Button: MyV_SeatComfort_RearSeat_Massage (not accessible!!! -> 0) -->
+    <entryButton action="112" id="113" model="2">
+      <properties>
+        <property id="23" value="2"/>
+      </properties>
+    </entryButton>
+    <actions>
+      <hmiAction id="112" target="3"/>
+      <raAction id="201"/>
+      <raAction id="101"/>
+      <raAction id="104"/>
+      <raAction id="174"/>
+      <raAction id="108"/>
+      <raAction id="111"/>
+      <raAction id="211"/>
+      <raAction id="213"/>
+      <raAction id="217"/>
+    </actions>
+    <models>
+      <textIdModel id="2">
+        <synonyms/>
+      </textIdModel>
+      <imageIdModel id="164"/>
+      <raImageModel id="167"/>
+      <raIntModel id="12" modelType="NativeStateID" value="1789"/>
+      <textIdModel id="178" textId="108">
+        <synonyms/>
+      </textIdModel>
+      <textIdModel id="288" textId="97">
+        <synonyms/>
+      </textIdModel>
+      <textIdModel id="14" textId="63">
+        <synonyms/>
+      </textIdModel>
+      <textIdModel id="25" textId="64">
+        <synonyms/>
+      </textIdModel>
+      <raDataModel id="1" modelType="Integer"/>
+      <raDataModel id="7" modelType="Boolean"/>
+      <raDataModel id="17" modelType="Boolean"/>
+      <raDataModel id="18" modelType="FloatingPoint"/>
+      <raDataModel id="19" modelType="FloatingPoint"/>
+      <raDataModel id="20" modelType="Enumeration"/>
+      <raDataModel id="21" modelType="Enumeration"/>
+      <raDataModel id="22" modelType="FloatingPoint"/>
+      <raDataModel id="31" modelType="FloatingPoint"/>
+      <raDataModel id="32" modelType="FloatingPoint"/>
+      <raDataModel id="33" modelType="FloatingPoint"/>
+      <raDataModel id="34" modelType="FloatingPoint"/>
+      <raDataModel id="35" modelType="FloatingPoint"/>
+      <raDataModel id="36" modelType="FloatingPoint"/>
+      <raDataModel id="37" modelType="Boolean"/>
+      <raDataModel id="38" modelType="Boolean"/>
+      <raDataModel id="39" modelType="Boolean"/>
+      <raDataModel id="40" modelType="Boolean"/>
+      <textIdModel id="293" textId="27">
+        <synonyms/>
+      </textIdModel>
+      <formatDataModel formatString="" formatStringModel="293" id="41" modelType="">
+        <models>
+          <raDataModel id="294"/>
+        </models>
+      </formatDataModel>
+      <raDataModel id="42" modelType="FloatingPoint"/>
+      <imageIdModel id="169" imageId="55011"/>
+      <imageIdModel id="287" imageId="55014"/>
+      <imageIdModel id="170" imageId="55012"/>
+      <imageIdModel id="171" imageId="55010"/>
+      <textIdModel id="29" modelType="">
+        <synonyms/>
+      </textIdModel>
+      <textIdModel id="45">
+        <synonyms/>
+      </textIdModel>
+      <raDataModel id="8" modelType="Boolean"/>
+      <raDataModel id="188" modelType="Boolean"/>
+      <raDataModel id="189" modelType="Boolean"/>
+      <raDataModel id="190" modelType="FloatingPoint"/>
+      <raDataModel id="191" modelType="FloatingPoint"/>
+      <raDataModel id="192" modelType="Enumeration"/>
+      <raDataModel id="193" modelType="Enumeration"/>
+      <raDataModel id="194" modelType="Boolean"/>
+      <raDataModel id="195" modelType="Boolean"/>
+      <raDataModel id="196" modelType="Boolean"/>
+      <raDataModel id="197" modelType="Boolean"/>
+      <textIdModel id="198" textId="7">
+        <synonyms/>
+      </textIdModel>
+      <raDataModel id="290"/>
+      <imageIdModel id="229" imageId="55013" modelType=""/>
+      <raDataModel id="238" modelType="Boolean"/>
+      <raDataModel id="239" modelType="Boolean"/>
+      <textIdModel id="240" textId="85">
+        <synonyms/>
+      </textIdModel>
+      <textIdModel id="241" textId="86">
+        <synonyms/>
+      </textIdModel>
+      <raDataModel id="242" modelType="Boolean"/>
+      <raDataModel id="243" modelType="Boolean"/>
+      <raDataModel id="244" modelType="Boolean"/>
+      <raDataModel id="245" modelType="Boolean"/>
+      <raDataModel id="246" modelType="Boolean"/>
+      <raDataModel id="247" modelType="Boolean"/>
+      <raDataModel id="248" modelType="Boolean"/>
+      <raDataModel id="249" modelType="Boolean"/>
+      <raDataModel id="250" modelType="Boolean"/>
+      <raDataModel id="251" modelType="Boolean"/>
+      <raDataModel id="252" modelType="Boolean"/>
+      <raDataModel id="253" modelType="Boolean"/>
+      <raDataModel id="254" modelType="Boolean"/>
+      <raDataModel id="255" modelType="Boolean"/>
+      <raDataModel id="256" modelType="Boolean"/>
+      <raDataModel id="257" modelType="Boolean"/>
+      <raDataModel id="258" modelType="Boolean"/>
+      <raDataModel id="259" modelType="Boolean"/>
+      <raDataModel id="260" modelType="Boolean"/>
+      <raDataModel id="261" modelType="Boolean"/>
+      <raDataModel id="262" modelType="Boolean"/>
+      <textIdModel id="292" textId="99">
+        <synonyms/>
+      </textIdModel>
+      <formatDataModel formatString="" formatStringModel="292" id="263" modelType="">
+        <models>
+          <raDataModel id="282"/>
+        </models>
+      </formatDataModel>
+      <raDataModel id="264" modelType="StringIdentity"/>
+      <raDataModel id="265" modelType="Boolean"/>
+      <raDataModel id="266" modelType="StringIdentity"/>
+      <raDataModel id="267" modelType="FloatingPoint"/>
+      <raDataModel id="268" modelType="Boolean"/>
+      <raDataModel id="269" modelType="Boolean"/>
+      <raDataModel id="270" modelType="FloatingPoint"/>
+      <raListModel id="274" modelType="Richtext"/>
+      <textIdModel id="275" textId="84">
+        <synonyms/>
+      </textIdModel>
+      <raDataModel id="276" modelType="UnsignedInteger"/>
+      <raDataModel id="277" modelType="UnsignedInteger"/>
+      <raDataModel id="278" modelType="UnsignedInteger"/>
+      <raDataModel id="279" modelType="UnsignedInteger"/>
+      <textIdModel id="280" textId="87">
+        <synonyms/>
+      </textIdModel>
+      <textIdModel id="44" textId="89">
+        <synonyms/>
+      </textIdModel>
+      <raDataModel id="295" modelType="Boolean"/>
+      <raDataModel id="296" modelType="Boolean"/>
+      <raDataModel id="297" modelType="Boolean"/>
+      <raDataModel id="298" modelType="Boolean"/>
+      <raDataModel id="299" modelType="FloatingPoint"/>
+      <raDataModel id="300" modelType="Boolean"/>
+    </models>
+    <events>
+      <focusEvent id="219" target="186"/>
+      <focusEvent id="9" target="4"/>
+      <focusEvent id="24" target="5"/>
+      <focusEvent id="10" target="202"/>
+      <focusEvent id="23" targetModel="12"/>
+    </events>
+    <hmiStates>
+      <hmiState id="3" text="">
+        <widgetName>LT_State_RSE_FullScreen_ActiveSeating</widgetName>
+        <properties>
+          <property id="24" value="13"/>
+        </properties>
+        <components>
+          <widget id="6" widgetName="LT_Table_RSE_ActiveSeating_Intro">
+            <bindings>
+              <binding key="eParam_StartAnimation" valueModel="8"/>
+              <binding key="eParam_FadeInTime" valueModel="276"/>
+              <binding key="eParam_FadeOutTime" valueModel="277"/>
+              <binding key="eParam_IntroTime" valueModel="278"/>
+              <binding key="eParam_DelayTime" valueModel="279"/>
+            </bindings>
+             <properties>
+               <property id="10" value="365"/>
+              <property id="20" value="-90"/>
+              <property id="21" value="165"/>
+              <property id="2" value="false"/>
+             </properties>
+          </widget>
+        </components>
+      </hmiState>
+      <hmiState id="186" text="" textModel="280">
+        <properties>
+          <property id="24" value="3"/>
+        </properties>
+        <components>
+          <list id="273" model="274">
+            <properties>
+              <property id="2" value="false"/>
+            </properties>
+          </list>
+          <button action="201" id="200" model="44" text=""/>
+        </components>
+      </hmiState>
+      <toolbarHmiState id="4" text="">
+        <widgetName>LT_State_RSE_FullScreen_ActiveSeating</widgetName>
+        <properties>
+          <property id="24" value="13"/>
+        </properties>
+        <components>
+          <image id="231" model="229">
+            <properties>
+              <property id="9" value="1440"/>
+              <property id="10" value="810"/>
+              <property id="20" value="-90"/>
+              <property id="21" value="-35"/>
+            </properties>
+          </image>
+          <widget id="187" widgetName="LT_Table_RSE_ActiveSeating">
+            <bindings>
+              <binding key="GaugeLeftEnabled" valueModel="188"/>
+              <binding key="GaugeLeftValue" valueModel="190"/>
+              <binding key="GaugeRightEnabled" valueModel="189"/>
+              <binding key="GaugeRightValue" valueModel="191"/>
+              <binding key="HighlightLeft" valueModel="192"/>
+              <binding key="HighlightRight" valueModel="193"/>
+              <binding key="IllustrationVisible" valueModel="194"/>
+              <binding key="ProgressVisible" valueModel="195"/>
+              <binding key="DescriptionVisible" valueModel="196"/>
+              <binding key="RSELeft" valueModel="197"/>
+              <binding key="Description_Text" valueModel="198"/>
+              <binding key="ProgressRatingVisible" valueModel="295"/>
+              <binding key="ProgressTimeVisible" valueModel="296"/>
+              <binding key="BraceLeftEnabled" valueModel="297"/>
+              <binding key="BraceRightEnabled" valueModel="298"/>
+            </bindings>
+            <properties>
+              <property id="20" value="-90"/>
+              <property id="21" value="-36"/>
+              <property id="9" value="1440"/>
+              <property id="10" value="810"/>
+              <property id="2" value="false"/>
+            </properties>
+          </widget>
+          <label id="215" model="29">
+            <properties>
+              <property id="2" value="false"/>
+              <property id="9" value="1440"/>
+              <property id="10" value="120"/>
+              <property id="20" value="-90"/>
+              <property id="21" value="-25"/>
+              <property id="17" value="1"/>
+            </properties>
+            <tooltipText/>
+          </label>
+          <image id="165" model="164">
+            <properties>
+              <property id="20" value="493"/>
+              <property id="21" value="163"/>
+              <property id="9" value="246"/>
+              <property id="10" value="443"/>
+            </properties>
+          </image>
+          <image id="166" model="167">
+            <properties>
+              <property id="20" value="493"/>
+              <property id="21" value="163"/>
+              <property id="9" value="246"/>
+              <property id="10" value="443"/>
+              <property id="3" value="false"/>
+            </properties>
+          </image>
+          <label id="291" model="290">
+            <properties>
+              <property id="2" value="false"/>
+              <property id="9" value="1440"/>
+              <property id="10" value="120"/>
+              <property id="20" value="1200"/>
+              <property id="21" value="-40"/>
+              <property id="3" value="false"/>
+            </properties>
+            <tooltipText/>
+          </label>
+        </components>
+        <toolbarComponents>
+          <button action="101" id="15" imageModel="171" tooltipModel="14">
+            <tooltipText/>
+          </button>
+          <button action="104" id="16" imageModel="169" tooltipModel="25">
+            <tooltipText/>
+          </button>
+        </toolbarComponents>
+      </toolbarHmiState>
+      <toolbarHmiState id="5" text="">
+        <widgetName>LT_State_RSE_FullScreen_ActiveSeating</widgetName>
+        <properties>
+          <property id="24" value="13"/>
+        </properties>
+        <components>
+          <image id="232" model="229">
+            <properties>
+              <property id="9" value="1440"/>
+              <property id="10" value="810"/>
+              <property id="20" value="-90"/>
+              <property id="21" value="-35"/>
+            </properties>
+          </image>
+          <widget id="130" widgetName="LT_Table_RSE_ActiveSeating">
+            <bindings>
+              <binding key="Exercise" valueModel="1"/>
+              <binding key="GaugeLeftEnabled" valueModel="7"/>
+              <binding key="GaugeLeftValue" valueModel="18"/>
+              <binding key="GaugeRightEnabled" valueModel="17"/>
+              <binding key="GaugeRightValue" valueModel="19"/>
+              <binding key="HighlightLeft" valueModel="20"/>
+              <binding key="HighlightRight" valueModel="21"/>
+              <binding key="Section1Score" valueModel="22"/>
+              <binding key="Section2Score" valueModel="31"/>
+              <binding key="Section3Score" valueModel="32"/>
+              <binding key="Section4Score" valueModel="33"/>
+              <binding key="Section5Score" valueModel="34"/>
+              <binding key="Section6Score" valueModel="35"/>
+              <binding key="Section7Score" valueModel="36"/>
+              <binding key="Progress" valueModel="42"/>
+              <binding key="IllustrationVisible" valueModel="37"/>
+              <binding key="ProgressVisible" valueModel="38"/>
+              <binding key="DescriptionVisible" valueModel="39"/>
+              <binding key="RSELeft" valueModel="40"/>
+              <binding key="Description_Text" valueModel="41"/>
+              <binding key="ProgressTime_Text" valueModel="264"/>
+              <binding key="ProgressTimeVisible" valueModel="265"/>
+              <binding key="Title_Text" valueModel="266"/>
+              <binding key="ProgressTime_Progress" valueModel="267"/>
+              <binding key="ProgressTime_Waiting" valueModel="268"/>
+              <binding key="ProgressRatingVisible" valueModel="269"/>
+              <binding key="ProgressRating_Progress" valueModel="270"/>
+              <binding key="ProgressRating_Starcount" valueModel="299"/>
+              <binding key="ProgressRating_Starfeedback" valueModel="300"/>
+            </bindings>
+            <properties>
+              <property id="20" value="-90"/>
+              <property id="21" value="-36"/>
+              <property id="9" value="1440"/>
+              <property id="10" value="810"/>
+              <property id="2" value="false"/>
+            </properties>
+          </widget>
+          <label id="181" model="45">
+            <properties>
+              <property id="2" value="false"/>
+              <property id="9" value="1440"/>
+              <property id="10" value="120"/>
+              <property id="20" value="-90"/>
+              <property id="21" value="-25"/>
+              <property id="17" value="1"/>
+            </properties>
+            <tooltipText/>
+          </label>
+          <label id="289" model="290">
+            <properties>
+              <property id="2" value="false"/>
+              <property id="9" value="1440"/>
+              <property id="10" value="120"/>
+              <property id="20" value="1200"/>
+              <property id="21" value="-40"/>
+              <property id="3" value="false"/>
+            </properties>
+            <tooltipText/>
+          </label>   
+        </components>
+        <toolbarComponents>
+          <button action="108" id="172" imageModel="170" tooltipModel="178">
+            <tooltipText/>
+          </button>
+          <button action="174" id="26" imageModel="171" tooltipModel="14">
+            <tooltipText/>
+          </button>
+          <button action="111" id="27" imageModel="169" tooltipModel="25">
+            <tooltipText/>
+          </button>
+        </toolbarComponents>
+      </toolbarHmiState>
+      <toolbarHmiState id="202" text="">
+        <widgetName>LT_State_RSE_FullScreen_ActiveSeating</widgetName>
+        <properties>
+          <property id="24" value="13"/>
+        </properties>
+        <components>
+          <widget id="234" widgetName="LT_Table_RSE_ActiveSeating_End">
+            <bindings>
+              <binding key="DescriptionBottomVisible" valueModel="238"/>
+              <binding key="DescriptionVisible" valueModel="239"/>
+              <binding key="Title_Text" valueModel="241"/>
+              <binding key="Description_Text" valueModel="263"/>
+              <binding key="DescriptionBottom_Text" valueModel="240"/>
+              <binding key="Success1" valueModel="242"/>
+              <binding key="Success2" valueModel="243"/>
+              <binding key="Success3" valueModel="244"/>
+              <binding key="Success4" valueModel="245"/>
+              <binding key="Success5" valueModel="246"/>
+              <binding key="Success6" valueModel="247"/>
+              <binding key="Success7" valueModel="248"/>
+              <binding key="Success8" valueModel="249"/>
+              <binding key="Success9" valueModel="250"/>
+              <binding key="Success10" valueModel="251"/>
+              <binding key="Success11" valueModel="252"/>
+              <binding key="Success12" valueModel="253"/>
+              <binding key="Success13" valueModel="254"/>
+              <binding key="Success14" valueModel="255"/>
+              <binding key="Success15" valueModel="256"/>
+              <binding key="Success16" valueModel="257"/>
+              <binding key="Success17" valueModel="258"/>
+              <binding key="Success18" valueModel="259"/>
+              <binding key="Success19" valueModel="260"/>
+              <binding key="Success20" valueModel="261"/>
+              <binding key="Success21" valueModel="262"/>
+            </bindings>
+            <properties>
+              <property id="10" value="810"/>
+              <property id="20" value="-90"/>
+              <property id="21" value="-32"/>
+              <property id="2" value="false"/>
+            </properties>
+          </widget>
+        </components>
+        <toolbarComponents>
+          <button action="211" id="204" imageModel="287" tooltipModel="288">
+            <tooltipText/>
+          </button>
+          <button action="213" id="206" imageModel="169" tooltipModel="25">
+            <tooltipText/>
+          </button>
+        </toolbarComponents>
+      </toolbarHmiState>
+    </hmiStates>
+  </pluginApp>
+</pluginApps>

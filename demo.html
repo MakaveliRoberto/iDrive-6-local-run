@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW iDrive 6 - System Dump Explorer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #ff6b6b;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .subtitle {
+            color: #b0b0b0;
+            font-size: 1.1em;
+        }
+        .info-box {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .info-box h2 {
+            color: #4ecdc4;
+            margin-bottom: 15px;
+        }
+        .info-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .info-box li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .info-box li:last-child {
+            border-bottom: none;
+        }
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .link-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border-color: #4ecdc4;
+        }
+        .link-card h3 {
+            color: #4ecdc4;
+            margin-bottom: 10px;
+        }
+        .link-card p {
+            color: #b0b0b0;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        .link-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #4ecdc4;
+            color: #1a1a2e;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .link-card a:hover {
+            background: #45b8af;
+        }
+        .warning {
+            background: rgba(255, 193, 7, 0.2);
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .warning strong {
+            color: #ffc107;
+        }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BMW iDrive 6 System Explorer</h1>
+            <p class="subtitle">NBT EVO ID6 (Software 18-03) - System Dump Interface</p>
+        </header>
+
+        <div class="info-box">
+            <h2>📁 Available Interfaces</h2>
+            <p style="margin-bottom: 15px;">These are the web interfaces extracted from the iDrive 6 system dump. Note that many features require the full QNX backend to function properly.</p>
+            
+            <div class="warning">
+                <strong>⚠️ Important:</strong> The interfaces below are served statically. Interactive features that depend on:
+                <ul style="margin-top: 10px; padding-left: 20px;">
+                    <li>• HMIPlugin (QNX-native browser plugin)</li>
+                    <li>• EFI callbacks (system integration)</li>
+                    <li>• Backend services (NBTCarHU, Journaline server)</li>
+                    <li>• iDrive controller integration</li>
+                </ul>
+                ...will not work in a standard web browser. You can explore the HTML/CSS/JavaScript code, but functional features require the full embedded system.
+            </div>
+        </div>
+
+        <div class="links-grid">
+            <div class="link-card">
+                <h3>Main Interface</h3>
+                <p>Default landing page for the iDrive web interface.</p>
+                <a href="/">View →</a>
+            </div>
+
+            <div class="link-card">
+                <h3>Journaline Interface</h3>
+                <p>Journaline navigation and information application (1024px resolution).</p>
+                <a href="/journaline.html">View →</a>
+            </div>
+
+            <div class="link-card">
+                <h3>Journaline 7 Interface</h3>
+                <p>Journaline application optimized for 544px resolution displays.</p>
+                <a href="/journaline7.html">View →</a>
+            </div>
+        </div>
+
+        <div class="info-box" style="margin-top: 30px;">
+            <h2>🔍 What You Can Explore</h2>
+            <ul>
+                <li><strong>HTML Structure:</strong> View the page markup and structure</li>
+                <li><strong>CSS Styling:</strong> Examine the styling in <code>journalineNBT/css/</code></li>
+                <li><strong>JavaScript Logic:</strong> Study the application logic in <code>journalineNBT/javascript/</code></li>
+                <li><strong>Assets:</strong> Browse images, icons, and other resources</li>
+            </ul>
+        </div>
+
+        <div class="info-box">
+            <h2>📚 System Information</h2>
+            <ul>
+                <li><strong>Platform:</strong> QNX Neutrino RTOS</li>
+                <li><strong>Processor:</strong> OMAP5430/543x ARM Cortex-A15</li>
+                <li><strong>Original:</strong> BMW NBT EVO ID4 (2GB RAM)</li>
+                <li><strong>Upgraded to:</strong> ID6 Software Version 18-03</li>
+                <li><strong>Web Server:</strong> lighttpd</li>
+            </ul>
+        </div>
+
+        <div class="info-box">
+            <h2>🛠️ Technical Notes</h2>
+            <p>To run the full system with all features, you would need:</p>
+            <ul>
+                <li>• QNX Momentics Development Platform</li>
+                <li>• QEMU with ARM Cortex-A15 emulation</li>
+                <li>• Proper boot image configuration</li>
+                <li>• Hardware emulation for OMAP5430</li>
+            </ul>
+            <p style="margin-top: 15px;">The current setup serves only the static web assets for exploration and reverse engineering purposes.</p>
+        </div>
+    </div>
+</body>
+</html>
+

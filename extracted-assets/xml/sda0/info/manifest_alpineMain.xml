@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinkManifest>
+  <LinkSection>
+    <SwData version="istep">
+      <LinkData root="/fs/sda0/repository/istep">
+        <dir uid="0" name="info" mod="775" gid="0">
+          <file uid="0" name="manifest_alpineMain.xml" swe="alpineMain" command="link" mod="664" gid="0" />
+          <file uid="0" name="manifest_alpineMain.xml.sign" swe="alpineMain" command="link" mod="664" gid="0" />
+        </dir>
+        <dir uid="0" name="opt" mod="775" gid="0">
+          <dir uid="0" name="nav" mod="775" gid="0">
+            <dir uid="0" name="asn" mod="775" gid="0">
+              <dir uid="0" name="bin" mod="775" gid="0">
+                <file uid="0" crc="ea2e4191" name="apnl6" swe="alpineMain" md5="637d2fdf09848b04898fae9de93ff30929bf26cd" gid="0" mod="775" command="link" />
+                <file uid="0" crc="2a2a552d" name="apnl6_scopes.hbtc" swe="alpineMain" md5="b2bc25e83f176dd89cd7a2caf17aa6b7e66f769f" gid="0" mod="664" command="link" />
+                <file uid="0" crc="7263c6cd" name="apnnav_scopes.hbtc" swe="alpineMain" md5="cc45574473871850272a20443992d9a1e77ed756" gid="0" mod="664" command="link" />
+                <file uid="0" crc="e882607e" name="apnnavc" swe="alpineMain" md5="830ade33a6d61431c2b0814f16db3577baea26d2" gid="0" mod="775" command="link" />
+                <file uid="0" crc="f85ce7a8" name="apnnavj" swe="alpineMain" md5="9abd7fd82c7e552c3d13ca477741c4b728c803b9" gid="0" mod="775" command="link" />
+                <file uid="0" crc="e776e327" name="apnnavk" swe="alpineMain" md5="b5b31bec95a3b75b7c835748ecb6d98287f5b422" gid="0" mod="775" command="link" />
+                <file uid="0" crc="a2288df6" name="NavigationAsn.cfg" swe="alpineMain" md5="21488f5a411a2b8c1ff79c6e312cc78d60275025" gid="0" mod="664" command="link" />
+                <file uid="0" crc="6158e9b5" name="NBTNaviC" swe="alpineMain" md5="8cf406366503acc801d9483408a80ee83c3d522c" gid="0" mod="775" command="link" />
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </LinkData>
+    </SwData>
+  </LinkSection>
+</LinkManifest>

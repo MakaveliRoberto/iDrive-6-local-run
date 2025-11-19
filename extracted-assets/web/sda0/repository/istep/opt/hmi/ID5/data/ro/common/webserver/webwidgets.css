@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+table{
+    border-spacing: 0px;
+    min-height: 2em;
+}
+
+td.divided > table{
+    width:100%;
+    height:100%;
+}
+
+td{
+    height:100%;
+}
+
+td.empty{
+    width: 1.5em;
+    border: 0px;
+    background: white;
+}
+
+td.divided{
+    padding: 0px;
+    border: 0px;
+    background: white;
+}
+
+td.filled{
+    padding: 0.25em;
+    border: 1px solid white;
+}
+
+td.expandbutton{
+    background: white;
+    width: 1px;
+}
+
+input.expandbutton {
+    border: none;
+    background: #34495e;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-backface-visibility: hidden;
+    disabled: false;
+    display: inline-block;
+    border-radius: 0.75em;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+input.expandbuttondisabled {
+    border: none;
+    background: lightgray;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-backface-visibility: hidden;
+    disabled: false;
+    display: inline-block;
+    border-radius: 0.75em;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+tr.treeroot{
+    background: #34495e;
+    color: white;
+}
+
+tr.treechild{
+    background: #4e6e8d;
+    color: white;
+}
+
+tr.treedeepest{
+    background: #6892bc;
+    color: white;
+}
+
+tr.treeroot table{
+    background: #34495e;
+    color: white;
+}
+
+tr.treechild table{
+    background: #4e6e8d;
+    color: white;
+}
+
+tr.treedeepest table{
+    background: #6892bc;
+    color: white;
+}
+
+span{
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+tr span{
+  line-height: 1.6em;
+}
+
+input{
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+
+select{
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+
+h1{
+    font-size: 170%;
+}
+
+h2{
+    font-size: 150%;
+}
+
+h3{
+    font-size: 130%;
+}
+
+h4{
+    font-size: 120%;
+}
+
+h5{
+    font-size: 110%;
+}
+
+h6{
+    font-size: 100%;
+}
+
+.alignright {
+    float:right;
+}

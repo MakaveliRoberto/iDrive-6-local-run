@@ -1,0 +1,61 @@
+<html>
+<head><title>TODO: INSERT DOCUMENT NAME HERE</title>
+<style>
+body {margin:0;padding:0;background:#d0d0d0}
+iframe {width:640px;height:480px;margin:0;padding:0;border:0;background:white;}
+#nav {width:70px;margin: 10px;height:30px;float:left;position:absolute;top:10px}
+#nav_ctrl {width:70px;}
+#frame_pos {text-align:center;}
+</style>
+
+<script>
+function goToNext() {
+   var select = document.getElementById("slide_number")
+   if(select.selectedIndex<select.options.length-1) {
+      select.selectedIndex++
+      goToSelectedSlide();
+   }
+}
+
+function goToPrev() {
+    var select = document.getElementById("slide_number")
+   if(select.selectedIndex>0) {
+      select.selectedIndex--
+      goToSelectedSlide();
+   }
+}
+
+function goToSelectedSlide() {
+   var select = document.getElementById("slide_number")
+   window.open(select[select.selectedIndex].value, "slide_area")
+}
+
+</script>
+
+</head>
+<body>
+
+<div id="nav">
+
+<input type="button" id="nav_ctrl" onClick="goToPrev()" value = "Prev" />
+
+<input type="button" id="nav_ctrl" onClick="goToNext()" value = "Next" />
+
+<select id="slide_number" onchange="goToSelectedSlide()" >
+<!-- %%_PUT_SLIDE_LIST_HERE%% -->
+</select>
+
+</div>
+
+<div id="frame_pos"> 
+
+<iframe name="slide_area"></iframe>
+
+</div>
+
+<script>
+goToSelectedSlide();  
+</script>
+
+</body>
+</html>

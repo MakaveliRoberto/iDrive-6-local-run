@@ -1,0 +1,192 @@
+#ifndef _MV_CHANGELOG_
+#define _MV_CHANGELOG_
+
+#define DB_VER_CONTENT_MAJ      1
+#define DB_VER_CONTENT_MIN    270
+#define DB_VER_STRUCTURE_MAJ    9
+#define DB_VER_STRUCTURE_MIN   23
+
+/***********************************************************************
+<C_1_270_S_9_23>  IMaliuga 15/09/2016
+
+Brief:
+- GV Mini Labels (38_1508, 38_1509) updated
+(ticket 1931281)
+------------------------------------------------------------------------
+<C_1_269_S_9_23>  IMaliuga 10/08/2016
+
+Brief:
+- Colors for CID and HUD HG views have been changed 
+(ticket 1913158)
+------------------------------------------------------------------------
+<C_1_268_S_9_23>  IMaliuga 22/07/2016
+
+Brief:
+- Display_representation from GUIDANCE changed to HUD for L7HUDFPK_Day/Night in manifest file.
+(ticket 1903200)
+------------------------------------------------------------------------
+<C_1_267_S_9_23>  IMaliuga 29/06/2016
+
+Brief:
+- For Lane Recommendation set flag "show combined arrows"
+(ticket 1889427)
+------------------------------------------------------------------------
+<C_1_266_S_9_23>  IMaliuga 27/06/2016
+
+Brief:
+- for HUD 35UP JV (8301) y-pos moved down for 11 pixels.
+   (ticket 1888834)
+------------------------------------------------------------------------
+<C_1_265_S_9_23>  IMaliuga 22/06/2016
+
+Brief:
+
+ - useless bitmaps were removed 
+ (BMWNAV-6963)
+   
+------------------------------------------------------------------------
+<C_1_264_S_9_23>  IMaliuga 15/04/2016
+
+Brief:
+- LR bitmaps were changed 
+  (elvis 1848146)    
+  
+------------------------------------------------------------------------
+<C_1_263_S_9_23>  IMaliuga 15/04/2016
+
+Brief:
+- Destination flag bitmaps for GV labels were changed.
+  (elvis 1850858)    
+  
+------------------------------------------------------------------------
+<C_1_262_S_9_23>  IMaliuga 14/04/2016
+
+Brief:
+- Bounding box for HG views 4402, 5402 (HIGH+MID COMBI) was changed
+  (elvis 1848032)     
+  
+------------------------------------------------------------------------
+<C_1_261_S_9_23>  IMaliuga 06/04/2016
+
+Brief:
+- BigSign area in JV views have been increased up to 161 pixel
+- GS_label links have been changed
+  (elvis 1836080)    
+  
+------------------------------------------------------------------------
+<C_1_260_S_9_23>  IMaliuga 16/03/2016
+
+Brief:
+- height size for 311 and 412 views has been changed
+  (elvis 1814927)   
+  
+------------------------------------------------------------------------
+<C_1_259_S_9_23>  IMaliuga 04/03/2016
+
+Brief:
+- links for 11xxx views have been added to St_Day/Night StyleSets
+- links for 2xxx views have been added to L7HUDFPK_Day/Night StyleSets
+  (elvis 1821156)
+  
+------------------------------------------------------------------------
+<C_1_258_S_9_23>  IMaliuga 19/02/2016
+
+Brief:
+- L7HUDFPK settings have been removed from StandardDay/Night StyleSets
+  (elvis 1813991)
+  
+------------------------------------------------------------------------
+<C_1_257_S_9_23>  IMaliuga 18/02/2016
+
+Brief:
+- TurnToStreet flags were changed for 6402 and 7402 views
+  (elvis 1816111)
+  
+------------------------------------------------------------------------
+<C_1_256_S_9_23>  IMaliuga 04/02/2016
+
+Brief:
+- L6HUDRGB: Route arrow color and camera posture settings in JV (6301) have been changed
+  (elvis 1808245)
+  
+------------------------------------------------------------------------
+<C_1_255_S_9_23>  IMaliuga 03/02/2016
+
+Brief:
+- for usage marker offset and 2D x position value has been changed in Lane Recommendations
+  (elvis 1799087)
+  
+------------------------------------------------------------------------
+<C_1_254_S_9_23>  IMaliuga 23/01/2016
+
+Brief:
+ - L7HUDFPK: for elements in RDA and LG views(11201,11202,11204,11401) 
+ y-position has been moved down correspondingly: 
+ the MA for 4 pixel, the RDA for 3 pixel, the LG for 3 pixel.
+	  (elvis 1796690)
+ 
+------------------------------------------------------------------------
+<C_1_253_S_9_23>  IMaliuga 23/01/2016
+
+Brief:
+ - HUD RIC35UP: Route arrow bounding box width value has been decreased for 30pixels in HG view.
+	  (elvis 1800029)
+ 
+------------------------------------------------------------------------
+<C_1_252_S_9_23>  IMaliuga 16/01/2016
+
+Brief:
+ - L7HUDFPK: For all TurnToStreet elements fitting option has been set to truncate
+	  (elvis 1794042)
+------------------------------------------------------------------------
+<C_1_251_S_9_23>  IMaliuga 16/01/2016
+
+ - L7HUDFPK: Suppress unchained flag has been established for 11201 view.
+	  (elvis 1789644)
+------------------------------------------------------------------------
+<C_1_250_S_9_23>  IMaliuga 16/01/2016
+
+Brief:
+ - L6CFPK: HG Bounding box size has been decreased.
+	  (elvis 1791085)
+ - gv style DB settings were updated in accordance with the editor new settings.
+ - L7HUDFPK settings are copied from BMW.
+ - Destination flag position in HG view has been corrected.
+
+------------------------------------------------------------------------
+<C_1_249_S_9_23>  IMaliuga 15/01/2016
+
+Brief:
+ - Thai range has been added in fonts Jamfile
+	  (elvis 1787429)
+------------------------------------------------------------------------
+<C_1_248_S_9_23>  IMaliuga  23/11/2015
+
+Brief:
+ - bitmaps for LR and MiniLabels for CID/HUD has been changed
+ - added L6HUDRGB_AddOn.xps, CID_ElementsDay_Defines.h/CID_ElementsNight_Defines.h files 
+ - L6CH and L6HUDRGB has been linked to the SD settings
+[CR32622] gvStyleDB (GRL) for Brand navigation adaptations for MINI ID5 (BMWNAV-6345)
+------------------------------------------------------------------------
+<C_1_247_S_9_23>  IMaliuga  13/11/2015
+
+Brief:
+ - link for exit settings changed  (black exit bitmaps changed for GV ID5 BMW - elvis 1729953)
+ - removed GvID5VRU1025_Changelog.txt removed from gvStyleDB_ID5_NBTEvo_RR_USA_1025
+ - Changelog file updated: removed BMW past records
+
+------------------------------------------------------------------------
+<C_1_246_S_9_23>  IMaliuga  10/11/2015
+ 
+Brief:
+ RR ID5 gvStyleDB has been created:
+ (as a copy of gvStyleDB_NBTEvo_BMW_ECE_1025 and gvStyleDB_NBTEvo_BMW_USA_1025 version C_1_245_S_9_23)
+ - gvStyleDB_ID5_NBTEvo_RR_ECE_1025
+ - gvStyleDB_ID5_NBTEvo_RR_USA_1025 
+[CR29344] gvStyleDB for Brand navigation adaptations for RR ID5
+------------------------------------------------------------------------
+
+
+***********************************************************************/
+
+#endif

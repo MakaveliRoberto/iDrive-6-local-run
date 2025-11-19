@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinkManifest>
+  <LinkSection>
+    <SwData version="istep">
+      <LinkData root="/fs/sda0/repository/istep">
+        <dir uid="0" name="info" mod="775" gid="0">
+          <file uid="0" name="manifest_audioMain.xml" swe="audioMain" command="link" mod="664" gid="0" />
+          <file uid="0" name="manifest_audioMain.xml.sign" swe="audioMain" command="link" mod="664" gid="0" />
+        </dir>
+        <dir uid="0" name="opt" mod="775" gid="0">
+          <dir uid="0" name="mm" mod="775" gid="0">
+            <dir uid="0" name="bin" mod="775" gid="0">
+              <file uid="0" crc="743d0f86" name="audioconn" swe="audioMain" md5="c61784e6dc70511c8664a828a6b71a755a789276" gid="0" mod="775" command="link" />
+              <file uid="0" crc="59c6ae11" name="dev-ioamp-router" swe="audioMain" md5="273f7750b8235322b7b06d90f6bdfc4d625fa1cc" gid="0" mod="775" command="link" />
+              <file uid="0" crc="5fa920e9" name="dev-libasound" swe="audioMain" md5="8f6de5d2dcc60c0833f8e095916e24f85876a57d" gid="0" mod="775" command="link" />
+              <file uid="0" crc="92b80ead" name="RingWPProcess" swe="audioMain" md5="efa48092080a6168d6a2c76f5c44196a306598e4" gid="0" mod="775" command="link" />
+              <file uid="0" crc="98bb59b9" name="switch-source" swe="audioMain" md5="b6eba5b62c7c68130b2335e74748516cfd12db05" gid="0" mod="775" command="link" />
+            </dir>
+            <dir uid="0" name="etc" mod="775" gid="0">
+              <file uid="0" crc="6afd7b40" name="persistTraceRingWPProcess.bin" swe="audioMain" md5="5f722133dcfd460083ca883a3900401108e88149" gid="0" mod="664" command="link" />
+            </dir>
+            <dir uid="0" name="lib" mod="775" gid="0">
+              <file uid="0" crc="136e19be" name="liba2i_client.so" swe="audioMain" md5="f345590325ca46d788048c869b7f5f65d7c9f915" gid="0" mod="664" command="link" />
+              <file uid="0" crc="32ccd55c" name="libioamp-router-config-hu-atm-b1.so" swe="audioMain" md5="dbfabb02e255a84c8e359bed3e417fd517581349" gid="0" mod="664" command="link" />
+              <file uid="0" crc="0e8400fa" name="libioamp-router-config-hu-atm-c1.so" swe="audioMain" md5="6f8c5aac629e9af48aebb78b89eda8af7c9457cb" gid="0" mod="664" command="link" />
+              <file uid="0" crc="a5b10157" name="libioamp-router-config-hu-b1.so" swe="audioMain" md5="041166942c15f244a192df11a886013d5a7dee3e" gid="0" mod="664" command="link" />
+              <file uid="0" crc="af076079" name="libioamp-router-config-hu-c1.so" swe="audioMain" md5="07a31ce78a36346b202c8e502a97b9dc8774562f" gid="0" mod="664" command="link" />
+              <dir uid="0" name="libasound" mod="775" gid="0">
+                <file uid="0" crc="f7f4e043" name="libasound.so" swe="audioMain" md5="0465fd924ce3098969a5ad3f4b52f7c834ce0421" gid="0" mod="664" command="link" />
+                <file uid="0" crc="f7f4e043" name="libasound.so.2" swe="audioMain" md5="0465fd924ce3098969a5ad3f4b52f7c834ce0421" gid="0" mod="664" command="link" />
+              </dir>
+              <dir uid="0" name="mediageneric" mod="775" gid="0">
+                <file uid="0" crc="e3511711" name="a2i_writer.so" swe="audioMain" md5="a1945c1999692e4a431d79c739ad57b0bca23354" gid="0" mod="664" command="link" />
+              </dir>
+            </dir>
+          </dir>
+          <dir uid="0" name="sys" mod="775" gid="0">
+            <dir uid="0" name="data" mod="775" gid="0">
+              <dir uid="0" name="wave" mod="775" gid="0">
+                <dir uid="0" name="ring" mod="775" gid="0">
+                  <file uid="0" crc="2f3839d1" name="BMW_ringtone.wav" swe="audioMain" md5="81405281ad4c319cc6feac82905c586e88b29951" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="57ed454e" name="BMWi_ringtone.wav" swe="audioMain" md5="414e86a7619d2362e091e717d751cc0cc087b0ef" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="d551cd41" name="J29_ringtone.wav" swe="audioMain" md5="82c65f8fa6eca864ff9dd14413ad8aa21c04b4a6" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="7529bb87" name="MINI_ringtone.wav" swe="audioMain" md5="feca5ed4d344c4e4599f93f81793e2b9a60a2c4e" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="252f4e5e" name="RR_ringtone.wav" swe="audioMain" md5="9535490aaf892495b0052c8d7b607064d01f0d81" gid="0" mod="664" command="link" />
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </LinkData>
+    </SwData>
+  </LinkSection>
+</LinkManifest>

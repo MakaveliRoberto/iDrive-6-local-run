@@ -1,0 +1,40 @@
+<pluginApps>
+    <pluginApp applicationType="Settings" text="BMWOneAutoNav" applicationWeight="33468">
+        <actions>
+            <combinedAction id="16" sync="true">
+                <actions>
+                    <raAction id="9"/>
+                    <linkAction id="21" actionType="navigate" linkModel="1"/>
+                </actions>
+            </combinedAction>
+            <raAction id="10"/>
+            <raAction id="11"/>
+            <linkAction id="22" actionType="call" linkModel="2"/>
+            <linkAction id="23" actionType="navigate" linkModel="6"/>
+        </actions>
+        <models>
+            <raDataModel id="1" modelType="Address"/>
+            <raDataModel id="2" modelType="Phonenumber"/>
+            <raDataModel id="3"/>
+            <raDataModel id="4"/>
+            <raDataModel id="5"/>
+            <raDataModel id="6" modelType="Address"/>
+            <raDataModel id="7"/>
+            <textIdModel id="8" textId="20"/>
+        </models>
+        <entryButton id="17" action="10" selectAction="11" model="8">
+            <properties>
+                <property id="3" value="false"/>
+            </properties>
+        </entryButton>
+        <events>
+            <actionEvent id="19" action="16"/>
+            <actionEvent id="15" action="22"/>
+            <focusEvent id="18" targetModel="3"/>
+            <multimediaInfoEvent id="12" textModel1="4" textModel2="5"/>
+            <actionEvent id="14" action="23"/>
+            <statusbarEvent id="13" textModel="7"/>
+        </events>
+        <hmiStates/>
+    </pluginApp>
+</pluginApps>

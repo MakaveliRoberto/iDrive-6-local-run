@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>Tabview</TITLE>
+</HEAD>
+<BODY id="bodyId" onLoad="loadSizes()">
+   
+<center>
+   
+<br><br>
+   
+<script src="../../../../mnt/share/conn/browser/bin/BinStartPageUrls.js" language = "JavaScript"> 
+</script>
+ <style>
+	p.pagetitle {
+        color: navy; /* Text color */  	
+        font-size:15px; /* Font size*/
+		
+        overflow-x:hidden;
+        width:250px; 
+        overflow-y:hidden;
+        height:20px; 
+	} 
+     .myImage
+    {
+        width: 250px;
+        height: 200px;
+		border: 1px solid black;
+    }
+	.myImage:hover{
+        border:1px solid blue;
+        box-shadow: 0px 0px 10px rgba(200, 200, 200, 100);
+    }
+    
+    table {
+        border-spacing: 50px 5px;
+   }
+   tr {
+        text-align: center;
+   }
+  </style>
+
+	<table>
+		 <tr>
+		   <td>
+		   <input type="image" border = 1 id="canvas_1" value=" "  tabindex="1" onclick='onBClick(canvas_1)' class="myImage" >		   
+		   </td>		   
+		   <td>		   
+		   <input type="image" border = 1 id="canvas_2" value=" "  tabindex="2" onclick='onBClick(canvas_2)' class="myImage" >		   
+		   </td>
+		   <td>		   
+		   <input type="image" border = 1 id="canvas_3" value=" "  tabindex="3" onclick='onBClick(canvas_3)' class="myImage">		   
+		   </td>
+		 </tr>
+		 <tr>		 
+		   <td>		   		   
+		   <p class="pagetitle" id='text1'></p>
+		   </td>
+		   <td>		   		   
+		   <p class="pagetitle" id='text2'></p>
+		   </td>
+		   <td>		   		   
+		   <p class="pagetitle" id='text3'></p>
+		   </td>
+		 </tr>
+		 <tr>
+		   <td>		   
+		   <input type="image" border = 1 id="canvas_4" value=" "  tabindex="4" onclick='onBClick(canvas_4)' class="myImage" >		   
+		   </td>
+		   <td>		   
+			<input type="image" border = 1 id="canvas_5" value=" "  tabindex="5" onclick='onBClick(canvas_5)' class="myImage">		   
+		   </td>
+		   <td>		   
+		   <input type="image" border = 1 id="canvas_6" value=" "  tabindex="6" onclick='onBClick(canvas_6)' class="myImage" >		   
+		   </td>		   
+		   
+		 </tr>
+		 <tr>
+           <td>		   		   
+		   <p class="pagetitle" id='text4'></p>
+		   </td>
+		   <td>		   		   
+		   <p class="pagetitle" id='text5'></p>
+		   </td>
+		   <td>		   		   
+		   <p class="pagetitle" id='text6'></p>
+		   </td>		   
+		 </tr>
+	</table>
+
+  
+   <br>
+   <div id="idAsyncStatus" style="visibility: hidden; text-align: center; width: 100px; margin-top: 4px; padding: 0; border: 1px solid; background-color: #D0E6D1;">Running...</div>   
+   <br> 
+   
+</center>
+
+<script language = "JavaScript">
+   setTimeout(init, 1000);
+	function loadSizes()
+    {
+		var elems = document.getElementsByClassName('myImage');
+		var width = mWidth / 4
+		var height = mHeight / 4
+		for(var i = 0; i < elems.length; i++)
+		{
+            elems[i].style.width = width + 'px';
+            elems[i].style.height = height + 'px';
+		}
+     
+    }
+ 
+   function loadCanv(canv)
+   {   
+        var img = new Image();
+        canv.name = localStorage.getItem(getUrlAdr(canv));
+        var edit = document.getElementById("url_" + canv.id);
+        edit.value = canv.name;
+         		 
+        img.onload = function() 
+        {
+           //canv.width = img.width;
+           //canv.height = img.height;
+             
+           canv.getContext("2d").drawImage(img, 0, 0);
+        };
+    
+		img.src = localStorage.getItem(getImgAdr(canv));			 
+   } 
+
+   function getImgAdr(canv)
+   {
+       return (canv.id + "_image");
+   }
+
+   function getUrlAdr(canv)
+   {
+       return (canv.id + "_URL");
+   }
+   
+   function viewCanv(canv)
+   {
+       var imgAsDataURL = localStorage.getItem(getImgAdr(canv));
+       if(imgAsDataURL) 
+       {           
+			setTimeout(loadCanv(canv), 1000);    
+       }
+       else
+       {   
+          deletePage(canv);
+	   }
+   }
+
+   function init()
+   {  
+       var canvasArr = new Array( canvas_1, canvas_2, canvas_3, canvas_4, canvas_5, canvas_6 );
+	   for( var i = 0; i < UrlsArr.length; i++ )
+	   {		
+			canvasArr[i].name = UrlsArr[i];			
+			canvasArr[i].src = "../../../../mnt/share/conn/browser/bin/thumbs/" + ImgsArr[i];
+	   }	   
+	  
+	   var titlesArr = new Array( document.getElementById("text1"), document.getElementById("text2"), document.getElementById("text3"), document.getElementById("text4"), document.getElementById("text5"), document.getElementById("text6") );
+	   for( var i = 0; i < TitlesArr.length; i++ )
+	   {		
+	 	 titlesArr[i].innerHTML = TitlesArr[i];			
+	   }	 	
+   }
+
+   function deletePage(canv)
+   {
+       var edit = document.getElementById("url_" + canv.id);
+       edit.value = "";
+       saveCanv(canv);
+   }
+
+   function onBClick(canv)
+   {
+      if(canv.name) 
+      {
+
+		var str = canv.name;
+        window.location.href=str;
+      }
+      else
+      {
+	    var edit = document.getElementById("url_" + canv.id);
+        edit.focus();
+      }
+   }
+  
+</script>
+
+</BODY>
+</HTML>
+

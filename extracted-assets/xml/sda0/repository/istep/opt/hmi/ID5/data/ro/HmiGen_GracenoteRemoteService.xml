@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pluginApps>
+  <pluginApp applicationType="ServiceMenu" textModel="11">
+      <actions>
+        <raAction id="8"/>
+      </actions>
+      <models>
+          <raDataModel id="3"/>
+          <raDataModel id="5"/>
+        <textIdModel id="7" textId="61912"/>
+        <raDataModel id="10"/>
+        <textIdModel id="11" preinst="true" textId="60872"/>
+        <textIdModel id="12" textId="61944"/>
+      </models>
+      <hmiStates>
+          <hmiState id="1" textModel="12">
+              <components>
+                  <label id="2" model="3" text="GNDB HDD Version     = "/>
+                  <label id="4" model="5" text="GNDB Update Version = "/>
+                  <button action="8" id="6" model="7"/>
+                  <label id="9" model="10" text=""/>
+              </components>
+              <properties>
+                <property id="22" value="false"/>
+              </properties>
+          </hmiState>
+      </hmiStates>
+  </pluginApp>
+</pluginApps>
+

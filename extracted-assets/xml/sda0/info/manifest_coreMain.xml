@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinkManifest>
+  <LinkSection>
+    <SwData version="istep">
+      <LinkData root="/fs/sda0/repository/istep">
+        <dir uid="0" name="info" mod="775" gid="0">
+          <file uid="0" name="manifest_coreMain.xml" swe="coreMain" command="link" mod="664" gid="0" />
+          <file uid="0" name="manifest_coreMain.xml.sign" swe="coreMain" command="link" mod="664" gid="0" />
+        </dir>
+      </LinkData>
+    </SwData>
+  </LinkSection>
+</LinkManifest>

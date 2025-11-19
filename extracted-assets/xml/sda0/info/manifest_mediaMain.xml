@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinkManifest>
+  <LinkSection>
+    <SwData version="istep">
+      <LinkData root="/fs/sda0/repository/istep">
+        <dir uid="0" name="info" mod="775" gid="0">
+          <file uid="0" name="manifest_mediaMain.xml" swe="mediaMain" command="link" mod="664" gid="0" />
+          <file uid="0" name="manifest_mediaMain.xml.sign" swe="mediaMain" command="link" mod="664" gid="0" />
+        </dir>
+        <dir uid="0" name="opt" mod="775" gid="0">
+          <dir uid="0" name="mm" mod="775" gid="0">
+            <dir uid="0" name="bin" mod="775" gid="0">
+              <file uid="0" crc="f11597e9" name="aoap-switch" swe="mediaMain" md5="3508e71fc3cfd9debd2d3a15cc532df3885be0fe" gid="0" mod="775" command="link" />
+              <file uid="0" crc="abedcab1" name="Cinemo" swe="mediaMain" md5="15885fe36417bf37cd69f33d8c34d72a1befe850" gid="0" mod="775" command="link" />
+              <file uid="0" crc="21431191" name="copy.sh" swe="mediaMain" md5="0ca656c5106561168f4b826eee3df2e1550b86d2" gid="0" mod="775" command="link" />
+              <file uid="0" crc="ce2d083d" name="devc-serusb-aoap" swe="mediaMain" md5="050fdc02e6789a2a86d9af7134620fca821551d6" gid="0" mod="775" command="link" />
+              <file uid="0" crc="b45b6819" name="gn_testclient" swe="mediaMain" md5="877a034a570f74790699cabc0bf906ddc8b098b5" gid="0" mod="775" command="link" />
+              <file uid="0" crc="624e335e" name="gracenote_srvr" swe="mediaMain" md5="c84c5a70b8283845931aa24d41d88a66d6c823d5" gid="0" mod="775" command="link" />
+              <file uid="0" crc="617facd8" name="io-fs-media" swe="mediaMain" md5="df0507606aadbbcf478844c035ae18102d7297ec" gid="0" mod="775" command="link" />
+              <file uid="0" crc="59196483" name="io-media-cinemo" swe="mediaMain" md5="eb1288212a94ce2bae3d7ae539fb52cf3b602223" gid="0" mod="775" command="link" />
+              <file uid="0" crc="22a33fc1" name="io-media-generic" swe="mediaMain" md5="3bb0edd8e103aaf6eaec5099ecceb0108e2b8701" gid="0" mod="775" command="link" />
+              <file uid="0" crc="2d9eee1c" name="mdsctrl" swe="mediaMain" md5="bd094be05abf3a02d7ea51740d459eb3c97d4f53" gid="0" mod="775" command="link" />
+              <file uid="0" crc="fb661b52" name="MediaPreStarter" swe="mediaMain" md5="5287ff515da80c99b6d7d39a5d952dbc2d864b25" gid="0" mod="775" command="link" />
+              <file uid="0" crc="f3f3462a" name="mm-sync" swe="mediaMain" md5="26367fc19008b9b4bfe15c3272067fc193e72dfe" gid="0" mod="775" command="link" />
+              <file uid="0" crc="736094a4" name="mme-becker" swe="mediaMain" md5="0de3c12844e55c007435c4e070c2d736674f4495" gid="0" mod="775" command="link" />
+              <file uid="0" crc="8f1acca4" name="mmecli" swe="mediaMain" md5="7cb9511ae0ef2ab39e670c2e99d7d3e5ec21143a" gid="0" mod="775" command="link" />
+              <file uid="0" crc="ce45c6cb" name="mmecli_ext" swe="mediaMain" md5="04d29f95894105c4cb6f7e55f9486cf0d8ceb696" gid="0" mod="775" command="link" />
+              <file uid="0" crc="6112a6f2" name="mmexplore" swe="mediaMain" md5="849493f40312b112ba51b3eef8f3b88fc4337c70" gid="0" mod="775" command="link" />
+              <file uid="0" crc="2d2a4342" name="mmlauncher" swe="mediaMain" md5="e93229fef693a48f7c7f750f40aefda79983d40e" gid="0" mod="775" command="link" />
+              <file uid="0" crc="6760cac4" name="mmlauncher.hbtc" swe="mediaMain" md5="cd71748877352f73ecfffeeb8a91eb78e646515f" gid="0" mod="664" command="link" />
+              <file uid="0" crc="ccd28932" name="mmlauncher.sh" swe="mediaMain" md5="354b1bc3c3de24c738652cef3d7c94059876a83c" gid="0" mod="775" command="link" />
+              <file uid="0" crc="87cc92ab" name="mmsyncclient" swe="mediaMain" md5="9d63ba1cd882650a7e380423f391fd02a77e196a" gid="0" mod="775" command="link" />
+              <file uid="0" crc="17ee09b0" name="NBTMediaEjectRetractApp" swe="mediaMain" md5="06fcd40acb3361068b43ad06ccb40ed1510d6452" gid="0" mod="775" command="link" />
+              <file uid="0" crc="362405dc" name="NBTMediaMainApp" swe="mediaMain" md5="6a87d153f7420f1f5fbb581ce2e2d1642e021561" gid="0" mod="775" command="link" />
+              <file uid="0" crc="c8cc2e2a" name="NmeCmdLine" swe="mediaMain" md5="700fe68dbe0e15f1d996af0441769f98b6efaf4e" gid="0" mod="775" command="link" />
+              <file uid="0" crc="83e645ce" name="persistTraceNBTMediaEjectRetractApp.bin" swe="mediaMain" md5="1cd190b0ad1fbfb86958321065384bab01093e6f" gid="0" mod="664" command="link" />
+              <file uid="0" crc="e729340f" name="persistTraceNBTMediaMainApp.bin" swe="mediaMain" md5="6c08c13096f6d5ddbd312b805fdd72d8c7dad3e7" gid="0" mod="664" command="link" />
+              <file uid="0" crc="5ed2dd7c" name="prepare_and_start_up_media.sh" swe="mediaMain" md5="df83a755f0fba27feae8dff92007cc28e4bbd8dd" gid="0" mod="775" command="link" />
+              <file uid="0" crc="8d55ffa5" name="PrepareMedia" swe="mediaMain" md5="3c1bdda21f8d04c91decf31e786f50c1f02592ac" gid="0" mod="775" command="link" />
+            </dir>
+            <dir uid="0" name="data" mod="775" gid="0">
+              <dir uid="0" name="ipodlogo" mod="775" gid="0">
+                <file uid="0" crc="00000000" name="directory_name_-_HMI.HMI_BRAND.value" swe="mediaMain" md5="da39a3ee5e6b4b0d3255bfef95601890afd80709" gid="0" mod="664" command="link" />
+                <dir uid="0" name="00" mod="775" gid="0">
+                  <file uid="0" crc="d00682bd" name="150_73_sw.logo" swe="mediaMain" md5="648dda5f9d1d8af14edb4085e8324e262dc05df6" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="229c5928" name="166_76.logo" swe="mediaMain" md5="98c47a264cf96109b46e077bb9e3761dc1eb1096" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="1b68ffd9" name="310_168.logo" swe="mediaMain" md5="7b3336e5e2a19f582c5886567f4f916317637d59" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="00000000" name="BMW_logos" swe="mediaMain" md5="da39a3ee5e6b4b0d3255bfef95601890afd80709" gid="0" mod="664" command="link" />
+                </dir>
+                <dir uid="0" name="01" mod="775" gid="0">
+                  <file uid="0" crc="d00682bd" name="150_73_sw.logo" swe="mediaMain" md5="648dda5f9d1d8af14edb4085e8324e262dc05df6" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="229c5928" name="166_76.logo" swe="mediaMain" md5="98c47a264cf96109b46e077bb9e3761dc1eb1096" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="1b68ffd9" name="310_168.logo" swe="mediaMain" md5="7b3336e5e2a19f582c5886567f4f916317637d59" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="00000000" name="BMW_i_logos" swe="mediaMain" md5="da39a3ee5e6b4b0d3255bfef95601890afd80709" gid="0" mod="664" command="link" />
+                </dir>
+                <dir uid="0" name="02" mod="775" gid="0">
+                  <file uid="0" crc="48a0c013" name="150_73_sw.logo" swe="mediaMain" md5="70362b902a537f5f40a6e88e610462b271969301" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="8eaa606b" name="166_76.logo" swe="mediaMain" md5="51aaaacf50460d346f63f74c0c49a35429de4411" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="f2e405bb" name="310_168.logo" swe="mediaMain" md5="5b21d57df9293d72bcf055a55583e114f0628de7" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="00000000" name="Mini_logos" swe="mediaMain" md5="da39a3ee5e6b4b0d3255bfef95601890afd80709" gid="0" mod="664" command="link" />
+                </dir>
+                <dir uid="0" name="03" mod="775" gid="0">
+                  <file uid="0" crc="8cb9c808" name="150_73_sw.logo" swe="mediaMain" md5="f4094217117c9dc8fe8061bed6c9571ca64c8bdf" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="14fd3101" name="166_76.logo" swe="mediaMain" md5="e70170c72a7878369365a69e5f478491d9d21c67" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="79eec067" name="310_168.logo" swe="mediaMain" md5="97579da0e438182e439fb22b839932fab17abadf" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="00000000" name="RR_logos" swe="mediaMain" md5="da39a3ee5e6b4b0d3255bfef95601890afd80709" gid="0" mod="664" command="link" />
+                </dir>
+              </dir>
+              <dir uid="0" name="voicenotes" mod="775" gid="0">
+                <dir uid="0" name="bmw" mod="775" gid="0">
+                  <file uid="0" crc="5315eea7" name="BMW_start_voicenote_22.05kHz.wav" swe="mediaMain" md5="4568c15c7bf926d1da66cedb9f613091e701f272" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="7cfd1493" name="BMW_stop_voicenote_22.05kHz.wav" swe="mediaMain" md5="0a1743d10f7b620d27af93dcde697f42b5e80de8" gid="0" mod="664" command="link" />
+                </dir>
+                <dir uid="0" name="bmw_i" mod="775" gid="0">
+                  <file uid="0" crc="48b05ee0" name="BMWi_start_voicenotes_22.05kHz.wav" swe="mediaMain" md5="81bb25a39f294c6432fed3f4659e2a06387d200f" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="48f83e7f" name="BMWi_stop_voicenotes_22.05KHz.wav" swe="mediaMain" md5="23d468c1a523cb501842f8c43160b4ac4988d16e" gid="0" mod="664" command="link" />
+                </dir>
+                <dir uid="0" name="mini" mod="775" gid="0">
+                  <file uid="0" crc="98c0822e" name="MINI_start_voicenote_22.05kHz.wav" swe="mediaMain" md5="129c4811b054d4a5a3a71b59709ff5848b0bc7a4" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="61d53da8" name="MINI_stop_voicenote_22.05kHz.wav" swe="mediaMain" md5="1a6f1a46f2d9e487de112ad716e3e56448e584a9" gid="0" mod="664" command="link" />
+                </dir>
+                <dir uid="0" name="rr" mod="775" gid="0">
+                  <file uid="0" crc="49ca5316" name="RR_start_voicenote_22.05kHz.wav" swe="mediaMain" md5="0bbd7b80e61243b23544c43450c89bd541e14493" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="7538b144" name="RR_stop_voicenote_22.05kHz.wav" swe="mediaMain" md5="4e5c7502909b15931bf6835f275c007129805c15" gid="0" mod="664" command="link" />
+                </dir>
+              </dir>
+            </dir>
+            <dir uid="0" name="etc" mod="775" gid="0">
+              <file uid="0" crc="1bd7bad3" name="aoap.cfg" swe="mediaMain" md5="8790d52895ab53e857348b544086323e4cf393b4" gid="0" mod="664" command="link" />
+              <file uid="0" crc="df3d19df" name="bookmarks" swe="mediaMain" md5="f128f098f0d468dcd8145a5f058c0eeb1c59fc60" gid="0" mod="664" command="link" />
+              <file uid="0" crc="8f1e1998" name="bteaf.cfg" swe="mediaMain" md5="d9c5e5d3e18ea06d2b61a90e071daaad982314f4" gid="0" mod="664" command="link" />
+              <file uid="0" crc="faf4540d" name="cinemo_options.xml" swe="mediaMain" md5="77e2c7d2ba50ec995fc4354cdaba9bafe0b0313b" gid="0" mod="664" command="link" />
+              <file uid="0" crc="a4f8b410" name="eaf_default.cfg" swe="mediaMain" md5="8fa68967e0c9b76bbdf0484038791cfa7334cb20" gid="0" mod="664" command="link" />
+              <file uid="0" crc="e56ac11d" name="eaf_mini.cfg" swe="mediaMain" md5="2de75447541581597aecd971b8f8ea65b3637d9b" gid="0" mod="664" command="link" />
+              <file uid="0" crc="79860262" name="gracenote.cfg" swe="mediaMain" md5="f2bdb61e4ad98c56c44af261369cb42a478f3663" gid="0" mod="664" command="link" />
+              <file uid="0" crc="ae0a6d32" name="gracenoteJapan.cfg" swe="mediaMain" md5="2a3262ad77a38c7e9214f96c7bca0673e1fadd50" gid="0" mod="664" command="link" />
+              <file uid="0" crc="dcf256a2" name="io-media-cinemo.cfg" swe="mediaMain" md5="f941da86f5ce8a766053b02bafc50447c051b8c6" gid="0" mod="664" command="link" />
+              <file uid="0" crc="5f9434b7" name="io-media-generic.cfg" swe="mediaMain" md5="3511092b34993ba1c387c63c3a9e09c8901659ec" gid="0" mod="664" command="link" />
+              <file uid="0" crc="29cdd186" name="ipod.cfg" swe="mediaMain" md5="d25ed2f25b0f03324cffaee070fc9efd11f83f8a" gid="0" mod="664" command="link" />
+              <file uid="0" crc="ca699ea0" name="ipod_ser.cfg" swe="mediaMain" md5="cd5d772839056a2f122c5b7b97ad14121cadaac9" gid="0" mod="664" command="link" />
+              <file uid="0" crc="91722a41" name="lsmm.1" swe="mediaMain" md5="bcbf7d6753b2c0981a8d913efea08976ce46b43c" gid="0" mod="664" command="link" />
+              <file uid="0" crc="bd4a1a10" name="lsmm.2" swe="mediaMain" md5="b0a688f222dc325bdc64b8d309ef259b57dca36e" gid="0" mod="664" command="link" />
+              <file uid="0" crc="6ef58e4e" name="lsmm.3" swe="mediaMain" md5="c2cbeca489ad6d4c051bef1c6171eb14a88f4d47" gid="0" mod="664" command="link" />
+              <file uid="0" crc="913cf88c" name="mcd.cfg" swe="mediaMain" md5="d6c2b244355c696bf01f07d25d1390a6fb05137a" gid="0" mod="664" command="link" />
+              <file uid="0" crc="1867a624" name="mcd.mnt" swe="mediaMain" md5="72383239e0d6ad65a3304db26eeff595c5fb57f9" gid="0" mod="664" command="link" />
+              <file uid="0" crc="f5439cad" name="Media.cfg" swe="mediaMain" md5="e45cb64cec2ed9287b3342ff5f894824d1706d6f" gid="0" mod="664" command="link" />
+              <file uid="0" crc="2e05490d" name="media_config.xml" swe="mediaMain" md5="2f360f71ba2e94524a9a1cd5070f91ae6527b676" gid="0" mod="664" command="link" />
+              <file uid="0" crc="d189e8ed" name="mm-md.conf" swe="mediaMain" md5="74015444bc365295f95e737aa38e8d8a3ee5c805" gid="0" mod="664" command="link" />
+              <file uid="0" crc="ce59692f" name="mm-playlist.conf" swe="mediaMain" md5="354be3bcfc7dc41b522caa0e44cadd64cc829c2e" gid="0" mod="664" command="link" />
+              <file uid="0" crc="76911f4e" name="mm-sync.conf" swe="mediaMain" md5="a92dbda4b76af2a5af3c75bcd4a0d8af3d4f6e07" gid="0" mod="664" command="link" />
+              <file uid="0" crc="18ae3cc3" name="mme.conf" swe="mediaMain" md5="04be74f9740f3a22a289190aa361427c9ba6c660" gid="0" mod="664" command="link" />
+              <file uid="0" crc="03712f5b" name="mme_without_gracenote.conf" swe="mediaMain" md5="118d9713460b0a79efb450ddb109153327bd7cd7" gid="0" mod="664" command="link" />
+              <file uid="0" crc="58f83b14" name="mmlauncher_B069.cfg" swe="mediaMain" md5="5a871f5c4e0470508ea6a1183472d677f555511c" gid="0" mod="664" command="link" />
+              <file uid="0" crc="425dc2a8" name="mmlauncher_B069_without_gracenote.cfg" swe="mediaMain" md5="8ef1adf3269af575ff4cb8b187b6a44e83919707" gid="0" mod="664" command="link" />
+              <file uid="0" crc="ae65e566" name="pf_miracast_9870.conf" swe="mediaMain" md5="c176f131f2b5c95e4119119ddd8f5288077eede3" gid="0" mod="664" command="link" />
+              <file uid="0" crc="bf0b624c" name="pf_miracast_9873.conf" swe="mediaMain" md5="a29e9e0c1dbdf311d880f2ae6b845da87d2bd245" gid="0" mod="664" command="link" />
+              <file uid="0" crc="0955280b" name="qdb-mmsync.cfg" swe="mediaMain" md5="5e8c91c5cb811bf2c2fec4855fb897e7026765d9" gid="0" mod="664" command="link" />
+              <file uid="0" crc="2a8c7c6b" name="qdb.cfg" swe="mediaMain" md5="7cf6896ec932abcf779200219675ee31776b8ecf" gid="0" mod="664" command="link" />
+              <file uid="0" crc="878e23ef" name="qdb_hdd_safe.cfg" swe="mediaMain" md5="80b56b10a69eb9f32ed32529a8d22f2bbaf8c393" gid="0" mod="664" command="link" />
+              <file uid="0" crc="4c5c48b0" name="qkcp_export.cfg" swe="mediaMain" md5="74daec6a79c1dda9a86de969c204d4bd375707d8" gid="0" mod="664" command="link" />
+              <file uid="0" crc="64e4a479" name="qkcp_import.cfg" swe="mediaMain" md5="6406975508dcc55a0048a2994a012bf09672d9f4" gid="0" mod="664" command="link" />
+              <dir uid="0" name="sql" mod="775" gid="0">
+                <file uid="0" crc="8562e9a3" name="commco.sql" swe="mediaMain" md5="d8b743f3fb7e027cc1543f206624cdf7677b2687" gid="0" mod="664" command="link" />
+                <file uid="0" crc="b0a9cbe4" name="mme.sql" swe="mediaMain" md5="f07b343b7d5f1518ea686280fba4a0c53ba4d4ec" gid="0" mod="664" command="link" />
+                <file uid="0" crc="47f27772" name="mme_conn.sql" swe="mediaMain" md5="cdadb0c851f053e800f1df7f1d7f61e2c17297a2" gid="0" mod="664" command="link" />
+                <file uid="0" crc="166b3bfd" name="mme_custom.sql" swe="mediaMain" md5="12c6733fa74f1e9251d3488a4d6224fecf9fe05c" gid="0" mod="664" command="link" />
+                <file uid="0" crc="171bba2d" name="mme_data.sql" swe="mediaMain" md5="c79182bb55333e1c27f2113923dd76b70ce5eed1" gid="0" mod="664" command="link" />
+                <file uid="0" crc="ffb2e89d" name="mmsync.sql" swe="mediaMain" md5="cdab8a3264b41b4ba7a228e7edfd711e2105d010" gid="0" mod="664" command="link" />
+                <file uid="0" crc="4e6e418f" name="mmsync_connect.sql" swe="mediaMain" md5="46b6f216e6033567069779d407fcc57ef0a12507" gid="0" mod="664" command="link" />
+                <file uid="0" crc="3461ec8e" name="mmsync_data.sql" swe="mediaMain" md5="f2b4eec85e1ae3d13b56d15fe2a90bcf5a1f5e23" gid="0" mod="664" command="link" />
+                <file uid="0" crc="bf7adc20" name="mmsync_iap2.sql" swe="mediaMain" md5="cc1110c55e67b193b524ab69ad6dea915d2b692a" gid="0" mod="664" command="link" />
+                <file uid="0" crc="866059fd" name="mmsync_ipod.sql" swe="mediaMain" md5="64ff8c328c35ecc1e632be961315177e78f857c2" gid="0" mod="664" command="link" />
+                <file uid="0" crc="00000000" name="mmsync_views.sql" swe="mediaMain" md5="da39a3ee5e6b4b0d3255bfef95601890afd80709" gid="0" mod="664" command="link" />
+              </dir>
+              <dir uid="0" name="update" mod="775" gid="0">
+                <file uid="0" crc="f8947c05" name="migration.sh" swe="mediaMain" md5="c2adfe8ff52f384dd7668687d26744ac9cff718d" gid="0" mod="775" command="link" />
+                <file uid="0" crc="2b201b04" name="mm_commco_migration.sh" swe="mediaMain" md5="4c1b36043f24664dd8ecda8743cc5bee320ac63f" gid="0" mod="775" command="link" />
+                <file uid="0" crc="356c2701" name="mm_custom_migration.sh" swe="mediaMain" md5="6d290a82bdbe601ef1189705de38ae446bfc661f" gid="0" mod="775" command="link" />
+                <file uid="0" crc="b7c7c08c" name="recover_db.sh" swe="mediaMain" md5="1e967c703f930d58611d5dc3e5127a30b46a7a6a" gid="0" mod="775" command="link" />
+              </dir>
+            </dir>
+            <dir uid="0" name="lib" mod="775" gid="0">
+              <file uid="0" crc="097818c4" name="dbs-gndbp.so" swe="mediaMain" md5="c6a195ef12b675fe8209161d5353cf503e736b71" gid="0" mod="664" command="link" />
+              <file uid="0" crc="39c915ba" name="iofs-ipod.so" swe="mediaMain" md5="11aa2a4423a43a90f582c5b8ce7bff85173655ee" gid="0" mod="664" command="link" />
+              <file uid="0" crc="a53bcbc9" name="iofs-pfs.so" swe="mediaMain" md5="ae2cd450f79303098961b146e78c4468057eb398" gid="0" mod="664" command="link" />
+              <file uid="0" crc="fed6c3ed" name="iofs-ser-ipod.so" swe="mediaMain" md5="25aef13281d3ce57f1c68c353782e40e83385daf" gid="0" mod="664" command="link" />
+              <file uid="0" crc="1dfab53b" name="iofs-usb-ipod.so" swe="mediaMain" md5="c4bb126595b7ab2d61fe887ef4fe08a601985813" gid="0" mod="664" command="link" />
+              <file uid="0" crc="c66734e5" name="libaoi.so.1" swe="mediaMain" md5="0ed0d56cb5b050e1912da3a3547d710bec64e642" gid="0" mod="664" command="link" />
+              <file uid="0" crc="bbb31f4e" name="libdmsconfig_mme.so" swe="mediaMain" md5="50b6460ac92f02336a1351772b32fb586c3502f1" gid="0" mod="664" command="link" />
+              <file uid="0" crc="56e0a62a" name="libgnclient.so.1" swe="mediaMain" md5="6793738afa8b93ca3b9a2ecce3477b507898ef5a" gid="0" mod="664" command="link" />
+              <file uid="0" crc="29e9818c" name="libimp_mm_mmdebuginfo.so" swe="mediaMain" md5="591bc4558427c3d410d32d8b146f608cf122a204" gid="0" mod="664" command="link" />
+              <file uid="0" crc="aa8d0aae" name="libmd.so.1" swe="mediaMain" md5="7e4958877b0e27b17e64e96006885322a6f77cac" gid="0" mod="664" command="link" />
+              <file uid="0" crc="f127c984" name="libmm_icu46_qdb.so" swe="mediaMain" md5="2c3cffa2eb47c78ff68d7abed21c50c3ad6c6ab9" gid="0" mod="664" command="link" />
+              <file uid="0" crc="370a60a4" name="libmm_userdefinedfunctions.so" swe="mediaMain" md5="fcbfacc0a9c274da7ca58bb8d02bb1f7b9066937" gid="0" mod="664" command="link" />
+              <file uid="0" crc="5d413676" name="libmmcharconv.so.1" swe="mediaMain" md5="031753b1c8c54a2221ae84232b6e41dca5dfaa4c" gid="0" mod="664" command="link" />
+              <file uid="0" crc="e3c135f9" name="libmme.so.1" swe="mediaMain" md5="02ca4683c8dcd2876fa1eedffcd9933799e4b805" gid="0" mod="664" command="link" />
+              <file uid="0" crc="073af1ad" name="libmmedia.so.1" swe="mediaMain" md5="577a512adcebc82f961fe8a1e46601269c42eb53" gid="0" mod="664" command="link" />
+              <file uid="0" crc="678ad3f1" name="libmmfilter.so.1" swe="mediaMain" md5="b4e33d9171dff014e34ad9f25983bc804bca4bb9" gid="0" mod="664" command="link" />
+              <file uid="0" crc="5b366c3f" name="libmmplaylist.so.1" swe="mediaMain" md5="37310fe9a1b94d0a4e876ae10a250d843a632e47" gid="0" mod="664" command="link" />
+              <file uid="0" crc="753705f9" name="libmmsyncclient.so" swe="mediaMain" md5="71272c3ec64c27b347f671ff0eabd6b937a0ddd0" gid="0" mod="664" command="link" />
+              <file uid="0" crc="753705f9" name="libmmsyncclient.so.1" swe="mediaMain" md5="71272c3ec64c27b347f671ff0eabd6b937a0ddd0" gid="0" mod="664" command="link" />
+              <file uid="0" crc="c5c16734" name="libnbt_asiaconversion_library.so" swe="mediaMain" md5="060ae45e833a802d0f4ba6429c2dd8ef498717d7" gid="0" mod="664" command="link" />
+              <file uid="0" crc="6c1250cf" name="libnbt_frontendprocessor_library.so" swe="mediaMain" md5="71e5e813debb1b8fb231371da9606adfd94d8816" gid="0" mod="664" command="link" />
+              <file uid="0" crc="40c66a19" name="libnbt_plugin_firstfilesearch_library.so" swe="mediaMain" md5="8701d54460295d287b1b626d14fcec40fe7525f7" gid="0" mod="664" command="link" />
+              <file uid="0" crc="324ef198" name="libNme.so" swe="mediaMain" md5="1b5e78b4df78a4ea070455fc9d722bd1d98e5c4b" gid="0" mod="664" command="link" />
+              <file uid="0" crc="6c20707f" name="libNmeBaseClasses.so" swe="mediaMain" md5="1658e935fed8f19fb9e66e01825562abeb4dff6e" gid="0" mod="664" command="link" />
+              <file uid="0" crc="7991b13d" name="libNmeImage.so" swe="mediaMain" md5="aef3f5642f0da90b9114d7637f97494782be0799" gid="0" mod="664" command="link" />
+              <file uid="0" crc="1425a660" name="libNmeSDK.so" swe="mediaMain" md5="bb40ac82605b95a2e15cf20255f0c6e695dac5c5" gid="0" mod="664" command="link" />
+              <file uid="0" crc="2043a155" name="libNmeUtils.so" swe="mediaMain" md5="3d02e432a249597f51762799041ca0e9fd363f16" gid="0" mod="664" command="link" />
+              <file uid="0" crc="5bbe611b" name="libQdbCollationConvert.so" swe="mediaMain" md5="fb7c9cc3273442572f5894164a3f5a8bf43fd6ff" gid="0" mod="664" command="link" />
+              <file uid="0" crc="f8cc5539" name="libqkcp.so" swe="mediaMain" md5="4e00ce3ee6a62f25770c5c099a402d1c1b5b438d" gid="0" mod="664" command="link" />
+              <file uid="0" crc="9b33519c" name="libstrm.so" swe="mediaMain" md5="4a14c3bb8187e260513c6e44c7acd1552bccdceb" gid="0" mod="664" command="link" />
+              <file uid="0" crc="9b33519c" name="libstrm.so.1" swe="mediaMain" md5="4a14c3bb8187e260513c6e44c7acd1552bccdceb" gid="0" mod="664" command="link" />
+              <file uid="0" crc="a57ae62f" name="mdp-dvdtext.so" swe="mediaMain" md5="d8bce93cf73b766e5c2f87075b592eebe447ece9" gid="0" mod="664" command="link" />
+              <file uid="0" crc="2c16f1a7" name="mdp-gncap.so" swe="mediaMain" md5="89af0685721d74265f35920b3b6717a3f1c2b94f" gid="0" mod="664" command="link" />
+              <file uid="0" crc="e487395d" name="mdp-gnmdp.so" swe="mediaMain" md5="9dc51da1eb435043b668303483ebd5f45db663ca" gid="0" mod="664" command="link" />
+              <file uid="0" crc="fd86ee81" name="mme-imgprc-gf.so" swe="mediaMain" md5="7e005358dd83ac76d24601c61c4b5e60a2c8f947" gid="0" mod="664" command="link" />
+              <file uid="0" crc="454f10d7" name="mss-custom.so" swe="mediaMain" md5="ab620e74a3c3c4a84df0b71b254337dcc1ea60a7" gid="0" mod="664" command="link" />
+              <file uid="0" crc="a9a56f52" name="plss-gnplp.so" swe="mediaMain" md5="74e89c71565168e988dee84006e9c30af3d44bb6" gid="0" mod="664" command="link" />
+              <dir uid="0" name="acp_i2c" mod="775" gid="0">
+                <file uid="0" crc="aa88e74a" name="iofs-acp-ipod.so" swe="mediaMain" md5="9c9e7b517ab5d9a80ebc11e404f06c2ddec39997" gid="0" mod="664" command="link" />
+              </dir>
+              <dir uid="0" name="acp_spi" mod="775" gid="0">
+                <file uid="0" crc="5f0a26fb" name="iofs-acp-ipod.so" swe="mediaMain" md5="7da3cf650b639fcb93a814ae5df2c8391f78a35b" gid="0" mod="664" command="link" />
+              </dir>
+              <dir uid="0" name="cinemo" mod="775" gid="0">
+                <file uid="0" crc="3da9d04f" name="cinemo_classes.xml" swe="mediaMain" md5="5df871cf406c8f9f9dbdc91a85ed4f5fef1d09b2" gid="0" mod="664" command="link" />
+                <file uid="0" crc="743828d8" name="liba2i_client.so" swe="mediaMain" md5="56f68ea0c7629c7b56bd6f17324aff79fc7c653e" gid="0" mod="664" command="link" />
+                <file uid="0" crc="319b4ca1" name="libNmeAudio.so" swe="mediaMain" md5="69bf3ed0fb4f4be68f9c077fcd4da85b6a05b8cd" gid="0" mod="664" command="link" />
+                <file uid="0" crc="b6529202" name="libNmeAudioAAC.so" swe="mediaMain" md5="355587807f5b74246e2cb6dce069dca205f7828a" gid="0" mod="664" command="link" />
+                <file uid="0" crc="54259e8d" name="libNmeAudioAMR.so" swe="mediaMain" md5="13d0175519baf5a117f0a05eb95be1ecf1e5d687" gid="0" mod="664" command="link" />
+                <file uid="0" crc="3d5e9d94" name="libNmeAudioDevice.so" swe="mediaMain" md5="46af35a2fa20903c7df0da88db939a9f8c347468" gid="0" mod="664" command="link" />
+                <file uid="0" crc="2cd8cf7e" name="libNmeAudioDolby.so" swe="mediaMain" md5="9dac420a58a3acda902f1f2ecab00b6503249c57" gid="0" mod="664" command="link" />
+                <file uid="0" crc="083368c8" name="libNmeAudioDTS.so" swe="mediaMain" md5="793c516a2e46c6e1b44111c3915edbc04a79c8a4" gid="0" mod="664" command="link" />
+                <file uid="0" crc="500fee27" name="libNmeAudioFLAC.so" swe="mediaMain" md5="a2a9d372a38f686645e97f501d7d2870d61e6bed" gid="0" mod="664" command="link" />
+                <file uid="0" crc="37fbf76d" name="libNmeAudioMisc.so" swe="mediaMain" md5="ecbd79e0d22362c8c2517cc32d6af3ef950c5796" gid="0" mod="664" command="link" />
+                <file uid="0" crc="c490487f" name="libNmeAudioMP3.so" swe="mediaMain" md5="cefd61570ce69f6e10d3bdf3259e28b3503264a6" gid="0" mod="664" command="link" />
+                <file uid="0" crc="66ea761f" name="libNmeAudioRenderer.so" swe="mediaMain" md5="739ffceecee7423a07323ecd0ae64c4622bfa050" gid="0" mod="664" command="link" />
+                <file uid="0" crc="35f8d061" name="libNmeAudioSpeex.so" swe="mediaMain" md5="18a427eb59354d4b41a9e62b8b45138a1d4e2f9d" gid="0" mod="664" command="link" />
+                <file uid="0" crc="58ab38f4" name="libNmeAudioVorbis.so" swe="mediaMain" md5="1180d0d92acaa1b1548ee3f757e8d4d15ff83e7f" gid="0" mod="664" command="link" />
+                <file uid="0" crc="db78cff1" name="libNmeAudioWMA.so" swe="mediaMain" md5="59ae0deef417346560f675653020e4a38f204251" gid="0" mod="664" command="link" />
+                <file uid="0" crc="2448f5bb" name="libNmeAvrcp.so" swe="mediaMain" md5="e627427ccd912d5efd93f131a72963c432b09a88" gid="0" mod="664" command="link" />
+                <file uid="0" crc="1eb4b145" name="libNmeEncoder.so" swe="mediaMain" md5="89bb7592977c0917594950ab179d3c517874fc2e" gid="0" mod="664" command="link" />
+                <file uid="0" crc="a6122a66" name="libNmeNav.so" swe="mediaMain" md5="75ecfabef34bfb3db5c113e7bb4d3e05265bb98b" gid="0" mod="664" command="link" />
+                <file uid="0" crc="195de7ac" name="libNmeNavCopier.so" swe="mediaMain" md5="539fd0792e46cae7548752f8c65f2175e9a2f12a" gid="0" mod="664" command="link" />
+                <file uid="0" crc="b6ef30df" name="libNmeRedSource.so" swe="mediaMain" md5="8ca2571c5e0363189664da994cfc94a8a16302cc" gid="0" mod="664" command="link" />
+                <file uid="0" crc="ed646070" name="libNmeSubtitle.so" swe="mediaMain" md5="a8bcf723e52217cc8f50947fea609187372b4dbb" gid="0" mod="664" command="link" />
+                <file uid="0" crc="c136c5d7" name="libNmeTag.so" swe="mediaMain" md5="f639a780249b92758f99211e18742bf139bf3551" gid="0" mod="664" command="link" />
+                <file uid="0" crc="120c8006" name="libNmeVfs.so" swe="mediaMain" md5="261d8276858b0fff01c96a48a1fdc05c6f34b560" gid="0" mod="664" command="link" />
+                <file uid="0" crc="79416e80" name="libNmeVfsBase.so" swe="mediaMain" md5="00707cfe9dbef358a4efd0793261f48143ed5063" gid="0" mod="664" command="link" />
+                <file uid="0" crc="344b4f0f" name="libNmeVideo.so" swe="mediaMain" md5="4e1fc27ce3ad6d69be815c64c75c89c8f6c7fce9" gid="0" mod="664" command="link" />
+                <file uid="0" crc="9170d2c2" name="libNmeVideoDCE.so" swe="mediaMain" md5="4816d0a7b8f4df9a743a5505a2f85149e80d4a45" gid="0" mod="664" command="link" />
+                <file uid="0" crc="a19d36e9" name="libNmeVideoDevice.so" swe="mediaMain" md5="20f13a9e9cda896b5c6e821eedbec0e52beca42e" gid="0" mod="664" command="link" />
+                <file uid="0" crc="dd2db1c6" name="libNmeVideoMisc.so" swe="mediaMain" md5="5dcf5afc953d52604292c6819acb6f36fcbb28d6" gid="0" mod="664" command="link" />
+                <file uid="0" crc="1eb7faec" name="libNmeVideoRenderer.so" swe="mediaMain" md5="6202ec382a943eeb83d1a3d3d9fc652e38ac998a" gid="0" mod="664" command="link" />
+                <file uid="0" crc="1f08c57d" name="libNmeVideoSW.so" swe="mediaMain" md5="2a47ddc86b3ba08dd2e3bd6cc7fb173cdcc7a198" gid="0" mod="664" command="link" />
+              </dir>
+              <dir uid="0" name="dll" mod="775" gid="0">
+                <file uid="0" crc="6b781640" name="iofs-pfs.so" swe="mediaMain" md5="dc12c20fb04d890bc853d2db88ca0dff77b745c9" gid="0" mod="664" command="link" />
+                <file uid="0" crc="4c6fe667" name="libqdb_notify.so" swe="mediaMain" md5="d0962a13364df86414eb28eb552995b149315d06" gid="0" mod="664" command="link" />
+                <file uid="0" crc="bfebf8a8" name="libqdb_notify.so.1" swe="mediaMain" md5="613b23066ede3c306f570c040c15c76d5fac18d2" gid="0" mod="664" command="link" />
+                <file uid="0" crc="1a30e2f0" name="mm-cli-md.so" swe="mediaMain" md5="29b2f2d36d9693b662df9db685dc513d2c2795d8" gid="0" mod="664" command="link" />
+                <file uid="0" crc="b994291b" name="mm-cli-mmplaylist.so" swe="mediaMain" md5="17fea86c946f9a8fd7d3a9ec4b9e31fa36ba1f49" gid="0" mod="664" command="link" />
+                <file uid="0" crc="ca6176bf" name="mm-mdp-cdda.so" swe="mediaMain" md5="a43bab77cfecfe29d264ffbc433b4c53f787a89c" gid="0" mod="664" command="link" />
+                <file uid="0" crc="d152491b" name="mm-mdp-exif.so" swe="mediaMain" md5="258949aae9a79b71706a6c0cfa0441b270b50913" gid="0" mod="664" command="link" />
+                <file uid="0" crc="9e167847" name="mm-mdp-extart.so" swe="mediaMain" md5="042cb1f5444b33c422a9064288df1573be13a468" gid="0" mod="664" command="link" />
+                <file uid="0" crc="10d0c34a" name="mm-mdp-img.so" swe="mediaMain" md5="7e4a6c1843d7bd82027fc563a0d6af12cb92527c" gid="0" mod="664" command="link" />
+                <file uid="0" crc="401a2d4e" name="mm-mdp-mediafs.so" swe="mediaMain" md5="98a789e49d6341d9e185ea8c0dec494146210b72" gid="0" mod="664" command="link" />
+                <file uid="0" crc="51411ba1" name="mm-mdp-mmf.so" swe="mediaMain" md5="f3649c1bc3fb1a224401c2d5b89316a0b9458c81" gid="0" mod="664" command="link" />
+                <file uid="0" crc="81f50234" name="mm-plp-asx.so" swe="mediaMain" md5="52bfc73ccdc0bd4ea183cc35d8b3e2ff21523076" gid="0" mod="664" command="link" />
+                <file uid="0" crc="5b637876" name="mm-plp-b4s.so" swe="mediaMain" md5="1c487e7336f08d473a298e33e8955d16afc70710" gid="0" mod="664" command="link" />
+                <file uid="0" crc="8b1fddce" name="mm-plp-filelist.so" swe="mediaMain" md5="acfeb4cb7ac0bc64e8db9edb3b9d00915644fcaa" gid="0" mod="664" command="link" />
+                <file uid="0" crc="70fd3ebd" name="mm-plp-itunes.so" swe="mediaMain" md5="c7df778dda013529b81c925f4915e85e0fda0248" gid="0" mod="664" command="link" />
+                <file uid="0" crc="9e62f22d" name="mm-plp-m3u.so" swe="mediaMain" md5="00aaff74b2e7bae90ce0d6380404d78a5c6ba266" gid="0" mod="664" command="link" />
+                <file uid="0" crc="ddbbe9d3" name="mm-plp-mediafsdir.so" swe="mediaMain" md5="5a7f5bc3c2ff58f120c2c28a79b6d982711bba3c" gid="0" mod="664" command="link" />
+                <file uid="0" crc="25f6ee47" name="mm-plp-pls.so" swe="mediaMain" md5="11597b2a170b42b148f23ed13e3536cf2967e3b5" gid="0" mod="664" command="link" />
+                <file uid="0" crc="eabccb48" name="mm-plp-qdb.so" swe="mediaMain" md5="46a2d4809146073ab6c00034093bcd6e5a3d238f" gid="0" mod="664" command="link" />
+                <file uid="0" crc="2a95a565" name="mm-plp-rmp.so" swe="mediaMain" md5="fa12fd265f3bc730a355ba126cb4ddf3f464ab89" gid="0" mod="664" command="link" />
+                <file uid="0" crc="007c60e3" name="mm-plp-wpl.so" swe="mediaMain" md5="dcdf8f525d38dade9bb95c6ad5bb0c98ce1b1cbd" gid="0" mod="664" command="link" />
+                <file uid="0" crc="8c04761f" name="mm-plp-xspf.so" swe="mediaMain" md5="47b0e8ffeccfb6452ac63a91e911f93d369b18b6" gid="0" mod="664" command="link" />
+                <file uid="0" crc="e919a6b0" name="mmcopy-cdda-resolver.so" swe="mediaMain" md5="7269fd6ca205b2f1b2c3c55dc57c753b95e74347" gid="0" mod="664" command="link" />
+                <file uid="0" crc="cb042a73" name="mmcopy-literaldelim-template.so" swe="mediaMain" md5="a273943ac3f34ed6f3d974482842075e8c637f5f" gid="0" mod="664" command="link" />
+                <file uid="0" crc="320736be" name="mmcopy-mmrenderer-copier.so" swe="mediaMain" md5="ae9d23fc3e12ce1717c5b084455b93d9bd182ca5" gid="0" mod="664" command="link" />
+                <file uid="0" crc="257d331a" name="mmcopy-posixfile-copier.so" swe="mediaMain" md5="757545c574b2fca1f5f05e93f6ee90edee2c3928" gid="0" mod="664" command="link" />
+                <file uid="0" crc="f315a0de" name="mmcopy-resreplace-template.so" swe="mediaMain" md5="7a4dcce3ad77f352a6ec44b05e5cdeb9f5a58039" gid="0" mod="664" command="link" />
+                <file uid="0" crc="b53611a8" name="mmcopy-singlefile-resolver.so" swe="mediaMain" md5="2abd117ac12c4154ef305f52c5b7179fdeb50f78" gid="0" mod="664" command="link" />
+                <file uid="0" crc="2bc77ff0" name="mmcopy_cli.so" swe="mediaMain" md5="9f137649ec3791057afeed64a484e913195c779a" gid="0" mod="664" command="link" />
+                <file uid="0" crc="183c4274" name="mmr-mmf-routing.so" swe="mediaMain" md5="c85d4ccbd9857bc2fa737f9208917aff9c41e083" gid="0" mod="664" command="link" />
+                <file uid="0" crc="3a2f931e" name="mmr-mmfrip-routing.so" swe="mediaMain" md5="1988ba8e37e3055baa7222bc304ca7e1bd8be8da" gid="0" mod="664" command="link" />
+                <file uid="0" crc="43a3a816" name="mmr-netmgmt-plugin.so" swe="mediaMain" md5="ee9b2a4a20ef1172f492ccc38857bdb102e13cfb" gid="0" mod="664" command="link" />
+                <file uid="0" crc="7fce598c" name="mmr-playlist-engine.so" swe="mediaMain" md5="1c2d5eecb6fdb2f78ab2a5045d5f11076d1faf49" gid="0" mod="664" command="link" />
+                <file uid="0" crc="3477f928" name="mmr-track-engine.so" swe="mediaMain" md5="7b777a49226d4ff3712e2f6e0c76a575e0be0a29" gid="0" mod="664" command="link" />
+                <file uid="0" crc="80cbf400" name="mmrenderer_cli.so" swe="mediaMain" md5="66a5ef6be84f1d8d9ae788eef225b95ac945003e" gid="0" mod="664" command="link" />
+                <file uid="0" crc="da90c798" name="mss-ipodiap2.so" swe="mediaMain" md5="6e7e55c0105a024cafa0292a138222d8fc736c57" gid="0" mod="664" command="link" />
+                <dir uid="0" name="mmedia" mod="775" gid="0">
+                  <file uid="0" crc="750eb0e3" name="aac_parser.so" swe="mediaMain" md5="14f99a9d87f20507750c1015ac5808a90b0d5cda" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="d0fb58e9" name="aif_parser.so" swe="mediaMain" md5="2281ffed6089e3f93ed725791f31a5a0e051516d" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="b389a98d" name="alac_decoder.so" swe="mediaMain" md5="7ee13f51a677eda70f4e85e7eb549a6fedbe6316" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="c4cddb25" name="audio_clock.so" swe="mediaMain" md5="f712ca7a77d7f9e45b31df0b0d2313f1d7a54cae" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="0d660268" name="audio_meter.so" swe="mediaMain" md5="1fb9c0b2f10a9c1bd7444ed7d075e8b2d6ca913d" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="dfe13eb3" name="audio_streamer.so" swe="mediaMain" md5="7db395b43d2b1a98bc8df3797f2d3f1ea71a31a1" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="35c811ce" name="audio_writer.so" swe="mediaMain" md5="b4c829468cdab89998216cf82eaaa1c5a570cb12" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="b34a7971" name="avi_parser.so" swe="mediaMain" md5="c00d21114aa8efd944ec28164f898cf6524139e5" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="c49533a2" name="cdda_parser.so" swe="mediaMain" md5="ffd176f995cc3bec0c219bcf4441b57530230622" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="74131ba5" name="cdda_streamer.so" swe="mediaMain" md5="c84fd64b92357a976d3b18a6adc258a4225a0261" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="23a2138e" name="fildes_streamer.so" swe="mediaMain" md5="06bf3784576d1aa2eb36953ab51c187a77eaf458" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="d8b47422" name="flac_decoder.so" swe="mediaMain" md5="6f1c65c46c7075c3046de573ccb6237e947ac770" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="2b47e997" name="flac_parser.so" swe="mediaMain" md5="edd2b77f5a627585b17ea3da049905f43582bb19" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="c8322188" name="flv_parser.so" swe="mediaMain" md5="4e36cf0a4fae24c51d4d6653eafcc00668f65c49" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="62b2fbb4" name="hls_reader.so" swe="mediaMain" md5="e028765f4a49c8a5cbeca7b194a0aa8655541640" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="fc7eea6a" name="http_streamer.so" swe="mediaMain" md5="0a1a66fd16d6313c4e533ca0151e4d9cd0b7a2d9" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="e29fc1b7" name="mdev_streamer.so" swe="mediaMain" md5="f077506829c97ac930f1874c9c372348d474e9b4" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="51021265" name="media_streamer.so" swe="mediaMain" md5="575a4f83ccfb69cb41b5065a95a62280c1db20a1" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="54e19d8b" name="mkv_parser.so" swe="mediaMain" md5="e4eededf941c6e1a1acbeb4229af6c20192cecf1" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="b8e8d9f1" name="mp2ts_parser.so" swe="mediaMain" md5="6c71611366ee350e21c25b42104f85bd0e8de692" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="929321ec" name="mp4_parser.so" swe="mediaMain" md5="e3d95cb066c6f940442d71a0b072108a2c7b79f8" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="e97a63c6" name="mpega_parser.so" swe="mediaMain" md5="b19517bef8a9ece4f70853c95fc201ecdb7ac540" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="89ea65d7" name="ogg_parser.so" swe="mediaMain" md5="3e91dc00ff7f77b39c49630fa498e2cb63f14467" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="1abd4fad" name="pcm_parser.so" swe="mediaMain" md5="6fb19c7d7e9f7cd7f38dbc686dbd7c2dec3139ef" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="00ea1a80" name="qnx_raac_decoder.so" swe="mediaMain" md5="4ec9c48619017698053a9041da52bc4913e2cbfb" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="2ac6907e" name="queue_filter.so" swe="mediaMain" md5="4b6a2d49321c6704aa18976bac270f3608c76cd6" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="1d00451d" name="rawfile_writer.so" swe="mediaMain" md5="0f7589892cf931c33d079163db83d044280e6ed2" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="4976beb2" name="rtpts_streamer.so" swe="mediaMain" md5="c6983419daee2207ccbe1b1782cb70dd60875a09" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="fe262cc6" name="screen_writer.so" swe="mediaMain" md5="5746596753a84623ed2bf6ff2fcd6290ce71a340" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="a2489318" name="stream_reader.so" swe="mediaMain" md5="94e50f78dfad58ee33d637e58c2bcc001aaea318" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="d4f29817" name="tmpfile_streamer.so" swe="mediaMain" md5="4f7cd276a0b1602a3cd627b332b62eab541ee278" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="a98bb019" name="vocoder.so" swe="mediaMain" md5="bfc55c83ea8c77e833101d5e05bd8dd4fdac02ce" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="e03cccb9" name="vorbis_decoder.so" swe="mediaMain" md5="e55f47ef4774eb9d72b1687d04a3d97bca4ca2c3" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="ca4c73fc" name="wav_parser.so" swe="mediaMain" md5="e6c0304bfc7b3cf0b676109ad8731d30aee0d80a" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="c1ff0f28" name="wavfile_writer.so" swe="mediaMain" md5="68053ce3d129f1993df6cc29b4aa164c15a2d3e3" gid="0" mod="664" command="link" />
+                  <file uid="0" crc="e906d16b" name="xing_mpega_decoder.so" swe="mediaMain" md5="58066985af2226fd3f3f8c140c97ba813c4eb22d" gid="0" mod="664" command="link" />
+                </dir>
+              </dir>
+              <dir uid="0" name="mediageneric" mod="775" gid="0">
+                <file uid="0" crc="08f5e6a7" name="audio_streamer.so" swe="mediaMain" md5="1462ec24284015efecd8ca71b1c0b313d549675a" gid="0" mod="664" command="link" />
+                <file uid="0" crc="ebb9fa9d" name="audio_writer.so" swe="mediaMain" md5="a347f7bc2f54fca9f28e1089aa6b7f8afaebeaa3" gid="0" mod="664" command="link" />
+                <file uid="0" crc="3d6c6d7b" name="fildes_streamer.so" swe="mediaMain" md5="f19912bed5297beb3b48f6f18bbe6d52c5cfb1cf" gid="0" mod="664" command="link" />
+                <file uid="0" crc="77900cec" name="queue_filter.so" swe="mediaMain" md5="bd2f4ef726fbf04038d1cdb894d8216d0126516b" gid="0" mod="664" command="link" />
+                <file uid="0" crc="ecb0c901" name="stream_reader.so" swe="mediaMain" md5="223ffc16b593dabbae095ec60b3f4763f77957b2" gid="0" mod="664" command="link" />
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </LinkData>
+    </SwData>
+  </LinkSection>
+</LinkManifest>

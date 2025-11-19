@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pluginApps>
+  <pluginApp applicationType="ServiceMenu" textModel="510">
+    <actions>
+      <hmiAction target="4">
+        <id>3</id>
+      </hmiAction>
+      <hmiAction target="7">
+        <id>6</id>
+      </hmiAction>
+      <hmiAction target="24">
+        <id>23</id>
+      </hmiAction>
+      <hmiAction target="59">
+        <id>58</id>
+      </hmiAction>
+      <hmiAction target="66">
+        <id>65</id>
+      </hmiAction>
+      <hmiAction target="97">
+        <id>96</id>
+      </hmiAction>
+      <hmiAction id="104" target="105"/>
+      <raAction id="125"/>
+      <raAction actionType="spellWord" id="107"/>
+      <raAction actionType="spellWord" id="110"/>
+      <raAction actionType="spellWord" id="113"/>
+      <raAction actionType="spellWord" id="115"/>
+      <raAction actionType="spellWord" id="119"/>
+      <raAction id="122"/>
+      <raAction id="174"/>
+    </actions>
+    <models>
+      <formatDataModel formatString="%0" id="9">
+        <models>
+          <textIdModel id="600" preinst="true" textId="60952"> 
+          </textIdModel>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="11">
+        <models>
+          <textIdModel id="601" preinst="true" textId="60960"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="13">
+        <models>
+          <textIdModel id="602" preinst="true" textId="60968"> 
+          </textIdModel>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="15">
+        <models>
+          <textIdModel id="603" preinst="true" textId="60976"> 
+          </textIdModel>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="17">
+        <models>
+          <textIdModel id="604" preinst="true" textId="60984"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="19">
+        <models>
+          <textIdModel id="605" preinst="true" textId="60992"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="21">
+        <models>
+          <textIdModel id="606" preinst="true" textId="61000"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="61">
+        <models>
+          <textIdModel id="607" preinst="true" textId="61160"/>
+        </models>
+      </formatDataModel>
+     <formatDataModel formatString="%0" id="63">
+        <models>
+          <textIdModel id="608" preinst="true" textId="61168"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0 %1 %2" id="68">
+        <models>
+          <textIdModel id="609" preinst="true" textId="61184"/>
+          <textIdModel id="610" preinst="true" textId="61192"/>
+          <textIdModel id="611" preinst="true" textId="61200"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0 %1 %2" id="70">
+        <models>
+          <textIdModel id="612" preinst="true" textId="61208"/>
+          <textIdModel id="613" preinst="true" textId="61216"/>
+          <textIdModel id="614" preinst="true" textId="61224"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="72">
+        <models>
+          <textIdModel id="615" preinst="true" textId="61232"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="74">
+        <models>
+          <textIdModel id="616" preinst="true" textId="62032"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="76">
+        <models>
+          <textIdModel id="617" preinst="true" textId="62040"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="78">
+        <models>
+          <textIdModel id="618" preinst="true" textId="61344"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="80">
+        <models>
+          <textIdModel id="619" preinst="true" textId="61368"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="82">
+        <models>
+          <textIdModel id="620" preinst="true" textId="61376"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="84">
+        <models>
+          <textIdModel id="621" preinst="true" textId="61400"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="86">
+        <models>
+          <textIdModel id="622" preinst="true" textId="61424"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="88">
+        <models>
+          <textIdModel id="623" preinst="true" textId="61432"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="90">
+        <models>
+          <textIdModel id="624" preinst="true" textId="61456"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="92">
+        <models>
+          <textIdModel id="625" preinst="true" textId="61480"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="94">
+        <models>
+          <textIdModel id="626" preinst="true" textId="61488"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="99">
+        <models>
+          <textIdModel id="627" preinst="true" textId="61520"/>
+        </models>
+      </formatDataModel>
+      <formatDataModel formatString="%0" id="101">
+        <models>
+          <textIdModel id="628" preinst="true" textId="61528"/>
+        </models>
+      </formatDataModel>
+      <raListModel>
+        <id>306</id>
+      </raListModel>
+      <raListModel>
+        <id>308</id>
+      </raListModel>
+      <raListModel>
+        <id>310</id>
+      </raListModel>
+      <raListModel>
+        <id>312</id>
+      </raListModel>
+      <raListModel>
+        <id>314</id>
+      </raListModel>
+      <raListModel id="173"/>
+      <textIdModel preinst="true" textId="60880">
+        <id>500</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="60920">
+        <id>501</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="60928">
+        <id>502</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="60936">
+        <id>503</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="60888">
+        <id>504</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="60896">
+        <id>505</id>
+      </textIdModel>
+      <textIdModel id="103" preinst="true">
+        <textId>SID_SERVICEMENU_NAVIGATION_LOCATIONENTRY</textId>
+      </textIdModel>
+      <textIdModel id="123" preinst="true">
+        <textId>SID_SERVICEMENU_NAVIGATION_LOCATIONENTRY_ACCEPT</textId>
+      </textIdModel>
+      <textIdModel id="126" preinst="true" textId="60904"/>
+      <textIdModel preinst="true" textId="60912">
+        <id>509</id>
+      </textIdModel>
+      <textIdModel id="510" preinst="true" textId="60848"/>
+      <textIdModel id="108" preinst="true">
+        <textId>SID_NAV_DESTINPUT_ADDRESS_COUNTRY</textId>
+      </textIdModel>
+      <textIdModel id="111" preinst="true">
+        <textId>SID_NAV_DESTINPUT_ADDRESS_CITY</textId>
+      </textIdModel>
+      <textIdModel id="114" preinst="true">
+        <textId>SID_NAV_DESTINPUT_ADDRESS_STREET</textId>
+      </textIdModel>
+      <textIdModel id="117" preinst="true">
+        <textId>SID_NAV_DESTINPUT_ADDRESS_STREET_NUM</textId>
+      </textIdModel>
+      <textIdModel id="120" preinst="true">
+        <textId>SID_NAV_DESTINPUT_ADDRESS_CROSSING</textId>
+      </textIdModel>
+      <raDataModel id="137" modelType="UserCutting"/>
+      <textIdModel id="150" preinst="true">
+        <textId>SID_NAV_ADDRESSINPUT_STREET_AMBIGUOUS_ALL</textId>
+      </textIdModel>
+      <raDataModel id="165" modelType="UserCuttingInfo"/>
+    </models>
+    <hmiStates>
+      <hmiState id="1">
+        <textModel>509</textModel>
+        <components>
+          <button>
+            <id>2</id>
+            <model>500</model>
+            <action>3</action>
+          </button>
+          <button>
+            <id>64</id>
+            <model>504</model>
+            <action>65</action>
+          </button>
+          <button>
+            <id>95</id>
+            <model>505</model>
+            <action>96</action>
+          </button>
+          <!--
+          <button>
+            <id>ServiceMenu_Navigation_LocationEntry</id>
+            <model>ServiceMenu_Navigation_LocationEntry_sidModel</model>
+            <action>ServiceMenu_Navigation_LocationEntry_hmiAction</action>
+          </button>
+          -->
+          <button action="125" id="124" model="126"/>
+        </components>
+        <properties>
+          <property id="22" value="false"/>
+        </properties>
+      </hmiState>
+      <hmiState id="4">
+        <textModel>500</textModel>
+        <components>
+          <button>
+            <id>5</id>
+            <model>501</model>
+            <action>6</action>
+          </button>
+          <button>
+            <id>22</id>
+            <model>502</model>
+            <action>23</action>
+          </button>
+          <button>
+            <id>57</id>
+            <model>503</model>
+            <action>58</action>
+          </button>
+        </components>
+      </hmiState>
+      <hmiState id="7">
+        <textModel>501</textModel>
+        <components>
+          <label id="8" model="9">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="10" model="11">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="12" model="13">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="14" model="15">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="16" model="17">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="18" model="19">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="20" model="21">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+        </components>
+      </hmiState>
+      <hmiState id="24">
+        <textModel>502</textModel>
+        <components>
+          <list id="172" model="173"/>
+        </components>
+      </hmiState>
+      <hmiState id="59">
+        <textModel>503</textModel>
+        <components>
+          <label id="60" model="61"/>
+          <label id="62" model="63"/>
+        </components>
+      </hmiState>
+      <hmiState id="66">
+        <textModel>504</textModel>
+        <components>
+          <label id="67" model="68">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="69" model="70">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="71" model="72">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="73" model="74">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="75" model="76">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="77" model="78">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="79" model="80">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="81" model="82">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="83" model="84">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="85" model="86">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="87" model="88">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="89" model="90">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="91" model="92">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+          <label id="93" model="94">
+            <properties>
+              <property value="true">
+                <id>2</id>
+              </property>
+            </properties>
+          </label>
+        </components>
+      </hmiState>
+      <hmiState id="97">
+        <textModel>505</textModel>
+        <components>
+          <label text="Map database:">
+            <id>98</id>
+            <model>99</model>
+          </label>
+          <label id="100" model="101" text="Air pictures:"/>
+        </components>
+      </hmiState>
+      <locationInput action="174" id="105"/>
+      <hmiState id="127" textModel="108">
+        <components>
+          <list action="130" id="128" model="129"/>
+        </components>
+      </hmiState>
+      <hmiState id="131" textModel="111">
+        <components>
+          <list action="134" id="132" model="133">
+            <properties>
+              <property id="6" value="400"/>
+            </properties>
+          </list>
+        </components>
+      </hmiState>
+      <hmiState id="135" textModel="111">
+        <components>
+          <button id="136" model="137"/>
+          <separator id="138"/>
+          <list action="141" id="139" model="140"/>
+        </components>
+      </hmiState>
+      <hmiState id="142" textModel="114">
+        <components>
+          <button id="143"/>
+          <separator id="144"/>
+          <list action="147" id="145" model="146">
+            <properties>
+              <property id="6" value="400"/>
+            </properties>
+          </list>
+        </components>
+      </hmiState>
+      <hmiState id="148" textModel="114">
+        <components>
+          <button id="149" model="150"/>
+          <separator id="151"/>
+          <list action="154" id="152" model="153"/>
+        </components>
+      </hmiState>
+      <hmiState id="155" textModel="117">
+        <components>
+          <list action="158" id="156" model="157">
+            <properties>
+              <property id="6" value="460"/>
+            </properties>
+          </list>
+        </components>
+      </hmiState>
+      <hmiState id="159" textModel="120">
+        <components>
+          <list action="162" id="160" model="161">
+            <properties>
+              <property id="6" value="460"/>
+            </properties>
+          </list>
+        </components>
+      </hmiState>
+      <hmiState id="163">        
+        <components>
+          <button id="164" model="165"/>
+          <separator id="166"/>
+          <list action="169" id="167" model="168"/>
+        </components>
+      </hmiState>
+      <hmiState id="170" text="Speller">
+        <components>
+          <input id="171"/>
+        </components>
+      </hmiState>
+    </hmiStates>
+  </pluginApp>
+</pluginApps>
+

@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinkManifest>
+  <LinkSection>
+    <SwData version="istep">
+      <LinkData root="/fs/sda0/repository/istep">
+        <dir uid="0" name="info" mod="775" gid="0">
+          <file uid="0" name="manifest_speechLanguagesPartECE.xml" swe="speechLanguagesPartECE" command="link" mod="664" gid="0" />
+          <file uid="0" name="manifest_speechLanguagesPartECE.xml.sign" swe="speechLanguagesPartECE" command="link" mod="664" gid="0" />
+        </dir>
+        <dir uid="0" name="opt" mod="775" gid="0">
+          <dir uid="0" name="speech" mod="775" gid="0">
+            <dir uid="0" name="data" mod="775" gid="0">
+              <dir uid="0" name="tts" mod="775" gid="0">
+                <dir uid="0" name="languages" mod="775" gid="0">
+                  <dir uid="0" name="ar_AE" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="580c6c62" name="apdb_cs_maged_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="fc83bf18b899a931f8fb7ef21dfdcf4ff149ed1e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="be70d077" name="apdb_cs_maged_SDS_f22.dat" swe="speechLanguagesPartECE" md5="709dd12c1cd0b18f908d58ff9c2e9b7466e9525f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="21303ed6" name="apdb_rp_maged_NAVI.dat" swe="speechLanguagesPartECE" md5="09fe3774a6e31cfbc94ac227474260e77f50cd6d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="00fe7510" name="apdb_rp_maged_SDS.dat" swe="speechLanguagesPartECE" md5="d55935dc0a3eef2a600f4a3fa5d615b98045b5ab" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="183eb1c3" name="arw_maged_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="1f062d6b6f006c5348772481dcd8ccd03aa5d99e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="81ee7b48" name="eppconfig.txt" swe="speechLanguagesPartECE" md5="c2736d7f718cb6b7c6d12ae372a2b5174191811a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8c5490d6" name="UserDict_ARW_Maged.dcb" swe="speechLanguagesPartECE" md5="ab635b5f24e696a72b8139db4e2d44c169f19096" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5e4f53d2" name="UserRules_ARW_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="6476bf29a55f77adce1cfb20eaf1d2407def09ea" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="946c813c" name="UserRules_ARW_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="ebfb9e2cb84370c9d832129fecfdc5ac5c8f63b5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="dbbd62e0" name="UserRules_ARW_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="fb6ed9904951210ca626884b13273fd222451e54" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="03b726bc" name="UserRules_ARW_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="30b8e1f22938b8f4e83ee7b9121bab08a7532b03" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5560ee27" name="UserRules_ARW_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="e23f7e99ec5c370a0f0e5cffcc9bbb83387fb081" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ac56cb5e" name="UserRules_ARW_Maged_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="a7371d7b6ca1cc0cf23c2687242c8b65689f5c9a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9c3ce8f7" name="UserRules_ARW_Maged_SDS-PP.rst" swe="speechLanguagesPartECE" md5="ed5719d88a8e98a516ff9661d7197b791d1191d6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b941295b" name="UserRules_ARW_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="4820a323758b37ddc14d00a938ab6d8345f9142b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="abeecc14" name="UserRules_ARW_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="2507aae77f42b0807eb4c8f20b588ee25aa03084" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1087a0b3" name="UserRules_ARW_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="fed535195e52d420c2254fc13cf4d20fc2d36e0d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3c2b8482" name="UserRules_ARW_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="8f795b1d01b44b98aaf5792844678ce86255faab" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="88a352ef" name="UserRules_ARW_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="d1c1b0dcf6f0263eb71994578cb2ef26e1ceedf3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="978fed37" name="UserRules_ARW_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="7ef5b3da55093e63f2f90eb102d92854c8286820" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9733041a" name="UserRules_ARW_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="417383a618c4854e6597c9ccf1a9bdb5917097b4" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ecf3100b" name="UserRules_ARW_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="4d5ce454bdbba64800f99417dd2e551e2cc06107" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0b50e932" name="UserRules_ARW_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="6c9594405cc9423d01817ed262f2aa9c21a5c294" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2f9d6f1e" name="UserRules_ARW_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="215a41240646f850d932169b2ba91f7ff101f393" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a048577a" name="UserRules_ARW_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="04bc5acc490b7caef9ad2e05e78fc7fd9175db52" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ec699bb7" name="UserRules_ARW_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="93dd2a68c33604ce6bf56cb98dc9522d06c53a9b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5897ce50" name="UserRules_ARW_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="f204de5e665965b34ac7c8f4275eba1644d05196" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2c881f93" name="UserRules_ARW_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="8fd4638c6535d395ebf8ee9e88562594dff0de09" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cf557b3b" name="UserRules_ARW_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="70cd057a84fdae3b55ac0f27836104b956a23f34" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="dac5f1e3" name="UserRules_ARW_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="03269107dec185b48534b20c08ac3cf7cb5dba42" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a7e06d59" name="UserRules_ARW_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="53390963d02c37f528897d4454a4a72c66204614" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="370b4d43" name="UserRules_ARW_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="2c6e0f9ae9d6344de7751f2434713af4e8a1dffe" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="56f9d603" name="UserRules_ARW_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="8ec889605c010fccdf80a6391674cee47dfd8633" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b4bc74b8" name="UserRules_ARW_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="2e6c97b50d5282d80421ccd8af772b551b0dba2c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="52d49e0e" name="UserRules_ARW_UNTYPED.rst" swe="speechLanguagesPartECE" md5="e7d008ae0e7235f9b65214fb09206b1bbd9a2e13" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="04395468" name="UserRules_ARW_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="7d25875e00995ab7ad01b13dfbaddcab6448c0a6" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="b3119ae9" name="ve_pipeline_arw_maged_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="654d0d0638211c6e66b494fc9b1b482b1bca6b5c" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="cs_CZ" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="8987d8b4" name="apdb_cs_zuzana_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="1557d939d5561a0c0bd351defe4874a41e529085" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="152a20ff" name="apdb_rp_zuzana_NAVI.dat" swe="speechLanguagesPartECE" md5="b9b0989a99cedc47c29b0ff09c83ff4e0927b1e2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="19650d55" name="czc_zuzana_embedded-pro_1-0-1.dat" swe="speechLanguagesPartECE" md5="c1020d452ebe57eda353d816709c7e36c5193838" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8e6b1e44" name="UserDict_CZC_Zuzana.dcb" swe="speechLanguagesPartECE" md5="609fb3356d02fcc7e56c0e498704916acbf38c7e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e1d27e25" name="UserRules_CZC_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="43c720ffb71f9a6fdbc5e39377e32fb24ad1de6c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="38e33b3a" name="UserRules_CZC_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="d159894486533962f210b108f7fca73152fd257a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="55642dbd" name="UserRules_CZC_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="47834575b8c284b2e461503275cc1ce7aee3057d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7e597727" name="UserRules_CZC_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="51ace9c750c80c0140868f189322cb75dfd0ea76" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8072dc03" name="UserRules_CZC_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="429c71aae367db2f5baa78febd690326bcca8eaa" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="295dfaeb" name="UserRules_CZC_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="ba70347455ebf54df5512cd78cad715ea0c0699c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5e89a39c" name="UserRules_CZC_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="f8504c435cc2eb106497bf262f202eba1fe2c583" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="db760fec" name="UserRules_CZC_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="457a28c7c6cb3d2c522cc0d2456868f7762cc5c4" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="41c5d519" name="UserRules_CZC_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="6ea7e49b4d30291947f966e42c886a730b7d8911" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="616c7860" name="UserRules_CZC_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="d8a499cf7de76ca26742fda1dffc92bd7ec0a392" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3b005731" name="UserRules_CZC_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="e4d96c4f7f79837412f457af6b14b94b2ed26c0b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7efc2e95" name="UserRules_CZC_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="14859b9ec8b65f5ab10763d3092249eaa8f196c6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="053c3a84" name="UserRules_CZC_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="fa8931f22304202d4a0559eebbf15bc524115a7f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4b0b275f" name="UserRules_CZC_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="576c3e2287a416d48e3183201c4e9ad64215bce2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a1442043" name="UserRules_CZC_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="a57878cb376b305ca84446f7ea020ec788ea6a2e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0cc7ed7c" name="UserRules_CZC_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="3201b335f636f0c9a29512a65025a21c7ca24fba" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ac3255da" name="UserRules_CZC_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="4c226bd6bce03675bbcea2dc850169b32420c765" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b158e4df" name="UserRules_CZC_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="b9eb73fcc8056e6bf4c6b6bfc7aca742ea1f6cb6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4b28bb0e" name="UserRules_CZC_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="c59facc566ab33d6a4c0b03e50cff5180e8546e6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="da018f3d" name="UserRules_CZC_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="b3e36c883d8421ee9f7fcf24f997c1826ea05847" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="330adb6c" name="UserRules_CZC_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="889b59290e725ad62055c34e807152d3a1ab755e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c040c9c4" name="UserRules_CZC_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="f976809fa1f1f90221ad429f2a04806a8f2ba358" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="870f5597" name="UserRules_CZC_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="6dce05484d5f52dc44a947bbcf4fd485dcbb29a3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="48db4291" name="UserRules_CZC_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="9f721c3b82e95b79b505d73de00e7538017db9d2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7f4ddbe7" name="UserRules_CZC_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="e47bb1423ef713a9e4a9f6292b7eefad26b2d2b2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="44629a05" name="UserRules_CZC_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="a3fa0a024fbd2b7cc1b1a8d2ba6b1e5a48594c80" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b5b3f00b" name="UserRules_CZC_Zuzana_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="456304eb12e97cbcd2cd7e0a3a93faa4a3c86e8d" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="32931cad" name="ve_pipeline_czc_zuzana_22_embedded-pro_1-0-1.hdr" swe="speechLanguagesPartECE" md5="d0d28658fe3d6dcd2077ff13667bbb375de30a06" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="da_DK" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="54591c07" name="apdb_cs_sara_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="e0160fe6baa1db3586406b922b1683f3e8218c89" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e9a3fbc0" name="apdb_rp_sara_NAVI.dat" swe="speechLanguagesPartECE" md5="6e678646fd3d891b01c48e1fadd2ff71dca2bfe5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a8c75f17" name="dad_sara_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="4240552bf40e596c360c779a40fd6c05286f6ebb" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9ec457c7" name="UserDict_DAD_Sara.dcb" swe="speechLanguagesPartECE" md5="c9eec567c563ab1160f22b4748db1d4ed4402ae5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c6aeb71d" name="UserRules_DAD_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="41be5db69bb0e069cc38d8237deeee4464bec80d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="fa47583c" name="UserRules_DAD_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="e19924f4b6a85843000d29d26d0e6f900ad5451c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="859fdd69" name="UserRules_DAD_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="91d7e010c9d8f8ae9d66e9b3f492e39da5ec1544" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="fcb822e7" name="UserRules_DAD_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="5905c20c6ac4a27c34db31e1355a705c4c35c238" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="69d3dd55" name="UserRules_DAD_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="cea5c6950b2cbc45559e8312238302c454af18aa" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="96ee8802" name="UserRules_DAD_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="fb4c32734f3ac5ffd67a2d47d80cb9d246b77c6b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9fe8129b" name="UserRules_DAD_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="3fcb3c30929dbca5766fcca66ca7a7446c449a92" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="169b4315" name="UserRules_DAD_Sara_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="451e55e5e335b8ad056026ee2bcd8589dae0d4ae" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="021fe642" name="UserRules_DAD_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="8be1b759dec9c0f02fdc9468b6c139fefc167a75" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c32480d9" name="UserRules_DAD_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="03f865f7948c0f70e5a7c036aa8b59ecf8f17400" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="88cd7936" name="UserRules_DAD_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="a19449e617337b46c77303e28c7e7a3463a319c8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f9a43437" name="UserRules_DAD_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="07c6a5ff8a72b2b20bd7b747fd476d63ec9cb298" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="975d2fc3" name="UserRules_DAD_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="8a8e2131a353ccf3328955e27dd1818008611daf" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ec9d3bd2" name="UserRules_DAD_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="e1d7ee83b1c377d4b8fc91922b71a5f15b05d396" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0bbc18d8" name="UserRules_DAD_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="baab1a5ae42ef562322527d2732b67a7e9fbcbc1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="71bfd097" name="UserRules_DAD_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="6f50fb459173604fa3136a0e1d222701aa79ab74" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ce638e7a" name="UserRules_DAD_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="1e0409a67c97e77c9f146d0a18326e45db9ab5ac" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ec856a5d" name="UserRules_DAD_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="c2784edbdd0fd7f19e2957282f6c266a5b6815c1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="58f9e589" name="UserRules_DAD_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="d35b92f6462774a565001e4de7909b26dc0a9991" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d0ce98eb" name="UserRules_DAD_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="68ea2863ab3f5ef78b98e11d49b7ae313c4365e7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5b6f6200" name="UserRules_DAD_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="4cd5914d9cb2ca983da09f666bf2fed2401e42b9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="daabda3a" name="UserRules_DAD_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="516b1960c9b899b28024d0fc9c8b39b9e111ae3e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5ba6ea21" name="UserRules_DAD_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="cd91c3c2ea9a99022027e980abdb2382284027c1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9a35240d" name="UserRules_DAD_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="5503eeee33795ed60261d4fc868d0c6f6f6dd6ff" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bdfca302" name="UserRules_DAD_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="2246fc587f8b07ac2f560b65fac06569284d2623" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a6243249" name="UserRules_DAD_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="944237e9ccffa8f59fd82446fedc68abe2207195" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="04d5a582" name="UserRules_DAD_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="05e2a5e657e3f216f5f526d2368b248b9b6db4a1" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="c327f856" name="ve_pipeline_dad_sara_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="8e2a3e026df27a7bd83b0bcf864c652b77ec1817" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="el_GR" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="52658f9c" name="apdb_cs_melina_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="c9716ab53e53fb53c9638934afe991ebc0398a47" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4a2547b5" name="apdb_rp_melina_NAVI.dat" swe="speechLanguagesPartECE" md5="577c1f183f1d8b2aa8b92cdb338be34565624160" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="68ace63e" name="grg_melina_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="68146a1f03351ac184ca248bcc1c6f9958622634" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b60c9a88" name="UserDict_GRG_Melina.dcb" swe="speechLanguagesPartECE" md5="60cbcf2000c47a1a903af34acd073287292a93b9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="08dec745" name="UserRules_GRG_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="435657c2d9f69ba85d8366faae84611d06570553" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="207bc6c1" name="UserRules_GRG_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="bdddba1ee29d30a26ad82f49d1431063cd0d339f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="13ebc4dc" name="UserRules_GRG_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="66d525fa88e21a23a5d0770bcc46d84cfb76847e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4a1dd968" name="UserRules_GRG_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="2bdd837dba08da0722c5d789969de3cf91bace7b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="aa056f6a" name="UserRules_GRG_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="61f544d012c7eff1cdc323b1abf6d9a0d9fef207" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="80153705" name="UserRules_GRG_Melina_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="2e95e93650907064eb312e19be990ddbec9bb17a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3dd13c43" name="UserRules_GRG_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="2232e89e34022da9044ed6a790f4e5cebe062fbe" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3db8cf8a" name="UserRules_GRG_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="e488f179fe74654052d3956c2aec113852fb4146" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="036fa8f0" name="UserRules_GRG_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="a9d0536302b30a53624bb8e9a1776672c13ad9a0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="75817b56" name="UserRules_GRG_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="7b37ad8c64501707c35fb3cc1de6ef666503b55e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4b1bcb09" name="UserRules_GRG_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="cd5e3a19c7a791f5d994182f87d78d18ba6e72bb" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2398aaca" name="UserRules_GRG_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="0c9015f92f775dc5af9a564c85c0fafe5a97c71e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="548b9dfc" name="UserRules_GRG_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="51f63633eada4e905c2b81740b11da49ce6d4922" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2f4b89ed" name="UserRules_GRG_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="14f25b78af23c6d9656b28332f38bdcfbe99b1b1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9efb7763" name="UserRules_GRG_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="a587cf821a6e617f226ca52198772a33a0310880" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e7cbc922" name="UserRules_GRG_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="1b7a3f19a1aa7389b4e91b4f4ae3f0ae457a32f9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="145f1087" name="UserRules_GRG_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="8420d0ace35a689bd0cc71ca68c29b5fcfe85e74" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="79c205e6" name="UserRules_GRG_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="157b855f6266c360d126354282db85ebeace0e54" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9b2f57b6" name="UserRules_GRG_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="b70042ccd660c9b56a2dbd4c0ea647cc7936d84c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ad7fa3a1" name="UserRules_GRG_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="cae73e13396428cdbbaf5ae89c1a87b2aa3f0d50" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e0f2511a" name="UserRules_GRG_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="f1735988a9f7fdfe17eb804422c1434e95974bf2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="197d6805" name="UserRules_GRG_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="4da96a3f8706339263f5a048be2c45ea510712ad" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2617d16b" name="UserRules_GRG_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="4f8deef3a72206b431b027ceb740bb5539ab5556" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f8e1920b" name="UserRules_GRG_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="36629615ddc943a0596e3fdc0da5bdfc4757d351" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9f9bcb12" name="UserRules_GRG_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="42716eebcade782d1d296352ed92ea7a231773af" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a7547cfb" name="UserRules_GRG_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="c1b42e83de43509633d29b5743c23b306c6bd6e1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9192ca39" name="UserRules_GRG_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="45f2fa22a458e3d8ae4604f07bb85fead452acf1" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="76639f59" name="ve_pipeline_grg_melina_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="e998a5dc181f77ecb18488fbc1181e0b12acfc55" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="fi_FI" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="b67136bb" name="apdb_cs_satu_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="dc6e2f340c333ee741a0829db8ca571ab75320ee" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="656a5ede" name="apdb_rp_satu_NAVI.dat" swe="speechLanguagesPartECE" md5="21800a69563444c428aeb31363b433559f295a54" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="51790923" name="fif_satu_embedded-pro_1-0-1.dat" swe="speechLanguagesPartECE" md5="ad95b28fc90352bc435bf50bcbef1ea8aed6e087" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e6e26858" name="UserDict_FIF_Satu.dcb" swe="speechLanguagesPartECE" md5="eb1be4baf9bef187ff62d2c3429fd5e4aa13edb9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6e540fd4" name="UserRules_FIF_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="d7e7284acb2b126f11a0ec564bbdeaa596e5d22f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="db8a7630" name="UserRules_FIF_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="a6338bcd339cd59d89c40a1a6c0631b5e3c48774" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cfa7b066" name="UserRules_FIF_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="a1aef500aaa388abc1069d50d786a0b7e6301a88" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8cdb41e9" name="UserRules_FIF_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="d7c0db74ed0b760ab5eb58a82c33672ffe70db33" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="60445c50" name="UserRules_FIF_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="672c1c3914acc1ac47f5c94bbed339941eecf69d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a76c395c" name="UserRules_FIF_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="4528fdf735eb57cae248649851743773e893442c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bbde9c8e" name="UserRules_FIF_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="a9d06cd327801015a0ae11b1234f0449d55cc6a4" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c85a61c2" name="UserRules_FIF_Satu_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="67b5b8eae81566f7ed6b6b417453f4424ee07742" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8efd1800" name="UserRules_FIF_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="31a2ac16974d4f85cce5f69da0ecd3bb006458de" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b347e3d7" name="UserRules_FIF_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="44c829c85cc16f394692e4979be1b8fe86e50801" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="815af833" name="UserRules_FIF_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="7033538d1b7cde24f5f10a0cdd411a125da99d45" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d8691a3b" name="UserRules_FIF_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="c8faaeb40ed464e1ac89d136dd79c9edbac9a5eb" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9ecaaec6" name="UserRules_FIF_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="9574c6dac79b156f78cf0bf5838960967f9b945e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e50abad7" name="UserRules_FIF_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="a8b2740a766a5f33602ecfda1ae0a3c07eda7af6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0dbd88d1" name="UserRules_FIF_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="a47ec3aded2d864a8b77efff2de6ab943253c9a7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3b87bd98" name="UserRules_FIF_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="bbbf335e4b7d01c03a14566180f3c3514f86d20f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="efaea076" name="UserRules_FIF_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="7f873083ee7dd26942b4525467c089d336731795" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ea84fa54" name="UserRules_FIF_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="0cdde068fb8c4a041dfa67619c09d55ebd13201b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="516e648c" name="UserRules_FIF_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="b00b91f35e8feae525b5df6489315aa530de04a5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3706d68f" name="UserRules_FIF_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="4f6a6f195b0c5cdf52fbd2708ed6a2f7be8f73da" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cb9a47fc" name="UserRules_FIF_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="8c1af881ca7701f5c1f2bea2672a3ba0d45d834f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d33c5b3f" name="UserRules_FIF_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="13864af07f65b45f07eb97342b750cae1aeae078" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bc6ea445" name="UserRules_FIF_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="c6cca54d3752b42ccb9cf1482a8a4cd6397a26fa" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="787b0835" name="UserRules_FIF_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="642252cc846e4a1dc3f51406338cdd25b777cb0e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="627e5c41" name="UserRules_FIF_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="b509a7e753a4fd280aa509481db8a342c77c2764" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2ac6cc0b" name="UserRules_FIF_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="951b7e2737b9676a0aca5baa573d6b7855100777" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="02d4358b" name="UserRules_FIF_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="5a95eca1fa02f2a12d1b867617c7ab597ea1abb5" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="7a6a492f" name="ve_pipeline_fif_satu_22_embedded-pro_1-0-1.hdr" swe="speechLanguagesPartECE" md5="11255f337be5d9de96855a2830ad5d7144c281e1" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="hu_HU" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="03163b6c" name="apdb_cs_mariska_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="5895ea055f8c60775e5ce28432a8dfadd673cd6d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5d1357bb" name="apdb_rp_mariska_NAVI.dat" swe="speechLanguagesPartECE" md5="df8163e9df51f0f52d61dc522934df5bd1982c01" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="49aa57a7" name="huh_mariska_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="f9aa126e1adf9637808c3b947f1c04ddb6fc7caf" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6efebe67" name="UserDict_HUH_Mariska.dcb" swe="speechLanguagesPartECE" md5="715c8328435aca629ea157f67ada4265f2dbe0ba" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="fab69e85" name="UserRules_HUH_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="4ffc770e71c04c7c8d728379970eaaa546fe9299" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="13d78de0" name="UserRules_HUH_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="cc1a842f335cc3c089df7a3f7f0fa209f2c15754" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cac8fc55" name="UserRules_HUH_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="acfed5c22d279a68ec576edd8ad3c45c17b38f58" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="278c673f" name="UserRules_HUH_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="f2de6a17a3d4d90922f4d73485b0d17062fe47d0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e65fd37f" name="UserRules_HUH_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="0515141d589b91d5416f7f8f403255f61006791f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7e354166" name="UserRules_HUH_Mariska_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="0d43586ea87ba7cf9b8c8fbfaf9ddfce3f2e6897" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="90bf11f0" name="UserRules_HUH_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="4b42dac21b712679a188f2034b409fa75c18fb7a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2f159ebf" name="UserRules_HUH_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="87f3ca95d7b0b61fba9178823a1cc5859a2e5ed7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="51aa24eb" name="UserRules_HUH_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="01ce953839c213fa01a20b06280f6ac48594b2ac" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1810c501" name="UserRules_HUH_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="361656b60344e8a6ab36ca638cae2a4a34375abb" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0741771c" name="UserRules_HUH_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="fe2177f39ce430919e67f50ee7fd5f66898bf3a3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1034e1eb" name="UserRules_HUH_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="df1bf3031b4936179a31fa82ab19c67bfb50cc52" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="18d121e9" name="UserRules_HUH_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="3438ec3732597ee6d16ed5aa1e6bf60529b59ba7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="631135f8" name="UserRules_HUH_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="6a28cf278430f2f09a308b92db79cf2414bffffb" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c22456ca" name="UserRules_HUH_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="4d4ca2f6ce1f292263aa2aaa5e93c263f7e6d79d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3ee8f1ab" name="UserRules_HUH_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="74e6925e32d77f8ef6a5a9efcbab7b889405f280" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="27f35ba6" name="UserRules_HUH_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="4a923990434b6f43146af717438e3679c274f900" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="251d244f" name="UserRules_HUH_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="d93aa1933f4b10fdae3d6bac523fc2af409e69d1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d775eba3" name="UserRules_HUH_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="9604a4934a279bbc8fc4785507b30de51359cdd6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="581df648" name="UserRules_HUH_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="e8686ab879a48fc87ed85c6669d10f74e4c77787" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="744f49a6" name="UserRules_HUH_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="629fc8406b00b481a6f966fe3959b2c1425ce2d2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5527d410" name="UserRules_HUH_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="af3c06db2c348e3001430407d6978132fde6369d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d3758482" name="UserRules_HUH_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="80947b626f6627e45479fefb22dc6097e65888c7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c7bf235f" name="UserRules_HUH_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="570f0c8eed1bac1dbae3d357cbfe308d3b43b931" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="46d60764" name="UserRules_HUH_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="f3f7382372a72a8a5aeab5699827c7cf0d0b62fc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f591f0e0" name="UserRules_HUH_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="cefb163ad2cd9afc5651cda36097ac4f09f6c6d7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cd4deb90" name="UserRules_HUH_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="dd7a1a21d74b58b33d3f83ca677e1504c6ce7d14" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="b7eb46e8" name="ve_pipeline_huh_mariska_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="8e958b3f15fddf1416b5b932cb8bc50c1ccc8efc" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="id_ID" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="95d227a9" name="apdb_cs_damayanti_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="06c0b2d4e8b8c23cd586532e9517242c8c473be2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c4b9c069" name="apdb_rp_damayanti_NAVI.dat" swe="speechLanguagesPartECE" md5="576320f75d1e15cfbaae82d2ea752808de3c2432" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="73e8efc5" name="idi_damayanti_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="957c226feb78c80261f928ab01d6d82ada609378" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e733cec5" name="UserDict_IDI_Damayanti.dcb" swe="speechLanguagesPartECE" md5="b6ffe221d4d65fc00e78842609c5a0c4ad4be8b7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c3c64371" name="UserRules_IDI_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="523234726ceb146cc74ab9861aae3f11f59bdf89" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3ca93525" name="UserRules_IDI_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="f5ae33862a07d229aed147f53ab9730b68c18ee0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cb1dde7b" name="UserRules_IDI_Damayanti_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="f7d26ad7514d15857fd0d8863e8c7dd28135f562" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bfe293fa" name="UserRules_IDI_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="44a13c9e5b4a76dc7841489297ffad57ebf90bf0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b6a1b05d" name="UserRules_IDI_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="c02854d0b3761a1acf637e079c82edfa96950f65" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="804f9b36" name="UserRules_IDI_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="17f5cbe35b3fb33cdc8581bc6fd64a578628bcf8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="92f1c044" name="UserRules_IDI_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="4a8e73d3d52529150fb51df4de22b8cd2501334d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b4124568" name="UserRules_IDI_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="f49def2906f05efc4eff69e012f33796c2c48244" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6345a706" name="UserRules_IDI_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="0163698c9f2bd1bc08af6da737a0c0ae0fe07fb8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="54bbe932" name="UserRules_IDI_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="a32026187eb07131ab8d6d9340849ffa3e107032" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5415b570" name="UserRules_IDI_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="116934bdcdf286f2e7ffe64bfc5a084274484b9d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c6d65744" name="UserRules_IDI_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="b992c4b8724a0f715650e3bdf66220a0ff12c42f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="99dd23b5" name="UserRules_IDI_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="9c784c03b5a6c490258d394843f0e3c7b45396c6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f316c353" name="UserRules_IDI_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="cca22200444715bf871f329558f6814ebaa5a28f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="23f84ad3" name="UserRules_IDI_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="a428604301a286f662b89929ff5d7fb864305428" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5ebcd96f" name="UserRules_IDI_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="cef89b49069738aca62b7d267ffb7b24ed553d6a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ce8cadd3" name="UserRules_IDI_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="ea5bc365267d9c8ef0a426eebcf48e2c553c7b3e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="becd040e" name="UserRules_IDI_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="8289386c41bfb5a8e8ef2da38253cefb58cfc430" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0f1b2ff1" name="UserRules_IDI_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="7d218e49d69517ee216a3de41e2c344c733f5eff" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="192a3238" name="UserRules_IDI_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="3af5a3659ac010d33c99a7586d1accb4e4f0d450" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3e3803af" name="UserRules_IDI_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="3e24297c02d9b1fd27cc4c6176fd70a0b2778f81" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5df19ff8" name="UserRules_IDI_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="ab505e6e28c790e8356d2575e3acd576e5063367" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="621071e4" name="UserRules_IDI_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="c7cf50cffeae53835abaf5bf4302c1320e1d4596" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6c8c89cc" name="UserRules_IDI_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="667b3aafa622cf87a5cb1daa94969b907aecf0c4" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2b81e94e" name="UserRules_IDI_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="f00d6508d2f1ce7b6042a03cb30af11bc1b7f0ff" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f433455a" name="UserRules_IDI_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="b2fd329a84df590d12fa6c928ac1355ffd852751" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c8310d03" name="UserRules_IDI_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="e3f0e9f0201d3985abc1bc50292679c56d45f286" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="f39e7a3b" name="ve_pipeline_idi_damayanti_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="2d34f8ab308dde71720380951f76217a85d889c7" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="nl_NL" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="a31c742a" name="apdb_cs_claire-ml_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="763195506e7654966c842cd2454ddacb50d7ed28" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5ed0114c" name="apdb_cs_claire-ml_SDS_f22.dat" swe="speechLanguagesPartECE" md5="db727fd5e8c97da3611a3976c21856574840b6cd" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a8ca1a66" name="apdb_rp_claire-ml_NAVI.dat" swe="speechLanguagesPartECE" md5="a863841ab6f1f6612f432ec7f009e6751074db59" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c3da43cb" name="apdb_rp_claire-ml_SDS.dat" swe="speechLanguagesPartECE" md5="f1fe66aaf77dc7e839fe80253f258f44afc24b48" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="03acd1e5" name="dun_claire-ml_embedded-pro_1-0-2.dat" swe="speechLanguagesPartECE" md5="fec82277174a29533a5a5744b758da2b7a2d7d16" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b4d2e1b8" name="eppconfig.txt" swe="speechLanguagesPartECE" md5="1997f4189dfd3edc05c0b1afe83196ebfaedcd58" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ae38105d" name="UserDict_DUN_Claire-ML.dcb" swe="speechLanguagesPartECE" md5="438fc5efb95f24ad842062f7c959d8f55e6f52c3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f66f3a58" name="UserRules_DUN_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="ef2ec0a18e9ba29c571c00d1e10a9ce115528544" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="612fc2ce" name="UserRules_DUN_Claire-ML_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="e9210701e29db58e7b20a34ab10bd96794c5ffc1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d44b85dc" name="UserRules_DUN_Claire-ML_SDS-PP.rst" swe="speechLanguagesPartECE" md5="559828ae2a4fc58659393bb404440946f3cdfd0e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4ea46b6e" name="UserRules_DUN_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="7b890aeb94f46523968ead272aa2f2407822be05" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7be99633" name="UserRules_DUN_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="4461412a647fc0befbaa04d719d345f83edad950" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cbe5c8c4" name="UserRules_DUN_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="1a049567ec1ceec02c7e263c84adfb45466bc437" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="717cf0c1" name="UserRules_DUN_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="4e7f1e206e891b9596104e69594aa08d372d0b59" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="25285d2c" name="UserRules_DUN_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="b6b7486be89e951a7aaf031e21008f44e2efefd2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0b82c438" name="UserRules_DUN_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="9f9a194d546c1a17fce9aaabd4c3f25415a1d2d2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="de7a2d58" name="UserRules_DUN_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="9db0f2235d1878e6de34b17007cfd499303177bc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f4796afa" name="UserRules_DUN_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="b982aa48bb8d4b9197ea1aa558193e90e99dc8a7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0d1caadd" name="UserRules_DUN_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="edb99caee39e5e9ab5a90cd9fd18007d72d0e9a2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4d470765" name="UserRules_DUN_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="3cfd900c84edc43bf18c6e45f3f8570b89395464" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="128cfc28" name="UserRules_DUN_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="c64514d33fe2dfb0e46e8f97b21c319c2b6a7c9b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="694ce839" name="UserRules_DUN_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="18ac0ff735a6807e665ee31566e8a496400b1544" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3e0dd79f" name="UserRules_DUN_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="126b7e10e879b47cad7cfa4d2e3784c9546b55ee" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8fc99bcd" name="UserRules_DUN_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="127359cf32460a413666d68a75fd7391e22a64a3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7a80bd28" name="UserRules_DUN_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="1128e9bf13896e902f42d189e24c0047d4a0635b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d934a51a" name="UserRules_DUN_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="09d8fa065b3c0bf90b9ab16793c467d5ed721f78" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="dd283662" name="UserRules_DUN_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="7db63537ccbc1bd0ef914e1c2232abbf0a6d36c9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="729eb473" name="UserRules_DUN_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="740d164646e8329ac2aa62b54ea4e87cca682aaf" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d02faca1" name="UserRules_DUN_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="fe20363b438d4905351dd732fff01bdcb3f6f2a2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5f7a09d1" name="UserRules_DUN_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="6c47b9704403c8afb419c119bbfdc753ce7a7557" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f9f6c6b9" name="UserRules_DUN_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="f64c72a4b7e3680531fb576631a936c8efdd986c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="241dd1ae" name="UserRules_DUN_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="60eee163c0e174acb9279e1a30f97dff966b3660" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ab54b498" name="UserRules_DUN_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="221e6a75454a7661f10972db8a18b860b6dbe362" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7a41f953" name="UserRules_DUN_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="40084ace98c8874c0fe7eccd2ea6df3843f77ca3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="31646ac5" name="UserRules_DUN_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="f5fba01c68c3aa2d9fdc580accd0ee8aa8bb2f90" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="8ce48d10" name="ve_pipeline_dun_claire-ml_22_embedded-pro_1-0-2.hdr" swe="speechLanguagesPartECE" md5="3919efcc94aaa16077ee805f02780a01836bfdab" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="no_NO" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="10822bce" name="apdb_cs_nora_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="1d142501831a8575d9a55d4afb7e4ab826b13540" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e642b87f" name="apdb_rp_nora_NAVI.dat" swe="speechLanguagesPartECE" md5="3a8f5599c11bd24f6f0469c094f4209905ad616c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4ee3276e" name="non_nora_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="7c7d0dfa30a510c4744f48130a840ae9ea74f6a3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ddec2c3a" name="UserDict_NON_Nora.dcb" swe="speechLanguagesPartECE" md5="04146952f925a934d4e66841b164e7c412ffda8a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a64a016b" name="UserRules_NON_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="ea497ae51f90ae23d6ba5cf78c2ad28f4149b39a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0ae3264c" name="UserRules_NON_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="f1603b9272fc9dd0b3262672c805bfa6abfb8c6b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c719b35e" name="UserRules_NON_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="e909259e2346985ba0d479765f8042c481eb23b3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="643af78e" name="UserRules_NON_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="3ad4bb641675e8fd69d78a008a2ae8b1100ec790" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="39260817" name="UserRules_NON_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="df6be1a1ce59430371edf59c124526200b215db5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c966e511" name="UserRules_NON_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="228ea8aa3be87ad45b14afd527201dda9f12ef14" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1ee5f9c9" name="UserRules_NON_Nora_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="b2d21acf669164e282a745f443c35d3dd31747af" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f3d3faba" name="UserRules_NON_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="250073ddd37f76da40d837156164c6f166cb58a7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="86fe2ff1" name="UserRules_NON_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="5ade26f098cbb52c0a3b0b5653acce8bda7d2268" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5ba655b0" name="UserRules_NON_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="48c5e01c6107533edf53759c22de5c4367723686" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d838ac74" name="UserRules_NON_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="658b30c6bbf686a0ded65a155c31b8cca3f72c11" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="09004a47" name="UserRules_NON_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="5ede294e5de75c90a9ea06ae127f2b8bafb193a6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c7a8fa81" name="UserRules_NON_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="661c9c9b09f8d42d90a3d54868c5458728f672c9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bc68ee90" name="UserRules_NON_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="811f9449949e04f6e608b8c0f8b090ba87d29761" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="37b5d1f7" name="UserRules_NON_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="834f0482c13987d04710dbf2c99fa72348a344d1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3339bea0" name="UserRules_NON_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="54d2fcd3c98674b590a52e29134dbace0f7ec9fd" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3ec7f00a" name="UserRules_NON_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="9a501f2be2880428ad7bce7a89c92ecf07e18949" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d08ca372" name="UserRules_NON_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="81c584b76b9fa22fe122e72f3505874a6aa5a65a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="080c30cb" name="UserRules_NON_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="31b7da88f0895fac92828be8ad95844da5dbab31" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e438c3c2" name="UserRules_NON_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="acf5a7f5ad2c3183d179cd8bd2e7b06a09b21088" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e3904161" name="UserRules_NON_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="3a187764ab7741970460860932ac0b0fdfdca589" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8a5e0f78" name="UserRules_NON_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="0693c956b95ddcf09ec3740ffed52418d98d8095" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6f50b108" name="UserRules_NON_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="6a65a72ad71113f5f4b2498695ca679316e10370" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1fa833ff" name="UserRules_NON_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="781f754affeb5ae22d525a899b150040355821a1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e69b0b2f" name="UserRules_NON_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="e2c04ef03d008ad814519e3f0043f69f0f4cb45f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="22c5fbfa" name="UserRules_NON_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="27c76d9bdcd0fb867961fb874fe9826d0665cb76" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="38dc6cad" name="UserRules_NON_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="a89f8f0306b01da50ab6fed62109d9ac45bff767" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="c21c5452" name="ve_pipeline_non_nora_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="30f1bcda412193db665c9757794ad00e4ebb7800" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="pl_PL" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="84e275c9" name="apdb_cs_ewa_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="3a960277826abfc21895893963c3b86a0e0fa076" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="991ca55a" name="apdb_rp_ewa_NAVI.dat" swe="speechLanguagesPartECE" md5="f05f64374c07d2645a081e6c49910b3626c8b61c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2bc2c50b" name="plp_ewa_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="183ab80ffde2c87b14fd2887c274947ffe9b6c62" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="927fdfe9" name="UserDict_PLP_Ewa.dcb" swe="speechLanguagesPartECE" md5="857f56429659b9075e4440dcc5a24580d7604cab" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7ad678a9" name="UserRules_PLP_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="4dca5c50e104489209e6ee2e2f4295cf96f9c092" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="90338f03" name="UserRules_PLP_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="733bf69b6899cbc146274b6757d16fcd10fe8c20" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9316e6e3" name="UserRules_PLP_Ewa_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="ff38f980003c9068ceabefd448410ae4d36fb2f1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4325229f" name="UserRules_PLP_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="04a83a6a09aac522cdf78a7a1fba1671ad9adf5d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bcd125d8" name="UserRules_PLP_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="1d699fd22fbace406fb8f8e0416955cfc0cfd395" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="dfdf84bf" name="UserRules_PLP_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="ee59212c5162e3ef3e7692a2e783b2bf5aa117ea" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9b18fa9d" name="UserRules_PLP_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="8922ee0640111dfa8dc53876a8ee255521955500" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9b699bd3" name="UserRules_PLP_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="e02d556a5d75830150152a8d20a2c60bb9049669" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="62a29ee5" name="UserRules_PLP_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="504a260f16062849e843f26a8d508662191655f2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="834d87e6" name="UserRules_PLP_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="5739811e79b9b999014b9b9e230e540aa3bc5606" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3ec120dc" name="UserRules_PLP_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="1f514c6cd89f3b5277d6c97f182a1e12c8075f7c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="93d0e308" name="UserRules_PLP_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="a414af54bd8d42d7e4d6ee827e4e064e6dbe4599" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="21517629" name="UserRules_PLP_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="80082e4512f9f9710001586c7d4c9c57bacf8da7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5a916238" name="UserRules_PLP_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="1a23dbf4f0ee491d84c1d2922108ebdf34757c10" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9d3bb121" name="UserRules_PLP_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="bdca37d9ba514871866906257f448bd3f180e0c8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b7052f61" name="UserRules_PLP_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="9d41a5e48a4a71f2530191fb7c32ef0a74db1e60" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a4175945" name="UserRules_PLP_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="4f2f9232933826b82283c082739039e913ec1219" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7a02c3a4" name="UserRules_PLP_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="4b9ff58104afa72fe2356261b92fba9c118ceee4" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="eef5bc63" name="UserRules_PLP_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="8d0d015ee439494473d2a057501effdb003d4ce7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="66e8dcd1" name="UserRules_PLP_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="5b84d38ecae27a3c46bccb3d140eb52f324a2499" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0f778fd6" name="UserRules_PLP_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="a1506c9fc7c2e9262ebef72e9f0835f371845b0f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6ca783d0" name="UserRules_PLP_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="1f5bf1822c9a824fabea35f5f2d9882f65507b19" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ed80ae1b" name="UserRules_PLP_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="3b1eafbc0af605ea8a6b7ed7673ae809db63ce01" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="43ceacd5" name="UserRules_PLP_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="f695ca42005f0e468c25b21073f39a362526bfd1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="368eabe7" name="UserRules_PLP_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="7cbbedd307b7305afdef79929aeacfb42651f4b4" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c6994aee" name="UserRules_PLP_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="06a0498d56287230a2932c9fbabccf9e35ca689e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="92520c7b" name="UserRules_PLP_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="0366418291d018218326644ac40fd9461fad4397" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="0c1e7bdd" name="ve_pipeline_plp_ewa_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="22de1452dbae44387e050f8dc09b1b3156544666" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="pt_BR" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="ca8fd193" name="apdb_cs_luciana_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="a8f16edc9009bc0ed5d5dcabfd7891a75582da84" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4c50e7fa" name="apdb_cs_luciana_SDS_f22.dat" swe="speechLanguagesPartECE" md5="3d962758d7c75354e477071557f3084dbadc8eb8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="31940bad" name="apdb_rp_luciana_NAVI.dat" swe="speechLanguagesPartECE" md5="84aa9ba7136d3675bcc6bc152fe9806cc39ea446" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0de7d148" name="apdb_rp_luciana_SDS.dat" swe="speechLanguagesPartECE" md5="1efbfdb8990d09f68b71fa1cc73c5b822a0ea1b2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="fe796ac3" name="eppconfig.txt" swe="speechLanguagesPartECE" md5="a0ce51cbb12f794c8bbe17898cf5072c63f8e5f9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b301aaf0" name="ptb_luciana_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="b82dc3358eb3430d50e7cfec239dbdf06475eda0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d85aa144" name="UserDict_PTB_Luciana.dcb" swe="speechLanguagesPartECE" md5="8ba4230638e6768d49c8fb80535faa97938690c0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e90175aa" name="UserRules_PTB_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="7e3e6b9e26c4b5cf60e4ba579c34183fcdcc3810" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8489cd3f" name="UserRules_PTB_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="0c9e3c54c38684c9832978279b039602f6db61dc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6baf1975" name="UserRules_PTB_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="7cd651623d026cee920813a6426a452a16622b63" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b5ea8888" name="UserRules_PTB_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="15becff8bfdd9eb71b0dcce6d17f05c7177da7fd" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a3a20ab5" name="UserRules_PTB_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="e2716417f38cb3fda56102948d76b28e1d11de5d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="213af6c8" name="UserRules_PTB_Luciana_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="1121068617adf54e71e78a3707207c081f301e89" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bcc5f2b6" name="UserRules_PTB_Luciana_SDS-PP.rst" swe="speechLanguagesPartECE" md5="cb5d9237740b6c39c46cc0a465b9deb076ff8bf2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f7f0b352" name="UserRules_PTB_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="5a4e8ab907e2e18a62295af63c0e17e71a385f23" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f9a09644" name="UserRules_PTB_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="ba97cfd62fb8855e99ebc193c54eb29f4b5d1bbd" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="97f41324" name="UserRules_PTB_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="1aec82977170913db3f5f164789e370d9546f2a5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="57f0d1e7" name="UserRules_PTB_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="cea5e4114fa92dd5b3620eb39488db42d8e59b53" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a9cf6cf2" name="UserRules_PTB_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="8d577a6054231fca9b1ae4f7dac3e0f751a2f080" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7ef6af5e" name="UserRules_PTB_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="c2a164d372298fcbf0296aea7e6fa9bd5c2c47be" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6407fa37" name="UserRules_PTB_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="19fecc2562037671886feac6412ec555badbffe4" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0ecc1ad1" name="UserRules_PTB_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="e36e5c835485322996d05aa2e784dbda581d331a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ac9ad256" name="UserRules_PTB_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="f4c1ab0b609541b6e98625e16e873d492be46390" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8af153e0" name="UserRules_PTB_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="1073f4e2b24ca46c4e9e9c9d48acbae995105767" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="76ac55c9" name="UserRules_PTB_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="500a9c448cbbb137bfa0ddc80e098cb028cec4ae" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="31af9c8b" name="UserRules_PTB_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="1f999527ccfb681d98469814c1d9bbe0c4fac277" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f2c1f673" name="UserRules_PTB_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="f788879f57bdd92a7f1074505488b1f6d005c1d4" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ef905f5b" name="UserRules_PTB_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="1b8564241a92fb08a709b1b5fd355325c229e1a3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="43ebd094" name="UserRules_PTB_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="6eb78557b655f36461a2480a10c12a910e3e28d2" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a02b467a" name="UserRules_PTB_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="837ae02a20470a7f4f491600eae7488130736dc1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="94aa1c87" name="UserRules_PTB_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="e5a5bb71d26a8caead6076c04d1eeb38e115986d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e8e54283" name="UserRules_PTB_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="795f639c7779bae29dfc8b9bdda6e7f2f89b920c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="47c54317" name="UserRules_PTB_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="b0fe55dcb49050a17f86cf3585caa1e63834feb8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0082f178" name="UserRules_PTB_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="2c6adb26fdd2e0fa335efb8eef580947d109ea9c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="47539586" name="UserRules_PTB_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="0c87ede6ca1d85c15ce83d06cb5ca6da341c5dbb" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="cd603cea" name="ve_pipeline_ptb_luciana_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="6aa3bb752a9a5e060994ac743e2b526afda946a7" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="pt_PT" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="86dec71f" name="apdb_cs_joana_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="2ef49329ed76aa2ad494ef632c7df7817d112c3a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="657e9faa" name="apdb_cs_joana_SDS_f22.dat" swe="speechLanguagesPartECE" md5="0d4c1807372407684ff6fec1792e2ecbff3bd95f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5326a038" name="apdb_rp_joana_NAVI.dat" swe="speechLanguagesPartECE" md5="736857b57ebfb89de311e7ddcf5093e20fe322e9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bf88c7b1" name="apdb_rp_joana_SDS.dat" swe="speechLanguagesPartECE" md5="49955d4241630b11f07c66c63369c0ac3ccafeb0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a211bb54" name="eppconfig.txt" swe="speechLanguagesPartECE" md5="d6f12c54a977b1bfe2d0a737499ea346736b8479" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="aac4cd69" name="ptp_joana_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="53ba3b2d68846a32089a6094d5e56c60167ebb10" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bd87cf9f" name="UserDict_PTP_Joana.dcb" swe="speechLanguagesPartECE" md5="278fdddfd7a7ddbf8761e0a24de258a2330b9968" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="195eb61a" name="UserRules_PTP_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="33d20dcaf93182f11b83e1183994defac8e6d397" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cb312ee0" name="UserRules_PTP_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="d99dc7d369726cca5af2cf89a2879b2819ada67a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="91da11e0" name="UserRules_PTP_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="d8c5ebe05663a746d144ecbc24398c699c487d3d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="68534d8b" name="UserRules_PTP_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="9723f72d2ff5ca92538b3a56569a620b002a57be" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="52f0a4a4" name="UserRules_PTP_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="41c3b4aade46f16baeda4f9483acb2fbbdc65704" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="12bfae3e" name="UserRules_PTP_Joana_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="79ba44ca7a267043d42a9f4e3547a129c396375e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2959af92" name="UserRules_PTP_Joana_SDS-PP.rst" swe="speechLanguagesPartECE" md5="5aec8cf4ed0a202e9a29769bff4253c66026b790" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ec915e89" name="UserRules_PTP_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="042e1b2e91312d8c9d80c0bad637aaa525863dfa" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b035ebef" name="UserRules_PTP_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="37a38495f8330e160f9b64bf2841ef8e1dbb13ae" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="780fc33c" name="UserRules_PTP_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="3663dd821cc0a75f9d1e0a147f2922ea879638fc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="57cfefb5" name="UserRules_PTP_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="61238f7351cef54327dc0d667ce6fd2026d94fec" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="079991bf" name="UserRules_PTP_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="416e8adaae8c109c03d2e39fc0a1a2ed9c63da60" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c8d242eb" name="UserRules_PTP_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="40a14ef74d4e46ca43f624af3da722f0b5d96abd" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1809c74a" name="UserRules_PTP_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="b4498899df79664ac88f4b7076f7ed179f99835b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="63c9d35b" name="UserRules_PTP_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="7113ed7d6aeaa2355ad3853fe846527a9c33f2c1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="44c8c10f" name="UserRules_PTP_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="36d15ccaaab8d34e699223a1fa144043150b5a18" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="65fa1c1e" name="UserRules_PTP_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="b0b13d655a59d7e057ad07f493b681702ba51ffe" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ff15f8a6" name="UserRules_PTP_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="7fb5ae8321cf2ac1580784216215ee11f7102985" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a3f1b38a" name="UserRules_PTP_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="df45429023bda039297a87a15e1a8317871d70c8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d7ad0d00" name="UserRules_PTP_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="ffbf7e7b08ae3f5b150b1db2ea09224ff12dfca5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="945e5ef7" name="UserRules_PTP_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="e40285a8781faac63f0be116e3d7049c9d11ff46" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cf1f1c48" name="UserRules_PTP_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="7c062ab83054ffe7f3c33702d41da4f179ad46cf" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="55ff32b3" name="UserRules_PTP_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="6767a8710e7865d0195e3e3fdff544af8bde262c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1f362c3d" name="UserRules_PTP_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="52c68d948a3d05def3d7ac47a1ec4a8b0b69d1bd" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c0f4f972" name="UserRules_PTP_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="3ed4acfdfb5945dc1335acf9ed422654714392fc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="85badaa3" name="UserRules_PTP_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="87380f0db44d36fadc92a1aa985c92c7410153eb" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="dc341737" name="UserRules_PTP_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="ad6c2abd83c2c4b9bb72156656bad279246764c9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4ba17c55" name="UserRules_PTP_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="195917f161a6cdfefc2575dd5ab9e598d48faede" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="30e018be" name="ve_pipeline_ptp_joana_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="e1f4fc6f6f96ec05bf2003d8ef2b3873c3d5182e" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="ru_RU" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="3168bb01" name="apdb_cs_milena_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="27072f9edbdb56d119e4ecc7e7cc6998b3e72ef1" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6efb96bd" name="apdb_cs_milena_SDS_f22.dat" swe="speechLanguagesPartECE" md5="3dfae3b642e81b2df70b61f6c0217c5c6008d601" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ac88a4cf" name="apdb_rp_milena_NAVI.dat" swe="speechLanguagesPartECE" md5="7c4c7adf4fb2bec04ecf19a9005f3023274fcabe" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9dcc88e8" name="apdb_rp_milena_SDS.dat" swe="speechLanguagesPartECE" md5="1e685255d4e2e8ba898d1a2477f42cd4f4cd8f27" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2243c1b8" name="eppconfig.txt" swe="speechLanguagesPartECE" md5="5683ff3308d83cc1f43e208ccf39c692d71fa797" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="797b4a6c" name="rur_milena_embedded-pro_1-0-1.dat" swe="speechLanguagesPartECE" md5="56186439090c04e6442edc5b8cceb1a8fe64e318" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="47655121" name="UserDict_RUR_Milena.dcb" swe="speechLanguagesPartECE" md5="307048407cd4333543fbaf7616fd00a9325fcf40" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="af9d6338" name="UserRules_RUR_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="aaa50b855ff1b01b5ec451c731005487855bc09c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e1b38c91" name="UserRules_RUR_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="999ef19b97810187b951cc27f117c152c8f85b93" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4aab6c08" name="UserRules_RUR_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="984743f0c3c43af50003e5cf821e39f8e26b3e23" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="66afed7a" name="UserRules_RUR_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="6285b937f8e5081d5d164847a28b9c32954fc4d6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6bfd54b8" name="UserRules_RUR_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="dcc40ce7a147f84301deb534b5a19367c0fe3b83" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d013cc55" name="UserRules_RUR_Milena_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="dc0f646be7d10756dbe87f985c560c219484d475" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="db8951b7" name="UserRules_RUR_Milena_SDS-PP.rst" swe="speechLanguagesPartECE" md5="319582e7eb5085cfe0580f959f6e1734093e9d7b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="187ce37a" name="UserRules_RUR_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="b993d4263fd554df55c85de590ec09f6dc3cd627" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="63a94ccc" name="UserRules_RUR_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="2ef53c450d5088e3ca42871277dbad5913687762" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5c4f8d27" name="UserRules_RUR_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="8204b8d3fba08e42e5ac9c1e77289f9af4be4afc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="59334f44" name="UserRules_RUR_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="785e633960019a5799408bf0e496a192a2b22d44" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="20b152b7" name="UserRules_RUR_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="6f7a27be4b24b89baaf7932d278c45cc7faef98c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e250e09a" name="UserRules_RUR_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="5ee8a23d9ff349e140bdae1675e9871213f6798b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3f210442" name="UserRules_RUR_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="e088c19266fa0a3377d59b3ec16dbfba6215c376" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="44e11053" name="UserRules_RUR_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="60c4cebeec594d40e235a8a66faf992edb3a0139" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="75ae1a8f" name="UserRules_RUR_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="3b9c8040c5d03c3ae782f5c52b489557d558be1b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="be8b61f6" name="UserRules_RUR_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="9b065163ffab68f0e13391f3b4a45451b2364796" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d5975ad7" name="UserRules_RUR_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="dcf3dd35aa1a792d1d322fee98c139eda8f78a58" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9297680a" name="UserRules_RUR_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="02bf350a6e57d51bb69f44c9e0f59920887a9792" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f085ce08" name="UserRules_RUR_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="be38ad46ee7264eccbbd9e6abd66dc16af44f30d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5eea60dd" name="UserRules_RUR_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="8095ff6bda89a2a04d14b685d7111d221303e2c7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6115077f" name="UserRules_RUR_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="9842efd98a6392c23cb36112e976e7407214b729" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="72d7f1bb" name="UserRules_RUR_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="59ca8e5c9943634068511963604156ecb4dac8eb" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d5821217" name="UserRules_RUR_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="56b1e00f7869c8f1dc5d6a45f26fe40693508536" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f81c746d" name="UserRules_RUR_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="1e21d7fb7e75bfa143b324442780ac22dafa68e9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d4b10c1b" name="UserRules_RUR_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="ca7f2ad353b9669553eaf0a314a1cae404990253" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f874592c" name="UserRules_RUR_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="ef262fb25695dbff1764a54ebf6a2339eb9a1e15" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7ac7a7d5" name="UserRules_RUR_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="7160bf8f22716b84298eaacde46430fd708069e6" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="abe32df1" name="ve_pipeline_rur_milena_22_embedded-pro_1-0-1.hdr" swe="speechLanguagesPartECE" md5="b3326c874fdb10c5245093bd8f783277433f3791" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="sk_SK" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="25019c0d" name="apdb_cs_laura_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="7edfde49a744944e7ba2ce987a06a5b427aff9c8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ddd5a1a0" name="apdb_rp_laura_NAVI.dat" swe="speechLanguagesPartECE" md5="a7bbe1062e4d99fa3fe6a231518b28ab884f9331" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="057db91e" name="sks_laura_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="4008025c37c6176f97844e0ec90842810a3d0ec7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8460f416" name="UserDict_SKS_Laura.dcb" swe="speechLanguagesPartECE" md5="c7fefa6b859c49988726d7cd5e32d1b690b85e45" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0b52223b" name="UserRules_SKS_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="2e68a633ae29243d483cca7f3504b3021ba8a0ac" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d13463cc" name="UserRules_SKS_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="08859a6d1261dad61e5ca26d350ffc576556dc88" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="836912ca" name="UserRules_SKS_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="721ae5572e7a938288b7965c06cd1a4676367b0c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="590f010d" name="UserRules_SKS_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="b2fc6c54e971bbab4cc66273041e7070e3172d4e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d4455c72" name="UserRules_SKS_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="03c749a9564b22f5a25366989bd490347ece180b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="517dfba6" name="UserRules_SKS_Laura_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="675aceac9816736e8e53fac02119ec2aafc33654" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7c6a38c2" name="UserRules_SKS_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="12e45b9da42463fd69c02ee4a1bba59c28c585e6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="07cb0ee0" name="UserRules_SKS_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="376f7147504279ad04614d41ba2c5729453698e5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9991a042" name="UserRules_SKS_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="9026c9e295302d2e6821be8b544e0af248e62b6c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6693a333" name="UserRules_SKS_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="eea0d7559bc6f3e3b92f2ef76bf01a65117d1245" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="355bf811" name="UserRules_SKS_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="3a7420d8609b1ef0cff6e39583c30844cf80605d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d2d70fc7" name="UserRules_SKS_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="c0eed45dda5ec910fb1c3867252edd41371016f9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2acbaee4" name="UserRules_SKS_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="8b0fa266da2755b7d78f95bc232e4bdc1451a2fc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="510bbaf5" name="UserRules_SKS_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="952a75771a06ea4ecadbfb457489ae9c84f7f4e0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bd7616a3" name="UserRules_SKS_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="b20ee1ff08a81f342f01345e6d69610ef74eef66" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="77491f34" name="UserRules_SKS_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="9fc633fd5fba4ac7c8ceb5ee93b6ce88aa44205a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e510b58a" name="UserRules_SKS_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="d88355df41ad163de9c51a529fb21122fb9a64d3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5a4f6426" name="UserRules_SKS_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="f2b8bfccf434d981dfec1eddae4c68d82fcd2872" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e56f64ae" name="UserRules_SKS_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="9df46f2ae1b9af0232b14b4758ac42427a047241" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="90b424ae" name="UserRules_SKS_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="a05169b672e463acb1b1c02f5c2869dbad18adf6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="14b6669d" name="UserRules_SKS_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="99e393e666f9dac05a130c5d64bc35e502810d08" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="673d5b1d" name="UserRules_SKS_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="89d6cdf4ddfaa67ecc2a9795b2049ae8a55d51bc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1bdc5664" name="UserRules_SKS_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="174a040459aa446fe928c5e141995a8d0f8db15a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="9ca0cc88" name="UserRules_SKS_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="dbf7ea671080a096a438497259e9834fdf39d0f5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="fe478a11" name="UserRules_SKS_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="34b5e2e30d2909c3ca493d0450e407966b7c15dc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3daa7449" name="UserRules_SKS_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="4b38fb778e9122ccc0599841f7d5604ea89eb51c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b21fabf9" name="UserRules_SKS_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="504cdfed799b3b185a2abb845556f9975264ece9" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="f85e3335" name="ve_pipeline_sks_laura_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="19ffbcf5d5b537e733c575b87e81f1e22526ab0e" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="sl_SI" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="ec16e727" name="apdb_cs_serena_NAVI-SLS_f22.dat" swe="speechLanguagesPartECE" md5="aa74b4c329273c1129e975ae2f17883012b56d78" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1ff168f5" name="apdb_rp_serena_NAVI-SLS.dat" swe="speechLanguagesPartECE" md5="71f1d345fba584a71b04ab67427498b42e6fc32f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="77ceb2ec" name="UserDict_SLS_Serena.dcb" swe="speechLanguagesPartECE" md5="e8d70d48c2f7faf1a81cb1be297f7fad5dc8dd97" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2cfc1c4b" name="UserRules_SLS_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="ff013a02e44c138f4b932f6789f13542cb77aa10" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="487f8c35" name="UserRules_SLS_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="e3229e0523d3b9ec8ece5fd5d44e539be9fb2ee9" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="40e76154" name="UserRules_SLS_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="0e056d6e13c41c12785f1b4549ca64d7ecabed84" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="acc43d5b" name="UserRules_SLS_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="a80e27239d9bb9748f94e5e5ec3dce6efa343b3f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e47cb67e" name="UserRules_SLS_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="213d360758dd7b0f6efafade08598f6ce791e7ce" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c5e6d9cc" name="UserRules_SLS_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="b9b6506783bcbe4ff5b00ffd8582165a7e893bce" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6a1211c7" name="UserRules_SLS_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="ca62b5ec5f6f9e70afad60dbc1eadd9de13e8d81" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d5190ecd" name="UserRules_SLS_Serena_NAVI-SLS-PP.rst" swe="speechLanguagesPartECE" md5="7dda746862c19afcaa9296793e3c24a873390e8c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7e9001a4" name="UserRules_SLS_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="ebc2497063ca7f20328786d50b0c6a3330a2adab" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="93589f65" name="UserRules_SLS_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="970d65ac99ba28bd3009971034256bd59dce75a8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f1a3f946" name="UserRules_SLS_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="2ccce5a174d872c244a6a495f9c5da747914cb8d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4b9ce03e" name="UserRules_SLS_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="bf499f28d47d083f200bfb2e9db314b25d2fee02" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ee33afb3" name="UserRules_SLS_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="018f1cbfedf9c5bb2930cf208baf0298ef989b15" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="95f3bba2" name="UserRules_SLS_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="0dfc9d7139dfb7ea9523b7f486806794aceb6bdd" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b1ad798a" name="UserRules_SLS_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="185f8dbd685a3da1e282976d1e8a6ef85c9e9747" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b4c76caa" name="UserRules_SLS_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="e16cdfb48ab94a4b62ccbc34324f7bde5c13cf45" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7c5b5a73" name="UserRules_SLS_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="fafcf4beebf6da767d7f1b101d74480819a5d682" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="56940b0f" name="UserRules_SLS_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="7dd4944ebf3e01525c7ea333a6001486952d0923" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="219765f9" name="UserRules_SLS_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="f28382a4a061730bee5424416e8b6149486366e6" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="12491b53" name="UserRules_SLS_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="df561572f1372da26294141911b23b9d7931c2b7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="03c256ad" name="UserRules_SLS_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="5206b789d21c8f6b055bf7d916b1980705641373" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a3c55a4a" name="UserRules_SLS_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="781d190c9dd6271f9f26aaccba6117073f1c81bc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="99216999" name="UserRules_SLS_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="8c68a9034e3181604e45b5a7d6352896c6299a2a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7ca561da" name="UserRules_SLS_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="d481c9d803a102dd1f11d9d52af70e3d13da6a6b" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1019c9e2" name="UserRules_SLS_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="9da1977adff92e8a773131e1abb46b02d68fef26" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="daabd5af" name="UserRules_SLS_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="1247594c38f0d4f6cb8411cbf1bc34a93f082844" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bec4c4d0" name="UserRules_SLS_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="1527e6fb473dcb40a68bd6e5c6a1841169a301da" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="sv_SE" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="621f1af5" name="apdb_cs_alva_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="c27b12b59f104ffab1c85b4c1d65760e8fb6fecc" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="dba2406f" name="apdb_rp_alva_NAVI.dat" swe="speechLanguagesPartECE" md5="8355d0adda7f4d76b2af5a0fe50bb429f532a4fd" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="326f663b" name="sws_alva_embedded-pro_1-0-0.dat" swe="speechLanguagesPartECE" md5="700c5e0b0e0bd448ab71f3b1a9d361e19cf74e9e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="905a89bf" name="UserDict_SWS_Alva.dcb" swe="speechLanguagesPartECE" md5="64cbefe3fd7d982ca2eeb6ef7cc995c4decb9024" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0e665c6c" name="UserRules_SWS_Alva_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="46c83e842e3d08a79c90ca7920b94aa570678364" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="95de4d60" name="UserRules_SWS_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="a470a6f33ee5fad1a71ceffe3d5e02c251759963" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7cf1715f" name="UserRules_SWS_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="63262990caf69d379c0983d3af8c4f42d41e3c5f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="2dd4d7c0" name="UserRules_SWS_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="3e04c71b2c05af12aa5a3a585d1081cfa31a4d07" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f0da0459" name="UserRules_SWS_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="732c0f25d4728dec3d14f56d37085afa21d57c28" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="bdee5b9e" name="UserRules_SWS_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="7aa1e3deca236f39ff4b7e04589a86825483e8ac" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="1d5fd2d0" name="UserRules_SWS_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="5fd7a97ff4e10e99a06cd4ce4adbfdb05716c75f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="96dd94e9" name="UserRules_SWS_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="62cb1341564f5861c1f53492a68af1b355409f20" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6a49e4e0" name="UserRules_SWS_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="433418193d4d17406f118f64131cde2bfaa98287" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cf46a667" name="UserRules_SWS_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="4fae5d7a97f9fac79d60d9771656cb820fd9420d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5cf0fffd" name="UserRules_SWS_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="7c9cde8eb793de48c7ede25924f9ee2def556dd5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7f121d54" name="UserRules_SWS_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="2524d59ada34ed1eb80553e202919f10ef9a4460" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4360a908" name="UserRules_SWS_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="a191f67c49685313b9bdfaf330f21a11b7de058c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="38a0bd19" name="UserRules_SWS_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="e7628c0a2bd084f658f8766c6c23f335b1be124d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="40d20e80" name="UserRules_SWS_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="52b24bd95c2c3037d05016b29734920c2e555fb8" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d9f4da3e" name="UserRules_SWS_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="edba5a67ea2dfc62711d4767ed801ee3b5c6f099" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="48d5a719" name="UserRules_SWS_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="53df58c828aff115bc0c9e8288bee540a2a173be" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="a7eb7c05" name="UserRules_SWS_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="9762359582cc83bf03915aeee1a5621be5bd6426" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="8cc46342" name="UserRules_SWS_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="c7f88145e54a21dc1d2dab155a817414d0ca8938" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="fc1b6446" name="UserRules_SWS_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="392c8c65b00e1e83b40fad3360b696683158dd97" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f4cd3246" name="UserRules_SWS_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="d5e0ca57d5af6f47602ac8a359b3b82f7ef64f41" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0e965cf1" name="UserRules_SWS_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="fa7717c18afcf45f9bbda96629364a13f3dce95d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7773168c" name="UserRules_SWS_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="d57847328f99e2f1d5b8419c35086aa6664ce080" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="b7cb9077" name="UserRules_SWS_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="70a6bf8675997f248076a3b916c5dd297d7650b7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7a05eccb" name="UserRules_SWS_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="4b0eaff69ba37cdb5faa7a3ecdbb2a59f02558bb" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="ce7230eb" name="UserRules_SWS_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="1017a0274ff46bccd65f502d5a8c22201e166442" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4fbbb3da" name="UserRules_SWS_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="bbc84c6e40721aad82183543bd4d7f23ba183256" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="d1232434" name="ve_pipeline_sws_alva_22_embedded-pro_1-0-0.hdr" swe="speechLanguagesPartECE" md5="b85a39f489c48dcfe85b5a72180e25eb4b064cd3" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                  <dir uid="0" name="tr_TR" mod="775" gid="0">
+                    <dir uid="0" name="speech" mod="775" gid="0">
+                      <dir uid="0" name="components" mod="775" gid="0">
+                        <file uid="0" crc="e25b4b38" name="apdb_cs_cem_NAVI_f22.dat" swe="speechLanguagesPartECE" md5="6aff5e63b4288e0f9175e6cb0737aa317fcc253c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="098d83be" name="apdb_cs_cem_SDS_f22.dat" swe="speechLanguagesPartECE" md5="be212fb3276d53a5bbd46a2b12fd2bc792fb9fd7" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="08c59dde" name="apdb_rp_cem_NAVI.dat" swe="speechLanguagesPartECE" md5="ddf0ff9425dfc43109a311e09f1166f85bcb413c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="240b14b8" name="apdb_rp_cem_SDS.dat" swe="speechLanguagesPartECE" md5="d7e7e30aafa3e802d5e4d18ff577d5897fcc4431" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="402f0dcc" name="eppconfig.txt" swe="speechLanguagesPartECE" md5="3db3747e04950f8189c5eb77d537d1faac06f536" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="10e61d97" name="trt_cem_embedded-pro_1-0-1.dat" swe="speechLanguagesPartECE" md5="d96501244b4826881953ae0dfca13af0865743f3" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="67fc6744" name="UserDict_TRT_Cem.dcb" swe="speechLanguagesPartECE" md5="e68879012ef07489ee8e3f7c8b3b0b04b2e3e8da" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="52acbbf7" name="UserRules_TRT_CALENDAR-PP.rst" swe="speechLanguagesPartECE" md5="bb0f211e0836a0c5114ea2d4cc15410284a8088f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4a155fba" name="UserRules_TRT_Cem_NAVI-PP.rst" swe="speechLanguagesPartECE" md5="7c0e3f9eaf94c2af9f558ab6d72fba2c3336a068" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5a97e980" name="UserRules_TRT_Cem_SDS-PP.rst" swe="speechLanguagesPartECE" md5="113902c13a18d0fc5368d035b3bbe23f5134176a" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="68f3d972" name="UserRules_TRT_COUNTRYINFO-PP.rst" swe="speechLanguagesPartECE" md5="104262ef7f256442474bd0cb273437184fa31722" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="800b1a04" name="UserRules_TRT_FACEBOOKCOMMENT-PP.rst" swe="speechLanguagesPartECE" md5="c25bd75fdf5743bc11bd16f6208c942958b0e7db" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="08fd616e" name="UserRules_TRT_FACEBOOKEVENT-PP.rst" swe="speechLanguagesPartECE" md5="ac8a79d609eaee91fb42ff48f1af71989abfbc9c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5bce5ec0" name="UserRules_TRT_HWR-TOUCHPAD-PP.rst" swe="speechLanguagesPartECE" md5="5387403c43498988c7d2c17dbc2c40e5f2f543f0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c8876d28" name="UserRules_TRT_NEWS-PP.rst" swe="speechLanguagesPartECE" md5="8380a414c697921f3cdb25a9a16ce6c876d0e469" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="763749dd" name="UserRules_TRT_PROMPT_DOMAIN_A4A-PP.rst" swe="speechLanguagesPartECE" md5="07ac7a03c55b87c72b3c7e1af575cdea8857a67f" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="d9fa4671" name="UserRules_TRT_SPORT-PP.rst" swe="speechLanguagesPartECE" md5="aa309b05852c684f9d89ed94bdc04d9f9487ec99" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="3761c350" name="UserRules_TRT_TTS-CROSSTYPE-PP.rst" swe="speechLanguagesPartECE" md5="147f69124ba2ed353b92ad2ce4262e4d45f3ea3e" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="193ba120" name="UserRules_TRT_TTS-CURRENCY-PP.rst" swe="speechLanguagesPartECE" md5="104b900e38ed2ff93b6cc68e737d2a76600fdb53" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6b10b579" name="UserRules_TRT_TTS-DECIMAL-PP.rst" swe="speechLanguagesPartECE" md5="9e0156141084dab61cb978a93207e113bc37f69c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="06abf7d5" name="UserRules_TRT_TTS-DISTANCE-PP.rst" swe="speechLanguagesPartECE" md5="33a31fb923d974d0f7fda48d0a99fcc88b8b15a5" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7d6be3c4" name="UserRules_TRT_TTS-DURATION-PP.rst" swe="speechLanguagesPartECE" md5="2df03b86e40adeabcb391ef76af8c31b5ead0d00" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="02521e02" name="UserRules_TRT_TTS-EMAIL-PP.rst" swe="speechLanguagesPartECE" md5="6701debd2f8dd64328fb29bbc118de292213d54c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="742b17fa" name="UserRules_TRT_TTS-HOUSENUMBER-PP.rst" swe="speechLanguagesPartECE" md5="30f8b1349fee951b94ca135f4efb0f0d947bb20c" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="5cd70f34" name="UserRules_TRT_TTS-ORDINAL-PP.rst" swe="speechLanguagesPartECE" md5="00ca1f2a7f5325159c996fd9f174f90685602f19" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="e56b6c87" name="UserRules_TRT_TTS-PHONE-PP.rst" swe="speechLanguagesPartECE" md5="346d497b80e39d2ee6c3a4a89b20852803c1d7e0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="c90f3d9f" name="UserRules_TRT_TTS-POSTCODE-PP.rst" swe="speechLanguagesPartECE" md5="5ca50b38f07b62b2ed61ed3712180b24ff47c3b0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="445ee62c" name="UserRules_TRT_TTS-PROPERNAME-PP.rst" swe="speechLanguagesPartECE" md5="ab43810c243893133031a6944f6f7da43369eb04" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="6869eb22" name="UserRules_TRT_TTS-RADIOSTATION-PP.rst" swe="speechLanguagesPartECE" md5="66df7a8928e8884260cb50e157c2ce3dc72bc43d" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="4b5d022c" name="UserRules_TRT_TTS-SPELLING-PP.rst" swe="speechLanguagesPartECE" md5="343994f4276bbb791df9db8d1c7f1ceae1d8ed11" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="cf3694e6" name="UserRules_TRT_TTS-STREETNAME-PP.rst" swe="speechLanguagesPartECE" md5="4bbc602e4d7bf40e9fd961869bd43004d95249e0" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="f932fff6" name="UserRules_TRT_TTS-TIME-PP.rst" swe="speechLanguagesPartECE" md5="0fd4395e1e28efe8ff8e09565d4ed3c166dda3fe" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="10db604d" name="UserRules_TRT_TTS-TXTMSG-PP.rst" swe="speechLanguagesPartECE" md5="0c67683b6b4f127ddd18a607b2c71e6b4e4fc703" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="7dc1927a" name="UserRules_TRT_TWEET-PP.rst" swe="speechLanguagesPartECE" md5="6b6b53042f401ec45c771f1ae1d0c06cad3d6108" gid="0" mod="664" command="link" />
+                        <file uid="0" crc="0d3ba358" name="UserRules_TRT_WIKILOCAL-PP.rst" swe="speechLanguagesPartECE" md5="deab3354cccc14bc5208a928a9253f4db30326a9" gid="0" mod="664" command="link" />
+                      </dir>
+                      <dir uid="0" name="ve" mod="775" gid="0">
+                        <file uid="0" crc="c582d445" name="ve_pipeline_trt_cem_22_embedded-pro_1-0-1.hdr" swe="speechLanguagesPartECE" md5="038220f90f2316238296e2a6949fbd9c07246773" gid="0" mod="664" command="link" />
+                      </dir>
+                    </dir>
+                  </dir>
+                </dir>
+              </dir>
+            </dir>
+          </dir>
+        </dir>
+      </LinkData>
+    </SwData>
+  </LinkSection>
+</LinkManifest>

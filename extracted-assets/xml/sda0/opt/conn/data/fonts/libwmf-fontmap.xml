@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<fontmap>
+
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0003m_.ttf"
+		name="Swiss721BT" fullname="Swiss721BT-Roman" familyname="Helvetica"
+		weight="Regular" />
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0004m_.ttf"
+		name="Swiss721BT" fullname="Swiss721BT-Italic" familyname="Helvetica"
+		weight="Italic" />
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0005m_.ttf"
+		name="Swiss721BT" fullname="Swiss721BT-Bold" familyname="Helvetica"
+		weight="Bold" />
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0006m_.ttf"
+		name="Swiss721BT" fullname="Swiss721BT-BoldItalic" familyname="Helvetica"
+		weight="BoldItalic" />
+
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0011m_.ttf"
+		name="Dutch801BT" fullname="Dutch801BT-Roman" familyname="Times"
+		weight="Regular" />
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0012m_.ttf"
+		name="Dutch801BT" fullname="Dutch801BT-Italic" familyname="Times"
+		weight="Italic" />
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0013m_.ttf"
+		name="Dutch801BT" fullname="Dutch801BT-Bold" familyname="Times"
+		weight="Bold" />
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0014m_.ttf"
+		name="Dutch801BT" fullname="Dutch801BT-BoldItalic" familyname="Times"
+		weight="BoldItalic" />
+
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0419m_.ttf"
+		name="Courier10PitchBT" fullname="Courier10PitchBT-Roman" familyname="Courier"
+		weight="Regular" />
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0582m_.ttf"
+		name="Courier10PitchBT" fullname="Courier10PitchBT-Italic" familyname="Courier"
+		weight="Italic" />
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0583m_.ttf"
+		name="Courier10PitchBT" fullname="Courier10PitchBT-Bold" familyname="Courier"
+		weight="Bold" />
+	<font glyphs="/opt/conn/data/fonts/font_repository/tt0611m_.ttf"
+		name="Courier10PitchBT" fullname="Courier10PitchBT-BoldItalic"
+		familyname="Courier" weight="BoldItalic" />
+
+    <font glyphs="/opt/conn/data/fonts/font_repository/tt3012z_.ttf"
+		name="Symbol" fullname="Symbol-Set-BT" familyname="Symbol" weight="Regular" />
+
+</fontmap>

@@ -1,0 +1,292 @@
+<pluginApps>
+    <pluginApp applicationType="OnlineServices" text="Calendar" applicationWeight="33468">
+        <actions>
+            <combinedAction id="113" sync="true">
+                <actions>
+                    <raAction id="99"/>
+                    <hmiAction id="123" targetModel="85"/>
+                </actions>
+            </combinedAction>
+            <raAction id="100"/>
+            <combinedAction id="114" sync="true">
+                <actions>
+                    <raAction id="6"/>
+                    <hmiAction id="124" targetModel="86"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="125">
+                <actions>
+                    <raAction id="101"/>
+                    <hmiAction id="126" target="108"/>
+                </actions>
+            </combinedAction>
+            <raAction id="102"/>
+            <raAction id="17"/>
+            <raAction id="16"/>
+            <raAction id="21"/>
+            <raAction id="20"/>
+            <raAction id="28"/>
+            <raAction id="27"/>
+            <raAction id="33"/>
+            <raAction id="32"/>
+            <raAction id="37"/>
+            <raAction id="36"/>
+            <raAction id="41"/>
+            <raAction id="40"/>
+            <raAction id="45"/>
+            <raAction id="44"/>
+            <raAction id="49"/>
+            <raAction id="48"/>
+            <raAction id="53"/>
+            <raAction id="52"/>
+            <raAction id="57"/>
+            <raAction id="56"/>
+            <raAction id="66"/>
+            <raAction id="65"/>
+            <raAction id="70"/>
+            <raAction id="69"/>
+            <raAction id="77"/>
+            <raAction id="76"/>
+            <raAction id="82"/>
+            <raAction id="81"/>
+            <linkAction id="127" actionType="call" linkModel="91"/>
+            <linkAction id="128" actionType="navigate" linkModel="95"/>
+        </actions>
+        <models>
+            <raIntModel id="83"/>
+            <raListModel id="84"/>
+            <raIntModel id="85" value="0"/>
+            <raIntModel id="4"/>
+            <raListModel id="5"/>
+            <raIntModel id="86" value="0"/>
+            <textIdModel id="87" textId="116"/>
+            <textIdModel id="2" textId="119" modelType="Info"/>
+            <raDataModel id="88"/>
+            <raDataModel id="89"/>
+            <textIdModel id="10" textId="121" modelType="Info"/>
+            <raDataModel id="12"/>
+            <raListModel id="15"/>
+            <raListModel id="19" modelType="Richtext"/>
+            <raDataModel id="23"/>
+            <raListModel id="26" modelType="Richtext"/>
+            <raListModel id="31" modelType="Richtext"/>
+            <raDataModel id="35"/>
+            <raDataModel id="39"/>
+            <raDataModel id="43"/>
+            <raDataModel id="47"/>
+            <raDataModel id="51"/>
+            <raDataModel id="55"/>
+            <raDataModel id="90"/>
+            <textIdModel id="59" textId="121" modelType="Info"/>
+            <raDataModel id="61"/>
+            <raListModel id="64"/>
+            <raListModel id="68" modelType="Richtext"/>
+            <raDataModel id="72"/>
+            <raListModel id="75" modelType="Richtext"/>
+            <raListModel id="80" modelType="Richtext"/>
+            <raDataModel id="91" modelType="Phonenumber"/>
+            <raDataModel id="92"/>
+            <raDataModel id="93"/>
+            <raDataModel id="94"/>
+            <raDataModel id="95" modelType="Address"/>
+            <raDataModel id="96"/>
+            <textIdModel id="97" textId="120"/>
+            <imageIdModel id="98" imageId="122"/>
+        </models>
+        <entryButton id="115" action="125" selectAction="102" model="97" imageModel="98"/>
+        <events>
+            <actionEvent id="107" action="127"/>
+            <focusEvent id="103" targetModel="92"/>
+            <multimediaInfoEvent id="104" textModel1="93" textModel2="94"/>
+            <actionEvent id="106" action="128"/>
+            <statusbarEvent id="105" textModel="96"/>
+        </events>
+        <hmiStates>
+            <calendarMonthHmiState id="108" dateModel="83" highlightListModel="84" action="113" changeAction="100"/>
+            <hmiState id="109" textModel="87">
+                <components>
+                    <label id="1" model="2">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                </components>
+            </hmiState>
+            <calendarHmiState id="110" textModel="88">
+                <components>
+                    <calendarDay id="3" action="114" appointmentListModel="5" dateModel="4"/>
+                </components>
+            </calendarHmiState>
+            <toolbarHmiState id="111" textModel="89">
+                <properties>
+                    <property id="26" value="1,0,7"/>
+                    <property id="35" value="true"/>
+                    <property id="36" value="true"/>
+                </properties>
+                <toolbarComponents>
+                    <button id="129"/>
+                    <button id="34" action="37" selectAction="36" tooltipModel="35">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="38" action="41" selectAction="40" tooltipModel="39">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="42" action="45" selectAction="44" tooltipModel="43">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="46" action="49" selectAction="48" tooltipModel="47">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="50" action="53" selectAction="52" tooltipModel="51">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="54" action="57" selectAction="56" tooltipModel="55">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="130"/>
+                </toolbarComponents>
+                <components>
+                    <label id="9" model="10">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="11" model="12">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <separator id="13"/>
+                    <list id="14" model="15" action="17" selectAction="16">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0,0"/>
+                            <property id="37" value="1"/>
+                            <property id="6" value="150,400"/>
+                        </properties>
+                    </list>
+                    <list id="18" model="19" action="21" selectAction="20">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="6" value="*"/>
+                        </properties>
+                    </list>
+                    <label id="22" model="23">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <separator id="24"/>
+                    <list id="25" model="26" action="28" selectAction="27">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="36" value="true"/>
+                            <property id="37" value="1"/>
+                        </properties>
+                    </list>
+                    <separator id="29"/>
+                    <list id="30" model="31" action="33" selectAction="32">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="36" value="true"/>
+                            <property id="37" value="1"/>
+                        </properties>
+                    </list>
+                </components>
+            </toolbarHmiState>
+            <hmiState id="112" textModel="90">
+                <properties>
+                    <property id="36" value="true"/>
+                </properties>
+                <components>
+                    <label id="58" model="59">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="60" model="61">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <separator id="62"/>
+                    <list id="63" model="64" action="66" selectAction="65">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0,0"/>
+                            <property id="37" value="1"/>
+                            <property id="6" value="150,400"/>
+                        </properties>
+                    </list>
+                    <list id="67" model="68" action="70" selectAction="69">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="6" value="*"/>
+                        </properties>
+                    </list>
+                    <label id="71" model="72">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <separator id="73"/>
+                    <list id="74" model="75" action="77" selectAction="76">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="37" value="1"/>
+                        </properties>
+                    </list>
+                    <separator id="78"/>
+                    <list id="79" model="80" action="82" selectAction="81">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="37" value="1"/>
+                        </properties>
+                    </list>
+                </components>
+            </hmiState>
+        </hmiStates>
+    </pluginApp>
+</pluginApps>

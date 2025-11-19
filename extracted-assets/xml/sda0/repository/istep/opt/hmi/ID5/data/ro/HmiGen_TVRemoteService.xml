@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  enum {
+    STATE_MAIN = 300,
+    MAIN_TEXTMODEL = 301,
+    BUTTON_CH = 302,
+    CH_ACTION = 303,
+    BUTTON_F = 304,
+    F_ACTION = 305,
+    BUTTON_CI = 306,
+    CI_ACTION = 307,
+    BUTTON_PA = 308,
+    PA_ACTION = 309,
+    BUTTON_AN = 310,
+    AN_ACTION = 311,
+    LIST_CHINFO = 312,
+    CHINFO_MODEL = 313,
+    LIST_INFOS = 316,
+    INFOS_MODEL = 317,
+    CH_GAUGEMODEL = 318,
+    F_GAUGEMODEL = 319,
+    STATE_PROGRAM = 320,
+    LIST_PROGRAM = 321,
+    PROGRAM_MODEL = 322,
+    PROGRAM_COMBINEDACTION = 323,
+    PROGRAM_ACTION = 324,
+    PROGRAM_HMIACTION = 325,
+    CI_HMIACTION = 327,
+    BUTTON_FRFREE = 328,
+    FRFREE_HMIACTION = 329,
+    HMISTATE_FRFREE = 330,
+    GAUGE_FRFREE = 331,
+    FRFREE_GAUGEMODEL = 332,
+    FRFREE_COMBINEDACTION = 333,
+    FRFREE_ACTION = 334,
+    FRFREE_HMIBACKACTION = 335,
+    CH_IMAGEIDMODEL = 336,
+    FR_IMAGEIDMODEL = 337,
+    CI_IMAGEIDMODEL = 338,
+    PA_IMAGEIDMODEL = 339,
+    AI_IMAGEIDMODEL = 340,
+    MAIN_HMISTATE_TEXTMODEL = 500
+  }
+-->
+<pluginApps>
+  <pluginApp applicationType="ServiceMenu">
+    <textModel>301</textModel>
+    <actions>
+      <raAction>
+        <id>303</id>
+      </raAction>
+      <raAction>
+        <id>305</id>
+      </raAction>
+      <raAction>
+        <id>307</id>
+      </raAction>
+      <hmiAction>
+        <id>327</id>
+        <target>320</target>
+      </hmiAction>
+      <hmiAction>
+        <id>329</id>
+        <target>330</target>
+      </hmiAction>
+      <raAction>
+        <id>309</id>
+      </raAction>
+      <raAction>
+        <id>311</id>
+      </raAction>
+      <combinedAction>
+        <id>323</id>
+        <actions>
+          <raAction>
+            <id>324</id>
+          </raAction>
+          <hmiAction>
+            <id>325</id>
+            <target>300</target>
+          </hmiAction>
+        </actions>
+      </combinedAction>
+      <combinedAction>
+        <id>333</id>
+        <actions>
+          <raAction>
+            <id>334</id>
+          </raAction>
+          <hmiAction>
+            <id>335</id>
+            <target>300</target>
+          </hmiAction>
+        </actions>
+      </combinedAction>
+    </actions>
+    <models>
+      <textIdModel preinst="true" textId="60856">
+        <id>2</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="61600">
+        <id>4</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="61608">
+        <id>7</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="61616">
+        <id>10</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="61624">
+        <id>13</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="61632">
+        <id>23</id>
+      </textIdModel>
+      <textIdModel preinst="true" textId="60856">
+        <id>301</id>
+      </textIdModel>
+      <raListModel>
+        <id>313</id>
+      </raListModel>
+      <raListModel>
+        <id>317</id>
+      </raListModel>
+      <raGaugeModel increment="1" max="255" min="0" value="0">
+        <id>318</id>
+      </raGaugeModel>
+      <raGaugeModel increment="5" max="99995" min="0" value="0">
+        <id>319</id>
+      </raGaugeModel>
+      <raGaugeModel increment="5" max="99995" min="0" modelType="BigNumber" value="0">
+        <id>332</id>
+      </raGaugeModel>
+      <raListModel>
+        <id>322</id>
+      </raListModel>
+      <textIdModel preinst="true" textId="61592">
+        <id>500</id>
+      </textIdModel>
+      <imageIdModel imageId="1444" preinst="true">
+        <id>336</id>
+      </imageIdModel>
+      <imageIdModel imageId="1446" preinst="true">
+        <id>337</id>
+      </imageIdModel>
+      <imageIdModel imageId="1424" preinst="true">
+        <id>338</id>
+      </imageIdModel>
+      <imageIdModel imageId="1426" preinst="true">
+        <id>339</id>
+      </imageIdModel>
+      <imageIdModel imageId="1427" preinst="true">
+        <id>340</id>
+      </imageIdModel>
+    </models>
+    <hmiStates>
+      <toolbarHmiState>
+        <id>300</id>
+        <textModel>500</textModel>
+        <toolbarComponents>
+            <gauge>
+              <id>302</id>
+              <imageModel>336</imageModel>
+              <action>303</action>
+              <textModel>4</textModel>
+              <model>318</model>
+            </gauge>
+            <button>
+              <id>328</id>
+              <imageModel>337</imageModel>
+              <action>329</action>
+              <tooltipModel>7</tooltipModel>
+            </button>
+            <button>
+              <id>306</id>
+              <imageModel>338</imageModel>
+              <selectAction>307</selectAction>
+              <tooltipModel>10</tooltipModel>
+            </button>
+            <button>
+              <id>308</id>
+              <imageModel>339</imageModel>
+              <selectAction>309</selectAction>
+              <tooltipModel>13</tooltipModel>
+            </button>
+            <button>
+              <id>310</id>
+              <imageModel>340</imageModel>
+              <selectAction>311</selectAction>
+              <tooltipModel>23</tooltipModel>
+            </button>
+        </toolbarComponents>
+        <components>
+          <list>
+            <id>312</id>
+            <model>313</model>
+          </list>
+          <list>
+            <id>316</id>
+            <model>317</model>
+            <properties>
+              <property id="6" value="317,*"/>
+            </properties>
+          </list>
+        </components>
+        <properties>
+          <property id="22" value="false"/>
+        </properties>
+      </toolbarHmiState>
+      <hmiState>
+        <textModel>10</textModel>
+        <id>320</id>
+        <components>
+          <list>
+            <id>321</id>
+            <model>322</model>
+            <action>323</action>
+          </list>
+        </components>
+      </hmiState>
+      <hmiState>
+        <textModel>7</textModel>
+        <id>330</id>
+        <components>
+          <gauge>
+            <id>331</id>
+            <model>332</model>
+            <action>333</action>
+            <textModel>7</textModel>
+          </gauge>
+        </components>
+      </hmiState>
+    </hmiStates>
+  </pluginApp>
+</pluginApps>
+

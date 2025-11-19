@@ -1,0 +1,31 @@
+<pluginApps>
+    <pluginApp applicationType="Settings" text="CarTelemetryService" applicationWeight="33468">
+        <actions>
+            <raAction id="8"/>
+            <raAction id="9"/>
+            <linkAction id="17" actionType="call" linkModel="1"/>
+            <linkAction id="18" actionType="navigate" linkModel="5"/>
+        </actions>
+        <models>
+            <raDataModel id="1" modelType="Phonenumber"/>
+            <raDataModel id="2"/>
+            <raDataModel id="3"/>
+            <raDataModel id="4"/>
+            <raDataModel id="5" modelType="Address"/>
+            <raDataModel id="6"/>
+        </models>
+        <entryButton id="14" action="8" selectAction="9" text="Telemetry">
+            <properties>
+                <property id="3" value="false"/>
+            </properties>
+        </entryButton>
+        <events>
+            <actionEvent id="13" action="17"/>
+            <focusEvent id="15" targetModel="2"/>
+            <multimediaInfoEvent id="10" textModel1="3" textModel2="4"/>
+            <actionEvent id="12" action="18"/>
+            <statusbarEvent id="11" textModel="6"/>
+        </events>
+        <hmiStates/>
+    </pluginApp>
+</pluginApps>

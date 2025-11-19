@@ -1,0 +1,1128 @@
+<pluginApps>
+    <pluginApp applicationType="OnlineServices" text="BMWOne" applicationWeight="33668">
+        <actions>
+            <combinedAction id="619">
+                <actions>
+                    <hmiAction id="879" targetModel="497"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="620" sync="true">
+                <actions>
+                    <raAction id="176"/>
+                    <hmiAction id="880" target="590"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="621" sync="true">
+                <actions>
+                    <raAction id="184"/>
+                    <hmiAction id="881" targetModel="499"/>
+                </actions>
+            </combinedAction>
+            <raAction id="556"/>
+            <combinedAction id="622" sync="true">
+                <actions>
+                    <raAction id="297"/>
+                    <hmiAction id="882" targetModel="503"/>
+                </actions>
+            </combinedAction>
+            <raAction id="557"/>
+            <combinedAction id="883">
+                <actions>
+                    <raAction id="5"/>
+                    <hmiAction id="884" target="604"/>
+                </actions>
+            </combinedAction>
+            <raAction id="4"/>
+            <combinedAction id="885">
+                <actions>
+                    <raAction id="17"/>
+                    <hmiAction id="886" target="588"/>
+                </actions>
+            </combinedAction>
+            <raAction id="16"/>
+            <combinedAction id="887">
+                <actions>
+                    <raAction id="22"/>
+                    <hmiAction id="888" target="588"/>
+                </actions>
+            </combinedAction>
+            <raAction id="21"/>
+            <combinedAction id="889">
+                <actions>
+                    <raAction id="30"/>
+                    <hmiAction id="890" target="588"/>
+                </actions>
+            </combinedAction>
+            <raAction id="29"/>
+            <raAction id="70"/>
+            <raAction id="69"/>
+            <raAction id="75"/>
+            <raAction id="74"/>
+            <combinedAction id="891">
+                <actions>
+                    <raAction id="80"/>
+                    <hmiAction id="892" target="585"/>
+                </actions>
+            </combinedAction>
+            <raAction id="79"/>
+            <combinedAction id="893" sync="true">
+                <actions>
+                    <raAction id="85"/>
+                    <hmiAction id="894" targetModel="498"/>
+                </actions>
+            </combinedAction>
+            <raAction id="84"/>
+            <combinedAction id="895" sync="true">
+                <actions>
+                    <raAction id="90"/>
+                    <hmiAction id="896" targetModel="498"/>
+                </actions>
+            </combinedAction>
+            <raAction id="89"/>
+            <combinedAction id="897">
+                <actions>
+                    <raAction id="95"/>
+                    <hmiAction id="898" target="593"/>
+                </actions>
+            </combinedAction>
+            <raAction id="94"/>
+            <raAction id="100"/>
+            <raAction id="99"/>
+            <raAction id="105"/>
+            <raAction id="104"/>
+            <combinedAction id="899">
+                <actions>
+                    <raAction id="110"/>
+                    <hmiAction id="900" target="603"/>
+                </actions>
+            </combinedAction>
+            <raAction id="109"/>
+            <raAction id="130"/>
+            <raAction id="129"/>
+            <raAction id="141"/>
+            <raAction id="140"/>
+            <raAction id="145"/>
+            <raAction id="144"/>
+            <combinedAction id="901">
+                <actions>
+                    <raAction id="149"/>
+                    <hmiAction id="902" target="593"/>
+                </actions>
+            </combinedAction>
+            <raAction id="148"/>
+            <combinedAction id="903">
+                <actions>
+                    <raAction id="153"/>
+                    <hmiAction id="904" target="593"/>
+                </actions>
+            </combinedAction>
+            <raAction id="152"/>
+            <combinedAction id="905">
+                <actions>
+                    <raAction id="157"/>
+                    <hmiAction id="906" target="593"/>
+                </actions>
+            </combinedAction>
+            <raAction id="156"/>
+            <combinedAction id="907">
+                <actions>
+                    <raAction id="165"/>
+                    <hmiAction id="908" target="592"/>
+                </actions>
+            </combinedAction>
+            <raAction id="164"/>
+            <combinedAction id="909">
+                <actions>
+                    <raAction id="170"/>
+                    <hmiAction id="910" target="591"/>
+                </actions>
+            </combinedAction>
+            <raAction id="169"/>
+            <raAction id="175"/>
+            <raAction id="174"/>
+            <raAction id="180"/>
+            <raAction id="179"/>
+            <raAction id="183"/>
+            <combinedAction id="911">
+                <actions>
+                    <raAction id="217"/>
+                    <hmiAction id="912" target="601"/>
+                </actions>
+            </combinedAction>
+            <raAction id="216"/>
+            <raAction id="221"/>
+            <raAction id="220"/>
+            <raAction id="225"/>
+            <raAction id="224"/>
+            <raAction id="229"/>
+            <raAction id="228"/>
+            <raAction id="233"/>
+            <raAction id="232"/>
+            <raAction id="237"/>
+            <raAction id="236"/>
+            <raAction id="241"/>
+            <raAction id="240"/>
+            <raAction id="245"/>
+            <raAction id="244"/>
+            <combinedAction id="913">
+                <actions>
+                    <raAction id="249"/>
+                    <hmiAction id="914" target="600"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="915">
+                <actions>
+                    <raAction id="253"/>
+                    <hmiAction id="916" target="600"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="917">
+                <actions>
+                    <raAction id="257"/>
+                    <hmiAction id="918" target="600"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="919">
+                <actions>
+                    <raAction id="261"/>
+                    <hmiAction id="920" target="600"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="921">
+                <actions>
+                    <raAction id="265"/>
+                    <hmiAction id="922" target="600"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="923">
+                <actions>
+                    <raAction id="269"/>
+                    <hmiAction id="924" target="600"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="925">
+                <actions>
+                    <raAction id="273"/>
+                    <hmiAction id="926" target="600"/>
+                </actions>
+            </combinedAction>
+            <combinedAction id="927">
+                <actions>
+                    <raAction id="277"/>
+                    <hmiAction id="928" target="600"/>
+                </actions>
+            </combinedAction>
+            <raAction id="283"/>
+            <raAction id="282"/>
+            <raAction id="291"/>
+            <raAction id="290"/>
+            <raAction id="296"/>
+            <raAction id="295"/>
+            <raAction id="301"/>
+            <raAction id="300"/>
+            <raAction id="315"/>
+            <raAction id="314"/>
+            <raAction id="320"/>
+            <raAction id="319"/>
+            <raAction id="324"/>
+            <raAction id="323"/>
+            <linkAction id="933" actionType="call" linkModel="540"/>
+            <linkAction id="934" actionType="navigate" linkModel="544"/>
+        </actions>
+        <models>
+            <raIntModel id="497" value="0"/>
+            <raListModel id="36"/>
+            <raIntModel id="498" value="0"/>
+            <raDataModel id="138"/>
+            <raImageModel id="139"/>
+            <raListModel id="173"/>
+            <raIntModel id="499" value="0"/>
+            <raListModel id="182"/>
+            <raIntModel id="500"/>
+            <raDataModel id="501"/>
+            <raDataModel id="502"/>
+            <imageIdModel id="564"/>
+            <raImageModel id="196"/>
+            <imageIdModel id="198"/>
+            <raImageModel id="204"/>
+            <imageIdModel id="206"/>
+            <raImageModel id="212"/>
+            <formatDataModel id="214" formatStringModel="929">
+                <models/>
+            </formatDataModel>
+            <textIdModel id="929" textId="760"/>
+            <raDataModel id="248"/>
+            <raDataModel id="252"/>
+            <raDataModel id="256"/>
+            <raDataModel id="260"/>
+            <raDataModel id="264"/>
+            <raDataModel id="268"/>
+            <raDataModel id="272"/>
+            <raDataModel id="276"/>
+            <imageIdModel id="565"/>
+            <raListModel id="294"/>
+            <raIntModel id="503" value="0"/>
+            <raDataModel id="317"/>
+            <raListModel id="504" modelType="CustomMapping">
+                <columns>
+                    <column key="Fuel_Graphic" targetType="Asset"/>
+                    <column key="Info1_Text" targetType="String" defaultValue="675"/>
+                    <column key="Info2_Text" targetType="String" defaultValue="675"/>
+                </columns>
+            </raListModel>
+            <formatDataModel id="338" formatStringModel="930">
+                <models>
+                    <textIdModel id="505" textId="733"/>
+                </models>
+            </formatDataModel>
+            <textIdModel id="930" textId="772"/>
+            <raDataModel id="506"/>
+            <formatDataModel id="347" formatStringModel="931">
+                <models>
+                    <raDataModel id="507"/>
+                </models>
+            </formatDataModel>
+            <textIdModel id="931" textId="695"/>
+            <formatDataModel id="349" formatStringModel="932">
+                <models>
+                    <raDataModel id="508"/>
+                </models>
+            </formatDataModel>
+            <textIdModel id="932" textId="639"/>
+            <raDataModel id="509"/>
+            <textIdModel id="510"/>
+            <textIdModel id="463"/>
+            <textIdModel id="474"/>
+            <imageIdModel id="511"/>
+            <textIdModel id="512"/>
+            <formatDataModel id="484" formatStringModel="512">
+                <models>
+                    <raDataModel id="513"/>
+                </models>
+            </formatDataModel>
+            <textIdModel id="514"/>
+            <formatDataModel id="492" formatStringModel="514">
+                <models>
+                    <raDataModel id="515"/>
+                </models>
+            </formatDataModel>
+            <textIdModel id="516" textId="754"/>
+            <textIdModel id="2" textId="652"/>
+            <imageIdModel id="3" imageId="860"/>
+            <textIdModel id="12" textId="684" modelType="Info"/>
+            <raListModel id="15"/>
+            <raListModel id="20"/>
+            <textIdModel id="25" textId="776" modelType="Info"/>
+            <raListModel id="28"/>
+            <textIdModel id="32" textId="677" modelType="Info"/>
+            <textIdModel id="517" textId="661"/>
+            <raDataModel id="52" modelType="Info"/>
+            <textIdModel id="54" textId="691" modelType="Info"/>
+            <imageIdModel id="56" imageId="873"/>
+            <raDataModel id="58"/>
+            <imageIdModel id="60" imageId="870"/>
+            <raDataModel id="62"/>
+            <imageIdModel id="64" imageId="874"/>
+            <raDataModel id="66"/>
+            <raListModel id="68" modelType="Richtext"/>
+            <textIdModel id="72" textId="758"/>
+            <imageIdModel id="73" imageId="871"/>
+            <textIdModel id="77" textId="725"/>
+            <imageIdModel id="78" imageId="875"/>
+            <textIdModel id="82" textId="771"/>
+            <imageIdModel id="83" imageId="870"/>
+            <textIdModel id="87" textId="633"/>
+            <imageIdModel id="88" imageId="870"/>
+            <textIdModel id="92" textId="654"/>
+            <imageIdModel id="93" imageId="872"/>
+            <textIdModel id="97" textId="755"/>
+            <imageIdModel id="98" imageId="865"/>
+            <textIdModel id="102" textId="668"/>
+            <imageIdModel id="103" imageId="859"/>
+            <textIdModel id="107" textId="715"/>
+            <imageIdModel id="108" imageId="832"/>
+            <textIdModel id="518" textId="648"/>
+            <textIdModel id="112" textId="703" modelType="Info"/>
+            <textIdModel id="519" textId="673"/>
+            <raDataModel id="114"/>
+            <raDataModel id="116"/>
+            <raDataModel id="118"/>
+            <raDataModel id="120"/>
+            <raDataModel id="122"/>
+            <raDataModel id="124" modelType="Info"/>
+            <textIdModel id="126" textId="751"/>
+            <imageIdModel id="520" imageId="878"/>
+            <textIdModel id="128" textId="742"/>
+            <textIdModel id="521" textId="655"/>
+            <textIdModel id="132" textId="685"/>
+            <textIdModel id="134" textId="649"/>
+            <textIdModel id="136" textId="693"/>
+            <textIdModel id="143" textId="742"/>
+            <textIdModel id="522" textId="634"/>
+            <raDataModel id="147"/>
+            <raDataModel id="151"/>
+            <raDataModel id="155"/>
+            <textIdModel id="523" textId="641"/>
+            <raDataModel id="159" modelType="Info"/>
+            <raDataModel id="161" modelType="Info"/>
+            <raDataModel id="163"/>
+            <textIdModel id="168" textId="712"/>
+            <raDataModel id="524"/>
+            <textIdModel id="525" textId="648"/>
+            <raDataModel id="172"/>
+            <raDataModel id="526"/>
+            <textIdModel id="527" textId="648"/>
+            <raDataModel id="178"/>
+            <raDataModel id="528"/>
+            <textIdModel id="529" textId="729"/>
+            <raDataModel id="186" modelType="Info"/>
+            <textIdModel id="530" textId="646"/>
+            <textIdModel id="188" textId="647" modelType="Info"/>
+            <textIdModel id="190" textId="706" modelType="Info"/>
+            <textIdModel id="192" textId="647" modelType="Info"/>
+            <textIdModel id="194" textId="706" modelType="Info"/>
+            <textIdModel id="531" textId="646"/>
+            <textIdModel id="200" textId="647" modelType="Richtext"/>
+            <textIdModel id="202" textId="706" modelType="Richtext"/>
+            <textIdModel id="532" textId="756"/>
+            <textIdModel id="208" textId="679" modelType="Info"/>
+            <imageIdModel id="210" imageId="866"/>
+            <imageIdModel id="215" imageId="864"/>
+            <raDataModel id="219"/>
+            <raDataModel id="223"/>
+            <raDataModel id="227"/>
+            <raDataModel id="231"/>
+            <raDataModel id="235"/>
+            <raDataModel id="239"/>
+            <raDataModel id="243"/>
+            <textIdModel id="533" textId="731"/>
+            <raBoolModel id="247"/>
+            <raBoolModel id="251"/>
+            <raBoolModel id="255"/>
+            <raBoolModel id="259"/>
+            <raBoolModel id="263"/>
+            <raBoolModel id="267"/>
+            <raBoolModel id="271"/>
+            <raBoolModel id="275"/>
+            <textIdModel id="534" textId="756"/>
+            <textIdModel id="279" textId="692" modelType="Info"/>
+            <textIdModel id="281" textId="742"/>
+            <textIdModel id="535" textId="663"/>
+            <textIdModel id="285" textId="682" modelType="Info"/>
+            <textIdModel id="287" textId="632" modelType="Info"/>
+            <raListModel id="289"/>
+            <raDataModel id="536"/>
+            <raDataModel id="537"/>
+            <raDataModel id="293"/>
+            <raDataModel id="538"/>
+            <raDataModel id="299"/>
+            <textIdModel id="539" textId="652"/>
+            <raDataModel id="308" modelType="Info"/>
+            <raDataModel id="310" modelType="Info"/>
+            <textIdModel id="312" textId="732"/>
+            <imageIdModel id="313" imageId="847"/>
+            <imageIdModel id="318" imageId="863"/>
+            <raListModel id="322"/>
+            <imageIdModel id="326" imageId="851"/>
+            <raDataModel id="540" modelType="Phonenumber"/>
+            <raDataModel id="541"/>
+            <raDataModel id="542"/>
+            <raDataModel id="543"/>
+            <raDataModel id="544" modelType="Address"/>
+            <raDataModel id="545"/>
+            <textIdModel id="552" textId="733"/>
+            <imageIdModel id="553" imageId="867"/>
+        </models>
+        <entryButton id="623" action="619" selectAction="557" model="552" imageModel="553"/>
+        <events>
+            <notificationIconEvent id="626" imageIdModel="564"/>
+            <notificationIconEvent id="627" imageIdModel="565"/>
+            <popupEvent id="581" target="587" priority="1"/>
+            <popupEvent id="582" target="608" priority="1"/>
+            <popupEvent id="583" target="617" priority="1"/>
+            <actionEvent id="563" action="933"/>
+            <focusEvent id="559" targetModel="541"/>
+            <multimediaInfoEvent id="560" textModel1="542" textModel2="543"/>
+            <actionEvent id="562" action="934"/>
+            <statusbarEvent id="561" textModel="545"/>
+        </events>
+        <hmiStates>
+            <hmiState id="585" textModel="516">
+                <properties>
+                    <property id="24" value="3"/>
+                </properties>
+                <components>
+                    <button id="1" action="883" selectAction="4" model="2" imageModel="3"/>
+                    <label id="11" model="12">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <separator id="13">
+                        <properties>
+                            <property id="3" value="true"/>
+                        </properties>
+                    </separator>
+                    <list id="14" model="15" action="885" selectAction="16">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="17" value="0,4,3"/>
+                            <property id="6" value="*,10,200">
+                                <condition conditionType="LAYOUTBAG">
+                                    <assignments>
+                                        <assignment conditionValue="0" value="*,10,200"/>
+                                        <assignment conditionValue="1" value="*,10,200"/>
+                                        <assignment conditionValue="2" value="*,10,200"/>
+                                        <assignment conditionValue="3" value="*,10,120"/>
+                                    </assignments>
+                                </condition>
+                            </property>
+                        </properties>
+                    </list>
+                    <separator id="18">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </separator>
+                    <list id="19" model="20" action="887" selectAction="21">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="17" value="0,4,3"/>
+                            <property id="6" value="*,10,200">
+                                <condition conditionType="LAYOUTBAG">
+                                    <assignments>
+                                        <assignment conditionValue="0" value="*,10,200"/>
+                                        <assignment conditionValue="1" value="*,10,200"/>
+                                        <assignment conditionValue="2" value="*,10,200"/>
+                                        <assignment conditionValue="3" value="*,10,120"/>
+                                    </assignments>
+                                </condition>
+                            </property>
+                        </properties>
+                    </list>
+                    <separator id="23">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </separator>
+                    <label id="24" model="25">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <separator id="26">
+                        <properties>
+                            <property id="3" value="true"/>
+                        </properties>
+                    </separator>
+                    <list id="27" model="28" action="889" selectAction="29">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="17" value="0,4,3"/>
+                            <property id="6" value="*,10,10"/>
+                        </properties>
+                    </list>
+                    <label id="31" model="32">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                </components>
+            </hmiState>
+            <toolbarHmiState id="588" textModel="517">
+                <properties>
+                    <property id="24" value="3"/>
+                    <property id="26" value="1,0,7"/>
+                </properties>
+                <toolbarComponents>
+                    <button id="71" action="75" selectAction="74" tooltipModel="72" imageModel="73">
+                        <properties>
+                            <property id="2" value="true"/>
+                        </properties>
+                    </button>
+                    <button id="76" action="891" selectAction="79" tooltipModel="77" imageModel="78">
+                        <properties>
+                            <property id="2" value="true"/>
+                        </properties>
+                    </button>
+                    <button id="81" action="893" selectAction="84" tooltipModel="82" imageModel="83"/>
+                    <button id="86" action="895" selectAction="89" tooltipModel="87" imageModel="88"/>
+                    <button id="91" action="897" selectAction="94" tooltipModel="92" imageModel="93"/>
+                    <button id="96" action="100" selectAction="99" tooltipModel="97" imageModel="98"/>
+                    <button id="101" action="105" selectAction="104" tooltipModel="102" imageModel="103"/>
+                    <button id="106" action="899" selectAction="109" tooltipModel="107" imageModel="108"/>
+                </toolbarComponents>
+                <components>
+                    <label id="51" model="52">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="10"/>
+                            <property id="10" value="50"/>
+                        </properties>
+                    </label>
+                    <label id="53" model="54">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                        </properties>
+                    </label>
+                    <image id="55" model="56">
+                        <properties>
+                            <property id="17" value="3"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="115"/>
+                            <property id="2" value="false"/>
+                            <property id="10" value="51"/>
+                            <property id="9" value="65"/>
+                        </properties>
+                    </image>
+                    <label id="57" model="58">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="17" value="3"/>
+                            <property id="20" value="70"/>
+                            <property id="21" value="115"/>
+                            <property id="37" value="1"/>
+                        </properties>
+                    </label>
+                    <image id="59" model="60">
+                        <properties>
+                            <property id="17" value="3"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="165"/>
+                            <property id="2" value="false"/>
+                            <property id="10" value="51"/>
+                            <property id="9" value="65"/>
+                        </properties>
+                    </image>
+                    <label id="61" model="62">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="17" value="3"/>
+                            <property id="20" value="70"/>
+                            <property id="21" value="165"/>
+                            <property id="37" value="1"/>
+                        </properties>
+                    </label>
+                    <image id="63" model="64">
+                        <properties>
+                            <property id="17" value="3"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="215"/>
+                            <property id="2" value="false"/>
+                            <property id="10" value="51"/>
+                            <property id="9" value="65"/>
+                        </properties>
+                    </image>
+                    <label id="65" model="66">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="17" value="3"/>
+                            <property id="20" value="70"/>
+                            <property id="21" value="215"/>
+                            <property id="37" value="1"/>
+                        </properties>
+                    </label>
+                    <list id="67" model="68" action="70" selectAction="69">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="285"/>
+                        </properties>
+                    </list>
+                </components>
+            </toolbarHmiState>
+            <hmiState id="589" textModel="518">
+                <components>
+                    <label id="111" model="112">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                </components>
+            </hmiState>
+            <hmiState id="590" textModel="519">
+                <components>
+                    <label id="113" model="114">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="11"/>
+                            <property id="37" value="0"/>
+                        </properties>
+                    </label>
+                    <label id="115" model="116">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="51"/>
+                            <property id="37" value="0"/>
+                        </properties>
+                    </label>
+                    <label id="117" model="118">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="11"/>
+                            <property id="37" value="0"/>
+                        </properties>
+                    </label>
+                    <label id="119" model="120">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="11"/>
+                            <property id="37" value="0"/>
+                        </properties>
+                    </label>
+                    <label id="121" model="122">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="51"/>
+                            <property id="37" value="0"/>
+                        </properties>
+                    </label>
+                    <label id="123" model="124">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="125" model="126" imageModel="520">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="260"/>
+                            <property id="37" value="0"/>
+                            <property id="10" value="50"/>
+                        </properties>
+                    </label>
+                    <button id="127" action="130" selectAction="129" model="128">
+                        <properties>
+                            <property id="1" value="true"/>
+                            <property id="2" value="true"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="320"/>
+                        </properties>
+                    </button>
+                </components>
+            </hmiState>
+            <hmiState id="591" textModel="521">
+                <components>
+                    <label id="131" model="132">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="11"/>
+                            <property id="37" value="0"/>
+                        </properties>
+                    </label>
+                    <label id="133" model="134">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="11"/>
+                            <property id="37" value="0"/>
+                        </properties>
+                    </label>
+                    <label id="135" model="136">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="11"/>
+                            <property id="37" value="0"/>
+                        </properties>
+                    </label>
+                    <button id="137" action="141" selectAction="140" model="138" imageModel="139">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                            <property id="17" value="6"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="220"/>
+                        </properties>
+                    </button>
+                    <button id="142" action="145" selectAction="144" model="143">
+                        <properties>
+                            <property id="1" value="true"/>
+                            <property id="2" value="true"/>
+                            <property id="20" value="0"/>
+                            <property id="21" value="300"/>
+                        </properties>
+                    </button>
+                </components>
+            </hmiState>
+            <hmiState id="592" textModel="522">
+                <components>
+                    <button id="146" action="901" selectAction="148" model="147">
+                        <properties>
+                            <property id="2" value="true"/>
+                            <property id="17" value="0"/>
+                        </properties>
+                    </button>
+                    <button id="150" action="903" selectAction="152" model="151">
+                        <properties>
+                            <property id="2" value="true"/>
+                            <property id="17" value="0"/>
+                        </properties>
+                    </button>
+                    <button id="154" action="905" selectAction="156" model="155">
+                        <properties>
+                            <property id="2" value="true"/>
+                            <property id="17" value="0"/>
+                        </properties>
+                    </button>
+                </components>
+            </hmiState>
+            <hmiState id="593" textModel="523">
+                <components>
+                    <label id="158" model="159">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="160" model="161">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <button id="162" action="907" selectAction="164" model="163">
+                        <properties>
+                            <property id="37" value="0"/>
+                        </properties>
+                    </button>
+                    <label id="166" text=" ">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <button id="167" action="909" selectAction="169" model="168"/>
+                </components>
+            </hmiState>
+            <hmiState id="594" textModel="524">
+                <components>
+                    <input id="171" resultModel="172" suggestModel="173" resultAction="174" suggestAction="620" textModel="525" action="175"/>
+                </components>
+            </hmiState>
+            <hmiState id="595" textModel="526">
+                <components>
+                    <input id="177" resultModel="178" resultAction="179" suggestState="596" textModel="527" action="180"/>
+                </components>
+            </hmiState>
+            <hmiState id="596" textModel="528">
+                <components>
+                    <list id="181" model="182" action="621" selectAction="183"/>
+                </components>
+            </hmiState>
+            <hmiState id="597" textModel="529">
+                <components>
+                    <label id="185" model="186">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="17" value="0"/>
+                        </properties>
+                    </label>
+                </components>
+            </hmiState>
+            <hmiState id="598" textModel="530">
+                <properties>
+                    <property id="24" value="3"/>
+                </properties>
+                <components>
+                    <label id="187" model="188">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="9" value="500"/>
+                        </properties>
+                    </label>
+                    <label id="189" model="190">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="36" value="true"/>
+                            <property id="9" value="500"/>
+                        </properties>
+                    </label>
+                    <label id="191" model="192">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="193" model="194">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="36" value="true"/>
+                        </properties>
+                    </label>
+                    <image id="195" model="196">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="10" value="100"/>
+                            <property id="9" value="600"/>
+                        </properties>
+                    </image>
+                    <image id="197" model="198">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="10" value="480"/>
+                            <property id="9" value="480"/>
+                        </properties>
+                    </image>
+                </components>
+            </hmiState>
+            <hmiState id="599" textModel="531">
+                <components>
+                    <label id="199" model="200">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                            <property id="20" value="18"/>
+                            <property id="21" value="20"/>
+                            <property id="37" value="4"/>
+                            <property id="9" value="700"/>
+                            <property id="10" value="150"/>
+                        </properties>
+                    </label>
+                    <label id="201" model="202">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                            <property id="20" value="18"/>
+                            <property id="21" value="140"/>
+                            <property id="36" value="true"/>
+                            <property id="37" value="4"/>
+                            <property id="9" value="700"/>
+                            <property id="10" value="180"/>
+                        </properties>
+                    </label>
+                    <image id="203" model="204">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="10" value="50"/>
+                            <property id="9" value="500"/>
+                        </properties>
+                    </image>
+                    <image id="205" model="206">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="10" value="420"/>
+                            <property id="9" value="420"/>
+                        </properties>
+                    </image>
+                </components>
+            </hmiState>
+            <toolbarHmiState id="600" textModel="532">
+                <properties>
+                    <property id="26" value="1,0,7"/>
+                </properties>
+                <toolbarComponents>
+                    <button id="213" action="911" selectAction="216" tooltipModel="214" imageModel="215"/>
+                    <button id="218" action="221" selectAction="220" tooltipModel="219">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="222" action="225" selectAction="224" tooltipModel="223">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="226" action="229" selectAction="228" tooltipModel="227">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="230" action="233" selectAction="232" tooltipModel="231">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="234" action="237" selectAction="236" tooltipModel="235">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="238" action="241" selectAction="240" tooltipModel="239">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="242" action="245" selectAction="244" tooltipModel="243">
+                        <properties>
+                            <property id="1" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </button>
+                </toolbarComponents>
+                <components>
+                    <label id="207" model="208">
+                        <properties>
+                            <property id="3" value="true"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <image id="209" model="210">
+                        <properties>
+                            <property id="20" value="-100"/>
+                            <property id="21" value="0"/>
+                            <property id="2" value="false"/>
+                            <property id="10" value="420"/>
+                            <property id="9" value="1102"/>
+                        </properties>
+                    </image>
+                    <image id="211" model="212">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="20" value="-125"/>
+                            <property id="21" value="-10"/>
+                            <property id="2" value="false"/>
+                            <property id="10" value="415"/>
+                            <property id="9" value="635"/>
+                        </properties>
+                    </image>
+                </components>
+            </toolbarHmiState>
+            <hmiState id="601" textModel="533">
+                <components>
+                    <radiobutton id="246" action="913" model="247" textModel="248"/>
+                    <radiobutton id="250" action="915" model="251" textModel="252"/>
+                    <radiobutton id="254" action="917" model="255" textModel="256"/>
+                    <radiobutton id="258" action="919" model="259" textModel="260"/>
+                    <radiobutton id="262" action="921" model="263" textModel="264"/>
+                    <radiobutton id="266" action="923" model="267" textModel="268"/>
+                    <radiobutton id="270" action="925" model="271" textModel="272"/>
+                    <radiobutton id="274" action="927" model="275" textModel="276"/>
+                </components>
+            </hmiState>
+            <hmiState id="602" textModel="534">
+                <components>
+                    <label id="278" model="279">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <button id="280" action="283" selectAction="282" model="281"/>
+                </components>
+            </hmiState>
+            <hmiState id="603" textModel="535">
+                <properties>
+                    <property id="24" value="3"/>
+                </properties>
+                <components>
+                    <label id="284" model="285">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="286" model="287">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <list id="288" model="289" action="291" selectAction="290">
+                        <properties>
+                            <property id="3" value="true"/>
+                        </properties>
+                    </list>
+                </components>
+            </hmiState>
+            <hmiState id="604" textModel="536">
+                <components>
+                    <input id="292" resultModel="293" suggestModel="294" resultAction="295" suggestAction="622" textModel="537" action="296"/>
+                </components>
+            </hmiState>
+            <hmiState id="607" textModel="539">
+                <components>
+                    <label id="307" model="308">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="309" model="310">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </label>
+                    <separator id="935"/>
+                    <button id="311" action="315" selectAction="314" model="312" imageModel="313"/>
+                    <button id="316" action="320" selectAction="319" model="317" imageModel="318">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </button>
+                    <list id="321" model="322" action="324" selectAction="323">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="6" value="*,80"/>
+                        </properties>
+                    </list>
+                    <image id="325" model="326">
+                        <properties>
+                            <property id="17" value="8"/>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </image>
+                </components>
+            </hmiState>
+        </hmiStates>
+        <hmiViews/>
+    </pluginApp>
+    <pluginApp applicationType="Navigation" text="BMWOneLink0" applicationWeight="33668">
+        <actions>
+            <raAction id="558"/>
+            <linkAction id="937" actionType="call" linkModel="546"/>
+            <linkAction id="941" actionType="navigate" linkModel="550"/>
+        </actions>
+        <models>
+            <raDataModel id="546" modelType="Phonenumber"/>
+            <raDataModel id="547"/>
+            <raDataModel id="548"/>
+            <raDataModel id="549"/>
+            <raDataModel id="550" modelType="Address"/>
+            <raDataModel id="551"/>
+            <textIdModel id="554" textId="733"/>
+            <imageIdModel id="555" imageId="867"/>
+        </models>
+        <entryButton id="624" action="619" selectAction="558" model="554" imageModel="555"/>
+        <events>
+            <actionEvent id="936" action="937"/>
+            <focusEvent id="938" targetModel="547"/>
+            <multimediaInfoEvent id="939" textModel1="548" textModel2="549"/>
+            <actionEvent id="940" action="941"/>
+            <statusbarEvent id="942" textModel="551"/>
+        </events>
+        <hmiStates/>
+    </pluginApp>
+</pluginApps>

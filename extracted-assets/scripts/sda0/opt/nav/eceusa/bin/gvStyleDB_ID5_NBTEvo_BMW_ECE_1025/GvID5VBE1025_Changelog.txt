@@ -1,0 +1,1632 @@
+#ifndef _MV_CHANGELOG_
+#define _MV_CHANGELOG_
+
+#define DB_VER_CONTENT_MAJ      1
+#define DB_VER_CONTENT_MIN    285
+#define DB_VER_STRUCTURE_MAJ    9
+#define DB_VER_STRUCTURE_MIN   23
+
+/***********************************************************************
+<C_1_285_S_9_23>  IMaliuga 27/09/2016
+
+Brief:
+- Revert Fonts adaptions Version 3.05 to Version 3.000 
+(ticket 1939473)
+------------------------------------------------------------------------
+<C_1_284_S_9_23>  IMaliuga 16/09/2016
+
+Brief:
+- 22_0003_HUDL7.svg updated
+(ticket 1931388)
+------------------------------------------------------------------------
+<C_1_283_S_9_23>  IMaliuga 15/09/2016
+
+Brief:
+- GV Mini Labels (38_1508, 38_1509, 38_1608, 38_1609) updated
+(ticket 1931281)
+------------------------------------------------------------------------
+<C_1_282_S_9_23>  IMaliuga 30/08/2016
+
+Brief:
+- GV fonts have been changed for BMWTABDCN_3_05.ttf, BMWTARG_3_05.ttf
+- empty_folders.txt file added in depot folders (workaround to have all required folders in depot)
+(ticket 1921380)
+------------------------------------------------------------------------
+<C_1_281_S_9_23>  OYaremchuk 01/08/2016
+
+Brief:
+- Replace 22_0001_COMBIL67_HUDL6_HUDFPK.svg file with new one.
+(ticket 1905716)
+------------------------------------------------------------------------
+<C_1_280_S_9_23>  IMaliuga 22/07/2016
+
+Brief:
+- Display_representation from GUIDANCE changed to HUD for L7HUDFPK_Day/Night in manifest file.
+(ticket 1903200)
+------------------------------------------------------------------------
+<C_1_279_S_9_23>  IMaliuga 22/07/2016
+
+Brief:
+- BigSigns bitmaps updated.
+(ticket 1903669)
+------------------------------------------------------------------------
+<C_1_278_S_9_23>  IMaliuga 21/07/2016
+
+Brief:
+From building process the following folders with bitmaps were excluded:
+bigsign, direction, exit, poi, roadsigns, tmc
+(ticket 1892867)
+------------------------------------------------------------------------
+<C_1_277_S_9_23>  IMaliuga 29/06/2016
+
+Brief:
+- For Lane Recommendation set flag "show combined arrows"
+(ticket 1889427)
+------------------------------------------------------------------------
+<C_1_276_S_9_23>  IMaliuga 27/06/2016
+
+Brief:
+- for HUD 35UP JV (8301) y-pos moved down for 11 pixels.
+(ticket 1888834)
+------------------------------------------------------------------------
+<C_1_275_S_9_23>  IMaliuga 22/06/2016
+
+Brief:
+- for gv_USA GvID5VBE1025_Changelog is used (GvID5VBU1025_Changelog.txt was removed);
+- useless bitmaps were removed:
+
+32_0031_Destination_Reached_Flag_BMW_d1_c.png
+32_0501_Destination_Flag_BMW_d1_c.png
+32_0511_Destination_Flag_HUD_BMW_d1_c.png
+32_0701_RDA_BMW_d1_c.png
+32_0801_TDA_BMW_d1_c.png
+33_0001_CCP_000_BMW_d1_c.png
+33_0003_CCP_090_BMW_d1_c.png
+33_0004_CCP_112_BMW_d1_c.png
+33_0005_CCP_135_BMW_d1_c.png
+33_0006_CCP_157_BMW_d1_c.png
+33_0007_CCP_180_BMW_d1_c.png
+33_0008_CCP_202_BMW_d1_c.png 
+33_0009_CCP_225_BMW_d1_c.png
+33_0010_CCP_247_BMW_d1_c.png
+33_0011_CCP_270_BMW_d1_c.png
+33_0012_CCP_315_BMW_d1_c.png
+38_0040_MA_SQUARERIGHT_d1_c.png
+38_0041_MA_SQUARELEFT_d1_c.png
+39_0040_MA_SQUARERIGHT_d1_c.png
+39_0041_MA_SQUARELEFT_d1_c.png
+
+(BMWNAV-6963)
+------------------------------------------------------------------------
+<C_1_274_S_9_23>  IMaliuga 24/05/2016
+
+Brief:
+- Day/Night mode flag unset for views 11201, 11204, 11401, 11402
+   (ticket 1865066)
+
+------------------------------------------------------------------------
+<C_1_273_S_9_23>  IMaliuga 05/05/2016
+
+Brief:
+- y-offset for RoadIcons in TurnToStreet changed for L7HUDRGB
+   (ticket 1859791)
+
+------------------------------------------------------------------------
+<C_1_272_S_9_23>  OYaremchuk 29/04/2016
+
+Brief:
+- 22_0003_HUDL7.svg file was changed
+   (ticket 1857603)
+
+------------------------------------------------------------------------
+<C_1_271_S_9_23>  IMaliuga 22/04/2016
+
+Brief:
+- L7HUDFPK Elements and Views were moved to Standard_Day StyleSet
+- L7HUDFPK and L6FPK links were added to both StyleSets
+  (elvis 1838969)   
+
+------------------------------------------------------------------------
+<C_1_270_S_9_23>  IMaliuga 14/04/2016
+
+Brief:
+- Bounding box for HG views 4402, 5402 (HIGH+MID COMBI) was changed
+  (elvis 1848032)   
+
+------------------------------------------------------------------------
+<C_1_269_S_9_23>  IMaliuga 08/04/2016
+
+Brief:
+- y-2D-Point position for usage marker has been changed
+  (elvis 1846104)   
+
+------------------------------------------------------------------------
+<C_1_268_S_9_23>  IMaliuga 06/04/2016
+
+Brief:
+- BigSign area in JV views have been increased up to 161 pixel
+  (elvis 1836080)   
+
+------------------------------------------------------------------------
+<C_1_267_S_9_23>  IMaliuga 21/03/2016
+
+Brief:
+- LR bitmaps have been changed
+- min_lane_width value is equal to 42 pixel - the same as for max.
+  (elvis 1834752)   
+
+------------------------------------------------------------------------
+<C_1_266_S_9_23>  IMaliuga 16/03/2016
+
+Brief:
+- height size for 311 and 412 views has been changed
+- 462, 472 PAD views settings have been changed.
+  (elvis 1814927)   
+
+------------------------------------------------------------------------
+<C_1_265_S_9_23>  IMaliuga 04/03/2016
+
+Brief:
+- links for 11xxx views have been added to St_Day/Night StyleSets
+- links for 2xxx views have been added to L7HUDFPK_Day/Night StyleSets
+  (elvis 1821156)
+   
+------------------------------------------------------------------------
+<C_1_264_S_9_23>  IMaliuga 19/02/2016
+
+Brief:
+- L7HUDFPK settings have been removed from StandardDay/Night StyleSets
+  (elvis 1813991)
+  
+------------------------------------------------------------------------
+<C_1_263_S_9_23>  IMaliuga 18/02/2016
+
+Brief:
+- TurnToStreet flags were changed for 6402 and 7402 views
+  (elvis 1816111)
+  
+------------------------------------------------------------------------
+<C_1_262_S_9_23>  IMaliuga 03/02/2016
+
+Brief:
+- for usage marker offset and 2D x position value has been changed in Lane Recommendations
+  (elvis 1799087)
+  
+------------------------------------------------------------------------
+<C_1_261_S_9_23>  IMaliuga 23/01/2016
+
+Brief:
+ - L7HUDFPK: for elements in RDA and LG views(11201,11202,11204,11401) 
+ y-position has been moved down correspondingly: 
+ the MA for 4 pixel, the RDA for 3 pixel, the LG for 3 pixel.
+	  (elvis 1796690)
+ 
+------------------------------------------------------------------------
+<C_1_260_S_9_23>  IMaliuga 23/01/2016
+
+Brief:
+ - HUD RIC35UP: Route arrow bounding box width value has been decreased for 30pixels in HG view.
+	  (elvis 1800029)
+ 
+------------------------------------------------------------------------
+<C_1_259_S_9_23>  IMaliuga 16/01/2016
+
+Brief:
+ - L7HUDFPK: Merged entry-Nav and NBT-Evo svg (22_0003_HUDL7.svg)
+ - L7HUDFPK: L7HUDRGB_AddOn.xps settings updated
+	  (elvis 1782085)
+ 
+------------------------------------------------------------------------
+<C_1_258_S_9_23>  IMaliuga 16/01/2016
+
+Brief:
+ - L7HUDFPK: For all TurnToStreet elements fitting option has been set to truncate
+	  (elvis 1794042)
+ 
+------------------------------------------------------------------------
+<C_1_257_S_9_23>  IMaliuga 16/01/2016
+
+Brief:
+ - L7HUDFPK: Suppress unchained flag has been established for 11201 view.
+	  (elvis 1789644)
+ 
+------------------------------------------------------------------------
+<C_1_256_S_9_23>  IMaliuga 16/01/2016
+
+Brief:
+ - L6CFPK: HG Bounding box size has been decreased.
+	  (elvis 1791085)
+ 
+------------------------------------------------------------------------
+<C_1_255_S_9_23>  IMaliuga 15/01/2016
+
+Brief:
+ - Thai range has been added in fonts Jamfile
+	  (elvis 1787429)
+ 
+------------------------------------------------------------------------
+<C_1_254_S_9_23>  IMaliuga 29/12/2015
+
+Brief:
+ - gv style DB settings were updated in accordance with the editor new settings
+	  (Jira BMWNAV-6626)
+ 
+------------------------------------------------------------------------
+<C_1_253_S_9_23>  IMaliuga 03/12/2015
+
+Brief:
+ - Bounding box upper bound has been changed for 76 pxls (HG_CID_LD view 412)
+	  (elvis 1771405)
+ 
+------------------------------------------------------------------------
+<C_1_252_S_9_23>  IMaliuga 03/12/2015
+
+Brief:
+ - L7HUDFPK: TurnToStreet font size has been changed for 22pxls
+             TurnToStreet road icon y-offset has been changed for 21pxls
+			 All L7HUFPK were adjusted in correspondence with L7HUDRGB settings 
+      (BMWNAV-54200) [CR25733] Style adaptations
+	  (elvis 1776289)
+ 
+------------------------------------------------------------------------
+<C_1_251_S_9_23>  IMaliuga 03/12/2015
+
+Brief:
+ - L7HUDFPK: TurnToStreet Rule width settings has been changed for 250 pxls
+      (BMWNAV-54200) [CR25733] Style adaptations
+ 
+------------------------------------------------------------------------
+<C_1_250_S_9_23>  IMaliuga 27/11/2015
+
+Brief:
+ - HG CID_PAD views settings has been changed
+ - Minilabels for CID_PAD_LD were added (Element ID 10403) 
+   (BMWNAV-6131) [CR28712] ID6-Light - gvStyleDB for HG in the pad (ref to GRL)
+ 
+------------------------------------------------------------------------
+<C_1_249_S_9_23>  IMaliuga 16/11/2015
+
+Brief:
+ - L7HUDFPK: LG view settings has been changed 
+   (BMWNAV-54200) [CR25733] Style adaptations
+ 
+------------------------------------------------------------------------
+<C_1_248_S_9_23>  IMaliuga 12/11/2015
+
+Brief:
+ - Exit black bitmaps have been changed 
+   (elvis 1729953)
+ 
+------------------------------------------------------------------------
+<C_1_247_S_9_23>  IMaliuga 12/11/2015
+
+Brief:
+ - L7HUDFPK TurnToStreet settings and size has been changed 
+ - L7HUDFPK changed settings for RDA views (11201/11202)
+   (BMWNAV-54200) [CR25733] Style adaptations
+ 
+------------------------------------------------------------------------
+<C_1_246_S_9_23>  OTistol  10/11/2015
+
+Brief:
+ - Mini Labels for Highguiding update
+   (BMWNAV-6174)
+ 
+------------------------------------------------------------------------
+<C_1_245_S_9_23>  IMaliuga  29/10/2015
+
+Brief:
+ L7HUDFPK: for view 11201 TurnTo Street element added inside container
+BMWNAV-5420 [CR25733] Style adaptations
+------------------------------------------------------------------------
+<C_1_244_S_9_23>  IMaliuga  29/10/2015
+
+Brief:
+ - Proper colour settings for MOST HUD/COMBI Lane Recommendation were added
+(elvis 1725644)
+
+------------------------------------------------------------------------
+<C_1_243_S_9_23>  IMaliuga  26/10/2015
+
+Brief:
+ - HG view ID 472 height size decreased 
+ - HG view ID 472 added in Interface file
+[CR28712] ID6-Light - gvStyleDB for HG in the pad (ref to GRL)
+
+------------------------------------------------------------------------
+<C_1_242_S_9_23>  IMaliuga  22/10/2015
+
+Brief:
+ - Hotspot position for CCP bitmap in LR has been changed
+[CR28712] ID6-Light - gvStyleDB for Lane Positiong info(CCP in Labels & Arrows) in Lane Guiding
+------------------------------------------------------------------------
+<C_1_241_S_9_23>  IMaliuga  22/10/2015
+
+Brief:
+ - Bitmaps for bigsigns were changed
+ [CR25794] Colour Update for Realistic Roadsigns - as of C Juretzko
+
+------------------------------------------------------------------------
+<C_1_240_S_9_23>  IMaliuga  21/10/2015
+
+Brief:
+ - HG view ID 472 for PAD_LD has been created
+ - CCP Bitmap in NG view PAD_HD has been changed
+[CR28712] ID6-Light - gvStyleDB for HG in the pad (ref to GRL)
+
+------------------------------------------------------------------------
+<C_1_239_S_9_23>  IMaliuga  19/10/2015
+
+Brief:
+ - For USA Current street rule road sign as icon is established for Street part type.
+(elvis 1732201)
+
+------------------------------------------------------------------------
+<C_1_238_S_9_23>  IMaliuga  13/10/2015
+
+Brief:
+ - CCP bitmap for LR has been changed
+[CR28712] ID6-Light - gvStyleDB for Lane Positiong info(CCP in Labels & Arrows) in Lane Guiding
+
+------------------------------------------------------------------------
+<C_1_237_S_9_23>  IMaliuga  12/10/2015
+
+Brief:
+ - For CID_LD HG view 412 Bounding Box size is changed 
+  (elvis 1728669)
+
+------------------------------------------------------------------------
+<C_1_236_S_9_23>  IMaliuga  12/10/2015
+
+Brief:
+ - Exit word flag is added for USA TurnToStreet elements
+ - Applied new Transformation settings for HG and LR 
+  (elvis 1709441)
+
+------------------------------------------------------------------------
+<C_1_235_S_9_23>  IMaliuga  09/10/2015
+
+Brief:
+ - In interface file added temporarily the same 462 view for PAD_LD 
+ (for further Controller implementation)
+  [CR28712] ID6-Light - gvStyleDB for HG in the pad (ref to GRL)
+
+------------------------------------------------------------------------
+<C_1_234_S_9_23>  OTistol  07/10/2015
+
+Brief:
+ - Set "Coming road" text on centre for COMBI L6CFPK
+  (elvis 1728869)
+
+------------------------------------------------------------------------
+<C_1_233_S_9_23>  OTistol  01/10/2015
+
+Brief:
+ - changed value “VectorGraphic filling color Alpha”  for COMBI/HUD
+  (elvis 1727201)
+
+------------------------------------------------------------------------
+<C_1_232_S_9_23>  OTistol  30/09/2015
+
+Brief:
+ - set "use exitNumber as text" for COMBI/HUD (only for ECE)
+  (elvis 1724540)
+
+------------------------------------------------------------------------
+<C_1_231_S_9_23>  IMaliuga  22/09/2015
+
+Brief:
+single label view size for CID_LD (map+SS) has been decreased 
+  (elvis 1719759)
+
+------------------------------------------------------------------------
+<C_1_230_S_9_23>  IMaliuga  22/09/2015
+
+Brief:
+ - changed camera settings for custom case in JV views;
+ - decreased route arrow size for JV views 
+  (elvis 1718987)
+
+------------------------------------------------------------------------
+<C_1_229_S_9_23>  OTistol  18/09/2015
+
+Brief:
+ - set "use exitSign as icon" on Road Book, GS-label, HU (only for ECE)
+  (elvis 1676720)
+
+------------------------------------------------------------------------
+<C_1_228_S_9_23>  IMaliuga  16/09/2015
+
+Brief:
+added flag in LR settings and line of code in AddOn.xps for displaying CCP in LR for GS Labels and RoadBook 
+[CR28712] ID6-Light - Lane Positiong info(CCP in Labels & Arrows) in Lane Guiding
+
+------------------------------------------------------------------------
+<C_1_227_S_9_23>  IMaliuga  16/09/2015
+
+Brief:
+changed exit length and camera settings for 2 custom cases in JV (8301) for HUD_RIC35UP
+  (elvis 1712729)
+
+------------------------------------------------------------------------
+<C_1_226_S_9_23>  OTistol  15/09/2015
+
+Brief:
+changed LR (lane recommendation) arrow filling colour (to #B7B7B7) according to the settings from HUDCOMBI_Color_Defines.hpp
+  (elvis 1714722)
+
+------------------------------------------------------------------------
+<C_1_225_S_9_23>  IMaliuga  10/09/2015
+
+Brief:
+changed width in GV label view 9201 (single label in CID_HD map+SS)
+  (elvis 1710098)
+
+------------------------------------------------------------------------
+<C_1_224_S_9_23>  IMaliuga  10/09/2015
+
+Brief:
+changed bounding box for HG CID_LD (view 412)
+  (elvis 1710114)
+
+------------------------------------------------------------------------
+<C_1_223_S_9_23>  IMaliuga  07/09/2015
+
+Brief:
+changed USA SignPost layout settings 
+ - "BLOCK" value for horizontal alignment in road icon box: [road+direction+exit signs]
+ - 8 pxls for left/right border in box (narrow): [road+direction signs]
+ - "1" value for Width Part of Parent Item in turn to street exit sign (right)
+  (elvis 1693876)
+
+------------------------------------------------------------------------
+<C_1_222_S_9_23>  OTistol  03/09/2015
+
+Brief:
+ - set "use exitNumber as text" for Road Book, GS-label and HU
+  (elvis 1666728)
+
+------------------------------------------------------------------------
+<C_1_221_S_9_23>  IMaliuga  02/09/2015
+
+Brief:
+ - changed camera settings for JV (3301,6301,7301,11301) in HUD (L6HUDFPK, L6HUDRGB, L7HUDRGB, L7HUDFPK) 
+  (elvis 1705297)
+
+------------------------------------------------------------------------
+<C_1_220_S_9_23>  IMaliuga  02/09/2015
+
+Brief:
+ - resized double labels views (10021, 10022) for map+Splitscreen in LD 
+  (elvis 1699821)
+
+------------------------------------------------------------------------
+<C_1_219_S_9_23>  OTistol  01/09/2015
+
+Brief:
+ - Replaced symbol "space" to "slash" between road-numbers in L6HUDRGB,L7HUDRGB for LowGuiding view 
+  (elvis 1702729)
+
+------------------------------------------------------------------------
+<C_1_218_S_9_23>  IMaliuga  27/08/2015
+
+Brief:
+ - unset flag in "DAY/Night mode" option for COMBI/HUD FPK views
+ (2201,2204,2401,2402,3201,3204,3301,3401,3402,11201,11204,11301,11401,11402)
+ (elvis 1695155)
+
+------------------------------------------------------------------------
+<C_1_217_S_9_23>  IMaliuga  26/08/2015
+
+Brief:
+ - decreased size of High Guiding area to 315 pxls in 412 view
+ (elvis 1697517)
+
+------------------------------------------------------------------------
+<C_1_216_S_9_23>  OTistol  26/08/2015
+
+Brief:
+ - Moved LR-triangle to the bottom, for Kombi (FPK L6 High) (elvis 1702699)
+
+------------------------------------------------------------------------
+<C_1_215_S_9_23>  IMaliuga  07/08/2015
+
+Brief:
+ - spase between towards name and direction in TurnToStreet rule was added
+ (elvis 1690142)
+
+------------------------------------------------------------------------
+<C_1_214_S_9_23>  IMaliuga  07/08/2015
+
+Brief:
+ - HG 462 new view created for PAD_HD 
+ [CR28712] ID6-Light - gvStyleDB for HG in the pad (Dummy views)
+
+------------------------------------------------------------------------
+<C_1_213_S_9_23>  IMaliuga  06/08/2015
+
+Brief:
+ - Bitmap for Destination flag was changed for HUD (e-mail from Gerd Wilhelm)
+
+------------------------------------------------------------------------
+<C_1_212_S_9_23>  IMaliuga  05/08/2015
+
+Brief:
+ - Bitmap for Destination flag was changed for HUD (e-mail from Gerd Wilhelm)
+
+------------------------------------------------------------------------
+<C_1_211_S_9_23>  OTistol  03/08/2015
+
+Brief:
+ - Decreased width HighGuiding L6CFPK (elvis 1681617)
+
+------------------------------------------------------------------------
+<C_1_210_S_9_23>  GWilhelm  29/07/2015
+
+Brief:
+ - Fix wrong mapping of view definition in interface file. [BMWNAV-5954] found by Kryvoruchko, Oleksandr (Luxoft)
+
+------------------------------------------------------------------------
+<C_1_209_S_9_23>  OTistol  29/07/2015
+
+Brief:
+ - Update bigsigns icons (for more Realistic) [BMWNAV-5962]
+
+------------------------------------------------------------------------
+<C_1_208_S_9_23> IMaliuga  24/07/2015
+
+Brief:
+ - added 7 camera settings regarding special custom road cases for JV views (301, 311, 4301, 5301, 8301)
+elvis 1659850
+------------------------------------------------------------------------
+<C_1_207_S_9_23>  OTistol  23/07/2015
+
+Brief:
+ - Added road sign icons with Colection IDs 56 and reduced font size [CR25733]
+
+------------------------------------------------------------------------
+<C_1_206_S_9_23>  IMaliuga  22/07/2015
+
+Brief:
+ - change width size to 310pxls of single GS Label views 9200,9201
+ (elvis 1674874)
+
+------------------------------------------------------------------------
+<C_1_205_S_9_23>  IMaliuga  22/07/2015
+
+Brief:
+ - new HG(412) and JV (311) views created for CID 1280x480
+ - new set of views for GS Labels created for CID 1280x480 
+ 
+[CR26803] Style DB adaptation and implementation
+elvis 1677945
+
+------------------------------------------------------------------------
+<C_1_204_S_9_23>  OTistol  21/07/2015
+
+Brief:
+ - Increased seperator in lane recommendation for HUD (elvis 1677172)
+ - Changed position dots in lane recommendation for HUD (elvis 1677163)
+
+------------------------------------------------------------------------
+<C_1_203_S_9_23>  OTistol  15/07/2015
+
+Brief:
+ - Added missing destination flags in HUD for view 8402 (elvis 1670949)
+
+------------------------------------------------------------------------
+<C_1_202_S_9_23>  OTistol  08/07/2015
+
+Brief:
+ - Change text color in Night Mode in Wiews 2xxx, 3xxx and 11xxx (elvis 1613758)
+
+------------------------------------------------------------------------
+<C_1_201_S_9_23>  IMaliuga  07/07/2015
+
+Brief:
+ - deleted "space" flags in TurnToStreet Rules for GS Labels (elvis 1666539)
+ - increased width of containers for TurnToStreet in the double label view on FS map.
+ 
+------------------------------------------------------------------------
+<C_1_200_S_9_23>  OTistol  07/07/2015
+
+Brief:
+ - defines new interface (ID 11100) for L7_HUD_FPK
+ 
+------------------------------------------------------------------------
+<C_1_199_S_9_23>  IMaliuga 06/07/2015
+
+Brief:
+ - created 3 new views of Labels for Fullscreen with width 420pxls
+ Elvis Ticket #1639201
+ 
+------------------------------------------------------------------------
+<C_1_198_S_9_23>  IMaliuga 02/07/2015
+
+Brief:
+ - changed minimal height value to 0 for TurnToStreet in 9201 view
+ Elvis Ticket #1658728
+ 
+------------------------------------------------------------------------
+<C_1_197_S_9_23>  IMaliuga 01/07/2015
+
+Brief:
+ - change width size to 345pxls of single GS Label views 9200,9201
+ Elvis Ticket #1654211
+ 
+------------------------------------------------------------------------
+<C_1_196_S_9_23>  IMaliuga 30/06/2015
+
+Brief:
+ - changed Lane Recommendations settings for MOST HUD/COMBI:
+   lanes limit is 7
+   added colors and margins for background
+   changed colors of maneuver point in HG
+ [CR26803] ID5 - Ruko Guiding
+ 
+------------------------------------------------------------------------
+<C_1_195_S_9_23>  OTistol 26/06/2015
+
+Brief:
+ - Generated new xps-files, with correct value fractional part "Zoom Animation End Width Scalar" (for HG Views)
+*Elvis ticket 1640052
+ 
+------------------------------------------------------------------------
+<C_1_194_S_9_23>  IMaliuga 26/06/2015
+
+Brief:
+ - USA RIC35UP "on road" value is established for Route Lines before/after maneuver for CID, HUD, MID/HIGH COMBI in HG
+ [CR25855] Adaptation of GV style DB for destination map
+ 
+------------------------------------------------------------------------
+<C_1_193_S_9_23>  OTistol 23/06/2015
+
+Brief:
+ - Add new StyleSets: L7HUDFPK_Day, L7HUDFPK_Night with 'icon collection id'=56
+ 
+------------------------------------------------------------------------
+<C_1_192_S_9_23>  IMaliuga 12/06/2015
+
+Brief:
+ - vectorgraphic 23_001_JGVEO.svg update.
+ *Elvis 1654424
+
+------------------------------------------------------------------------
+<C_1_191_S_9_23>  IMaliuga 28/05/2015
+
+Brief:
+ - GSAddOn - added new icons and MA for Border and TOLL GV ECE.
+ *Elvis 1611099
+
+------------------------------------------------------------------------
+
+<C_1_190_S_9_23>  AKoshikar  15/05/2015
+
+Brief:
+ - Change structure/paths of xps files according to the new editor.
+ 
+------------------------------------------------------------------------
+
+<C_1_189_S_9_23>  IMaliuga  07/05/2015
+
+Brief:
+ - Change CurrentStreetRule for “direction or sign index” equal to 6-11:
+	- delete flags in row “Conditional/NBT add a slash/space before element”
+	- "additional space before in px” change value from 4 for 0 
+* Elvis 1602710
+
+------------------------------------------------------------------------
+
+<C_1_188_S_9_23>  IMaliuga  28/04/2015
+
+Brief:
+ - Change text color in Night Mode in Wiews 9403,9404  (elvis 1613758)
+
+------------------------------------------------------------------------
+
+<C_1_187_S_9_23>  GWilhelm  24/04/2015
+
+Brief:
+ - Update new include files for RÜKO-HUDCOMBI-controller in API-folder(as discuses with TAufrecht).
+ 
+------------------------------------------------------------------------
+
+<C_1_186_S_9_23>  GWilhelm  23/04/2015
+
+Brief:
+ - Update new include files for RÜKO-HUDCOMBI-controller in API-folder(as discuses with TAufrecht).
+ 
+------------------------------------------------------------------------
+
+<C_1_185_S_9_23>  IMaliuga  23/04/2015
+
+Brief:
+ - Change condition of GVLabel's destination arrow (elvis 1602041)
+ 
+------------------------------------------------------------------------
+
+<C_1_184_S_9_23>  GWilhelm  22/04/2015
+
+Brief:
+ - Update new include files for RÜKO-HUDCOMBI-controller in API-folder(as discuses with TAufrecht).
+ 
+------------------------------------------------------------------------
+
+<C_1_183_S_9_23>  AKoshikar  16/04/2015
+
+Brief:
+ - Use Fork2 bitmaps for DoubleFork in RIC35 MiniLables (elvis 1602706).
+ 
+------------------------------------------------------------------------
+
+<C_1_182_S_9_23>  GWilhelm  16/04/2015
+
+Brief:
+ - Update new include files for RÜKO-HUDCOMBI-controller in API-folder(as discuses with TAufrecht).
+ 
+------------------------------------------------------------------------
+
+<C_1_181_S_9_23>  GWilhelm  13/04/2015
+
+Brief:
+ - Add new include files for RÜKO-HUDCOMBI-controller in API-folder.
+ 
+------------------------------------------------------------------------
+
+<C_1_180_S_9_23>  AKoshikar  30/03/2015
+
+Brief:
+ - Change route arrow bounding box in RIC35 HUD HG (elvis 1567478).
+ 
+------------------------------------------------------------------------
+
+<C_1_179_S_9_23>  AKoshikar  20/03/2015
+
+Brief:
+ - Remove space before "/towardsName" in RIC35 turnToStreet styles (elvis 1571138).
+ 
+------------------------------------------------------------------------
+
+<C_1_178_S_9_23>  AKoshikar  05/03/2015
+
+Brief:
+ - Change RIC35 Generic JV route arrow flags (use GV_GJV_AWAKE_OFF) (elvis 1563029).
+ 
+------------------------------------------------------------------------
+
+<C_1_177_S_9_23>  OShurina   05/03/2015
+
+Brief:
+ - Change eye position xyz(0,0,220) to xyz(0,0,2200), scale factor 60 -> 600 (1586733)
+ 
+------------------------------------------------------------------------
+
+<C_1_176_S_9_23>  OShurina   27/02/2015
+
+Brief:
+ - sync ID4 and ID5 (HG style for MOST-COMBI/HUD)
+ 
+------------------------------------------------------------------------
+
+<C_1_175_S_9_23>  OShurina   26/02/2015
+
+Brief:
+ - Change size of arrow head in HG: length = 34 px, hight = 32 px (elvis 1582719)
+ 
+------------------------------------------------------------------------
+
+<C_1_174_S_9_23>  AKoshikar  19/02/2015
+
+Brief:
+ - Increase min width of GS2_1 label from 180px to 220px.
+ - Decrease max size of GS2_1 turnToStreet from 300px to 253px.
+ - Change internal IDs of GS labels.
+ 
+------------------------------------------------------------------------
+
+<C_1_173_S_9_23>  AKoshikar  17/02/2015
+
+Brief:
+ - Fix position of moved MA in gvLabels (elvis 1574460).
+ 
+------------------------------------------------------------------------
+
+<C_1_172_S_9_23>  OShurina   10/02/2015
+
+Brief:
+ - Move the maneuver arrow bitmap in labelguiding to right (7px) (Elvis 1569219)
+ 
+------------------------------------------------------------------------
+
+<C_1_171_S_9_23>  OShurina   10/02/2015
+
+Brief:
+ - Add "Intersection Zoom Trasformation" for HUD view(8402) (Elvis 1567752)
+ 
+------------------------------------------------------------------------
+
+<C_1_170_S_9_23>  AKoshikar   07/02/2015
+
+Brief:
+ - Move Mini Label on the RIC HUD HG (dx=-10, dy=-10) (elvis 1567727).
+ 
+------------------------------------------------------------------------
+
+<C_1_169_S_9_23>  OShurina    05/02/2015
+
+Brief:
+ - Deactivate "Eat-up" flag for passed route (MOST COMBI/HUD) (Elvis 1565726 )
+ 
+------------------------------------------------------------------------
+
+<C_1_168_S_9_23>  OShurina    03/02/2015
+
+Brief:
+ - Change HG settings (scale factor) for RIC35UP (Elvis 1564019)
+ 
+------------------------------------------------------------------------
+
+<C_1_167_S_9_23>  OShurina    28/01/2015
+
+Brief:
+ - Define route arrow bounding box in HG(CID, COMBI/HUD)
+ - Activate "Eat-up" flag for passed route (Elvis 1542344)
+ 
+------------------------------------------------------------------------
+
+<C_1_166_S_9_23>  OShurina    27/01/2015
+
+Brief:
+ - Change HG settings for RIC35UP (CID, COMBI, HUD) (elvis 1557807)
+ - Add HUD_AddOn.xps to the GvID5VBE1025_GuidingNightStandard_AddOn.xps
+ 
+------------------------------------------------------------------------
+
+<C_1_165_S_9_23>  AKoshikar    27/01/2015
+
+Brief:
+ - Add new views GS2_1 #9221 and GS2_2 #9222 (elvis 1559221).
+ - Change bitmaps for GS MA (113x53 -> 29-59x53) and adapt sizes of GS1 and GS2 elements.
+ - Add new bitmaps (37x33) and create style for GS Second MA.
+
+------------------------------------------------------------------------
+
+<C_1_164_S_9_23>  SYakovenko   23/01/2015
+
+Brief:
+ - Change StreetName and TowordsName rules. (tickets 1547050, 1551363)
+
+------------------------------------------------------------------------
+
+<C_1_163_S_9_23>  OShurina   14/01/2015
+
+Brief:
+ - Change symbol mapping for OFFROAD and OFFMAP to MA_GS_TURN_ID (elvis 1541857).
+ 
+------------------------------------------------------------------------
+
+<C_1_162_S_9_23>  OShurina   12/01/2015
+
+Brief:
+ - Update the US-POI-Icon (02_0002_poi_service_area_d1_c.png)
+ 
+------------------------------------------------------------------------
+
+<C_1_161_S_9_23>  OShurina   12/12/2014
+
+Brief:
+ - Add elements to test view (9198)
+ - Change font, area parameters (w, h) for current street
+ - Change bargraph style
+ 
+------------------------------------------------------------------------
+
+<C_1_160_S_9_23>  OShurina   12/12/2014
+
+Brief:
+ - update information of bundles in gvStyleDB_ID5_NBTEvo_BMW_ECE_1025.manifest and gvStyleDB_ID5_NBTEvo_BMW_USA_1025.manifest
+ 
+------------------------------------------------------------------------
+
+<C_1_159_S_9_23>  OShurina   12/12/2014
+
+Brief:
+ - Add/return distanceToMode (BMW)
+ * Elvis 1533353
+ 
+------------------------------------------------------------------------
+
+<C_1_158_S_9_23>  OShurina   11/12/2014
+
+Brief:
+ - Change HUD HG settings (like COMBI)
+ 
+------------------------------------------------------------------------
+
+<C_1_157_S_9_23>  OShurina   11/12/2014
+
+Brief:
+ - Set "suppresed unchanged" flag in views 9200,9201
+ 
+------------------------------------------------------------------------
+
+<C_1_156_S_9_23>  OShurina   11/12/2014
+
+Brief:
+ - Set values for parameters “route arrow bounding box” in HG style (RIC)
+ - Remove “Intersection Zoom Target Flag” (will not be used/implemented by controller)
+ 
+------------------------------------------------------------------------
+
+<C_1_155_S_9_23>  AKoshikar  09/12/2014
+
+Brief:
+ - Return/add element guiding.styleRef9002.distanceTo to RIC.
+ 
+------------------------------------------------------------------------
+
+<C_1_154_S_9_23>  OShurina   03/12/2014
+
+Brief:
+ - Delete old CID styles
+ - Add distanceToNext, distanceTo to test view
+ - Delete unused element from RIC (guiding.styleRef9002.distanceTo)
+ 
+------------------------------------------------------------------------
+
+<C_1_153_S_9_23>  OShurina   01/12/2014
+
+Brief:
+ - Add POI category ATM (149) for ECE and US 
+ - Add new bimaps for POI CAT ATM (149)
+
+------------------------------------------------------------------------
+
+<C_1_152_S_9_23>  OShurina   01/12/2014
+
+Brief:
+ - update settings for flags in street rules (RIC)
+ - set flag "show roadNumber as text if there’s no roadIcon" for exitSign as icon (gvLabels)
+
+------------------------------------------------------------------------
+
+<C_1_151_S_9_23>  AKoshikar   27/11/2014
+
+Brief:
+ - Change width and colors of RIC HUD HG FRC lines.
+ - Change IDs of old CID views.
+ - Update RIC turnToStreet styles.
+
+------------------------------------------------------------------------
+
+<C_1_150_S_9_23>  AKoshikar   26/11/2014
+
+Brief:
+ - Replace POI bitmaps.
+
+------------------------------------------------------------------------
+
+<C_1_149_S_9_23>  AKoshikar   21/11/2014
+
+Brief:
+ - Change y-offset of ExitIcon in gvLabel (elvis 1513187).
+ 
+------------------------------------------------------------------------
+
+<C_1_148_S_9_23>  AKoshikar   21/11/2014
+
+Brief:
+ - New element (Mini Label) for MidCOMBI HG implemented.
+ - New CCP for HUD HG.
+ - Add new masks for HUD and COMBI (only for testing).
+ 
+------------------------------------------------------------------------
+
+<C_1_147_S_9_23>  DTerletskiy 13/11/2014
+
+Brief:
+ - New element (Mini Label) for all HG implemented.
+ - Minimum width for line recommendation in GS was set 37
+ - Arrow legth from last maneuver point in HG is: 45 for CID and Combi and 23 for HUD
+ - Bug fixing for RGS in label guiding.
+ - Intermidiate destination flags in HG for CID and Combi have been implemented with the same bitmap as final destination.
+ - Some options for maneuver points in HG for RIC35 Combi and HUD have been changed.
+ 
+------------------------------------------------------------------------
+
+<C_1_146_S_9_23>  OShurina 11/11/2014
+
+Brief:
+ - Update MA bitmaps for gvLabels (new bitmaps 113x53)
+ - Change sizes for gvLabel elements according to the  new bitmaps
+ 
+------------------------------------------------------------------------
+
+<C_1_145_S_9_23>  OShurina 11/11/2014
+
+Brief:
+ - Use "exitSign as icon" for all turnToStreet elements in RIC and gvLabels
+ - Activate flag "sisOptDelimiterBefore", deactivate all other flags with slash delimeter for street rules in all views (CID, HUD, COMBI, RIC, gvLabel)(Elvis 1504034)
+ * according to the BOOT CAMP decision
+ 
+------------------------------------------------------------------------
+
+<C_1_144_S_9_23>  OShurina 11/11/2014
+
+Brief:
+ - Update HG styles in RIC (Elvis 1506521)
+ * according to the BOOT CAMP decision
+ 
+------------------------------------------------------------------------
+
+<C_1_143_S_9_23>  AKoshikar 11/11/2014
+
+Brief:
+ - Update generic JV for RIC: delete bitmaps for HUD and for lanes (use color).
+ 
+------------------------------------------------------------------------
+
+<C_1_142_S_9_23>  AKoshikar 10/11/2014
+
+Brief:
+ - Change background color of HG elements to black in all views (elvis 1506520).
+ 
+------------------------------------------------------------------------
+
+<C_1_141_S_9_23>  AKoshikar 08/11/2014
+
+Brief:
+ - Remove deprecated views: VIEW_PIP_TMC*, VIEW_PIP_POI*, VIEW_TDA_MV, VIEW_OMA_MV.
+ - Implement new Intersection Zoom TargetFlag style (only in the Editor) (elvis 1497744).
+ - Set up "Intersection Zoom Pitch Animation" values for RIC35UP HG (elvis 1451087).
+ - Set up "Zoom Animation End LineWidth Scalar" values for RIC35UP HG(NDSMIG-2880).
+ - Change RIC35UP HG Transformation styles.
+ 
+------------------------------------------------------------------------
+
+<C_1_140_S_9_23>  AKoshikar 04/11/2014
+
+Brief:
+ - Mark all images as "NDS DB" or "SW APP".
+ - Update image properties xps file.
+ 
+------------------------------------------------------------------------
+
+<C_1_139_S_9_23>  OShurina  04/11/2014
+
+Brief:
+ - Update the angle settings for GJV 
+ * Elvis 1492196
+ 
+------------------------------------------------------------------------
+
+<C_1_138_S_9_23>  OShurina  31/10/2014
+
+Brief:
+ - Change laneRecommendation settings in GS 
+ * e-mail from Wilhelm, Gerd , 30.10.2014
+ - Update all laneRecommendation bitmaps in GS.
+
+------------------------------------------------------------------------
+
+<C_1_137_S_9_23>  AKoshikar  30/10/2014
+
+Brief:
+ - Update all laneRecommendation bitmaps in GS.
+
+------------------------------------------------------------------------
+
+<C_1_136_S_9_23>  OShurina   30/10/2014
+
+Brief:
+ - Update LR arrow bitmaps (37x45)
+ * e-mail from Wilhelm, Gerd , 28.10.2014
+ - Add background bitmaps for COMBI/HUD GJV
+ * e-mail from Wilhelm, Gerd , 27.10.2014
+ - Add GJV for MID/HIGH COMBI, HUD to RIC_35UP_AddOn.xps
+
+------------------------------------------------------------------------
+
+<C_1_135_S_9_23>  AKoshikar  30/10/2014
+
+Brief:
+ - Reduce size of gvLabels (elvis 1488489).
+
+------------------------------------------------------------------------
+
+<C_1_134_S_9_23>  OShurina   28/10/2014
+
+Brief:
+ - Change icon collection id.
+ * e-mail from Wilhelm, Gerd , 27.10.2014
+ 
+------------------------------------------------------------------------
+
+<C_1_133_S_9_23>  OShurina   27/10/2014
+
+Brief:
+ - Change color for  route passed outline for all HG (133, 133, 133, 255).
+ * e-mail from Juretzko Christian, 24.10.2014
+ 
+------------------------------------------------------------------------
+
+<C_1_132_S_9_23>  SYakovenko   24/10/2014
+
+Brief:
+ - Update xml files for poicategorytree.
+
+------------------------------------------------------------------------
+
+<C_1_131_S_9_23>  OShurina   24/10/2014
+
+Brief:
+ - Add new views (1101, 2101, 3101, 6101, 7101, 11101) with fixed RDA to the View_Defines.h
+
+------------------------------------------------------------------------
+
+<C_1_130_S_9_23>  AKoshikar  24/10/2014
+
+Brief:
+ - Remove "SERVICE ACCESS" POI from ECE and USA.
+ - Change "REST AREA" POI in USA.
+
+------------------------------------------------------------------------
+
+<C_1_129_S_9_23>  OShurina   24/10/2014
+
+Brief:
+ - Change color for  route passed outline for all HG
+ * e-mail from Wilhelm, Gerd 23.10.2014
+ - Update roundAboutSquare size in HUD/COMBI HG style according CID HG
+
+------------------------------------------------------------------------
+
+<C_1_128_S_9_23>  AKoshikar  23/10/2014
+
+Brief:
+ - Change links to POI styles in USA.
+
+------------------------------------------------------------------------
+
+<C_1_127_S_9_23>  OShurina   23/10/2014
+
+Brief:
+ - Change HG settings for COMBI (similar to CID) 
+ * e-mail from Wilhelm, Gerd 22.10.2014
+ - Remove intermediate destination flags in HG HUD and  HG COMBI
+
+------------------------------------------------------------------------
+
+<C_1_126_S_9_23>  OShurina   22/10/2014
+
+Brief:
+ - Change the OMA-Element on the TDA-Element in all OMA views in  old COMBI/HUD 
+ - Add new views with fixed RDA (1101, 2101, 3101, 6101, 7101, 11101)for all old COMBI/HUD 
+ * e-mail from Wilhelm, Gerd 20.10.2014 
+
+------------------------------------------------------------------------
+
+<C_1_125_S_9_23>  OShurina   21/10/2014
+
+Brief:
+ - Change bitmap for RIC35UP HG Mask Dummy.
+ * Elvis 1480420
+
+------------------------------------------------------------------------
+
+<C_1_124_S_9_23>  OShurina   20/10/2014
+
+Brief:
+ - Remove intermediate flags (with numbers) in HG.
+ * e-mail from Wilhelm, Gerd 20.10.2014 
+
+------------------------------------------------------------------------
+
+<C_1_123_S_9_23>  AKoshikar   20/10/2014
+
+Brief:
+ - Deactivate TDA and OMA gvLabels.
+
+------------------------------------------------------------------------
+
+<C_1_122_S_9_23>  AKoshikar   17/10/2014
+
+Brief:
+ - Link RoadSign styles from GV ID4.
+
+------------------------------------------------------------------------
+
+<C_1_121_S_9_23>  AKoshikar   15/10/2014
+
+Brief:
+ - Change bitmaps and size of generic JV in CID (elvis 1481873).
+ - Disable archiving unused JV templates (34*, 35*, 36*).
+ - Change CCP bitmaps and zoom animation end to 100m in RIC35 HG views.
+
+------------------------------------------------------------------------
+
+<C_1_120_S_9_23>  AKoshikar   15/10/2014
+
+Brief:
+ - Change bitmap for "lane divider solid border" in gvLabel's laneRecommendation style.
+
+------------------------------------------------------------------------
+
+<C_1_119_S_9_23>  AKoshikar   13/10/2014
+
+Brief:
+ - Update fonts (new BMWTARG_3_000, BMWTABDCN_3_000).
+
+------------------------------------------------------------------------
+
+<C_1_118_S_9_23>  AKoshikar   13/10/2014
+
+Brief:
+ - Change size of RIC35 HUD/COMBI views to 800x480 (elvis 1477128).
+
+------------------------------------------------------------------------
+
+<C_1_117_S_9_23>  AKoshikar   10/10/2014
+
+Brief:
+ - Add POI category tree files.
+
+------------------------------------------------------------------------
+
+<C_1_116_S_9_23>  AKoshikar   03/10/2014
+
+Brief:
+ - Update links to the RoadSigns.
+
+------------------------------------------------------------------------
+
+<C_1_115_S_9_23>  OShurina    02/10/2014
+
+Brief:
+ - Put the coming street into the render container in L6CFPK (the commingstreet as a bitmap)
+ * Elvis 1464901
+------------------------------------------------------------------------
+
+<C_1_114_S_9_23>  AKoshikar    02/10/2014
+
+Brief:
+ - Move RoadSign's Imagesets to GV SD/SN stylesets.
+
+------------------------------------------------------------------------
+
+<C_1_113_S_9_23>  OShurina     30/09/2014
+
+Brief:
+- Add road type "Bridge" in HG for CID/HUD 
+- Change HG parameters (MP fill, Arrow fill and color of roads) according spec BUG_300685802_140729_HighGuiding_Spec_ABK_ED.pdf
+* Elvis 1451087
+------------------------------------------------------------------------
+
+<C_1_112_S_9_23>  AKoshikar    19/09/2014
+
+Brief:
+- Link BigSign, Direction and Exit icons from GV ID4.
+
+------------------------------------------------------------------------
+
+<C_1_111_S_9_23>  SYakovenko     12/09/2014
+
+Brief:
+- New fonts:BMWTA_BDCN ver: 3.000 and BMWTA_RG ver: 2.843.
+* Acording mails from  Roehrle Alexander and Niehues Daniel 11.09.2014 
+
+------------------------------------------------------------------------
+
+<C_1_110_S_9_23>  OShurina     09/09/2014
+
+Brief:
+- Add ExitSigns for road classes 1,3 to Europe
+* Elvis 1433314
+
+------------------------------------------------------------------------
+
+<C_1_109_S_9_23>  SYakovenko     04/09/2014
+
+Brief:
+- Add Direction Signs to USA and Canada  *JIRA task NAV2010ANA-15588.
+
+------------------------------------------------------------------------
+<C_1_108_S_9_23>  OShurina  01/09/2014
+
+Brief:
+ - Change zoom parameters: arrow's line length from last maneuver point and zomm animation end(according ID4)
+ * Elvis 1427168  (Note from TMeyer, 2014-08-29) 
+
+------------------------------------------------------------------------
+
+<C_1_107_S_9_23>  OShurina  27/08/2014
+
+Brief:
+ - Change bigsign image id (48->67)for Mexico 
+
+------------------------------------------------------------------------
+
+<C_1_106_S_9_23>  OShurina  27/08/2014
+
+Brief:
+ - Add bigsigns for Mexico 
+
+------------------------------------------------------------------------
+
+<C_1_105_S_9_23>  AKoshikar 18/08/2014
+
+Brief:
+ - Remove GV_ELEM_Model_ManeuverHighIntersection and GV_ELEM_Model_ManeuverHighLinkList
+   from VIEW_RIC35UP_STATIC [9404] (JIRA BMWNAV-4509).
+
+------------------------------------------------------------------------
+
+<C_1_104_S_9_23>  AKoshikar 13/08/2014
+
+Brief:
+ - Add mask for HG in HG PiP view (elvis 1427168).
+ - Change size and position of HG.
+ - Remove unused views (id 20301,20402,21301,21402).
+ - Update CCP bitmap in HG.
+
+------------------------------------------------------------------------
+
+<C_1_103_S_9_23>  OShurina  12/08/2014
+
+Brief:
+ - Change current street width (480->455) in CID (according NBT).
+
+------------------------------------------------------------------------
+
+<C_1_102_S_9_23>  AKoshikar 11/08/2014
+
+Brief:
+ - Clean up POI bitmaps.
+
+------------------------------------------------------------------------
+
+<C_1_101_S_9_23>  AKoshikar 08/08/2014
+
+Brief:
+ - Add/change "interstate rc1", "highway rc2" and "stateroute rc3" Exit icons for Canada (elvis 1419765).
+ - Change collection id of USA styledb to 48.
+
+------------------------------------------------------------------------
+
+<C_1_100_S_9_23> AKoshikar  05/08/2014
+
+Brief:
+ - Remove zoom animation flag from all HUD/COMBI HG styles (elvis 1425592).
+
+------------------------------------------------------------------------
+
+<C_1_99_S_9_23>  AKoshikar  31/07/2014
+
+Brief:
+ - Add new bitmaps for Destination Reached Straigh/Left/Righ/Offroad in GS Labels (elvis 1439948).
+
+------------------------------------------------------------------------
+
+<C_1_98_S_9_23>  AKoshikar  30/07/2014
+
+Brief:
+ - Update BigSign, Direction and Exit Icons (like in ID4++).
+ - Change collectionID to 48 (like Map 10.25HD).
+
+------------------------------------------------------------------------
+
+<C_1_97_S_9_23>  AKoshikar  28/07/2014
+
+Brief:
+ - Implement new styles in the Editor: Bargraph, Compass, HG target flags, HG traffic light.
+ - Change minAngle and maxAngle of Compass elements (they are included).
+ - Clean/disable JunctionView and HighGuiding in old CID.
+ - Remove background box from 9403 and 9404.
+ - Use SignPost USA Exit Layout for USA Fork.
+
+------------------------------------------------------------------------
+
+<C_1_96_S_9_23>  AKoshikar  23/07/2014
+
+Brief:
+ - Change some POI and TMC bitmaps and styles.
+
+------------------------------------------------------------------------
+
+<C_1_95_S_9_23>  AKoshikar  22/07/2014
+
+Brief:
+ - Create gvStyleDB_ID5_NBTEvo_BMW_USA_1025 (only for NDS export).
+
+------------------------------------------------------------------------
+
+<C_1_94_S_9_23>  AKoshikar  22/07/2014
+
+Brief:
+ - Add new POI and TMC Icon styles.
+
+------------------------------------------------------------------------
+
+<C_1_93_S_9_23>  AKoshikar  18/07/2014
+
+Brief:
+ - Remove old xps with BigSign layouts.
+ - Add BigSign to the VIEW_PIP_CID_JV (301).
+
+------------------------------------------------------------------------
+
+<C_1_92_S_9_23>  AKoshikar  18/07/2014
+
+Brief:
+ - Add target flags for RIC35UP CID/HUD/COMBI HG.
+
+------------------------------------------------------------------------
+
+<C_1_91_S_9_23>  AKoshikar  17/07/2014
+
+Brief:
+ - Update RIC35UP TMC bitmaps and view sizes.
+ - Update SignPost styles.
+
+------------------------------------------------------------------------
+
+<C_1_90_S_9_23>  OShurina   15/07/2014
+
+Brief:
+ - update implementation of Lane Recomendation within StyleDB Editor (CID, HUD\COMBI, GS)
+ - change views sizes (68*68->41*41)[9507,9543,9544,9550-9552] within Editor
+ - remove Lane_Recomendation_SVG[10103]
+
+------------------------------------------------------------------------
+
+<C_1_89_S_9_23>  OShurina   11/07/2014
+
+Brief:
+ - change the icon 10_0042_misc_default_size3_onroute_d1_c(68*68->41*41)
+ - change views sizes (68*68->41*41)[9507,9543,9544,9550-9552]
+ * JIRA BMWNAV-4140
+ - sync ID4&ID5 (Sign Post Layout)
+
+
+------------------------------------------------------------------------
+
+<C_1_88_S_9_23>  OShurina   11/07/2014
+
+Brief:
+ - change HG implementation according specs BUG_300663243_140606_HighGuiding_Spec_ABK_ED.pdf, 131209_High Guidance Attributes DRAFT_HS.pdf
+ * Elvis 1408605
+ - set flag "Eat up Passed Route" in CID HG [99402]
+
+------------------------------------------------------------------------
+
+<C_1_87_S_9_23>  SYakovenko   07/07/2014
+
+Brief:
+ - Change bitmaps for GS LR.
+
+------------------------------------------------------------------------
+
+<C_1_86_S_9_23>  OShurina   04/07/2014
+
+Brief:
+ - change poi bitmaps for guiding (icons in inverted colours: black->white)
+ * JIRA BMWNAV-4139
+
+------------------------------------------------------------------------
+
+<C_1_85_S_9_23>  OShurina   04/07/2014
+
+Brief:
+ - change BJV templates according to new StyleDB editor
+ - change L6HUDFPK views(3201, 3204, 3301, 3401, 3402) implementation
+   rendercontainer with JV and rendercontainer with turnto, according to NBT)
+ - add L7HUDFPK (views: 11***)
+
+------------------------------------------------------------------------
+
+<C_1_84_S_9_23>  AKoshikar   26/06/2014
+
+Brief:
+ - Move GS styles from xps to the Editor v3.13.
+ - Update SignPost styles (like in ID4++).
+
+------------------------------------------------------------------------
+
+<C_1_83_S_9_23>  OShurina    20/06/2014
+
+Brief:
+ - add views [9501-9554] with tmc events icons for RIC35UP
+ - add views [9555,9556] with poi icons for RIC35UP
+ - add bitmaps for tmc and poi
+ * JIRA BMWNAV-4140
+
+------------------------------------------------------------------------
+
+<C_1_82_S_9_23>  OShurina    13/06/2014
+
+Brief:
+ - change "Street part type" (streetName1 -->  towardsName1 ) within TurnTo  COMBI/HUD (JIRA BMWNAV-3920)
+ - remove all Country ISO codes except Default in Street Rules
+ - deactivate Day/Night mode flag for all JV
+ - sync PU_1114 ID4 and DevDef ID5
+ - change slash/space flags for current/comming street
+ * Elvis 1346158
+ * e-mail: TMeyer, 2014.05.27
+
+------------------------------------------------------------------------
+
+<C_1_81_S_9_23>  AKoshikar    11/06/2014
+
+Brief:
+ - Change OMA arrow (like TDA) in GS (id 10205).
+ * e-mail: TMeyer, 2014.06.11
+
+------------------------------------------------------------------------
+
+<C_1_80_S_9_23>  AKoshikar    02/06/2014
+
+Brief:
+ - Update editor's files (v3.12).
+ - Update SignPosts.
+ - Update bitmap Junction View styles.
+ - Update High Guiding styles.
+ - Activate new GS laneRecommendation (with bitmaps).
+ - Add *.cvs for JV.
+
+------------------------------------------------------------------------
+
+<C_1_79_S_9_23>  AKoshikar    28/05/2014
+
+Brief:
+ - Create additional Lane Recommendation with bitmaps for GS (id 10104).
+
+------------------------------------------------------------------------
+
+<C_1_78_S_9_23>  AKoshikar    26/05/2014
+
+Brief:
+ - Change RIC35UP CID JV and HG.
+
+------------------------------------------------------------------------
+
+<C_1_77_S_9_23>  DTerletskiy    24/05/2014
+
+Brief:
+ - Changing Current/TurnTo Street Rules. In "Country ISO Code" = "Default" USA rules are used.
+ * Elvis 1393486
+ * e-mail: Meyer, Thomas <Thomas.Meyer@de.neusoft.com>, 2014.05.23
+
+------------------------------------------------------------------------
+
+<C_1_76_S_9_23>  AKoshikar    23/05/2014
+
+Brief:
+ - Remove all links to ID4++ styles fom ID5 GV.
+
+------------------------------------------------------------------------
+
+<C_1_75_S_9_23>  OShurina     20/05/2014
+
+Brief:
+ - Change GJV.
+
+------------------------------------------------------------------------
+
+<C_1_74_S_9_23>  AKoshikar  17/04/2014
+
+Brief:
+ - Change bitmap of RIC35UP HG element (JIRA BMWNAV-3894).
+
+------------------------------------------------------------------------
+
+<C_1_73_S_9_23>  AKoshikar  17/04/2014
+
+Brief:
+ - Create new gvStyleDB_ID5_NBTEvo_BMW_ECE_1025 as a copy of gvStyleDB_NBTEvo_BMW_ECE_1025.
+ - Add new PiP Views.
+ - Change CID HG.
+ - Change flags in coming street rules of RIC35UP.
+
+***********************************************************************/
+
+#endif

@@ -1,0 +1,20 @@
+QNX License Information
+=======================
+
+License Type: Named User
+License Key: 2A71-H1RS-JJ7U-7KBL-5ST9
+Serial Number: 911285-09973098
+Ship Date: 18-Nov-2025
+Renew By: (not specified)
+
+This license allows you to:
+- Use QNX Momentics IDE
+- Use QNX development tools
+- Use QNX Simulator
+- Develop and test QNX applications
+
+To activate:
+1. Install QNX Momentics IDE
+2. Open Help → License Management
+3. Enter the license key and serial number above
+

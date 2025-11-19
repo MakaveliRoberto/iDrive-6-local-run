@@ -1,0 +1,407 @@
+<pluginApps>
+    <pluginApp applicationType="OnlineApps" text="bmwinfojs" applicationWeight="32868">
+        <actions>
+            <raAction id="44"/>
+            <combinedAction id="234">
+                <actions>
+                    <raAction id="45"/>
+                    <hmiAction id="235" target="1"/>
+                </actions>
+            </combinedAction>
+            <raAction id="46"/>
+            <raAction id="47"/>
+            <raAction id="48"/>
+            <raAction id="49"/>
+            <raAction id="50"/>
+            <raAction id="51"/>
+            <raAction id="52"/>
+            <raAction id="53"/>
+            <raAction id="54"/>
+            <raAction id="55"/>
+            <raAction id="56"/>
+            <raAction id="57"/>
+            <raAction id="58"/>
+            <raAction id="59"/>
+            <raAction id="60"/>
+            <raAction id="61"/>
+            <raAction id="62"/>
+            <raAction id="63"/>
+            <raAction id="64"/>
+            <combinedAction id="236">
+                <actions>
+                    <raAction id="65"/>
+                    <linkAction id="237" actionType="call" linkModel="114"/>
+                </actions>
+            </combinedAction>
+            <raAction id="66"/>
+            <combinedAction id="238">
+                <actions>
+                    <raAction id="67"/>
+                    <linkAction id="239" actionType="navigate" linkModel="116"/>
+                </actions>
+            </combinedAction>
+            <raAction id="68"/>
+            <raAction id="69"/>
+            <raAction id="70"/>
+            <raAction id="71"/>
+            <raAction id="72"/>
+            <raAction id="73"/>
+            <raAction id="74"/>
+            <combinedAction id="240">
+                <actions>
+                    <raAction id="75"/>
+                    <linkAction id="241" actionType="call" linkModel="114"/>
+                </actions>
+            </combinedAction>
+            <raAction id="76"/>
+            <combinedAction id="242">
+                <actions>
+                    <raAction id="77"/>
+                    <linkAction id="243" actionType="navigate" linkModel="116"/>
+                </actions>
+            </combinedAction>
+            <raAction id="78"/>
+            <raAction id="79"/>
+            <raAction id="80"/>
+            <raAction id="81"/>
+            <raAction id="82"/>
+            <combinedAction id="244">
+                <actions>
+                    <raAction id="83"/>
+                    <linkAction id="245" actionType="call" linkModel="123"/>
+                </actions>
+            </combinedAction>
+            <raAction id="84"/>
+            <raAction id="85"/>
+            <raAction id="86"/>
+            <linkAction id="257" actionType="call" linkModel="87"/>
+            <linkAction id="258" actionType="navigate" linkModel="91"/>
+        </actions>
+        <models>
+            <formatDataModel id="94" formatString="%0" modelType="Info">
+                <models>
+                    <textIdModel id="150"/>
+                </models>
+            </formatDataModel>
+            <raListModel id="95" modelType="CustomMapping">
+                <columns>
+                    <column key="Icon" targetType="Asset" defaultValue="214"/>
+                    <column key="Text1stRow" targetType="String" defaultValue="175"/>
+                    <column key="Text2ndRow" targetType="String" defaultValue="175"/>
+                </columns>
+            </raListModel>
+            <raDataModel id="96"/>
+            <raDataModel id="97"/>
+            <raBoolModel id="98" value="TRUE"/>
+            <raBoolModel id="99" value="TRUE"/>
+            <raBoolModel id="100" value="TRUE"/>
+            <raBoolModel id="101" value="TRUE"/>
+            <raDataModel id="102"/>
+            <raDataModel id="103"/>
+            <raDataModel id="104"/>
+            <imageIdModel id="105" imageId="218"/>
+            <imageIdModel id="106" imageId="216"/>
+            <raPreviewModel id="107" modelType="StatePreview" previewState="5"/>
+            <formatDataModel id="108" formatString="%0" modelType="Info">
+                <models>
+                    <textIdModel id="151"/>
+                </models>
+            </formatDataModel>
+            <raListModel id="109" modelType="CustomMapping">
+                <columns>
+                    <column key="Icon" targetType="Asset" defaultValue="214"/>
+                    <column key="Text" targetType="String" defaultValue="175"/>
+                </columns>
+            </raListModel>
+            <raListModel id="110" modelType="Richtext"/>
+            <raListModel id="111" modelType="CustomMapping">
+                <columns>
+                    <column key="Illustration" targetType="Asset"/>
+                </columns>
+            </raListModel>
+            <raBoolModel id="112"/>
+            <raBoolModel id="113"/>
+            <raDataModel id="114" modelType="Phonenumber"/>
+            <raDataModel id="115"/>
+            <raDataModel id="116" modelType="Address"/>
+            <raDataModel id="117"/>
+            <raDataModel id="118"/>
+            <raIntModel id="119"/>
+            <raDataModel id="120"/>
+            <raListModel id="121" modelType="CustomMapping">
+                <columns>
+                    <column key="Illustration" targetType="Asset"/>
+                </columns>
+            </raListModel>
+            <raDataModel id="122"/>
+            <raDataModel id="123" modelType="Phonenumber"/>
+            <raDataModel id="124"/>
+            <raDataModel id="125"/>
+            <textIdModel id="126" textId="180"/>
+            <textIdModel id="127" textId="166"/>
+            <textIdModel id="128" textId="178"/>
+            <textIdModel id="129" textId="195"/>
+            <textIdModel id="130" textId="185"/>
+            <textIdModel id="131" textId="187"/>
+            <textIdModel id="132" textId="190"/>
+            <textIdModel id="133" textId="188"/>
+            <raDataModel id="134"/>
+            <textIdModel id="135" textId="200"/>
+            <raDataModel id="136"/>
+            <textIdModel id="137" textId="200"/>
+            <raDataModel id="138"/>
+            <textIdModel id="139" textId="172"/>
+            <textIdModel id="140" textId="198"/>
+            <textIdModel id="141" textId="207"/>
+            <textIdModel id="142" textId="186"/>
+            <textIdModel id="143" textId="182"/>
+            <textIdModel id="144" textId="207"/>
+            <textIdModel id="145" textId="186"/>
+            <textIdModel id="146" textId="182"/>
+            <textIdModel id="147" textId="209"/>
+            <textIdModel id="148" textId="176"/>
+            <textIdModel id="149" textId="174"/>
+            <raDataModel id="87" modelType="Phonenumber"/>
+            <raDataModel id="88"/>
+            <raDataModel id="89"/>
+            <raDataModel id="90"/>
+            <raDataModel id="91" modelType="Address"/>
+            <raDataModel id="92"/>
+            <textIdModel id="246" textId="208"/>
+            <imageIdModel id="93" imageId="213"/>
+            <imageIdModel id="247" imageId="213"/>
+            <textIdModel id="271" textId="210"/>
+            <imageIdModel id="249" imageId="222"/>
+            <textIdModel id="272" textId="210"/>
+            <imageIdModel id="251" imageId="220"/>
+            <textIdModel id="273" textId="210"/>
+            <imageIdModel id="253" imageId="220"/>
+            <textIdModel id="274" textId="210"/>
+            <imageIdModel id="255" imageId="231"/>
+            <textIdModel id="275" textId="210"/>
+            <textIdModel id="261" textId="170"/>
+            <textIdModel id="263" textId="183"/>
+            <textIdModel id="265" textId="206"/>
+        </models>
+        <entryButton id="8" action="234" selectAction="46" model="246" imageModel="93">
+            <properties>
+                <property id="22" value="true"/>
+                <property id="55" value="8E54CBD8-61AE-4ECF-BFAB-906A759389C7"/>
+            </properties>
+        </entryButton>
+        <events>
+            <popupEvent id="157" target="2" priority="15"/>
+            <popupEvent id="158" target="3" priority="15"/>
+            <popupEvent id="159" target="4" priority="15"/>
+            <notificationEvent id="160" imageModel="247" titleTextModel="118" notificationTextModel="120" indexId="119" categoryTextModel="271" actionId="44"/>
+            <notificationEvent id="161" imageModel="249" titleTextModel="118" notificationTextModel="120" indexId="119" categoryTextModel="272" actionId="44"/>
+            <notificationEvent id="162" imageModel="251" titleTextModel="118" notificationTextModel="120" indexId="119" categoryTextModel="273" actionId="44"/>
+            <notificationEvent id="163" imageModel="253" titleTextModel="118" notificationTextModel="120" indexId="119" categoryTextModel="274" actionId="44"/>
+            <notificationEvent id="164" imageModel="255" titleTextModel="118" notificationTextModel="120" indexId="119" categoryTextModel="275" actionId="44"/>
+            <popupEvent id="165" target="7" priority="15"/>
+            <actionEvent id="152" action="257"/>
+            <focusEvent id="153" targetModel="88"/>
+            <multimediaInfoEvent id="154" textModel1="89" textModel2="90"/>
+            <actionEvent id="155" action="258"/>
+            <statusbarEvent id="156" textModel="92"/>
+        </events>
+        <hmiStates>
+            <hmiState id="1" textModel="94">
+                <components>
+                    <label id="9" model="125">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="10" model="126" widgetName="LT_Label_5Row_1TextDyn">
+                        <properties>
+                            <property id="3" value="true"/>
+                        </properties>
+                    </label>
+                    <label id="11" model="127" widgetName="LT_Label_5Row_1TextDyn">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </label>
+                    <list id="12" model="95" action="47" selectAction="48" previewModel="107" widgetName="LT_Button_2Row_2Text_1IconLeft"/>
+                </components>
+                <optionComponents>
+                    <label id="13" model="102">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="14" model="103">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="15" model="104">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </label>
+                    <label id="16" model="96">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </label>
+                    <button id="17" action="49" selectAction="50" model="128">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </button>
+                    <label id="18" model="129"/>
+                    <checkbox id="19" action="51" model="98" textModel="130">
+                        <properties>
+                            <property id="1" value="false"/>
+                        </properties>
+                    </checkbox>
+                    <checkbox id="20" action="52" model="99" textModel="131">
+                        <properties>
+                            <property id="1" value="true"/>
+                        </properties>
+                    </checkbox>
+                    <checkbox id="21" action="53" model="100" textModel="132">
+                        <properties>
+                            <property id="1" value="true"/>
+                        </properties>
+                    </checkbox>
+                    <checkbox id="22" action="54" model="101" textModel="133">
+                        <properties>
+                            <property id="1" value="true"/>
+                        </properties>
+                    </checkbox>
+                    <separator id="259"/>
+                    <label id="23" model="97"/>
+                </optionComponents>
+            </hmiState>
+            <popupHmiState id="2" textModel="134">
+                <properties>
+                    <property id="24" value="22"/>
+                </properties>
+                <components>
+                    <label id="260" model="261">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="37" value="4"/>
+                        </properties>
+                    </label>
+                    <button id="24" action="55" selectAction="56" model="135"/>
+                </components>
+            </popupHmiState>
+            <popupHmiState id="3" textModel="136">
+                <properties>
+                    <property id="24" value="22"/>
+                </properties>
+                <components>
+                    <label id="262" model="263">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="37" value="4"/>
+                        </properties>
+                    </label>
+                    <button id="25" action="57" selectAction="58" model="137"/>
+                </components>
+            </popupHmiState>
+            <popupHmiState id="4" textModel="138">
+                <properties>
+                    <property id="24" value="22"/>
+                </properties>
+                <components>
+                    <label id="264" model="265">
+                        <properties>
+                            <property id="2" value="false"/>
+                            <property id="37" value="4"/>
+                        </properties>
+                    </label>
+                    <button id="26" action="59" selectAction="60" model="139"/>
+                    <button id="27" action="61" selectAction="62" model="140"/>
+                </components>
+            </popupHmiState>
+            <hmiState id="5" textModel="108" widgetName="LT_State_A4A_Player_Wide">
+                <components>
+                    <list id="266" model="109" widgetName="LT_Label_2Row_1IconLeft_1TextDyn">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </list>
+                    <separator id="267"/>
+                    <list id="28" model="110" action="63" selectAction="64" slotName="List">
+                        <properties>
+                            <property id="36" value="true"/>
+                        </properties>
+                    </list>
+                    <button id="29" action="236" selectAction="66" model="115" imageModel="105">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="30" action="238" selectAction="68" model="117" imageModel="106">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="31" action="69" selectAction="70" model="141" widgetName="LT_Label_6Row_1TextDyn">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="1" value="false"/>
+                        </properties>
+                    </button>
+                    <checkbox id="32" action="71" model="113" textModel="142" widgetName="LT_CheckBox_2Row_1TextDyn"/>
+                    <checkbox id="33" action="72" model="112" textModel="143" widgetName="LT_CheckBox_2Row_1TextDyn"/>
+                </components>
+            </hmiState>
+            <hmiState id="6" textModel="108" widgetName="LT_State_A4A_Player_PreviewBar">
+                <components>
+                    <list id="268" model="109" widgetName="LT_Label_2Row_1IconLeft_1TextDyn" slotName="List">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </list>
+                    <list id="34" model="110" action="73" selectAction="74" slotName="List">
+                        <properties>
+                            <property id="36" value="true"/>
+                        </properties>
+                    </list>
+                    <button id="35" action="240" selectAction="76" model="115" imageModel="105">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="36" action="242" selectAction="78" model="117" imageModel="106">
+                        <properties>
+                            <property id="3" value="false"/>
+                        </properties>
+                    </button>
+                    <button id="37" action="79" selectAction="80" model="144" widgetName="LT_Label_6Row_1TextDyn">
+                        <properties>
+                            <property id="3" value="false"/>
+                            <property id="1" value="false"/>
+                        </properties>
+                    </button>
+                    <checkbox id="38" action="81" model="113" textModel="145" widgetName="LT_CheckBox_2Row_1TextDyn"/>
+                    <checkbox id="39" action="82" model="112" textModel="146" widgetName="LT_CheckBox_2Row_1TextDyn"/>
+                    <list id="269" model="111" widgetName="LT_PreviewTable_1Graphic" slotName="Bar">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </list>
+                </components>
+            </hmiState>
+            <popupHmiState id="7" textModel="147" widgetName="LT_State_A4A_Player_PreviewBar">
+                <components>
+                    <label id="40" model="148" widgetName="LT_Label_6Row_1TextDyn"/>
+                    <label id="41" model="122" widgetName="LT_Label_6Row_1TextDyn"/>
+                    <button id="42" action="244" selectAction="84" model="124" imageModel="105"/>
+                    <button id="43" action="85" selectAction="86" model="149"/>
+                    <list id="270" model="121" widgetName="LT_PreviewTable_1Graphic" slotName="Bar">
+                        <properties>
+                            <property id="2" value="false"/>
+                        </properties>
+                    </list>
+                </components>
+            </popupHmiState>
+        </hmiStates>
+    </pluginApp>
+</pluginApps>

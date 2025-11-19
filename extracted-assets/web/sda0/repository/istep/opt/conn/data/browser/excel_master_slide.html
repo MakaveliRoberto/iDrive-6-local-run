@@ -1,0 +1,66 @@
+<html>
+<head><title>Slides in iframe</title>
+<style>
+html, body, iframe {width:100%;height:100%}
+body, html, div, iframe { margin:0; padding:0; border: 0;}
+
+#nav {height:6%}
+#content {height:93%}
+hr#separator {height:0;margin:0;padding:0;border:1% solid black}
+
+
+</style>
+
+<script>
+function goToNext() {
+   var select = document.getElementById("slide_number")
+   if(select.selectedIndex<select.options.length-1) {
+      select.selectedIndex++
+      goToSelectedSlide();
+   }
+}
+
+function goToPrev() {
+    var select = document.getElementById("slide_number")
+   if(select.selectedIndex>0) {
+      select.selectedIndex--
+      goToSelectedSlide();
+   }
+}
+
+function goToSelectedSlide() {
+   var select = document.getElementById("slide_number")
+   window.open(select[select.selectedIndex].value, "slide_area")
+}
+
+</script>
+
+</head>
+<body>
+
+<div id="nav">
+
+<input type="button" onClick="goToPrev()" value = "Prev" />
+
+<select id="slide_number" onchange="goToSelectedSlide()" >
+<!-- %%_PUT_SLIDE_LIST_HERE%% -->
+</select>
+
+<input type="button" onClick="goToNext()" value = "Next" />
+
+</div>
+
+<hr id="separator" />
+
+<div id="content">
+
+<iframe name="slide_area"></iframe>
+
+</div>
+
+<script>
+goToSelectedSlide();  
+</script>
+
+</body>
+</html>

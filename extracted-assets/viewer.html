@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW iDrive 6 - Asset Explorer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.2s;
+        }
+        .stat-card:hover {
+            transform: translateY(-5px);
+            border-color: #4ecdc4;
+        }
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #4ecdc4;
+            margin-bottom: 5px;
+        }
+        .stat-label {
+            color: #b0b0b0;
+            font-size: 0.9em;
+        }
+        .navigation {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .nav-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        .nav-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border-color: #4ecdc4;
+        }
+        .nav-card h3 {
+            color: #4ecdc4;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        .nav-card p {
+            color: #b0b0b0;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #4ecdc4;
+            color: #1a1a2e;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #45b8af;
+        }
+        .info-box {
+            background: rgba(255, 193, 7, 0.1);
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .info-box strong {
+            color: #ffc107;
+        }
+        .quick-links {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+        .quick-links h2 {
+            color: #4ecdc4;
+            margin-bottom: 15px;
+        }
+        .quick-links ul {
+            list-style: none;
+            columns: 2;
+        }
+        .quick-links li {
+            padding: 5px 0;
+        }
+        .quick-links a {
+            color: #4ecdc4;
+            text-decoration: none;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚗 BMW iDrive 6 Asset Explorer</h1>
+            <p style="color: #b0b0b0; margin-top: 10px;">NBT EVO ID6 (Software 18-03) - Extracted Assets</p>
+        </header>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">24,217</div>
+                <div class="stat-label">Images</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100</div>
+                <div class="stat-label">Web Files</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">127</div>
+                <div class="stat-label">XML Files</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">743</div>
+                <div class="stat-label">Scripts</div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <strong>📦 Asset Extraction Complete!</strong><br>
+            All viewable assets from the iDrive 6 system dump have been extracted and organized. 
+            You can now browse images, web files, XML configurations, and scripts directly.
+        </div>
+
+        <div class="navigation">
+            <div class="nav-card" onclick="window.location.href='images/'">
+                <h3>🖼️ Images Gallery</h3>
+                <p>Browse 24,217+ images including HMI assets, icons, textures, and interface elements from the iDrive system.</p>
+                <span class="btn">Browse Images →</span>
+            </div>
+
+            <div class="nav-card" onclick="window.location.href='web/'">
+                <h3>🌐 Web Files</h3>
+                <p>View HTML, JavaScript, and CSS files including the Journaline interface, browser pages, and web applications.</p>
+                <span class="btn">Browse Web →</span>
+            </div>
+
+            <div class="nav-card" onclick="window.location.href='xml/'">
+                <h3>⚙️ XML Configuration</h3>
+                <p>Explore XML configuration files, manifests, and data structures that define the system's behavior and settings.</p>
+                <span class="btn">Browse XML →</span>
+            </div>
+
+            <div class="nav-card" onclick="window.location.href='scripts/'">
+                <h3>📜 Scripts & Configs</h3>
+                <p>View shell scripts, configuration files, and startup scripts that control the system initialization and operation.</p>
+                <span class="btn">Browse Scripts →</span>
+            </div>
+
+            <div class="nav-card" onclick="window.location.href='boot/'">
+                <h3>🚀 Boot Images</h3>
+                <p>Access QNX boot images (boot1.ifs, boot2.ifs) and BIOS packets used for system initialization.</p>
+                <span class="btn">View Boot →</span>
+            </div>
+
+            <div class="nav-card" onclick="window.location.href='../'">
+                <h3>🏠 Back to Main</h3>
+                <p>Return to the main iDrive 6 system explorer interface with all the web-accessible content.</p>
+                <span class="btn">Go Back →</span>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h2>Quick Access</h2>
+            <ul>
+                <li><a href="../">← Main Interface</a></li>
+                <li><a href="../demo.html">Demo/Info Page</a></li>
+                <li><a href="../journaline.html">Journaline Interface</a></li>
+                <li><a href="../browser/">Browser Pages</a></li>
+                <li><a href="images/sda0/opt/hmi/ID5/data/ro/bmwm/id6l/assetDB/">HMI Assets</a></li>
+                <li><a href="web/sda0/opt/conn/data/browser/">Connector Browser</a></li>
+                <li><a href="xml/sda0/info/">System Manifests</a></li>
+                <li><a href="scripts/sda0/etc/">System Config</a></li>
+            </ul>
+        </div>
+
+        <div class="info-box" style="margin-top: 30px;">
+            <strong>💡 Tip:</strong> Most images are organized by application domain (Media, Navigation, Settings, etc.). 
+            Start with the Images Gallery to explore the HMI interface assets.
+        </div>
+    </div>
+</body>
+</html>
+

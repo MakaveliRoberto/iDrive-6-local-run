@@ -1,0 +1,27 @@
+/* ---- line break for textobject title --- */
+.header {
+   height: auto;
+}
+
+.header .title {
+    width: auto;
+    float: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.header .title.text {
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+}
+
+.detailPanel .content>.text,.detailPanel .content div>.text {
+	width: auto;
+}
+
+/* ---- COLOR_TEXT_INACTIVE_WHITE --- */
+.panel li.link.inactive	{
+	color: #646464;
+}

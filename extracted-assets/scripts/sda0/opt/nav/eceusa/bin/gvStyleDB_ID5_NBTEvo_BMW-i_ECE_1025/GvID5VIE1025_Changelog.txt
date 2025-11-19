@@ -1,0 +1,76 @@
+#ifndef _MV_CHANGELOG_
+#define _MV_CHANGELOG_
+
+#define DB_VER_CONTENT_MAJ      1
+#define DB_VER_CONTENT_MIN    283
+#define DB_VER_STRUCTURE_MAJ    9
+#define DB_VER_STRUCTURE_MIN   23
+
+/***********************************************************************
+<C_1_283_S_9_23>  IMaliuga 27/09/2016
+
+Brief:
+- Revert Fonts adaptions Version 3.05 to Version 3.000 
+(ticket 1939473)
+------------------------------------------------------------------------
+<C_1_282_S_9_23>  IMaliuga 30/08/2016
+
+Brief:
+- GV fonts have been changed for BMWTABDCN_3_05.ttf, BMWTARG_3_05.ttf
+- empty_folders.txt file added in depot folders (workaround to have all required folders in depot)
+(ticket 1921380)
+------------------------------------------------------------------------
+<C_1_281_S_9_23>  IMaliuga 10/08/2016
+
+Brief:
+- TextureFonts.xar are used from BMW 
+(BMWNAV-6952)
+------------------------------------------------------------------------
+<C_1_280_S_9_23>  IMaliuga 22/07/2016
+
+Brief:
+- Display_representation from GUIDANCE changed to HUD for L7HUDFPK_Day/Night in manifest file.
+(ticket 1903200)
+------------------------------------------------------------------------
+<C_1_279_S_9_23>  IMaliuga 14/07/2016
+
+Brief:
+- CID_HD, HG_PAD views settings updated
+- LR, Destination flags bitmaps updated
+(BMWNAV-6952)
+------------------------------------------------------------------------
+<C_1_278_S_9_23>  IMaliuga 29/06/2016
+
+Brief:
+- For Lane Recommendation set flag "show combined arrows"
+(ticket 1889427)
+------------------------------------------------------------------------
+<C_1_277_S_9_23>  IMaliuga 27/06/2016
+
+Brief:
+- for HUD 35UP JV (8301) y-pos moved down for 11 pixels.
+   (ticket 1888834)
+------------------------------------------------------------------------
+<C_1_276_S_9_23>  IMaliuga 22/06/2016
+
+Brief:
+
+ - useless bitmaps were removed 
+ (BMWNAV-6963)
+------------------------------------------------------------------------
+<C_1_275_S_9_23>  IMaliuga 09/06/2016
+
+Brief:
+
+ BMW-i ID5 gvStyleDB have been created 
+ (as a copy of gvStyleDB_NBTEvo_BMW_ECE_1025 and gvStyleDB_NBTEvo_BMW_USA_1025 version C_1_274_S_9_23)
+ - gvStyleDB_ID5_NBTEvo_BMW-i_ECE_1025
+ - gvStyleDB_ID5_NBTEvo_BMW-i_USA_1025 
+[Pre CR34781] gvStyleDB (dummy) for Brand navigation adaptations for BMWi ID6
+
+------------------------------------------------------------------------
+
+
+***********************************************************************/
+
+#endif

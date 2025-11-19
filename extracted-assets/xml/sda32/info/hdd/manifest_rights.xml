@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinkManifest>
+   <LinkSection>
+      <SwData version="rights">
+         <LinkData root="/">
+         
+            <dir name="fs/sda0" uid="0" gid="0" mod="775" command="setACL" onError="abort">
+            </dir>
+
+            <dir name="fs/sda1" uid="0" gid="0" mod="775" command="setACL" onError="abort">
+               <dir name="opt" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+                  <dir name="car" uid="0" gid="0" mod="770" command="setACL" onError="ignore">
+                  </dir>
+               </dir>
+            </dir>
+
+            <dir name="fs/sda1" uid="0" gid="0" mod="775" command="setACL" onError="abort">
+               <dir name="opt" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+                  <dir name="conn" uid="9" gid="9" mod="775" command="setACL" onError="ignore">
+                  </dir>
+               </dir>
+            </dir>
+
+            <dir name="fs/sda1" uid="0" gid="0" mod="775" command="setACL" onError="abort">
+               <dir name="opt" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+                  <dir name="hmi" uid="0" gid="0" mod="770" command="setACL" onError="ignore">
+                  </dir>
+               </dir>
+            </dir>
+
+            <dir name="fs/sda1" uid="0" gid="0" mod="775" command="setACL" onError="abort">
+               <dir name="opt" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+                  <dir name="mm" uid="0" gid="0" mod="770" command="setACL" onError="ignore">
+                  </dir>
+               </dir>
+            </dir>
+
+            <dir name="fs/sda1" uid="0" gid="0" mod="775" command="setACL" onError="abort">
+               <dir name="opt" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+                  <dir name="nav" uid="0" gid="0" mod="770" command="setACL" onError="ignore">
+                  </dir>
+               </dir>
+            </dir>
+
+            <dir name="fs/sda1" uid="0" gid="0" mod="775" command="setACL" onError="abort">
+               <dir name="opt" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+                  <dir name="speech" uid="0" gid="0" mod="770" command="setACL" onError="ignore">
+                  </dir>
+               </dir>
+            </dir>
+
+            <dir name="fs/sda1" uid="0" gid="0" mod="775" command="setACL" onError="abort">
+               <dir name="opt" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+                  <dir name="sys" uid="0" gid="0" mod="770" command="setACL" onError="ignore">
+                  </dir>
+               </dir>
+            </dir>
+
+            <dir name="mnt/share" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+               <dir name="conn" uid="9" gid="9" mod="775" command="setACL" onError="ignore">
+                  <dir name="*" uid="9" gid="9" mod="775" command="setACL" onError="ignore">
+                  </dir>
+               </dir>
+            </dir>
+
+            <dir name="mnt/share" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+               <dir name="conn" uid="9" gid="9" mod="775" command="setACL" onError="ignore">
+                  <dir name="browser" uid="8" gid="8" mod="775" command="setACL" onError="ignore">
+                     <dir name="*" uid="8" gid="8" mod="775" command="setACL" onError="ignore">
+                     </dir>
+                  </dir>
+                  <dir name="PluginFS" uid="8" gid="8" mod="775" command="setACL" onError="ignore">
+                     <dir name="*" uid="8" gid="8" mod="775" command="setACL" onError="ignore">
+                     </dir>
+                  </dir>
+               </dir>
+            </dir>
+
+            <dir name="mnt/data" uid="0" gid="0" mod="775" command="setACL" onError="ignore">
+            </dir>
+
+         </LinkData>
+      </SwData>
+   </LinkSection>
+</LinkManifest>

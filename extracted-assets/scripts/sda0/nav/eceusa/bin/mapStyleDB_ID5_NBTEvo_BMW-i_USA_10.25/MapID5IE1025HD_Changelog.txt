@@ -1,0 +1,562 @@
+#ifndef _MV_CHANGELOG_
+#define _MV_CHANGELOG_
+
+#define DB_VER_CONTENT_MAJ      8
+#define DB_VER_CONTENT_MIN    208
+#define DB_VER_STRUCTURE_MAJ    9
+#define DB_VER_STRUCTURE_MIN   23
+
+/***********************************************************************
+<C_8_208_S_9_23>  IMaliuga             01/03/2017
+
+Brief:
+- for ProgressiveSatellite3D/2D link with Naming/Areas/Polygon settings (Range Spider + KML Label textposition) added.
+(BMWNAV-7280)
+   
+------------------------------------------------------------------------ 
+<C_8_207_S_9_23>  OYaremchuk             18/11/2016
+
+Brief:
+- Same Charging stations images implemented both for Standart and Progressive styles for all stylesets
+(ticket 1968404)
+   
+------------------------------------------------------------------------ 
+<C_8_206_S_9_23>  OYaremchuk             11/11/2016
+
+Brief:
+- Implemented StandartSatellite2D_Night and StandartSatellite3D_Night styles in manifest
+(ticket 1959378)
+   
+------------------------------------------------------------------------ 
+<C_8_205_S_9_23>  OYaremchuk             08/11/2016
+
+Brief:
+- RouteByPass color updated to Alternative1 values
+(ticket 1962714)
+   
+------------------------------------------------------------------------ 
+<C_8_204_S_9_23>  OYaremchuk             08/11/2016
+
+Brief:
+- Same Charging stations images implemented both for Standart and Progressive styles
+(ticket 1953489)
+   
+------------------------------------------------------------------------ 
+<C_8_203_S_9_23>  OYaremchuk             28/10/2016
+
+Brief:
+- Flow Config matrix implemented for BMW-i
+(ticket 1946756)
+   
+------------------------------------------------------------------------ 
+<C_8_202_S_9_23>  OYaremchuk             26/10/2016
+
+Brief:
+- CS Star ImageID changed to be used in Progressive and Standart styles
+(ticket 1953017)
+   
+------------------------------------------------------------------------ 
+<C_8_201_S_9_23>  OYaremchuk             17/10/2016
+
+Brief:
+- JamFile added to namingdayHMI folder and namingdayHMI line added to bitmap Jamfile
+(ticket 1918252)
+   
+------------------------------------------------------------------------ 
+<C_8_200_S_9_23>  OYaremchuk             17/10/2016
+
+Brief:
+- Naming Cities and Lines re-linked for Progressive_Satellite from BMW to BMW-i
+(ticket 1918252)
+   
+------------------------------------------------------------------------ 
+<C_8_199_S_9_23>  OYaremchuk             12/10/2016
+
+Brief:
+- ECE and USA BMD for Standart, Traffic and RedGreen stylesets defined with Routes linked with Progressive
+(ticket 1946756)
+   
+------------------------------------------------------------------------ 
+<C_8_198_S_9_23>  OYaremchuk             11/10/2016
+
+Brief:
+- Invisible FRC7 and offroad routes implementation for USA
+(ticket 1945072)
+   
+------------------------------------------------------------------------ 
+<C_8_197_S_9_23>  OYaremchuk             11/10/2016
+
+Brief:
+- Preferred CS star for HMI changed to new BMW-i variant
+(ticket 1939270)
+   
+------------------------------------------------------------------------ 
+<C_8_196_S_9_23>  IMaliuga             27/09/2016
+
+Brief:
+- Revert Fonts adaptions Version 3.05 to Version 3.000 
+(ticket 1939473)
+   
+------------------------------------------------------------------------ 
+<C_8_195_S_9_23>  OYaremchuk             23/09/2016
+
+Brief:
+- BMW styles for ECE Standart and USA Standart and Progressive re-linked to ECE progressive.
+  (ticket 1909417)
+   
+------------------------------------------------------------------------ 
+<C_8_194_S_9_23>  OYaremchuk             20/09/2016
+
+Brief:
+- Progressive_Day
+	Parking line scale level
+	Parking line border width (51-75%)
+	Some area border width changed from 1 to 0px
+	Range Spider alpha value
+-Progressive_Night
+	Some area border width changed from 1 to 0px
+	Area filling color
+	Range Spider alpha value
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_193_S_9_23>  OYaremchuk             13/09/2016
+
+Brief:
+- Create two new stylesets for redGreenSatellite2D_Night and RedGreenSatellite3D_Night
+  (ticket 1927372)
+   
+------------------------------------------------------------------------ 
+<C_8_192_S_9_23>  OYaremchuk             03/09/2016
+
+Brief:
+- CollectionID value changed to 48 for all StyleSets, now changed correctly
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_191_S_9_23>  OYaremchuk             03/09/2016
+
+Brief:
+- CollectionID value changed to 48 for all StyleSets
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_190_S_9_23>  OYaremchuk             01/09/2016
+
+Brief:
+- Change colors for Parking Line P2D and P2N, Polygon IParking, Polygon (water types) BMD lines and areas
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_189_S_9_23>  IMaliuga             30/08/2016
+
+Brief:
+- fonts have been changed for BMWTABDCN_3_05.ttf, BMWTALG_3_05.ttf, BMWTARG_3_05.ttf
+- empty_folders.txt file added in depot folders (workaround to have all required folders in depot)
+(ticket 1921380)
+   
+------------------------------------------------------------------------ 
+<C_8_188_S_9_23>  OYaremchuk             22/08/2016
+
+Brief:
+- Change Crosshair model from BMW-i to BMW
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_187_S_9_23>  OYaremchuk             22/08/2016
+
+Brief:
+- Change Cursor (CCP) model from BMW-i to BMW
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_186_S_9_23>  OYaremchuk             17/08/2016
+
+Brief:
+- Change Range Spyder Filling and Filling Outer colors
+- Colors of P2D and P2N Parking Lines changed
+- FreeFlow traffic color changed
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_185_S_9_23>  OYaremchuk             12/08/2016
+
+Brief:
+- Changed Special POI icons and POI templates similar to BMW
+- Hotspots adjusted accordingly
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_184_S_9_23>  OYaremchuk             02/08/2016
+
+Brief:
+- Glow Blurradius set to 10px for 2D Configs
+  (ticket 1908859)
+   
+------------------------------------------------------------------------ 
+<C_8_183_S_9_23>  OYaremchuk             27/07/2016
+
+Brief:
+- Implement some changes for IPark flow colors and thickness (for 0-50 and 51-75%)
+- Wrong values for previous submit
+  (ticket 1901824)
+   
+------------------------------------------------------------------------ 
+<C_8_182_S_9_23>  OYaremchuk             27/07/2016
+
+Brief:
+- Implement some changes for IPark flow colors and thickness (for 0-50 and 51-75%)
+  (ticket 1901824)
+   
+------------------------------------------------------------------------ 
+<C_8_181_S_9_23>  OYaremchuk             25/07/2016
+
+Brief:
+- Create two new stylesets for ProgressiveSatellite2D_Night and ProgressiveSatellite3D_Night
+  (ticket 1898684)
+   
+------------------------------------------------------------------------ 
+<C_8_180_S_9_23>  OYaremchuk             20/07/2016
+
+Brief:
+- Glow Blurradius set to 0px for 2D Configs
+  (ticket 1902282)
+   
+------------------------------------------------------------------------ 
+<C_8_179_S_9_23>  OYaremchuk             13/07/2016
+
+Brief:
+- Traffic Flow Config moved from Shared to Custom2D for 2D Config
+- Glow Blurradius set to 0px for 3D Configs
+  (ticket 1898506)
+   
+------------------------------------------------------------------------ 
+<C_8_178_S_9_23>  IMaliuga              13/07/2016
+
+Brief:
+- Color for GV Label connector has been changed.
+  (BMWNAV-6952)
+   
+------------------------------------------------------------------------ 
+<C_8_177_S_9_23>  OYaremchuk              11/07/2016
+
+Brief:
+- Bitmap changed for OneWay Indicator FRC0 200, 100, 50m
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_176_S_9_23>  OYaremchuk              11/07/2016
+
+Brief:
+- New bitmaps for IPark added
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_175_S_9_23>  OYaremchuk              11/07/2016
+
+Brief:
+- New bitmaps for Destination Flags added
+- New bitmaps for GS-label added
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_174_S_9_23>  OYaremchuk              11/07/2016
+
+Brief:
+- New bitmaps for ManeuverPoints added
+  (BMWNAV-6953)
+   
+------------------------------------------------------------------------ 
+<C_8_173_S_9_23>  OYaremchuk              06/07/2016
+
+Brief:
+- OffRoute Glow range changed from 200m++ to 100km
+  (ticket 1894614)
+   
+------------------------------------------------------------------------ 
+<C_8_172_S_9_23>  OYaremchuk              22/06/2016
+
+Brief:
+- Remove unused bitmaps:
+    NamingDayStandart -> streetindicator
+	NamingNightStandart -> streetindicator
+	NamingDayStandart -> targetflag
+	NamingDayStandart -> timarkers
+  (BMWNAV-6962)
+   
+------------------------------------------------------------------------ 
+<C_8_171_S_9_23>  OYaremchuk              09/06/2016
+
+Brief:
+- Remove links for TrafficLines in S2D, S2N, S3D, S3N, P2D, P2N and copied values from BMW
+  (BMWNAV-6946)
+   
+------------------------------------------------------------------------ 
+<C_8_170_S_9_23>  OYaremchuk              13/05/2016
+
+Brief:
+- Changed One-Way Street Indicators bitmaps from BMW to new BMW-i
+  (BMWNAV-6916)
+   
+------------------------------------------------------------------------ 
+<C_8_169_S_9_23>  OYaremchuk              07/04/2016
+
+Brief:
+- FRC5 range set to 10m - 200m included.
+  (ticket 1843934)
+   
+------------------------------------------------------------------------
+<C_8_168_S_9_23>  OYaremchuk              10/02/2016
+
+Brief:
+- Replaced POI.xml files with newer versions equal to Q2/Q3 
+  (Jira NAV2010ANA-21003)
+   
+------------------------------------------------------------------------
+<C_8_167_S_9_23>  DNikolenko          03/02/2016
+
+Brief:
+- Updating xps files after adding IPARKING lines into Rendering Line Z-order
+   (ticket 1806733)
+  
+------------------------------------------------------------------------	
+<C_8_166_S_9_23>  OTistol             02/02/2016
+
+Brief:
+- Changed position "Charging Station DC indication" and "External availability POIs"
+   (ticket 1800468)
+- Updating styles iParking Lines  
+   (Jira BMWNAV-6701)
+  
+------------------------------------------------------------------------	
+<C_8_165_S_9_23>  OTistol             29/12/2015
+
+Brief:
+- Updating xml file according to new Editor.
+	(Jira BMWNAV-6626)
+- Updating xps files after some changing in BMW (according tickets 1774529, 1771783, Jira BMWNAV-6596 and Jira BMWNAV-6614)
+   
+------------------------------------------------------------------------	
+<C_8_164_S_9_23>  OTistol             10/12/2015
+
+Brief:
+- Updating and implementing iPark styles and icons.
+  (Jira BMWNAV-6452)
+   
+------------------------------------------------------------------------	
+<C_8_163_S_9_23>  OTistol             03/12/2015
+
+Brief:
+ - Updating xps files after changing settings for "Camera Pitching Angle" in BMW
+   (ticket 1771873)
+   
+------------------------------------------------------------------------	
+<C_8_162_S_9_23>  OTistol             24/11/2015
+
+Brief:
+ - Changed all styles for BMW-i
+   (ticket 1749157)
+ - New ParkNow Icons integration (Template POIs External-availability) 
+   (Jira BMWNAV-6370)
+------------------------------------------------------------------------
+<C_8_161_S_9_23>  OTistol             18/11/2015
+
+Brief:
+ - Deleting unused xps files.
+
+------------------------------------------------------------------------
+<C_8_160_S_9_23>  OTistol             18/11/2015
+
+Brief:
+ - Updating structure of xps files.
+
+------------------------------------------------------------------------
+<C_8_159_S_9_23>  OTistol             20/10/2015
+
+Brief:
+ - Deleted AddOn-files with incorrect name.
+  (Jira BMWNAV-6275)
+------------------------------------------------------------------------
+<C_8_158_S_9_23>  OTistol             20/10/2015
+
+Brief:
+ - Added AddOn-files and addOn-folders with correct name.
+  (Jira BMWNAV-6275)
+------------------------------------------------------------------------
+<C_8_157_S_9_23>  OTistol             12/08/2015
+
+Brief:
+ - Changed background for GS-label.
+
+------------------------------------------------------------------------
+<C_8_156_S_9_23>  SYakovenko             07/08/2015
+
+Brief:
+ - Added one way street arrows (ticket 1688056).
+
+------------------------------------------------------------------------
+
+<C_8_155_S_9_23>  SYakovenko             19/06/2015
+
+Brief:
+ - Deleting unused xps files.
+
+------------------------------------------------------------------------
+
+<C_8_154_S_9_23>  SYakovenko             19/06/2015
+
+Brief:
+ - Implementation new structure of xps files.
+ - Add External plugType DC true (65502) style.
+
+------------------------------------------------------------------------
+<C_8_153_S_9_23>  AKoshikar             08/11/2014
+
+Brief:
+ - Update xps files and structure for all styledbs.
+
+------------------------------------------------------------------------
+
+<C_8_152_S_9_23>  AKoshikar             07/11/2014
+
+Brief:
+ - Refactor ECE and USA 10.25HD, 10.25 and 8.8 styledbs (only in the Editor).
+
+------------------------------------------------------------------------
+
+<C_8_151_S_9_23>  SYakovenko            24/10/2014
+
+Brief:
+ - Add Road Signs to Malaysia, Philippines, Singapore, Thailand (ticket 1358488).
+ - Change POIs according to poicategorytree.
+
+------------------------------------------------------------------------
+
+<C_8_150_S_8_19>  AKoshikar          09.10.2014
+
+Brief:
+ - Add poi category tree xml files (for Anaconda 7.2.3).
+
+------------------------------------------------------------------------
+
+<C_8_149_S_8_19>  SYakovenko         26.09.2014
+
+Brief:
+ - Add route Alternative3. (ticlet 1464925)
+ * Mail from Katonov Dmytro , September 25 2014
+
+------------------------------------------------------------------------
+
+<C_8_148_S_8_19>  SYakovenko        25.09.2014
+
+Brief:
+ - Move oneway street indication from AddOn to xps.
+
+------------------------------------------------------------------------
+
+<C_8_147_S_8_19>  SYakovenko        03.09.2014
+
+Brief:
+ - Add  one way indicator for FRCs to USA.
+ * JIRA task BMWNAV-4574
+ - Change max scale for Road Icons in common config.
+
+------------------------------------------------------------------------
+<C_8_146_S_8_19>  SYakovenko     06.08.2014
+
+Brief:
+ - Changing collection IDs in Manifest.xps files.
+
+------------------------------------------------------------------------
+
+<C_8_145_S_8_19>  SYakovenko     31.07.2014
+
+Brief:
+ - Changing collection IDs in Manifest files.
+
+------------------------------------------------------------------------
+<C_8_144_S_8_19>  AKoshikar      15.07.2014
+
+Brief:
+ - Add scales 10km-50km for FRC3 and 5km-10km for FRC4 in USA (ELVIS 1429912).
+
+------------------------------------------------------------------------
+
+<C_8_143_S_8_19>  SYakovenko     16.06.2014
+
+Brief:
+	Implementation of new images for ID5 Naming.
+	Changing Collection IDs in Editor's manifest
+	 *Mail from Daniel  June 12, 2014
+------------------------------------------------------------------------
+<C_8_142_S_8_19>  SYakovenko    10.06.2014
+
+Brief:
+ - Updating xml file according to new Editor.
+------------------------------------------------------------------------
+<C_8_141_S_8_19>  SYakovenko    27.05.2014
+
+Brief:
+ - Move styles from NBTEvo.
+ - Updating xps files.
+------------------------------------------------------------------------
+<C_8_140_S_8_19>  SYakovenko    26.05.2014
+
+Brief:
+ - Move Bitmaps and vectormodels from NBTEvo project.
+------------------------------------------------------------------------
+<C_8_139_S_8_19>  SYakovenko    20.03.2014
+
+Brief:
+Changing Links for Animatoin Naming
+------------------------------------------------------------------------
+<C_8_138_S_8_19>  SYakovenko    17.03.2014
+
+Brief:
+ - Change scales for Naming Lines.
+ Mail from Daniel March 14, 2014
+------------------------------------------------------------------------
+
+<C_8_137_S_8_19>  AKoshikar     07.03.2014
+
+Brief:
+ - Change road sign bitmaps and correct texbox pos for imagesets 12, 29 and 205.
+
+------------------------------------------------------------------------
+
+<C_8_136_S_8_19>  SYakovenko     07.03.2014
+
+Brief:
+ - Add Light Source (1).
+
+------------------------------------------------------------------------
+
+<C_8_135_S_8_19>  SYakovenko   05.03.2014
+
+Brief:
+ - Reduce size of city background templates.
+
+------------------------------------------------------------------------
+
+<C_8_134_S_8_19>  SYakovenko   04.03.2014
+
+Brief:
+ - Added animation effects for Streat names and POIs.
+
+------------------------------------------------------------------------
+
+<C_8_133_S_8_19>  SYakovenko   28.02.2014
+
+Brief:
+ - Change scale for SCALE_10m from 500 to 100 in Scales.xps.
+
+------------------------------------------------------------------------
+
+<C_8_132_S_8_19>  SYakovenko   27.02.2014
+
+Brief:
+ - First implementation copy from mapStyleDB_NBTEvo_BMW-I_ECE_10.25  C_8_132_S_8_19.
+
+***********************************************************************/
+
+#endif

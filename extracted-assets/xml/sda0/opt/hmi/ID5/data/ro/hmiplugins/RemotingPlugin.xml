@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Bundle exportedSymbolName="RemotingBundle" implementedInterface="RemotingBundle" path="hmiremoting">
+  <Plugin exportedSymbolName="CDataExchangeService" implementedInterface="IDataExchangeService" version="1.0.0.0" autostartDelay="0">
+    <Dependency requiredInterface="IA4AAudioService" />
+  </Plugin>
+</Bundle>

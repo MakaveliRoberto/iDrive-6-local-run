@@ -1,0 +1,66 @@
+/**
+ * Stylesheet for big screens (1024px)
+ */
+body {
+	background-size: 1034px 420px;
+}
+
+div#Main {
+	width: 1024px;
+}
+
+div#GenericPanelProgress {
+	width: 1024px;
+}
+
+#ScrollerNotVisible {
+	left: 990px;
+}
+
+#ScrollerVisible {
+	left: 990px;
+}
+
+#Scroller {
+	left: 990px;
+}
+
+.header .title {
+	width: 975px;
+}
+
+li.dropdown>div {
+	width: 910px;
+}
+
+input,input:FOCUS,textarea,textarea:FOCUS {
+	width: 920px;
+}
+
+.SC input, .SC input:FOCUS, .SC textarea, .SC textarea:FOCUS {
+	width: 900px;
+}
+
+div.poiListItem {
+	width: 530px;
+}
+
+.poiListItem div.left {
+	width: 465px;
+}
+
+.detailPanel .content .rightContent ~ div {
+	width: 550px;
+}
+
+.detailPanel .content .rightContent {
+	left: 650px;
+}
+
+.twolineLink {
+	width: 850px;
+}
+
+.detailPanel .content>.text,.detailPanel .content div>.text {
+	width: 900px;
+}

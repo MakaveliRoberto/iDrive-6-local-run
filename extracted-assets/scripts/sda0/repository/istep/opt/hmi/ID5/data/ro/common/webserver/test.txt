@@ -1,0 +1,1 @@
+Files in this directory can be accessed with http://<hostname>:8080/files/<filename> while the HMI is running.

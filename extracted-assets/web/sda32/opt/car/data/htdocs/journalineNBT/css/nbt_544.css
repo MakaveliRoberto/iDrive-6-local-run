@@ -1,0 +1,70 @@
+/**
+ * Stylesheet for small screens (544px)
+ */
+body {
+	background-size: 544px 420px;
+}
+
+div#Main {
+	width: 544px;
+}
+
+div#GenericPanelProgress {
+	width: 544px;
+}
+
+#ScrollerNotVisible {
+	left: 504px;
+}
+
+#ScrollerVisible {
+	left: 504px;
+}
+
+#Scroller {
+	left: 504px;
+}
+
+.header .title {
+	width: 485px;
+}
+
+li.dropdown>div {
+	width: 450px;
+}
+
+input,input:FOCUS,textarea,textarea:FOCUS {
+	width: 460px;
+}
+
+.SC input, .SC input:FOCUS, .SC textarea, .SC textarea:FOCUS {
+	width: 420px;
+}
+
+div.poiListItem {
+	width: 485px;
+}
+
+.poiListItem div.left {
+	width: 415px;
+}
+
+.detailPanel .content .rightContent {
+	left: 420px;
+}
+
+.detailPanel>.rightContent {
+	width: 420px;
+}
+
+.detailPanel .content .rightContent ~ div {
+	clear: both;
+}
+
+.twolineLink {
+	width: 380px;
+}
+
+.detailPanel .content>.text,.detailPanel .content div>.text {
+	width: 420px;
+}
