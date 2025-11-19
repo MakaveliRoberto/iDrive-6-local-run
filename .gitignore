@@ -1,0 +1,43 @@
+# QEMU and emulation
+emulation/*.img
+emulation/*.log
+emulation/boot-extracted/
+/tmp/idrive-*.log
+/tmp/patched-kernel-*.log
+
+# QNX build artifacts
+*.o
+*.a
+*.so
+*.ifs
+build/
+obj/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Logs
+*.log
+
+# Backup files
+*.backup
+*~
+
+# Keep the patched kernel and backup (they're important)
+!nbtevo-system-dump/sda2/boot1.ifs.patched
+!nbtevo-system-dump/sda2/boot1.ifs.backup
